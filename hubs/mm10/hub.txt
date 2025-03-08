@@ -2,6 +2,8 @@ hub Annotations (mm10)
 shortLabel Annotations (mm10)
 useOneFile on
 
+genome mm10
+
 track db_Snp 1.42
 shortLabel db Snp 1.42
 html http://www.ncbi.nlm.nih.gov/SNP/
