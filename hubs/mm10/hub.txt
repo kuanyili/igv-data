@@ -7,10 +7,14 @@ genome mm10
 track db_Snp 1.42
 shortLabel db Snp 1.42
 html http://www.ncbi.nlm.nih.gov/SNP/
-track db_Snp 1.42
-type snp
+type ucscsnp
 bigDataUrl https://s3.amazonaws.com/igv.org.genomes/mm10/snp142.txt.gz
 bigDataIndex https://s3.amazonaws.com/igv.org.genomes/mm10/snp142.txt.gz.tbi
+
+track gc
+shortLabel GC %
+type bigwig
+bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/bbi/gc5Base.bw
 
 track Repeat_Masker
 shortLabel Repeat Masker
@@ -19,7 +23,6 @@ compositeTrack on
 
 track LINE
 shortLabel LINE
-track LINE
 type bed
 bigDataUrl https://s3.amazonaws.com/igv.org.genomes/mm10/rmsk/mm10_rmsk_LINE.bed.gz
 bigDataIndex https://s3.amazonaws.com/igv.org.genomes/mm10/rmsk/mm10_rmsk_LINE.bed.gz.tbi
@@ -28,7 +31,6 @@ parent Repeat_Masker
 
 track Simple_repeat
 shortLabel Simple_repeat
-track Simple_repeat
 type bed
 bigDataUrl https://s3.amazonaws.com/igv.org.genomes/mm10/rmsk/mm10_rmsk_Simple_repeat.bed.gz
 bigDataIndex https://s3.amazonaws.com/igv.org.genomes/mm10/rmsk/mm10_rmsk_Simple_repeat.bed.gz.tbi
@@ -37,7 +39,6 @@ parent Repeat_Masker
 
 track LTR
 shortLabel LTR
-track LTR
 type bed
 bigDataUrl https://s3.amazonaws.com/igv.org.genomes/mm10/rmsk/mm10_rmsk_LTR.bed.gz
 bigDataIndex https://s3.amazonaws.com/igv.org.genomes/mm10/rmsk/mm10_rmsk_LTR.bed.gz.tbi
@@ -46,7 +47,6 @@ parent Repeat_Masker
 
 track SINE
 shortLabel SINE
-track SINE
 type bed
 bigDataUrl https://s3.amazonaws.com/igv.org.genomes/mm10/rmsk/mm10_rmsk_SINE.bed.gz
 bigDataIndex https://s3.amazonaws.com/igv.org.genomes/mm10/rmsk/mm10_rmsk_SINE.bed.gz.tbi
@@ -55,7 +55,6 @@ parent Repeat_Masker
 
 track Low_complexity
 shortLabel Low_complexity
-track Low_complexity
 type bed
 bigDataUrl https://s3.amazonaws.com/igv.org.genomes/mm10/rmsk/mm10_rmsk_Low_complexity.bed.gz
 bigDataIndex https://s3.amazonaws.com/igv.org.genomes/mm10/rmsk/mm10_rmsk_Low_complexity.bed.gz.tbi
@@ -64,7 +63,6 @@ parent Repeat_Masker
 
 track DNA
 shortLabel DNA
-track DNA
 type bed
 bigDataUrl https://s3.amazonaws.com/igv.org.genomes/mm10/rmsk/mm10_rmsk_DNA.bed.gz
 bigDataIndex https://s3.amazonaws.com/igv.org.genomes/mm10/rmsk/mm10_rmsk_DNA.bed.gz.tbi
@@ -73,7 +71,6 @@ parent Repeat_Masker
 
 track snRNA
 shortLabel snRNA
-track snRNA
 type bed
 bigDataUrl https://s3.amazonaws.com/igv.org.genomes/mm10/rmsk/mm10_rmsk_snRNA.bed.gz
 bigDataIndex https://s3.amazonaws.com/igv.org.genomes/mm10/rmsk/mm10_rmsk_snRNA.bed.gz.tbi
@@ -82,7 +79,6 @@ parent Repeat_Masker
 
 track Other
 shortLabel Other
-track Other
 type bed
 bigDataUrl https://s3.amazonaws.com/igv.org.genomes/mm10/rmsk/mm10_rmsk_Other.bed.gz
 bigDataIndex https://s3.amazonaws.com/igv.org.genomes/mm10/rmsk/mm10_rmsk_Other.bed.gz.tbi
@@ -91,7 +87,6 @@ parent Repeat_Masker
 
 track Satellite
 shortLabel Satellite
-track Satellite
 type bed
 bigDataUrl https://s3.amazonaws.com/igv.org.genomes/mm10/rmsk/mm10_rmsk_Satellite.bed.gz
 bigDataIndex https://s3.amazonaws.com/igv.org.genomes/mm10/rmsk/mm10_rmsk_Satellite.bed.gz.tbi
@@ -100,7 +95,6 @@ parent Repeat_Masker
 
 track Unknown
 shortLabel Unknown
-track Unknown
 type bed
 bigDataUrl https://s3.amazonaws.com/igv.org.genomes/mm10/rmsk/mm10_rmsk_Unknown.bed.gz
 bigDataIndex https://s3.amazonaws.com/igv.org.genomes/mm10/rmsk/mm10_rmsk_Unknown.bed.gz.tbi
@@ -109,7 +103,6 @@ parent Repeat_Masker
 
 track srpRNA
 shortLabel srpRNA
-track srpRNA
 type bed
 bigDataUrl https://s3.amazonaws.com/igv.org.genomes/mm10/rmsk/mm10_rmsk_srpRNA.bed.gz
 bigDataIndex https://s3.amazonaws.com/igv.org.genomes/mm10/rmsk/mm10_rmsk_srpRNA.bed.gz.tbi
@@ -118,7 +111,6 @@ parent Repeat_Masker
 
 track tRNA
 shortLabel tRNA
-track tRNA
 type bed
 bigDataUrl https://s3.amazonaws.com/igv.org.genomes/mm10/rmsk/mm10_rmsk_tRNA.bed.gz
 bigDataIndex https://s3.amazonaws.com/igv.org.genomes/mm10/rmsk/mm10_rmsk_tRNA.bed.gz.tbi
@@ -127,7 +119,6 @@ parent Repeat_Masker
 
 track RNA
 shortLabel RNA
-track RNA
 type bed
 bigDataUrl https://s3.amazonaws.com/igv.org.genomes/mm10/rmsk/mm10_rmsk_RNA.bed.gz
 bigDataIndex https://s3.amazonaws.com/igv.org.genomes/mm10/rmsk/mm10_rmsk_RNA.bed.gz.tbi
@@ -136,7 +127,6 @@ parent Repeat_Masker
 
 track scRNA
 shortLabel scRNA
-track scRNA
 type bed
 bigDataUrl https://s3.amazonaws.com/igv.org.genomes/mm10/rmsk/mm10_rmsk_scRNA.bed.gz
 bigDataIndex https://s3.amazonaws.com/igv.org.genomes/mm10/rmsk/mm10_rmsk_scRNA.bed.gz.tbi
@@ -145,7 +135,6 @@ parent Repeat_Masker
 
 track RC
 shortLabel RC
-track RC
 type bed
 bigDataUrl https://s3.amazonaws.com/igv.org.genomes/mm10/rmsk/mm10_rmsk_RC.bed.gz
 bigDataIndex https://s3.amazonaws.com/igv.org.genomes/mm10/rmsk/mm10_rmsk_RC.bed.gz.tbi
@@ -154,7 +143,6 @@ parent Repeat_Masker
 
 track rRNA
 shortLabel rRNA
-track rRNA
 type bed
 bigDataUrl https://s3.amazonaws.com/igv.org.genomes/mm10/rmsk/mm10_rmsk_rRNA.bed.gz
 bigDataIndex https://s3.amazonaws.com/igv.org.genomes/mm10/rmsk/mm10_rmsk_rRNA.bed.gz.tbi
