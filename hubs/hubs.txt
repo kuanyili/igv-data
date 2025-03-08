@@ -1,0 +1,26 @@
+# List of hubs by genome
+hg19
+    https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hg19/annotations_hub.txt
+    https://s3.us-east-2.amazonaws.com/brainepigenome/hub.txt
+    https://bchub.epfl.ch/breastca.txt
+    https://genome-test.gi.ucsc.edu/~max/immuno/track/hub/hub.txt
+    https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/hub.txt
+    https://ftp.ncbi.nlm.nih.gov/pub/dbVar/sandbox/dbvarhub/hub.txt
+    https://hgdownload.soe.ucsc.edu/hubs/gtexAnalysis/hub.txt
+    https://vizhub.wustl.edu/VizHub/RoadmapIntegrative.txt
+    https://vizhub.wustl.edu/VizHub/RoadmapReleaseAll.txt
+    https://pmgenomics.ca/hoffmanlab/proj/bismap/trackhub/hub.txt
+    https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hg19/1kg_hub.txt
+    https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hg19/platinum_genomes_hub.txt
+    https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hg19/tutorials_hub.txt
+
+hg38
+    https://github.com/igvteam/igv-genomes/blob/main/hubs/hg38/hub.txt
+    https://ftp.ncbi.nlm.nih.gov/snp/population_frequency/TrackHub/latest/hub.txt
+    https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/hub.txt
+    https://ftp.ncbi.nlm.nih.gov/pub/dbVar/sandbox/dbvarhub/hub.txt
+    https://hgdownload.soe.ucsc.edu/hubs/gtexAnalysis/hub.txt
+    https://vizhub.wustl.edu/VizHub/RoadmapReleaseAll.txt
+
+hs1
+   https://hgdownload.soe.ucsc.edu/gbdb/hs1/hubs/hub.txt

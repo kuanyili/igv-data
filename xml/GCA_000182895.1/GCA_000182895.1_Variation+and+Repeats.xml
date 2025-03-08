@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<Global name="Variation and Repeats">
+  <Resource name="Simple Repeats" path="https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/bbi/GCA_000182895.1_CC3.simpleRepeat.bb" hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/html/GCA_000182895.1_CC3.simpleRepeat" format="bigBed"/>
+  <Resource name="WM + SDust" path="https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/bbi/GCA_000182895.1_CC3.windowMasker.bb" hyperlink="https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/html/GCA_000182895.1_CC3.windowMasker" format="bigBed"/>
+</Global>

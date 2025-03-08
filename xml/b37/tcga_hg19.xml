@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Global hyperlink="http://www.broadinstitute.org/igv/resources/tcga.html" name="The Cancer Genome Atlas">
+    <Category hyperlink="http://gdac.broadinstitute.org" name="TCGA Broad GDAC">
+        <Category hyperlink="https://confluence.broadinstitute.org/display/GDAC/Standardized+Data+Run+Release+Notes" name="Firehose Standard Data">
+            <Include path="http://gdac.broadinstitute.org/tap/igv/load/hg19/stddata__2016_01_28.xml"/>
+            <Include path="http://gdac.broadinstitute.org/tap/igv/load/hg19/stddata__2015_11_01.xml"/>
+            <Include path="http://gdac.broadinstitute.org/tap/igv/load/hg19/stddata__2015_08_21.xml"/>
+            <Include path="http://gdac.broadinstitute.org/tap/igv/load/hg19/stddata__2015_06_01.xml"/>
+            <Include path="http://gdac.broadinstitute.org/tap/igv/load/hg19/stddata__2015_04_02.xml"/>
+            <Include path="http://gdac.broadinstitute.org/tap/igv/load/hg19/stddata__2015_02_04.xml"/>
+        </Category>
+    </Category>
+</Global>

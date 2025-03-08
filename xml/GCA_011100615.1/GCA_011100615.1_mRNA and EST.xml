@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<Global name="mRNA and EST">
+  <Resource color="180,0,0" format="bigGenePred" name="RefSeq mRNAs" path="https://hgdownload.gi.ucsc.edu/hubs//GCA/011/100/615/GCA_011100615.1/bbi/GCA_011100615.1_Macaca_fascicularis_6.0.xenoRefGene.bb"/>
+</Global>

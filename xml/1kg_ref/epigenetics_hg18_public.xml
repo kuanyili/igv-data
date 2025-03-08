@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Global name="Epigenetics" version="1" hyperlink="http://www.broadinstitute.org/node/681">
+    <Category name="Human ES Cell ChIP-Seq  (Ku, Koche, Reinbay, Mendenhall EM et al. (2008))"
+              hyperlink="http://www.ncbi.nlm.nih.gov/sites/entrez?Db=Pubmed&amp;term=18974828[UID]" version="1">
+        <Resource name="ES.H3K4me3" path="http://www.broadinstitute.org/igvdata/epigenetics/Ku2008/hES.H3K4me3.tdf"/>
+        <Resource name="ES.H3K27me3" path="http://www.broadinstitute.org/igvdata/epigenetics/Ku2008/hES.H3K27me3.tdf"/>
+        <Resource name="ES.H3K36me3" path="http://www.broadinstitute.org/igvdata/epigenetics/Ku2008/hES.H3K36me3.tdf"/>
+        <Resource name="ES.EZH2" path="http://www.broadinstitute.org/igvdata/epigenetics/Ku2008/hES.EZH2.tdf"/>
+        <Resource name="ES.Ring1b" path="http://www.broadinstitute.org/igvdata/epigenetics/Ku2008/hES.RING1B.tdf"/>
+    </Category>
+
+
+    <Category name="Wilms Tumor Chromatin Profiles" hyperlink="http://dx.doi.org/10.1016/j.stem.2010.03.016">
+
+        <Resource name="Sample Information"
+                  path="http://www.broadinstitute.org/igvdata/epigenetics/WilmsTumor/WilmsTumor_sampleinfo.txt"/>
+           
+        <Resource
+                name="Tumor1 K4"
+                path="http://www.broadinstitute.org/igvdata/epigenetics/WilmsTumor/GSM515638_Broad_Tumor1_K4.wig.tdf"/>
+        <Resource
+                name="Tumor1 K27"
+                path="http://www.broadinstitute.org/igvdata/epigenetics/WilmsTumor/GSM515639_Broad_Tumor1_K27.wig.tdf"/>
+        <Resource
+                name="Tumor2 K4"
+                path="http://www.broadinstitute.org/igvdata/epigenetics/WilmsTumor/GSM515640_Broad_Tumor2_K4.wig.tdf"/>
+        <Resource
+                name="Tumor2 K27"
+                path="http://www.broadinstitute.org/igvdata/epigenetics/WilmsTumor/GSM515641_Broad_Tumor2_K27.wig.tdf"/>
+        <Resource
+                name="Tumor3 K4"
+                path="http://www.broadinstitute.org/igvdata/epigenetics/WilmsTumor/GSM515642_Broad_Tumor3_K4.wig.tdf"/>
+        <Resource
+                name="Tumor3 K27"
+                path="http://www.broadinstitute.org/igvdata/epigenetics/WilmsTumor/GSM515643_Broad_Tumor3_K27.wig.tdf"/>
+        <Resource
+                name="Tumor3 K36"
+                path="http://www.broadinstitute.org/igvdata/epigenetics/WilmsTumor/GSM515644_Broad_Tumor3_K36.wig.tdf"/>
+               
+        <Resource
+                name="Tumor WT1 K4"
+                path="http://www.broadinstitute.org/igvdata/epigenetics/WilmsTumor/GSM515645_Broad_WT1_K4.wig.tdf"/>
+        <Resource
+                name="Mature Kidney K4"
+                path="http://www.broadinstitute.org/igvdata/epigenetics/WilmsTumor/GSM515646_Broad_Kidney_K4.wig.tdf"/>
+        <Resource
+                name="Mature Kidney K27"
+                path="http://www.broadinstitute.org/igvdata/epigenetics/WilmsTumor/GSM515647_Broad_Kidney_K27.wig.tdf"/>
+        <Resource
+                name="Fetal Kidney K4"
+                path="http://www.broadinstitute.org/igvdata/epigenetics/WilmsTumor/GSM515648_Broad_FK_K4.wig.tdf"/>
+        <Resource
+                name="Fetal Kidney K27"
+                path="http://www.broadinstitute.org/igvdata/epigenetics/WilmsTumor/GSM515649_Broad_FK_K27.wig.tdf"/>
+        <Resource name="ES.H3K4me3" path="http://www.broadinstitute.org/igvdata/epigenetics/Ku2008/hES.H3K4me3.tdf"/>
+        <Resource name="ES.H3K27me3" path="http://www.broadinstitute.org/igvdata/epigenetics/Ku2008/hES.H3K27me3.tdf"/>
+
+        <Resource
+                name="Set 1 Genes"
+                path="http://www.broadinstitute.org/igvdata/epigenetics/WilmsTumor/Set1_genes.bed"/>
+        <Resource
+                name="Set 2 Genes"
+                path="http://www.broadinstitute.org/igvdata/epigenetics/WilmsTumor/Set2_genes.bed"/>
+        <Resource
+                name="Set 3 Genes"
+                path="http://www.broadinstitute.org/igvdata/epigenetics/WilmsTumor/Set3_genes.bed"/>
+        <Resource
+                name="Set 4 Genes"
+                path="http://www.broadinstitute.org/igvdata/epigenetics/WilmsTumor/Set4_genes.bed"/>
+
+
+    </Category>
+    <Category name="Mikkelsen, Xu et al. (2010))" hyperlink="http://www.cell.com/abstract/S0092-8674%2810%2901016-0" version="1">
+      <Resource name="hASC.WCE" path="http://www.broadinstitute.org/igvdata/epigenetics/Mikkelsen2010//hASC.WCE.bw"
+         trackLine="color=0,0,0 autoScale=off viewLimits=0:30"/>
+<Resource name="hASCt1.H3K4me3" path="http://www.broadinstitute.org/igvdata/epigenetics/Mikkelsen2010//hASCt1.H3K4me3.bw"
+         trackLine="color=0,150,0 autoScale=off viewLimits=0:30"/>
+ <Resource name="hASCt1.H3K4me2" path="http://www.broadinstitute.org/igvdata/epigenetics/Mikkelsen2010//hASCt1.H3K4me2.bw"
+         trackLine="color=0,130,0 autoScale=off viewLimits=0:30"/>
+ <Resource name="hASCt1.H3K4me1" path="http://www.broadinstitute.org/igvdata/epigenetics/Mikkelsen2010//hASCt1.H3K4me1.bw"
+         trackLine="color=0,110,0 autoScale=off viewLimits=0:30"/>
+ <Resource name="hASCt1.H3K27ac" path="http://www.broadinstitute.org/igvdata/epigenetics/Mikkelsen2010//hASCt1.H3K27ac.bw"
+         trackLine="color=0,0,0 autoScale=off viewLimits=0:30"/>
+ <Resource name="hASCt1.H3K27me3" path="http://www.broadinstitute.org/igvdata/epigenetics/Mikkelsen2010//hASCt1.H3K27me3.bw"
+         trackLine="color=255,0,0 autoScale=off viewLimits=0:30"/>
+ <Resource name="hASCt1.H3K36me3" path="http://www.broadinstitute.org/igvdata/epigenetics/Mikkelsen2010//hASCt1.H3K36me3.bw"
+         trackLine="color=0,0,150 autoScale=off viewLimits=0:30"/>
+ <Resource name="hASCt1.CTCF" path="http://www.broadinstitute.org/igvdata/epigenetics/Mikkelsen2010//hASCt1.CTCF.bw"
+         trackLine="color=0,0,0 autoScale=off viewLimits=0:30"/>
+ <Resource name="hASCt2.H3K4me3" path="http://www.broadinstitute.org/igvdata/epigenetics/Mikkelsen2010//hASCt2.H3K4me3.bw"
+         trackLine="color=0,150,0 autoScale=off viewLimits=0:30"/>
+ <Resource name="hASCt2.H3K4me2" path="http://www.broadinstitute.org/igvdata/epigenetics/Mikkelsen2010//hASCt2.H3K4me2.bw"
+         trackLine="color=0,130,0 autoScale=off viewLimits=0:30"/>
+ <Resource name="hASCt2.H3K4me1" path="http://www.broadinstitute.org/igvdata/epigenetics/Mikkelsen2010//hASCt2.H3K4me1.bw"
+         trackLine="color=0,110,0 autoScale=off viewLimits=0:30"/>
+<Resource name="hASCt2.H3K27ac" path="http://www.broadinstitute.org/igvdata/epigenetics/Mikkelsen2010//hASCt2.H3K27ac.bw"
+         trackLine="color=0,0,0 autoScale=off viewLimits=0:30"/>
+<Resource name="hASCt2.H3K27me3" path="http://www.broadinstitute.org/igvdata/epigenetics/Mikkelsen2010//hASCt2.H3K27me3.bw"
+         trackLine="color=255,0,0 autoScale=off viewLimits=0:30"/>
+ <Resource name="hASCt2.H3K36me3" path="http://www.broadinstitute.org/igvdata/epigenetics/Mikkelsen2010//hASCt2.H3K36me3.bw"
+         trackLine="color=0,0,150 autoScale=off viewLimits=0:30"/>
+<Resource name="hASCt2.CTCF" path="http://www.broadinstitute.org/igvdata/epigenetics/Mikkelsen2010//hASCt2.CTCF.bw"
+         trackLine="color=0,0,0 autoScale=off viewLimits=0:30"/>
+ <Resource name="hASCt3.H3K4me3" path="http://www.broadinstitute.org/igvdata/epigenetics/Mikkelsen2010//hASCt3.H3K4me3.bw"
+         trackLine="color=0,150,0 autoScale=off viewLimits=0:30"/>
+<Resource name="hASCt3.H3K4me2" path="http://www.broadinstitute.org/igvdata/epigenetics/Mikkelsen2010//hASCt3.H3K4me2.bw"
+         trackLine="color=0,130,0 autoScale=off viewLimits=0:30"/>
+<Resource name="hASCt3.H3K4me1" path="http://www.broadinstitute.org/igvdata/epigenetics/Mikkelsen2010//hASCt3.H3K4me1.bw"
+         trackLine="color=0,110,0 autoScale=off viewLimits=0:30"/>
+ <Resource name="hASCt3.H3K27ac" path="http://www.broadinstitute.org/igvdata/epigenetics/Mikkelsen2010//hASCt3.H3K27ac.bw"
+         trackLine="color=0,0,0 autoScale=off viewLimits=0:30"/>
+<Resource name="hASCt3.H3K27me3" path="http://www.broadinstitute.org/igvdata/epigenetics/Mikkelsen2010//hASCt3.H3K27me3.bw"
+         trackLine="color=255,0,0 autoScale=off viewLimits=0:30"/>
+<Resource name="hASCt3.H3K36me3" path="http://www.broadinstitute.org/igvdata/epigenetics/Mikkelsen2010//hASCt3.H3K36me3.bw"
+         trackLine="color=0,0,150 autoScale=off viewLimits=0:30"/>
+<Resource name="hASCt3.CTCF" path="http://www.broadinstitute.org/igvdata/epigenetics/Mikkelsen2010//hASCt3.CTCF.bw"
+         trackLine="color=0,0,0 autoScale=off viewLimits=0:30"/> 
+<Resource name="hASCt4.H3K4me3" path="http://www.broadinstitute.org/igvdata/epigenetics/Mikkelsen2010//hASCt4.H3K4me3.bw"
+         trackLine="color=0,150,0 autoScale=off viewLimits=0:30"/>
+<Resource name="hASCt4.H3K4me2" path="http://www.broadinstitute.org/igvdata/epigenetics/Mikkelsen2010//hASCt4.H3K4me2.bw"
+         trackLine="color=0,130,0 autoScale=off viewLimits=0:30"/>
+<Resource name="hASCt4.H3K4me1" path="http://www.broadinstitute.org/igvdata/epigenetics/Mikkelsen2010//hASCt4.H3K4me1.bw"
+         trackLine="color=0,110,0 autoScale=off viewLimits=0:30"/> 
+ <Resource name="hASCt4.H3K27ac" path="http://www.broadinstitute.org/igvdata/epigenetics/Mikkelsen2010//hASCt4.H3K27ac.bw"
+         trackLine="nacolor=0,0,0 autoScale=off viewLimits=0:30"/>
+<Resource name="hASCt4.H3K27me3" path="http://www.broadinstitute.org/igvdata/epigenetics/Mikkelsen2010//hASCt4.H3K27me3.bw"
+         trackLine="color=255,0,0 autoScale=off viewLimits=0:30"/>
+<Resource name="hASCt4.H3K36me3" path="http://www.broadinstitute.org/igvdata/epigenetics/Mikkelsen2010//hASCt4.H3K36me3.bw"
+         trackLine="color=0,0,150 autoScale=off viewLimits=0:30"/>
+<Resource name="hASCt4.CTCF" path="http://www.broadinstitute.org/igvdata/epigenetics/Mikkelsen2010//hASCt4.CTCF.bw"
+         trackLine="color=0,0,0 autoScale=off viewLimits=0:30"/>
+<Resource name="hASCt4.PpargAb1" path="http://www.broadinstitute.org/igvdata/epigenetics/Mikkelsen2010//hASCt4.PpargAb1.bw"
+         trackLine="color=0,0,0 autoScale=off viewLimits=0:30"/>
+<Resource name="hASCt4.PpargAb2" path="http://www.broadinstitute.org/igvdata/epigenetics/Mikkelsen2010//hASCt4.PpargAb2.bw"
+         trackLine="color=0,0,0 autoScale=off viewLimits=0:30"/>
+
+</Category>
+</Global>

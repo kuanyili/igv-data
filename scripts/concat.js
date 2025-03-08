@@ -5,7 +5,7 @@
 
 
 const fs = require('fs')
-const genomesListFile = require.resolve("../json/genomes_list.txt")
+const genomesListFile = require.resolve("./genomes_list.txt")
 const genomesList = fs.readFileSync(genomesListFile, 'utf-8')
 const lines = genomesList.split(/\r?\n/)
 
@@ -55,7 +55,7 @@ function fixColorString(str) {
 }
 
 const jsonText = JSON.stringify(jsonArray) //, null, 2);
-const outputFile = require.resolve("../dist/genomes.json")
+const outputFile = "../dist/genomes.json"
 const fd = fs.openSync(outputFile, "w")
 fs.writeSync(fd, jsonText)
 fs.closeSync(fd)

@@ -1,0 +1,26 @@
+{
+  "tracks": [
+    {
+      "id": "cpgIslandExt",
+      "name": "CpG Islands",
+      "format": "bigBed",
+      "description": " <a target = \"_blank\" href = \"https://hgdownload.gi.ucsc.edu/hubs/plants/https://hgdownload.gi.ucsc.edu/hubs/plants/../GCF/001/433/935/GCF_001433935.1/html/GCF_001433935.1_IRGSP-1.0.cpgIslands\">CpG Islands (Islands < 300 Bases are Light Green)</a>",
+      "url": "https://hgdownload.gi.ucsc.edu/hubs/plants/../GCF/001/433/935/GCF_001433935.1/bbi/GCF_001433935.1_IRGSP-1.0.cpgIslandExt.bb",
+      "displayMode": "EXPANDED",
+      "parent": "cpgIslands off"
+    },
+    {
+      "id": "cpgIslandExtUnmasked",
+      "name": "Unmasked CpG",
+      "format": "bigBed",
+      "description": " <a target = \"_blank\" href = \"https://hgdownload.gi.ucsc.edu/hubs/plants/https://hgdownload.gi.ucsc.edu/hubs/plants/../GCF/001/433/935/GCF_001433935.1/html/GCF_001433935.1_IRGSP-1.0.cpgIslands\">CpG Islands on All Sequence (Islands < 300 Bases are Light Green)</a>",
+      "url": "https://hgdownload.gi.ucsc.edu/hubs/plants/../GCF/001/433/935/GCF_001433935.1/bbi/GCF_001433935.1_IRGSP-1.0.cpgIslandExtUnmasked.bb",
+      "displayMode": "EXPANDED",
+      "parent": "cpgIslands on"
+    }
+  ],
+  "name": "regulation",
+  "label": "Expression and Regulation",
+  "priority": "5",
+  "defaultIsClosed": "0"
+}

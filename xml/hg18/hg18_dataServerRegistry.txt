@@ -1,0 +1,8 @@
+http://www.broadinstitute.org/igvdata/annotations/hg18/hg18_annotations.xml
+http://www.broadinstitute.org/igvdata/hg18/Metabric/metabric.xml
+http://www.broadinstitute.org/igvdata/hg18/tcga_external.xml
+http://www.broadinstitute.org/igvdata/Tumorscape/Tumorscape.xml
+http://www.broadinstitute.org/igvdata/29mammals.xml
+http://www.broadinstitute.org/igvdata/hg18/BodyMapCoverage.xml
+http://www.broadinstitute.org/igvdata/tutorials/tutorials.xml
+

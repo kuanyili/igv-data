@@ -1,0 +1,9 @@
+{
+  "id": "GCF_001433935.1",
+  "name": "Oryza sativa Japonica Group (GCF_001433935.1)",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/GCF_001433935.1/GCF_001433935.1.fa",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/GCF_001433935.1/GCF_001433935.1.fa.fai",
+  "compressedIndexURL": "https://s3.amazonaws.com/igv.org.genomes/GCF_001433935.1/GCF_001433935.1.fa.gzi",
+  "aliasURL": "https://s3.amazonaws.com/igv.org.genomes/GCF_001433935.1/GCF_001433935.1_chromAlias.tab",
+  "blatDB": "GCF_001433935.1"
+}

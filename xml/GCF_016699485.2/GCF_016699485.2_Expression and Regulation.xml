@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<Global name="Expression and Regulation">
+    <Resource name="CpG Islands"
+              path="https://hgdownload.gi.ucsc.edu/hubs/birds/../GCF/016/699/485/GCF_016699485.2/bbi/GCF_016699485.2_bGalGal1.mat.broiler.GRCg7b.cpgIslandExt.bb"
+              hyperlink="https://hgdownload.gi.ucsc.edu/hubs/birds/../GCF/016/699/485/GCF_016699485.2/html/GCF_016699485.2_bGalGal1.mat.broiler.GRCg7b.cpgIslands"
+              format="bigBed"/>
+    <Resource name="Unmasked CpG"
+              path="https://hgdownload.gi.ucsc.edu/hubs/birds/../GCF/016/699/485/GCF_016699485.2/bbi/GCF_016699485.2_bGalGal1.mat.broiler.GRCg7b.cpgIslandExtUnmasked.bb"
+              hyperlink="https://hgdownload.gi.ucsc.edu/hubs/birds/../GCF/016/699/485/GCF_016699485.2/html/GCF_016699485.2_bGalGal1.mat.broiler.GRCg7b.cpgIslands"
+              format="bigBed"/>
+</Global>

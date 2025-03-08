@@ -1,0 +1,205 @@
+hub IGV
+shortLabel UCSC Hosted Annotations
+longLabel IGV hosted annotations.
+useOneFile on
+
+genome hg38
+groups groups.txt
+
+track refseqSelect
+type refgene
+shortLabel Refseq Select
+longLabel Refseq Select
+group genes
+bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeqSelect.txt.gz
+html https://www.ncbi.nlm.nih.gov/refseq/refseq_select/
+
+track refseqCurated
+type refgene
+shortLabel Refseq Curated
+longLabel Refseq Curated
+group genes
+bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeqCurated.txt.gz
+html https://www.ncbi.nlm.nih.gov/refseq/refseq_select/
+
+track refseqAll
+type refgene
+shortLabel Refseq All
+longLabel Refseq All
+group genes
+bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeq.txt.gz
+html https://www.ncbi.nlm.nih.gov/refseq/refseq_select/
+
+track maneRefseq
+type bigBed
+shortLabel MANE v1.0 - Refseq
+longLabel MANE v1.0 transcripts with RefSeq labels
+group genes
+bigDataUrl https://ftp.ncbi.nlm.nih.gov/refseq/MANE/trackhub/data/release_1.0/MANE.GRCh38.v1.0.refseq.bb
+labelFields nucAcc
+html https://www.ncbi.nlm.nih.gov/refseq/MANE/
+
+track maneRefseq
+type bigBed
+shortLabel MANE v1.0 - Ensembl
+longLabel MANE v1.0 transcripts with Ensembl labels
+group genes
+bigDataUrl https://ftp.ncbi.nlm.nih.gov/refseq/MANE/trackhub/data/release_1.0/MANE.GRCh38.v1.0.ensembl.bb
+labelFields nucAcc
+html https://www.ncbi.nlm.nih.gov/refseq/MANE/
+
+track gencode44
+type bigBed
+shortLabel Gencode v44
+longLabel Gencode v44
+group genes
+bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/gencode/gencodeV44.bb
+labelFields transcript_name
+html https://www.gencodegenes.org
+
+track gencode47
+type bigBed
+shortLabel Gencode v47
+longLabel Gencode v47
+group genes
+bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/gencode/gencodeV47.bb
+labelFields geneName
+html https://www.gencodegenes.org
+
+track clinvar
+type bigBed
+shortLabel ClinVar
+longLabel ClinVar Variants
+group phenDis
+bigDataUrl http://hgdownload.soe.ucsc.edu/gbdb/hg19/bbi/clinvar/clinvarMain.bb
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=clinvar
+
+track civic
+type bigBed
+shortLabel CIViC
+longLabel CIViC - Expert & crowd-sourced cancer variant interpretation
+group phenDis
+bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/civic/civic.bb
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=civic
+
+#track cosmic
+#type bigBed
+#shortLabel COSMIC
+#longLabel Catalogue of Somatic Mutations in Cancer
+#group phenDis
+#bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/cosmic/cosmic.bb
+#html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=cosmicMuts
+
+track clinGenHaplo
+type bigBed
+shortLabel ClinGen Haploinsufficiency
+longLabel ClinGen Dosage Sensitivity Map - Haploinsufficiency
+group phenDis
+bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/clinGen/clinGenHaplo.bb
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=clinGenComp
+
+track clinGenTriplo
+type bigBed
+shortLabel ClinGen Triplosensitivity
+longLabel ClinGen Dosage Sensitivity Map - Triplosensitivity
+group phenDis
+bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/clinGen/clinGenTriplo.bb
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=clinGenComp
+
+track clinGenGeneDisease
+type bigBed
+shortLabel ClinGen Validity
+longLabel ClinGen Gene-Disease Validity Classification
+group phenDis
+bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/clinGen/clinGenGeneDisease.bb
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=clinGenComp
+
+track clinGenCspec
+type bigBed
+shortLabel ClinGen VCEP Spec
+longLabel Clingen CSpec Variant Interpretation VCEP Specifications
+group phenDis
+bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/clinGen/clinGenCspec.bb
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=clinGenComp
+
+track genCC
+type bigBed
+shortLabel GenCC
+longLabel  	GenCC: The Gene Curation Coalition Annotations
+group phenDis
+bigDataUrl http://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/genCC.bb
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=genCC
+
+track dbSNP155
+type bigBed
+shortLabel dbSNP 155
+longLabel dbSNP 155
+group var
+bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/snp/dbSnp155.bb
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=dbSnp155Composite
+
+track giabAsh
+type vcfTabix
+shortLabel GIAB Ashkenazi Trio
+longLabel Genome In a Bottle Ashkenazi Trio
+group var
+bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/giab/AshkenazimTrio/merged.vcf.gz
+bigDataIndex https://hgdownload.soe.ucsc.edu/gbdb/hg38/giab/AshkenazimTrio/merged.vcf.gz.tbi
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=giab
+
+track giabChinese
+type vcfTabix
+shortLabel GIAB Chinese Trio
+longLabel Genome In a Bottle Chinese Trio
+group var
+bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/giab/ChineseTrio/merged.vcf.gz
+bigDataIndex https://hgdownload.soe.ucsc.edu/gbdb/hg38/giab/ChineseTrio/merged.vcf.gz.tbi
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=giab
+
+track giabAsh
+type bigBed
+shortLabel GIAB SVs
+longLabel Genome In a Bottle Structural Variants
+group var
+bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/giab/structuralVariants/giabSv.bb
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=giab
+
+track dgvGold
+type bigBed
+shortLabel DGV Gold Standard
+longLabel Database of Genomic Variants: Gold Structural Variants
+group var
+bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/dgv/dgvGold.bb
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38g=dgvPlus
+
+track dgv
+type bigBed
+shortLabel DGV Struct Var
+longLabel Database of Genomic Variants: Structural Var Regions
+group var
+bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/dgv/dgvMerged.bb
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38g=dgvPlus
+
+track dgvSupp
+type bigBed
+shortLabel DGV Supp Var
+longLabel Database of Genomic Variants: Supporting Structural Variants
+group var
+bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/dgv/dgvSupporting.bb
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38g=dgvPlus
+
+track gnomExomes
+type bigBed
+shortLabel gnomAD Exome
+longLabel Genome Aggregation Database (gnomAD) Exome Variants v4.1
+group var
+bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/gnomAD/v4.1/exomes/exomes.bb
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=gnomadVariants
+
+track gnomExomes
+type bigBed
+shortLabel gnomAD Genome
+longLabel Genome Aggregation Database (gnomAD) Genome Variants v4.1
+group var
+bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/gnomAD/v4.1/genomes/genomes.bb
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=gnomadVariants
