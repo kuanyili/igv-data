@@ -1,0 +1,59 @@
+{
+  "id": "hs1",
+  "blatDB": "hub_3671779_hs1",
+  "name": "Human (T2T CHM13-v2.0/hs1)",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/chm13v2.0/chm13v2.0.fa",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/chm13v2.0/chm13v2.0.fa.fai",
+  "cytobandBbURL": "https://hgdownload.soe.ucsc.edu/gbdb/hs1/cytoBandMapped/cytoBandMapped.bb",
+  "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hs1/bigZips/hs1.chromAlias.txt",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hs1/bigZips/hs1.2bit",
+  "twoBitBptURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hs1/bigZips/hs1.2bit.bpt",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hs1/bigZips/hs1.chrom.sizes.txt",
+  "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chrX,chrY",
+  "hubs": [
+    "https://hgdownload.soe.ucsc.edu/gbdb/hs1/hubs/hub.txt"
+  ],
+  "tracks": [
+    {
+      "name": "RefSeq Select",
+      "type": "annotation",
+      "format": "biggenepred",
+      "url": "https://hgdownload.soe.ucsc.edu/gbdb/hs1/ncbiRefSeq/ncbiRefSeqSelectCurated.bb",
+      "trixURL": "https://hgdownload.soe.ucsc.edu/gbdb/hs1/ncbiRefSeq/ncbiRefSeqSelectCurated.ix",
+      "visibilityWindow": -1,
+      "order":1000000
+    },
+    {
+      "id": "catLiftOffGenesV1",
+      "name": "CAT/Liftoff Genes",
+      "format": "bigbed",
+      "description": " <a target = \"_blank\" href = \"https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.catLiftOffGenesV1.html\">CAT + Liftoff Gene Annotations</a>",
+      "url": "https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.catLiftOffGenesV1/catLiftOffGenesV1.bb",
+      "displayMode": "EXPANDED",
+      "height": 200,
+      "visibilityWindow": -1,
+      "supportsWholeGenome": false,
+      "order": 1000000
+    },
+    {
+      "id": "augustus",
+      "name": "Augustus",
+      "format": "bigbed",
+      "description": " <a target = \"_blank\" href = \"https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.augustus\">Augustus Gene Predictions</a>",
+      "url": "https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.augustus.bb",
+      "displayMode": "EXPANDED",
+      "color": "180,0,0",
+      "height": 200,
+      "visibilityWindow": -1,
+      "supportsWholeGenome": false,
+      "order": 1000001
+    },
+    {
+      "name": "Genes",
+      "format": "bed",
+      "url": "https://igv.org/genomes/data/hs1/chm13v2.0_geneLocations.short.bed.gz",
+      "hidden": true,
+      "searchable": true
+    }
+  ]
+}

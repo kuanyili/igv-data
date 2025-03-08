@@ -1,0 +1,19 @@
+{
+  "id": "mm9",
+  "name": "Mouse (NCBI37/mm9)",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/mm9/mm9.fasta",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/mm9/mm9.fasta.fai",
+  "cytobandURL": "https://s3.amazonaws.com/igv.org.genomes/mm9/cytoBandIdeo.txt.gz",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm9/bigZips/mm9.2bit",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm9/bigZips/mm9.chrom.sizes",
+  "tracks": [
+    {
+      "name": "Refseq Curated",
+      "format": "refgene",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/mm9/database/refGene.txt.gz",
+      "indexed": false,
+      "order": 1000000
+    }
+  ],
+  "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chrX,chrY"
+}

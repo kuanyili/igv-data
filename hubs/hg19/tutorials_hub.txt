@@ -1,0 +1,60 @@
+hub IGV
+shortLabel Tutorials
+longLabel Tutorials
+useOneFile on
+
+genome hg19
+
+track uiBasics
+shortLabel UI Basics
+compositeTrack on
+defaultIsClosed 0
+
+track GM12878_H3K27ac
+type bigWig
+shortLabel GM12878 H3K27ac
+color 255,0,0
+viewLimits 0:25
+bigDataUrl https://www.encodeproject.org/files/ENCFF000ASJ/@@download/ENCFF000ASJ.bigWig
+parent uiBasics
+
+track GM12878_H3K27me3
+type bigWig
+shortLabel GM12878 H3K27me3
+color 255,0,0
+viewLimits 0:25
+bigDataUrl https://www.encodeproject.org/files/ENCFF000AST/@@download/ENCFF000AST.bigWig
+parent uiBasics
+
+track GM12878_H3K36me3
+type bigWig
+shortLabel GM12878 H3K36me3
+color 0,0,150
+viewLimits 0:25
+bigDataUrl https://www.encodeproject.org/files/ENCFF000ATA/@@download/ENCFF000ATA.bigWig
+parent uiBasics
+
+track GM12878_H3K4me1
+type bigWig
+shortLabel GM12878 H3K4me1
+color 0,150,0
+viewLimits 0:25
+bigDataUrl https://www.encodeproject.org/files/ENCFF000ARZ/@@download/ENCFF000ARZ.bigWig
+parent uiBasics
+
+track bodyMap
+shortLabel RNA-Seq (Body Map)
+compositeTrack on
+defaultIsClosed 0
+
+track heart
+shortLabel Heart
+type bam
+bigDataUrl http://www.broadinstitute.org/igvdata/tutorials/SL2C5A3/heart.bodyMap.bam
+parent bodyMap
+
+track liver
+shortLabel Liver
+type bam
+bigDataUrl http://www.broadinstitute.org/igvdata/tutorials/SL2C5A3/liver.bodyMap.bam
+parent bodyMap

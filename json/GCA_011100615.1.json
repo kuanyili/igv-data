@@ -1,0 +1,28 @@
+{
+  "id": "GCA_011100615.1",
+  "blatDB": "GCA_011100615.1",
+  "name": "Macaca fascicularis 6.0 (GCA_011100615.1)",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/GCA_011100615.1/Macaca_fascicularis.Macaca_fascicularis_6.0.dna.toplevel.fa.gz",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/GCA_011100615.1/Macaca_fascicularis.Macaca_fascicularis_6.0.dna.toplevel.fa.gz.fai",
+  "compressedIndexURL": "https://s3.amazonaws.com/igv.org.genomes/GCA_011100615.1/Macaca_fascicularis.Macaca_fascicularis_6.0.dna.toplevel.fa.gz.gzi",
+  "aliasURL": "https://s3.amazonaws.com/igv.org.genomes/GCA_011100615.1/GCA_011100615.1_chromAlias.tab",
+  "tracks": [
+    {
+      "name": "Annotations",
+      "format": "gff3",
+      "description": " <a target = \"_blank\" href = \"https://uswest.ensembl.org/Macaca_fascicularis/Info/Annotation\">Ensembl gene annotation 8-11-2022</a>",
+      "url": "https://s3.amazonaws.com/igv.org.genomes/GCA_011100615.1/Macaca_fascicularis.Macaca_fascicularis_6.0.108.sorted.gff3.gz",
+      "indexURL": "https://s3.amazonaws.com/igv.org.genomes/GCA_011100615.1/Macaca_fascicularis.Macaca_fascicularis_6.0.108.sorted.gff3.gz.tbi",
+      "visibilityWindow": -1,
+      "displayMode": "EXPANDED",
+      "height": 200
+    },
+    {
+      "name": "Genes",
+      "format": "bed",
+      "url": "https://s3.amazonaws.com/igv.org.genomes/GCA_011100615.1/GCA_011100615.1_ucsc_ensGene.bed",
+      "hidden": true,
+      "searchable": true
+    }
+  ]
+}

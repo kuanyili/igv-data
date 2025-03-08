@@ -1,0 +1,21 @@
+{
+  "id": "tair10",
+  "name": "A. thaliana (TAIR 10)",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/tair10/TAIR10_chr_all.fas",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/tair10/TAIR10_chr_all.fas.fai",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/735/GCF_000001735.3/GCF_000001735.3.2bit",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/735/GCF_000001735.3/GCF_000001735.3.chrom.sizes.txt",
+  "aliasURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/735/GCF_000001735.3/GCF_000001735.3.chromAlias.txt",
+  "nameSet": "ucsc",
+  "chromosomeOrder": "NC_003070.9,NC_003071.7,NC_003074.8,NC_003075.7,NC_003076.8",
+  "tracks": [
+    {
+      "name": "RefSeq Genes",
+      "format": "gtf",
+      "url": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/735/GCF_000001735.3/genes/GCF_000001735.3_TAIR10.ncbiRefSeq.gtf.gz",
+      "indexed": false,
+      "order": 1000000,
+      "searchable": true
+    }
+  ]
+}
