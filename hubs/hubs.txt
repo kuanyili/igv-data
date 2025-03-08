@@ -24,3 +24,13 @@ hg38
 
 hs1
    https://hgdownload.soe.ucsc.edu/gbdb/hs1/hubs/hub.txt
+
+mm10
+   https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/mm10/hub.txt
+
+mm39
+    http://expdata.cmmt.ubc.ca/JASPAR/UCSC_tracks/hub.txt
+
+danRer11
+    https://research.nhgri.nih.gov/manuscripts/Burgess/zebrafish/downloads/NHGRI-1/hub.txt
+    http://expdata.cmmt.ubc.ca/JASPAR/UCSC_tracks/hub.txt

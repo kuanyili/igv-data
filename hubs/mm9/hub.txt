@@ -1,0 +1,53 @@
+/usr/local/bin/node /Users/jrobinso/igv-team Dropbox/James Robinson/projects/genomes/db/hg19/xmlToHub.mjs
+hub Annotations (mm9)
+shortLabel Annotations (mm9)
+useOneFile on
+
+genome mm9
+
+track GC_% (5 base)
+shortLabel GC % (5 base)
+html http://genome.ucsc.edu/cgi-bin/hgTrackUi?g=gc5Base
+type ???
+bigDataUrl http://www.broadinstitute.org/igvdata/annotations/mm9/sequence/mm9.gc5Base.tdf
+viewLimits 0:100
+
+track Variations_and Repeats
+shortLabel Variations and Repeats
+*** UNEXPECTED ELEMENT Catetory
+
+track Comparative_Genomics
+shortLabel Comparative Genomics
+compositeTrack on
+track SiPhy_pi
+shortLabel SiPhy pi
+html http://www.nature.com/nature/journal/v478/n7370/full/nature10530.html
+type ???
+bigDataUrl http://www.broadinstitute.org/igvdata/annotations/mm9/conservation/pi.mm9.ewig.tdf
+parent Comparative_Genomics
+
+track Phastcons_(Verterbrate 30 way)
+shortLabel Phastcons (Verterbrate 30 way)
+html http://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=337030053&g=cons30way
+type ???
+bigDataUrl http://www.broadinstitute.org/igvdata/annotations/mm9/conservation/mm9_phastCons30.wig.tdf
+parent Comparative_Genomics
+
+track phlyoP_(Verterbrate 30 way)
+shortLabel phlyoP (Verterbrate 30 way)
+html http://genome.ucsc.edu/cgi-bin/hgTrackUi?hgsid=337030053&g=cons30way
+type ???
+bigDataUrl http://www.broadinstitute.org/igvdata/annotations/mm9/conservation/mm9_phyloP30way.wig.tdf
+parent Comparative_Genomics
+
+
+track ORegAnno
+shortLabel ORegAnno
+html http://www.oreganno.org/oregano/
+type ???
+bigDataUrl http://igv.broadinstitute.org/annotations/mm9/mm9_oreganno.bed.gz
+
+
+Process finished with exit code 0
+
+
