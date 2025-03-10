@@ -1,8 +1,6 @@
 {
   "id": "canFam5",
   "name": "Dog (canFam5) ",
-  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/canFam5/canFam5.fa",
-  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/canFam5/canFam5.fa.fai",
   "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam5/database/cytoBandIdeo.txt.gz",
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam5/bigZips/canFam5.2bit",
   "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam5/bigZips/canFam5.chrom.sizes",

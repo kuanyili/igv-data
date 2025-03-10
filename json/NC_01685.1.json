@@ -1,16 +1,33 @@
 {
   "id": "NC_016856.1",
   "name": "Salmonella enterica subsp. enterica serovar Typhimurium str. 14028S",
-  "fastaURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/NC_016856.1/NC_016856.1.fna",
-  "indexURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/NC_016856.1/NC_016856.1.fna.fai",
-  "aliasURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/NC_016856.1/NC_016856.1_alias.tab",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/022/165/GCA_000022165.1/GCA_000022165.1.2bit",
+  "nameSet": "ucsc",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/022/165/GCA_000022165.1/GCA_000022165.1.chrom.sizes.txt",
+  "blat": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/022/165/GCA_000022165.1/dynablat-01.soe.ucsc.edu 4040 dynamic GCA/000/022/165/GCA_000022165.1",
+  "chromAliasBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/022/165/GCA_000022165.1/GCA_000022165.1.chromAlias.bb",
+  "description": "Salmonella enterica subsp. enterica serovar Typhimurium str. (14028S 2009)\nSalmonella enterica subsp. enterica serovar Typhimurium str. 14028S/GCA_000022165.1_ASM2216v1 genome assembly",
+  "cytobandBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/022/165/GCA_000022165.1/bbi/GCA_000022165.1_ASM2216v1.cytoBand.bb",
   "tracks": [
     {
-      "url": "https://igv-genepattern-org.s3.amazonaws.com/genomes/NC_016856.1/NC_016856.1.gff.gz",
-      "name": "NC_016856.1.gff.gz",
-      "format": "gff3",
+      "id": "ncbiGene",
+      "name": "Gene models",
+      "format": "biggenepred",
+      "url": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/022/165/GCA_000022165.1/bbi/GCA_000022165.1_ASM2216v1.ncbiGene.bb",
+      "displayMode": "EXPANDED",
+      "description": "<a target=\"_blank\" href=\"https://hgdownload.soe.ucsc.edu/hubs/GCA/000/022/165/GCA_000022165.1/html/GCA_000022165.1_ASM2216v1.ncbiGene\">Gene models submitted to NCBI</a>",
+      "color": "rgb(0,80,150)",
+      "altColor": "rgb(150,80,0)",
+      "infoURL": "https://www.ncbi.nlm.nih.gov/gene/?term=$$",
+      "searchIndex": "name",
+      "trixURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/022/165/GCA_000022165.1/ixIxx/GCA_000022165.1_ASM2216v1.ncbiGene.ix",
+      "order": 10000,
       "type": "annotation",
-      "searchable": true
+      "height": 70,
+      "visibilityWindow": 0
     }
+  ],
+  "hubs": [
+    "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/022/165/GCA_000022165.1/hub.txt"
   ]
 }

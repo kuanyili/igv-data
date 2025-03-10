@@ -1,18 +1,17 @@
 {
   "id": "GCF_016699485.2",
   "name": "Gallus gallus (GCF_016699485.2)",
-  "fastaURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/GCF_016699485.2/GCF_016699485.2.fa",
-  "indexURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/GCF_016699485.2/GCF_016699485.2.fa.fai",
-  "aliasURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/GCF_016699485.2/GCF_016699485.2_chromAlias.tab",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/016/699/485/GCF_016699485.2/GCF_016699485.2.2bit",
+  "nameSet": "ucsc",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/016/699/485/GCF_016699485.2/GCF_016699485.2.chrom.sizes.txt",
+  "locus": "NC_052532.1",
+  "blat": "https://hgdownload.soe.ucsc.edu/hubs/GCF/016/699/485/GCF_016699485.2/dynablat-01.soe.ucsc.edu 4040 dynamic GCF/016/699/485/GCF_016699485.2",
+  "chromAliasBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/016/699/485/GCF_016699485.2/GCF_016699485.2.chromAlias.bb",
+  "twoBitBptURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/016/699/485/GCF_016699485.2/GCF_016699485.2.2bit.bpt",
+  "description": "chicken white leghorn layer X broiler (v2 broiler haplotype 2021 2021)\nGallus gallus/GCF_016699485.2_bGalGal1.mat.broiler.GRCg7b genome assembly",
+  "cytobandBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/016/699/485/GCF_016699485.2/bbi/GCF_016699485.2_bGalGal1.mat.broiler.GRCg7b.cytoBand.bb",
   "blatDB": "GCF_016699485.2",
   "tracks": [
-    {
-      "name": "Genes",
-      "format": "bed",
-      "url": "https://igv-genepattern-org.s3.amazonaws.com/genomes/GCF_016699485.2/GCF_016699485.2_gene_names.bed",
-      "hidden": true,
-      "displayMode": "COLLAPSED"
-    },
     {
       "id": "ncbiRefSeqCurated",
       "name": "RefSeq Transcripts",
@@ -23,5 +22,8 @@
       "parent": "refSeqComposite on",
       "height": 300
     }
+  ],
+  "hubs": [
+    "https://hgdownload.soe.ucsc.edu/hubs/GCF/016/699/485/GCF_016699485.2/hub.txt"
   ]
 }

@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-<Global name="mRNA and EST">
-    <Resource name="RefSeq mRNAs"
-              path="https://hgdownload.gi.ucsc.edu/hubs/birds/../GCF/016/699/485/GCF_016699485.2/bbi/GCF_016699485.2_bGalGal1.mat.broiler.GRCg7b.xenoRefGene.bb"
-              hyperlink="https://hgdownload.gi.ucsc.edu/hubs/birds/../GCF/016/699/485/GCF_016699485.2/html/GCF_016699485.2_bGalGal1.mat.broiler.GRCg7b.xenoRefGene"
-              infoURL="https://hgdownload.gi.ucsc.edu/hubs/birds/../GCF/016/699/485/GCF_016699485.2/https://www.ncbi.nlm.nih.gov/nuccore/$$"
-              format="bigGenePred" color="180,0,0"/>
-</Global>

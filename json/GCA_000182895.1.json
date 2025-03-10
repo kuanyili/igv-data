@@ -1,9 +1,15 @@
 {
   "id": "GCA_000182895.1",
   "name": "Coprinopsis cinerea okayama7#130 (GCA_000182895.1)",
-  "fastaURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/GCA_000182895.1/GCA_000182895.1.fa",
-  "indexURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/GCA_000182895.1/GCA_000182895.1.fa.fai",
-  "aliasURL": "https://igv-genepattern-org.s3.amazonaws.com/genomes/GCA_000182895.1/GCA_000182895.1_chromAlias.tab",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/GCA_000182895.1.2bit",
+  "twoBitBptURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/GCA_000182895.1.2bit.bpt",
+  "nameSet": "ucsc",
+  "wholeGenomeView": false,
+  "description": "GCA_000182895.1 basidiomycetes CC3 Coprinopsis",
+  "chromAliasBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/GCA_000182895.1.chromAlias.bb",
+  "infoURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/html/GCA_000182895.1_CC3.description.html",
+  "cytobandBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/bbi/GCA_000182895.1_CC3.cytoBand.bb",
+  "blat": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/dynablat-01.soe.ucsc.edu",
   "blatDB": "GCA_000182895.1",
   "tracks": [
     {
@@ -18,5 +24,8 @@
       "colorBy": "strand",
       "infoURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/https://www.ncbi.nlm.nih.gov/gene/?term=$$"
     }
+  ],
+  "hubs": [
+    "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/hub.txt"
   ]
 }

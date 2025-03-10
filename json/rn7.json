@@ -1,12 +1,14 @@
 {
   "id": "rn7",
   "name": "Rat (rn7) ",
-  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/rn7/rn7.fa",
-  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/rn7/rn7.fa.fai",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/015/227/675/GCF_015227675.2/GCF_015227675.2.2bit",
+  "nameSet": "ucsc",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/015/227/675/GCF_015227675.2/GCF_015227675.2.chrom.sizes.txt",
+  "blat": "https://hgdownload.soe.ucsc.edu/hubs/GCF/015/227/675/GCF_015227675.2/dynablat-01.soe.ucsc.edu 4040 dynamic GCF/015/227/675/GCF_015227675.2",
+  "chromAliasBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/015/227/675/GCF_015227675.2/GCF_015227675.2.chromAlias.bb",
+  "twoBitBptURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/015/227/675/GCF_015227675.2/GCF_015227675.2.2bit.bpt",
+  "description": "Norway rat BN7.2\nRattus norvegicus/GCF_015227675.2_mRatBN7.2 genome assembly",
   "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/rn7/database/cytoBandIdeo.txt.gz",
-  "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/rn7/bigZips/rn7.chromAlias.txt",
-  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/rn7/bigZips/rn7.2bit",
-  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/rn7/bigZips/rn7.chrom.sizes",
   "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chrX,chrY",
   "tracks": [
     {
@@ -15,5 +17,8 @@
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/rn7/database/ncbiRefSeqCurated.txt.gz",
       "order": 1000000
     }
+  ],
+  "hubs": [
+    "https://hgdownload.soe.ucsc.edu/hubs/GCF/015/227/675/GCF_015227675.2/hub.txt"
   ]
 }

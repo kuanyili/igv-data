@@ -1,6 +1,0 @@
-<?xml version="1.0" ?>
-<Global name="Variation and Repeats">
-  <Resource format="bigRmsk" name="RepeatMasker" path="https://hgdownload.gi.ucsc.edu/hubs//GCA/011/100/615/GCA_011100615.1/bbi/GCA_011100615.1_Macaca_fascicularis_6.0.rmsk.bb"/>
-  <Resource format="bigBed" name="Simple Repeats" path="https://hgdownload.gi.ucsc.edu/hubs//GCA/011/100/615/GCA_011100615.1/bbi/GCA_011100615.1_Macaca_fascicularis_6.0.simpleRepeat.bb"/>
-  <Resource format="bigBed" name="WM + SDust" path="https://hgdownload.gi.ucsc.edu/hubs//GCA/011/100/615/GCA_011100615.1/bbi/GCA_011100615.1_Macaca_fascicularis_6.0.windowMasker.bb"/>
-</Global>

@@ -2,27 +2,33 @@
   "id": "GCA_011100615.1",
   "blatDB": "GCA_011100615.1",
   "name": "Macaca fascicularis 6.0 (GCA_011100615.1)",
-  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/GCA_011100615.1/Macaca_fascicularis.Macaca_fascicularis_6.0.dna.toplevel.fa.gz",
-  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/GCA_011100615.1/Macaca_fascicularis.Macaca_fascicularis_6.0.dna.toplevel.fa.gz.fai",
-  "compressedIndexURL": "https://s3.amazonaws.com/igv.org.genomes/GCA_011100615.1/Macaca_fascicularis.Macaca_fascicularis_6.0.dna.toplevel.fa.gz.gzi",
-  "aliasURL": "https://s3.amazonaws.com/igv.org.genomes/GCA_011100615.1/GCA_011100615.1_chromAlias.tab",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/011/100/615/GCA_011100615.1/GCA_011100615.1.2bit",
+  "nameSet": "ucsc",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/011/100/615/GCA_011100615.1/GCA_011100615.1.chrom.sizes.txt",
+  "blat": "https://hgdownload.soe.ucsc.edu/hubs/GCA/011/100/615/GCA_011100615.1/dynablat-01.soe.ucsc.edu 4040 dynamic GCA/011/100/615/GCA_011100615.1",
+  "chromAliasBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/011/100/615/GCA_011100615.1/GCA_011100615.1.chromAlias.bb",
+  "twoBitBptURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/011/100/615/GCA_011100615.1/GCA_011100615.1.2bit.bpt",
+  "description": "crab-eating macaque (2020 cy0333)\nMacaca fascicularis/GCA_011100615.1_Macaca_fascicularis_6.0 genome assembly",
+  "cytobandBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/011/100/615/GCA_011100615.1/bbi/GCA_011100615.1_Macaca_fascicularis_6.0.cytoBand.bb",
   "tracks": [
     {
-      "name": "Annotations",
-      "format": "gff3",
-      "description": " <a target = \"_blank\" href = \"https://uswest.ensembl.org/Macaca_fascicularis/Info/Annotation\">Ensembl gene annotation 8-11-2022</a>",
-      "url": "https://s3.amazonaws.com/igv.org.genomes/GCA_011100615.1/Macaca_fascicularis.Macaca_fascicularis_6.0.108.sorted.gff3.gz",
-      "indexURL": "https://s3.amazonaws.com/igv.org.genomes/GCA_011100615.1/Macaca_fascicularis.Macaca_fascicularis_6.0.108.sorted.gff3.gz.tbi",
-      "visibilityWindow": -1,
+      "id": "ensGene",
+      "name": "Ensembl genes",
+      "format": "biggenepred",
+      "url": "https://hgdownload.soe.ucsc.edu/hubs/GCA/011/100/615/GCA_011100615.1/bbi/GCA_011100615.1_Macaca_fascicularis_6.0.ensGene.bb",
       "displayMode": "EXPANDED",
-      "height": 200
-    },
-    {
-      "name": "Genes",
-      "format": "bed",
-      "url": "https://s3.amazonaws.com/igv.org.genomes/GCA_011100615.1/GCA_011100615.1_ucsc_ensGene.bed",
-      "hidden": true,
-      "searchable": true
+      "description": "<a target=\"_blank\" href=\"https://hgdownload.soe.ucsc.edu/hubs/GCA/011/100/615/GCA_011100615.1/html/GCA_011100615.1_Macaca_fascicularis_6.0.ensGene\">Ensembl genes 2020_08</a>",
+      "color": "rgb(150,0,0)",
+      "searchIndex": "name",
+      "trixURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/011/100/615/GCA_011100615.1/ixIxx/GCA_011100615.1_Macaca_fascicularis_6.0.ensGene.ix",
+      "group": "genes",
+      "order": 10000,
+      "type": "annotation",
+      "height": 70,
+      "visibilityWindow": 0
     }
+  ],
+  "hubs": [
+    "https://hgdownload.soe.ucsc.edu/hubs/GCA/011/100/615/GCA_011100615.1/hub.txt"
   ]
 }

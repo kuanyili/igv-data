@@ -1,9 +1,6 @@
 {
   "id": "GCF_001433935.1",
   "name": "O. sativa IRGSP-1.0 (GCF_001433935.1)",
-  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/GCF_001433935.1/GCF_001433935.1_IRGSP-1.0_genomic.fna.gz",
-  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/GCF_001433935.1/GCF_001433935.1_IRGSP-1.0_genomic.fna.gz.fai",
-  "compressedIndexURL": "https://s3.amazonaws.com/igv.org.genomes/GCF_001433935.1/GCF_001433935.1_IRGSP-1.0_genomic.fna.gz.gzi",
   "aliasURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/001/433/935/GCF_001433935.1/GCF_001433935.1.chromAlias.txt",
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/001/433/935/GCF_001433935.1/GCF_001433935.1.2bit",
   "twoBitBptURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/001/433/935/GCF_001433935.1/GCF_001433935.1.2bit.bpt",
@@ -26,12 +23,23 @@
   ],
   "tracks": [
     {
-      "name": "MSU V7 genes",
-      "format": "gff3",
-      "description": " <a target = \"_blank\" href = \"http://rice.uga.edu/\">Rice Genome Annotation Project</a>",
-      "url": "https://s3.amazonaws.com/igv.org.genomes/GCF_001433935.1/MSU_V7.gff3.gz",
+      "id": "ncbiRefSeqCurated",
+      "name": "RefSeq Curated",
+      "format": "biggenepred",
+      "url": "https://hgdownload.soe.ucsc.edu/hubs/GCF/001/433/935/GCF_001433935.1/bbi/GCF_001433935.1_IRGSP-1.0.ncbiRefSeqCurated.bb",
       "displayMode": "EXPANDED",
-      "height": 200
+      "description": "<a target=\"_blank\" href=\"https://hgdownload.soe.ucsc.edu/hubs/GCF/001/433/935/GCF_001433935.1/html/GCF_001433935.1_IRGSP-1.0.refSeqComposite\">NCBI RefSeq genes, curated subset (NM_*, NR_*, NP_* or YP_*)</a>",
+      "color": "rgb(12,12,120)",
+      "searchIndex": "name",
+      "trixURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/001/433/935/GCF_001433935.1/ixIxx/GCF_001433935.1_IRGSP-1.0.ncbiRefSeqCurated.ix",
+      "group": "genes",
+      "order": 32,
+      "type": "annotation",
+      "height": 70,
+      "visibilityWindow": 0
     }
+  ],
+  "hubs": [
+    "https://hgdownload.soe.ucsc.edu/hubs/GCF/001/433/935/GCF_001433935.1/hub.txt"
   ]
 }

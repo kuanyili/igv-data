@@ -1,19 +1,29 @@
 {
   "id": "GCA_003086295.2",
   "name": "Peanut (GCA_003086295.2)",
-  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/GCA_003086295.2/GCF_003086295.2_arahy.Tifrunner.gnm1.KYV3_genomic.fna",
-  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/GCA_003086295.2/GCF_003086295.2_arahy.Tifrunner.gnm1.KYV3_genomic.fna.fai",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/003/086/295/GCF_003086295.2/GCF_003086295.2.2bit",
+  "twoBitBptURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/003/086/295/GCF_003086295.2/GCF_003086295.2.2bit.bpt",
+  "aliasURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/003/086/295/GCF_003086295.2/GCF_003086295.2.chromAlias.txt",
+  "nameSet": "refseq",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/003/086/295/GCF_003086295.2/GCF_003086295.2.chrom.sizes.txt",
   "tracks": [
     {
-      "name": "Annotations",
-      "format": "gff3",
-      "url": "https://s3.amazonaws.com/igv.org.genomes/GCA_003086295.2/GCF_003086295.2_arahy.Tifrunner.gnm1.KYV3_genomic.gff.gz",
-      "indexURL": "https://s3.amazonaws.com/igv.org.genomes/GCA_003086295.2/GCF_003086295.2_arahy.Tifrunner.gnm1.KYV3_genomic.gff.gz.tbi",
-      "order": 1000000,
-      "visibilityWindow": -1,
-      "supportsWholeGenome": false,
+      "id": "ncbiRefSeqCurated",
+      "name": "RefSeq Curated",
+      "format": "biggenepred",
+      "url": "https://hgdownload.soe.ucsc.edu/hubs/GCF/003/086/295/GCF_003086295.2/bbi/GCF_003086295.2_arahy.Tifrunner.gnm1.KYV3.ncbiRefSeqCurated.bb",
       "displayMode": "EXPANDED",
-      "height": 300
+      "description": "<a target=\"_blank\" href=\"https://hgdownload.soe.ucsc.edu/hubs/GCF/003/086/295/GCF_003086295.2/html/GCF_003086295.2_arahy.Tifrunner.gnm1.KYV3.refSeqComposite\">NCBI RefSeq genes, curated subset (NM_*, NR_*, NP_* or YP_*)</a>",
+      "color": "rgb(12,12,120)",
+      "searchIndex": "name",
+      "trixURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/003/086/295/GCF_003086295.2/ixIxx/GCF_003086295.2_arahy.Tifrunner.gnm1.KYV3.ncbiRefSeqCurated.ix",
+      "order": 1000,
+      "type": "annotation",
+      "height": 70,
+      "visibilityWindow": 0
     }
+  ],
+  "hubs": [
+    "https://hgdownload.soe.ucsc.edu/hubs/GCF/003/086/295/GCF_003086295.2/hub.txt"
   ]
 }

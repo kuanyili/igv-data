@@ -1,10 +1,8 @@
 {
   "id": "strPur2",
   "name": "S. purpuratus (Baylor 2.1/strPur2)",
-  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/strPur2/strPur2.fa.gz",
-  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/strPur2/strPur2.fa.gz.fai",
-  "compressedIndexURL": "https://s3.amazonaws.com/igv.org.genomes/strPur2/strPur2.fa.gz.gzi",
-  "gziIndexURL": "https://s3.amazonaws.com/igv.org.genomes/strPur2/strPur2.fa.gz.gzi",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/strPur2/bigZips/strPur2.2bit",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/strPur2/bigZips/strPur2.chrom.sizes",
   "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/strPur2/database/cytoBandIdeo.txt.gz",
   "aliasURL": "https://s3.amazonaws.com/igv.org.genomes/strPur2/strPur2_alias.tab",
   "tracks": [

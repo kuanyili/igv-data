@@ -1,9 +1,7 @@
 {
   "id": "bosTau8",
   "name": "Cow (UMD_3.1.1/bosTau8)",
-  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/bosTau8/bosTau8.fa",
-  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/bosTau8/bosTau8.fa.fai",
-  "cytobandURL": "https://s3.amazonaws.com/igv.org.genomes/bosTau8/cytoBandIdeo.txt.gz",
+  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/bosTau8/database/cytoBandIdeo.txt.gz",
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/bosTau8/bigZips/bosTau8.2bit",
   "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/bosTau8/bigZips/bosTau8.chromAlias.txt",
   "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/bosTau8/bigZips/bosTau8.chrom.sizes",

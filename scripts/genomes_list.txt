@@ -1,5 +1,4 @@
 hs1.json
-chm13v1.1.json
 hg38.json
 hg38_1kg.json
 hg19.json
@@ -31,7 +30,6 @@ danRer10.json
 ce11.json
 dm6.json
 dm3.json
-dmel_r5.9.json
 sacCer3.json
 ASM294v2.json
 ASM985889v3.json

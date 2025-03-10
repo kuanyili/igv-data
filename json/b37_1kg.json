@@ -4,7 +4,7 @@
   "fastaURL": "https://storage.googleapis.com/genomics-public-data/references/Homo_sapiens_assembly19_1000genomes_decoy/Homo_sapiens_assembly19_1000genomes_decoy.fasta",
   "indexURL": "https://storage.googleapis.com/genomics-public-data/references/Homo_sapiens_assembly19_1000genomes_decoy/Homo_sapiens_assembly19_1000genomes_decoy.fasta.fai",
   "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/cytoBand.txt.gz",
-  "aliasURL": "https://igv.org/genomes/data/hg19/hg19_alias.tab",
+  "aliasURL": "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/data/hg19/hg19_alias.tab",
   "tracks": [
     {
       "name": "Refseq Curated",

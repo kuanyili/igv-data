@@ -1,8 +1,6 @@
 {
   "id": "dm3",
   "name": "D. melanogaster (dm3)",
-  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/dm3/dm3.fa",
-  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/dm3/dm3.fa.fai",
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/dm3/bigZips/dm3.2bit",
   "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/dm3/bigZips/dm3.chrom.sizes",
   "chromosomeOrder": "chr2L,chr2R,chr3L,chr3R,chr4,chrX",

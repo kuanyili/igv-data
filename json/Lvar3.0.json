@@ -1,17 +1,33 @@
 {
   "id": "Lvar3.0",
   "name": "L. variegatus (Lvar3.0)",
-  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/Lvar3.0/Lvar3_0_GCF_genomic.fa.gz",
-  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/Lvar3.0/Lvar3_0_GCF_genomic.fa.gz.fai",
-  "compressedIndexURL": "https://s3.amazonaws.com/igv.org.genomes/Lvar3.0/Lvar3_0_GCF_genomic.fa.gz.gzi",
-  "gziIndexURL": "https://s3.amazonaws.com/igv.org.genomes/Lvar3.0/Lvar3_0_GCF_genomic.fa.gz.gzi",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/018/143/015/GCF_018143015.1/GCF_018143015.1.2bit",
+  "nameSet": "ucsc",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/018/143/015/GCF_018143015.1/GCF_018143015.1.chrom.sizes.txt",
+  "blat": "https://hgdownload.soe.ucsc.edu/hubs/GCF/018/143/015/GCF_018143015.1/dynablat-01.soe.ucsc.edu 4040 dynamic GCF/018/143/015/GCF_018143015.1",
+  "chromAliasBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/018/143/015/GCF_018143015.1/GCF_018143015.1.chromAlias.bb",
+  "twoBitBptURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/018/143/015/GCF_018143015.1/GCF_018143015.1.2bit.bpt",
+  "description": "green sea urchin\nLytechinus variegatus/GCF_018143015.1_Lvar_3.0 genome assembly",
+  "cytobandBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/018/143/015/GCF_018143015.1/bbi/GCF_018143015.1_Lvar_3.0.cytoBand.bb",
   "tracks": [
     {
-      "name": "Annotations",
-      "url": "https://s3.amazonaws.com/igv.org.genomes/Lvar3.0/Lvar3_0_GCF.gff3.gz",
-      "indexed": false,
-      "searchable": true,
-      "order": 1000000
+      "id": "ncbiRefSeq",
+      "name": "RefSeq All",
+      "format": "biggenepred",
+      "url": "https://hgdownload.soe.ucsc.edu/hubs/GCF/018/143/015/GCF_018143015.1/bbi/GCF_018143015.1_Lvar_3.0.ncbiRefSeq.bb",
+      "displayMode": "EXPANDED",
+      "description": "<a target=\"_blank\" href=\"https://hgdownload.soe.ucsc.edu/hubs/GCF/018/143/015/GCF_018143015.1/html/GCF_018143015.1_Lvar_3.0.refSeqComposite\">NCBI RefSeq genes, curated and predicted sets (NM_*, XM_*, NR_*, XR_*, NP_* or YP_*)</a>",
+      "color": "rgb(12,12,120)",
+      "searchIndex": "name",
+      "trixURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/018/143/015/GCF_018143015.1/ixIxx/GCF_018143015.1_Lvar_3.0.ncbiRefSeq.ix",
+      "group": "genes",
+      "order": 10000,
+      "type": "annotation",
+      "height": 70,
+      "visibilityWindow": 0
     }
+  ],
+  "hubs": [
+    "https://hgdownload.soe.ucsc.edu/hubs/GCF/018/143/015/GCF_018143015.1/hub.txt"
   ]
 }

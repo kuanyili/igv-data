@@ -1,8 +1,6 @@
 {
   "id": "bosTau9",
   "name": "Cow (ARS-UCD1.2/bosTau9)",
-  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/bosTau9/bosTau9.fa",
-  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/bosTau9/bosTau9.fa.fai",
   "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/bosTau9/database/cytoBandIdeo.txt.gz",
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/bosTau9/bigZips/bosTau9.2bit",
   "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/bosTau9/bigZips/bosTau9.chrom.sizes",
@@ -15,5 +13,8 @@
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/bosTau9/database/ncbiRefSeqCurated.txt.gz",
       "order": 1000000
     }
+  ],
+  "hubs": [
+    "https://hgdownload.soe.ucsc.edu/hubs/GCF/002/263/795/GCF_002263795.1/hub.txt"
   ]
 }

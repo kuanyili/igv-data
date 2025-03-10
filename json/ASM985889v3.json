@@ -26,5 +26,8 @@
       "height": 70,
       "visibilityWindow": -1
     }
+  ],
+  "hubs": [
+    "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/hub.txt"
   ]
 }

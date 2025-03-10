@@ -1,5 +1,0 @@
-https://igv-genepattern-org.s3.amazonaws.com/genomes/GCF_016699485.2/GCF_016699485.2_Mapping+and+Sequencing.xml
-https://igv-genepattern-org.s3.amazonaws.com/genomes/GCF_016699485.2/GCF_016699485.2_Genes+and+Gene+Predictions.xml
-https://igv-genepattern-org.s3.amazonaws.com/genomes/GCF_016699485.2/GCF_016699485.2_mRNA+and+EST.xml
-https://igv-genepattern-org.s3.amazonaws.com/genomes/GCF_016699485.2/GCF_016699485.2_Expression+and+Regulation.xml
-https://igv-genepattern-org.s3.amazonaws.com/genomes/GCF_016699485.2/GCF_016699485.2_Variation+and+Repeats.xml

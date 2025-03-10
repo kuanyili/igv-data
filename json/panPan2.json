@@ -1,9 +1,13 @@
 {
   "id": "panPan2",
   "name": "Bonobo (MPI-EVA panpan1.1/panPan2)",
-  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/panPan2/panPan2.fa",
-  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/panPan2/panPan2.fa.fai",
-  "cytobandURL": "https://s3.amazonaws.com/igv.org.genomes/panPan2/cytoBandIdeo.txt.gz",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/panPan2/bigZips/panPan2.2bit",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/panPan2/bigZips/panPan2.chrom.sizes",
+  "blat": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/258/655/GCF_000258655.2/dynablat-01.soe.ucsc.edu 4040 dynamic GCF/000/258/655/GCF_000258655.2",
+  "chromAliasBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/258/655/GCF_000258655.2/GCF_000258655.2.chromAlias.bb",
+  "twoBitBptURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/258/655/GCF_000258655.2/GCF_000258655.2.2bit.bpt",
+  "description": "pygmy chimpanzee (Ulindi refseq 2015)\nPan paniscus/GCF_000258655.2_panpan1.1 genome assembly",
+  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/panPan2/database/cytoBandIdeo.txt.gz",
   "chromosomeOrder": "chr1,chr2A,chr2B,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chrX",
   "tracks": [
     {
@@ -12,15 +16,10 @@
       "url": "https://s3.amazonaws.com/igv.org.genomes/panPan2/ncbiRefSeq.txt.gz",
       "indexURL": "https://s3.amazonaws.com/igv.org.genomes/panPan2/ncbiRefSeq.txt.gz.tbi",
       "order": 1000000,
-      "visibilityWindow": -1,
-      "supportsWholeGenome": false
-    },
-    {
-      "name": "Genes",
-      "format": "bed",
-      "url": "https://s3.amazonaws.com/igv.org.genomes/locations/geneLocations_panPan2.bed.gz",
-      "hidden": true,
-      "searchable": true
+      "visibilityWindow": 0
     }
+  ],
+  "hubs": [
+    "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/258/655/GCF_000258655.2/hub.txt"
   ]
 }

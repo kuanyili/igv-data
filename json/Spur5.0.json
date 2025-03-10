@@ -1,10 +1,14 @@
 {
   "id": "Spur5.0",
   "name": "S. purpuratus (Spur5.0)",
-  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/Spur5.0/sp5_0_GCF_genomic.fa.gz",
-  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/Spur5.0/sp5_0_GCF_genomic.fa.gz.fai",
-  "compressedIndexURL": "https://s3.amazonaws.com/igv.org.genomes/Spur5.0/sp5_0_GCF_genomic.fa.gz.gzi",
-  "gziIndexURL": "https://s3.amazonaws.com/igv.org.genomes/Spur5.0/sp5_0_GCF_genomic.fa.gz.gzi",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/235/GCF_000002235.5/GCF_000002235.5.2bit",
+  "nameSet": "ucsc",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/235/GCF_000002235.5/GCF_000002235.5.chrom.sizes.txt",
+  "blat": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/235/GCF_000002235.5/dynablat-01.soe.ucsc.edu 4040 dynamic GCF/000/002/235/GCF_000002235.5",
+  "chromAliasBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/235/GCF_000002235.5/GCF_000002235.5.chromAlias.bb",
+  "twoBitBptURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/235/GCF_000002235.5/GCF_000002235.5.2bit.bpt",
+  "description": "purple sea urchin\nStrongylocentrotus purpuratus/GCF_000002235.5_Spur_5.0 genome assembly",
+  "cytobandBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/235/GCF_000002235.5/bbi/GCF_000002235.5_Spur_5.0.cytoBand.bb",
   "tracks": [
     {
       "name": "Annotations",
@@ -13,5 +17,8 @@
       "searchable": true,
       "order": 1000000
     }
+  ],
+  "hubs": [
+    "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/235/GCF_000002235.5/hub.txt"
   ]
 }

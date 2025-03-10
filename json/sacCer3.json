@@ -1,21 +1,28 @@
 {
   "id": "sacCer3",
   "name": "S. cerevisiae (sacCer3)",
-  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/sacCer3/sacCer3.fa",
-  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/sacCer3/sacCer3.fa.fai",
-  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/sacCer3.2bit",
-  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/sacCer3.chrom.sizes",
-  "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/sacCer3.chromAlias.txt",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/GCF_000146045.2.2bit",
+  "nameSet": "ucsc",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/GCF_000146045.2.chrom.sizes.txt",
+  "blat": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/dynablat-01.soe.ucsc.edu 4040 dynamic GCF/000/146/045/GCF_000146045.2",
+  "chromAliasBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/GCF_000146045.2.chromAlias.bb",
+  "twoBitBptURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/GCF_000146045.2.2bit.bpt",
+  "description": "baker's yeast S288C (2014)\nSaccharomyces cerevisiae S288C/GCF_000146045.2_R64 genome assembly",
+  "cytobandBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/bbi/GCF_000146045.2_R64.cytoBand.bb",
   "chromosomeOrder": "chrI,chrII, chrIII,chrIV,chrV,chrVI,chrVII,chrVIII,chrIX,chrX,chrXI,chrXII,chrXIII,chrXIV,chrXV,chrXVI",
   "tracks": [
     {
-      "name": "Refseq Curated",
+      "name": "Refseq Genes",
       "type": "annotation",
       "format": "refgene",
       "displayMode": "EXPANDED",
-      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/database/ncbiRefSeqCurated.txt.gz",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/database/ncbiRefSeq.txt.gz",
+      "order": 10000,
       "indexed": false,
       "searchable": true
     }
+  ],
+  "hubs": [
+    "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/hub.txt"
   ]
 }

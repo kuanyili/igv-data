@@ -1,25 +1,33 @@
 {
   "id": "GCF_016920785.1",
-  "name": "Ixodes scapularus (GCF_016920785.1)",
-  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/GCF_016920785.1/GCF_016920785.1_Ixodes_scapularus_ComboLowHiFi_genomic.fna",
-  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/GCF_016920785.1/GCF_016920785.1_Ixodes_scapularus_ComboLowHiFi_genomic.fna.fai",
+  "name": "black-legged tick (U.Maryland v1 2021) (GCF_016920785.1)",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/016/920/785/GCF_016920785.1/GCF_016920785.1.2bit",
+  "nameSet": "ucsc",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/016/920/785/GCF_016920785.1/GCF_016920785.1.chrom.sizes.txt",
+  "blat": "https://hgdownload.soe.ucsc.edu/hubs/GCF/016/920/785/GCF_016920785.1/dynablat-01.soe.ucsc.edu 4040 dynamic GCF/016/920/785/GCF_016920785.1",
+  "chromAliasBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/016/920/785/GCF_016920785.1/GCF_016920785.1.chromAlias.bb",
+  "twoBitBptURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/016/920/785/GCF_016920785.1/GCF_016920785.1.2bit.bpt",
+  "description": "black-legged tick (U.Maryland v1 2021)\nIxodes scapularis/GCF_016920785.1_Ixodes_scapularus_ComboLowHiFi genome assembly",
+  "cytobandBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/016/920/785/GCF_016920785.1/bbi/GCF_016920785.1_Ixodes_scapularus_ComboLowHiFi.cytoBand.bb",
   "tracks": [
     {
-      "name": "Annotations",
-      "format": "gff3",
-      "url": "https://s3.amazonaws.com/igv.org.genomes/GCF_016920785.1/GCF_016920785.1_Ixodes_scapularus_ComboLowHiFi_genomic.other.sorted.gff.gz",
-      "indexURL": "https://s3.amazonaws.com/igv.org.genomes/GCF_016920785.1/GCF_016920785.1_Ixodes_scapularus_ComboLowHiFi_genomic.other.sorted.gff.gz.tbi",
-      "order": 1000000,
-      "visibilityWindow": -1,
-      "supportsWholeGenome": false,
+      "id": "ncbiRefSeq",
+      "name": "RefSeq All",
+      "format": "biggenepred",
+      "url": "https://hgdownload.soe.ucsc.edu/hubs/GCF/016/920/785/GCF_016920785.1/bbi/GCF_016920785.1_Ixodes_scapularus_ComboLowHiFi.ncbiRefSeq.bb",
       "displayMode": "EXPANDED",
-      "height": 300
-    },
-    {
-      "format": "gff3",
-      "url": "https://s3.amazonaws.com/igv.org.genomes/GCF_016920785.1/GCF_016920785.1_Ixodes_scapularus_ComboLowHiFi_genomic.gene.gff.gz",
-      "indexed": false,
-      "hidden": true
+      "description": "<a target=\"_blank\" href=\"https://hgdownload.soe.ucsc.edu/hubs/GCF/016/920/785/GCF_016920785.1/html/GCF_016920785.1_Ixodes_scapularus_ComboLowHiFi.refSeqComposite\">NCBI RefSeq genes, curated and predicted sets (NM_*, XM_*, NR_*, XR_*, NP_* or YP_*)</a>",
+      "color": "rgb(12,12,120)",
+      "searchIndex": "name",
+      "trixURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/016/920/785/GCF_016920785.1/ixIxx/GCF_016920785.1_Ixodes_scapularus_ComboLowHiFi.ncbiRefSeq.ix",
+      "group": "genes",
+      "order": 10000,
+      "type": "annotation",
+      "height": 70,
+      "visibilityWindow": 0
     }
+  ],
+  "hubs": [
+    "https://hgdownload.soe.ucsc.edu/hubs/GCF/016/920/785/GCF_016920785.1/hub.txt"
   ]
 }

@@ -1,1 +1,0 @@
-https://igv.org/genomes/data/hg38/hg38_annotations.xml

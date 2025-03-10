@@ -1,5 +1,0 @@
-https://s3.amazonaws.com/igv.org.genomes/GCF_001433935.1/GCF_001433935.1_Mapping+and+Sequencing.xml
-https://s3.amazonaws.com/igv.org.genomes/GCF_001433935.1/GCF_001433935.1_Genes+and+Gene+Predictions.xml
-https://s3.amazonaws.com/igv.org.genomes/GCF_001433935.1/GCF_001433935.1_mRNA+and+EST.xml
-https://s3.amazonaws.com/igv.org.genomes/GCF_001433935.1/GCF_001433935.1_Expression+and+Regulation.xml
-https://s3.amazonaws.com/igv.org.genomes/GCF_001433935.1/GCF_001433935.1_Variation+and+Repeats.xml

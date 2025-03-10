@@ -1,5 +1,0 @@
-https://s3.amazonaws.com/igv.org.genomes/chm13v2.0/chm13v2.0_map.xml
-https://s3.amazonaws.com/igv.org.genomes/chm13v2.0/chm13v2.0_genes.xml
-https://s3.amazonaws.com/igv.org.genomes/chm13v2.0/chm13v2.0_rna.xml
-https://s3.amazonaws.com/igv.org.genomes/chm13v2.0/chm13v2.0_compGeno.xml
-https://s3.amazonaws.com/igv.org.genomes/chm13v2.0/chm13v2.0_varRep.xml

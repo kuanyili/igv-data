@@ -9,13 +9,11 @@ Cow (bosTau8)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/m
 Cow (bosTau9)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/bosTau9.json	bosTau9
 D. melanogaster (dm6)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/dm6.json	dm6
 D. melanogaster (dm3)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/dm3.json	dm3
-D. melanogaster (r5.9)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/dmel_r5.9.json	dmel_r5.9
 Dog (canFam3)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/canFam3.json	canFam3
 Dog (UU_Cfam_GSD_1.0/canFam4)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/canFam4.json	canFam4
 Dog (canFam5)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/canFam5.json	canFam5
 Human (1kg, b37+decoy)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/b37_1kg.json	1kg_v37
 Human (T2T CHM13-v2.0/hs1)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/hs1.json	hs1
-Human (T2T CHM13-v1.1)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/chm13v1.1.json	chm13v1.1
 Human (hg18)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/hg18.json	hg18
 Human (hg19)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/hg19.json	hg19
 Human (hg38)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/hg38.json	hg38

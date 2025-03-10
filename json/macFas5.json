@@ -1,18 +1,19 @@
 {
   "id": "macFas5",
   "name": "Macaca fascicularis (macFas5)",
-  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/macFas5/macFas5.fa",
-  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/macFas5/macFas5.fa.fai",
   "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/macFas5/database/cytoBandIdeo.txt.gz",
   "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/macFas5/bigZips/macFas5.chromAlias.txt",
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/macFas5/bigZips/macFas5.2bit",
   "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/macFas5/bigZips/macFas5.chrom.sizes",
   "tracks": [
     {
-      "name": "Genes",
+      "name": "Refseq Curated Genes",
       "format": "refgene",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/macFas5/database/ncbiRefSeqCurated.txt.gz",
       "order": 1000000
     }
+  ],
+  "hubs": [
+    "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/364/345/GCA_000364345.1/hub.txt"
   ]
 }

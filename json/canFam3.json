@@ -1,26 +1,16 @@
 {
   "id": "canFam3",
   "name": "Dog (Broad CanFam3.1/canFam3)",
-  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/canFam3/canFam3.fa",
-  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/canFam3/canFam3.fa.fai",
-  "cytobandURL": "https://s3.amazonaws.com/igv.org.genomes/canFam3/cytoBandIdeo.txt.gz",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam3/bigZips/canFam3.2bit",
+  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam3/database/cytoBandIdeo.txt.gz",
+  "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam3/bigZips/canFam3.chromAlias.txt",
   "tracks": [
     {
       "name": "Refseq Genes",
       "format": "refgene",
-      "url": "https://s3.amazonaws.com/igv.org.genomes/canFam3/ncbiRefSeq.sorted.txt.gz",
-      "indexURL": "https://s3.amazonaws.com/igv.org.genomes/canFam3/ncbiRefSeq.sorted.txt.gz.tbi",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam3/database/refGene.txt.gz",
       "indexed": false,
-      "order": 1000000,
-      "visibilityWindow": -1,
-      "supportsWholeGenome": false
-    },
-    {
-      "name": "Genes",
-      "format": "bed",
-      "url": "https://s3.amazonaws.com/igv.org.genomes/locations/geneLocations_canFam3.bed.gz",
-      "hidden": true,
-      "searchable": true
+      "order": 1000000
     }
   ]
 }
