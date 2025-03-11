@@ -9,7 +9,7 @@
   "aliasURL": "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/data/hg38/hg38_alias.tab",
   "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.chrom.sizes",
   "hubs": [
-    "https://igv.org/genomes/data/hg38/hubs/hub.txt",
+    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hg38/hub.txt",
     "https://ftp.ncbi.nlm.nih.gov/snp/population_frequency/TrackHub/latest/hub.txt",
     "https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/hub.txt",
     "https://ftp.ncbi.nlm.nih.gov/pub/dbVar/sandbox/dbvarhub/hub.txt",
