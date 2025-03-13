@@ -203,3 +203,6 @@ longLabel Genome Aggregation Database (gnomAD) Genome Variants v4.1
 group var
 bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/gnomAD/v4.1/genomes/genomes.bb
 html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=gnomadVariants
+
+include gtexCoverage.txt
+
