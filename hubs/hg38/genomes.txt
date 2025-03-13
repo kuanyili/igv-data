@@ -1,2 +1,2 @@
-trackDb trackDb.txt
+hg38 trackDb.txt
 groups groups.tx
