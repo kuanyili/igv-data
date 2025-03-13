@@ -18,6 +18,16 @@ label mRNA and EST
 priority 4
 defaultIsClosed 0
 
+name expression
+label Expression
+priority 4.1
+defaultIsClosed 0
+
+name singleCell
+label Single Cell RNA-seq
+priority 4.2
+defaultIsClosed 0
+
 name regulation
 label Expression and Regulation
 priority 5
@@ -31,6 +41,11 @@ defaultIsClosed 0
 name var
 label Variation
 priority 7
+defaultIsClosed 0
+
+name rep
+label Repeats
+priority 7.2
 defaultIsClosed 0
 
 name x

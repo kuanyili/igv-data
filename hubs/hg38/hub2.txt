@@ -1,0 +1,3 @@
+hub igvUcsc
+shortLabel UCSC
+genomesFile genomes.txt
