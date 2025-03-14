@@ -1,7 +1,5 @@
 track gtexCov
-compositeContainer TRUE
 shortLabel GTEx RNA-Seq Coverage
-type bigWig
 longLabel GTEx V8 RNA-Seq Read Coverage by Tissue
 maxHeightPixels 100:50:8
 group expression
@@ -442,7 +440,6 @@ bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/gtex/cov/GTEX-NFK9-0326-SM-
 color 255,165,79
 
 track gtexEqtlHighConf
-compositeContainer TRUE
 shortLabel GTEx cis-eQTLs
 type bigBed
 longLabel GTEx fine-mapped cis-eQTLs

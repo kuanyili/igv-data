@@ -9,8 +9,18 @@ priority 3
 defaultIsClosed 0
 
 name phenDis
-label Phenotype and Literature
+label Phenotype, Variants, and Literature
 priority 3.4
+defaultIsClosed 0
+
+name varRep
+label Variation
+priority 3.6
+defaultIsClosed 0
+
+name hprc
+label Human Pangenome - HPRC
+priority 3.8
 defaultIsClosed 0
 
 name rna
@@ -29,7 +39,7 @@ priority 4.2
 defaultIsClosed 0
 
 name regulation
-label Expression and Regulation
+label Regulation
 priority 5
 defaultIsClosed 0
 
