@@ -305,6 +305,7 @@ shortLabel DBSNPARCHIVE
     subGroup1 view Views variants=Variants errs=Mapping_Errors
     visibility pack
     group varRep
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../dbSnp153Composite
     maxWindowCoverage 4000000
     compositeTrack on
     maxWindowToDraw 10000000
@@ -408,6 +409,7 @@ shortLabel DBSNPARCHIVE
     parent dbSnpArchive
     visibility hide
     group varRep
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../snp141
     defaultGeneTracks knownGene
     maxWindowToDraw 10000000
     macaqueDb rheMac3
@@ -431,6 +433,7 @@ shortLabel DBSNPARCHIVE
     parent dbSnpArchive
     visibility hide
     group varRep
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../snp141Common
     defaultGeneTracks knownGene
     maxWindowToDraw 10000000
     macaqueDb rheMac3
@@ -455,6 +458,7 @@ shortLabel DBSNPARCHIVE
     parent dbSnpArchive
     visibility hide
     group varRep
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../snp141Flagged
     defaultGeneTracks knownGene
     maxWindowToDraw 10000000
     macaqueDb rheMac3
@@ -479,6 +483,7 @@ shortLabel DBSNPARCHIVE
     parent dbSnpArchive
     visibility hide
     group varRep
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../snp141Mult
     defaultGeneTracks knownGene
     maxWindowToDraw 10000000
     macaqueDb rheMac3
@@ -504,6 +509,7 @@ shortLabel DBSNPARCHIVE
     parent dbSnpArchive
     visibility hide
     group varRep
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../snp142
     defaultGeneTracks knownGene
     maxWindowToDraw 10000000
     macaqueDb rheMac3
@@ -527,6 +533,7 @@ shortLabel DBSNPARCHIVE
     parent dbSnpArchive
     visibility hide
     group varRep
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../snp142Common
     defaultGeneTracks knownGene
     maxWindowToDraw 10000000
     macaqueDb rheMac3
@@ -551,6 +558,7 @@ shortLabel DBSNPARCHIVE
     parent dbSnpArchive
     visibility hide
     group varRep
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../snp142Flagged
     defaultGeneTracks knownGene
     maxWindowToDraw 10000000
     macaqueDb rheMac3
@@ -575,6 +583,7 @@ shortLabel DBSNPARCHIVE
     parent dbSnpArchive
     visibility hide
     group varRep
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../snp142Mult
     defaultGeneTracks knownGene
     maxWindowToDraw 10000000
     macaqueDb rheMac3
@@ -600,6 +609,7 @@ shortLabel DBSNPARCHIVE
     parent dbSnpArchive
     visibility hide
     group varRep
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../snp144
     defaultGeneTracks knownGene
     maxWindowToDraw 10000000
     trackHandler snp125
@@ -624,6 +634,7 @@ shortLabel DBSNPARCHIVE
     parent dbSnpArchive
     visibility hide
     group varRep
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../snp144Common
     defaultGeneTracks knownGene
     maxWindowToDraw 10000000
     trackHandler snp125
@@ -649,6 +660,7 @@ shortLabel DBSNPARCHIVE
     parent dbSnpArchive
     visibility hide
     group varRep
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../snp144Flagged
     defaultGeneTracks knownGene
     maxWindowToDraw 10000000
     trackHandler snp125
@@ -674,6 +686,7 @@ shortLabel DBSNPARCHIVE
     parent dbSnpArchive
     visibility hide
     group varRep
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../snp144Mult
     defaultGeneTracks knownGene
     maxWindowToDraw 10000000
     trackHandler snp125
@@ -700,6 +713,7 @@ shortLabel DBSNPARCHIVE
     parent dbSnpArchive
     visibility hide
     group varRep
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../snp146
     defaultGeneTracks knownGene
     maxWindowToDraw 10000000
     trackHandler snp125
@@ -723,6 +737,7 @@ shortLabel DBSNPARCHIVE
     parent dbSnpArchive
     visibility hide
     group varRep
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../snp146Common
     defaultGeneTracks knownGene
     maxWindowToDraw 10000000
     trackHandler snp125
@@ -747,6 +762,7 @@ shortLabel DBSNPARCHIVE
     parent dbSnpArchive
     visibility hide
     group varRep
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../snp146Flagged
     defaultGeneTracks knownGene
     maxWindowToDraw 10000000
     trackHandler snp125
@@ -771,6 +787,7 @@ shortLabel DBSNPARCHIVE
     parent dbSnpArchive
     visibility hide
     group varRep
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../snp146Mult
     defaultGeneTracks knownGene
     maxWindowToDraw 10000000
     trackHandler snp125
@@ -796,6 +813,7 @@ shortLabel DBSNPARCHIVE
     parent dbSnpArchive
     visibility hide
     group varRep
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../snp147
     defaultGeneTracks knownGene
     maxWindowToDraw 10000000
     trackHandler snp125
@@ -819,6 +837,7 @@ shortLabel DBSNPARCHIVE
     parent dbSnpArchive
     visibility hide
     group varRep
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../snp147Common
     defaultGeneTracks knownGene
     maxWindowToDraw 10000000
     trackHandler snp125
@@ -843,6 +862,7 @@ shortLabel DBSNPARCHIVE
     parent dbSnpArchive
     visibility hide
     group varRep
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../snp147Flagged
     defaultGeneTracks knownGene
     maxWindowToDraw 10000000
     trackHandler snp125
@@ -867,6 +887,7 @@ shortLabel DBSNPARCHIVE
     parent dbSnpArchive
     visibility hide
     group varRep
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../snp147Mult
     defaultGeneTracks knownGene
     maxWindowToDraw 10000000
     trackHandler snp125
@@ -892,6 +913,7 @@ shortLabel DBSNPARCHIVE
     parent dbSnpArchive
     visibility hide
     group varRep
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../snp150
     defaultGeneTracks knownGene
     maxWindowToDraw 10000000
     trackHandler snp125
@@ -915,6 +937,7 @@ shortLabel DBSNPARCHIVE
     parent dbSnpArchive
     visibility hide
     group varRep
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../snp150Common
     defaultGeneTracks knownGene
     maxWindowToDraw 10000000
     trackHandler snp125
@@ -939,6 +962,7 @@ shortLabel DBSNPARCHIVE
     parent dbSnpArchive
     visibility hide
     group varRep
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../snp150Flagged
     defaultGeneTracks knownGene
     maxWindowToDraw 10000000
     trackHandler snp125
@@ -963,6 +987,7 @@ shortLabel DBSNPARCHIVE
     parent dbSnpArchive
     visibility hide
     group varRep
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../snp150Mult
     defaultGeneTracks knownGene
     maxWindowToDraw 10000000
     trackHandler snp125
@@ -988,6 +1013,7 @@ shortLabel DBSNPARCHIVE
     parent dbSnpArchive
     visibility hide
     group varRep
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../snp151
     defaultGeneTracks knownGene
     maxWindowToDraw 10000000
     trackHandler snp125
@@ -1011,6 +1037,7 @@ shortLabel DBSNPARCHIVE
     parent dbSnpArchive
     visibility hide
     group varRep
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../snp151Common
     defaultGeneTracks knownGene
     maxWindowToDraw 10000000
     trackHandler snp125
@@ -1035,6 +1062,7 @@ shortLabel DBSNPARCHIVE
     parent dbSnpArchive
     visibility hide
     group varRep
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=snp151Flagged
     defaultGeneTracks knownGene
     maxWindowToDraw 10000000
     trackHandler snp125
@@ -1059,6 +1087,7 @@ shortLabel DBSNPARCHIVE
     parent dbSnpArchive
     visibility hide
     group varRep
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../snp150Mult
     defaultGeneTracks knownGene
     maxWindowToDraw 10000000
     trackHandler snp125
@@ -1089,6 +1118,7 @@ shortLabel DBVARSV
     parent dbVarSv
     visibility pack
     group varRep
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=dbVarCommon
     searchIndex name
     compositeTrack on
     itemRgb on
@@ -1168,6 +1198,7 @@ shortLabel DBVARSV
     visibility pack
     group varRep
     filterLabel.overlap Variant Overlap
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=dbVarConflict
     searchIndex name
     compositeTrack on
     itemRgb on
@@ -1261,6 +1292,7 @@ compositeTrack on
     longLabel Affymetrix Cytoscan HD GeneChip Array
     parent genotypeArrays on
     visibility pack
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=genotypeArrays
     itemRgb on
     priority 7
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/genotypeArrays/affyCytoScanHD.bb
@@ -1272,6 +1304,7 @@ compositeTrack on
     parent genotypeArrays on
     colorByStrand 255,0,0 0,0,255
     visibility pack
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=genotypeArrays
     priority 6
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/cytoSnp/cytoSnp850k.bb
     noScoreFilter on
@@ -1284,6 +1317,7 @@ compositeTrack on
     parent genotypeArrays on
     colorByStrand 255,0,0 0,0,255
     visibility pack
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=genotypeArrays
     priority 5
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/illumina/epic850K.bb
     noScoreFilter on
@@ -1296,6 +1330,7 @@ compositeTrack on
     parent genotypeArrays on
     colorByStrand 255,0,0 0,0,255
     visibility pack
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=genotypeArrays
     priority 4
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/illumina/illumina450K.bb
     noScoreFilter on
@@ -1336,6 +1371,7 @@ longLabel Genome In a Bottle Structural Variants and Trios
 subGroup1 view Views trios=Trios sv=Structural_Variants
 visibility hide
 group varRep
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=giab
 compositeTrack on
 
     track svView
@@ -1413,6 +1449,7 @@ shortLabel GNOMADVARIANTS
     parent gnomadVariants on
     maxHeightPixels 128:40:8
     group varRep
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=gnomadV4.1
     viewLimitsMax -3:3
     priority 10
     superTrack on
@@ -1432,6 +1469,7 @@ shortLabel GNOMADVARIANTS
     visibility hide
     pennantIcon New red ../goldenPath/newsarch.html#093024 "September 30, 2024"
     group varRep
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=gnomadCNV
     searchIndex name
     filterLabel.svtype Type of Variation
     filterValues.svtype DEL|Deletion,DUP|Duplication
@@ -1451,6 +1489,7 @@ shortLabel GNOMADVARIANTS
     visibility hide
     group varRep
     configureByPopup off
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=gnomad4.1
     maxWindowToDraw 200000
     priority 3.3
     superTrack on
@@ -1475,6 +1514,7 @@ shortLabel GNOMADVARIANTS
     visibility hide
     filterValues.FILTER PASS,InbreedingCoeff,RF,AC0
     group varRep
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=gnomadV4.1
     labelFields name,rsId
     filterLabel.AF Minor Allele Frequency Filter
     itemRgb on
@@ -1507,6 +1547,7 @@ shortLabel GNOMADVARIANTS
     visibility hide
     filterValues.FILTER PASS,InbreedingCoeff,RF,AC0,AS_VQSR,indel_stack (chrM only),npg (chrM only)
     group varRep
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=gnomadV4.1
     searchIndex name,_displayName,rsId
     labelFields rsId,_displayName
     filterLabel.AF Minor Allele Frequency Filter
@@ -1539,6 +1580,7 @@ shortLabel GNOMADVARIANTS
     visibility hide
     group varRep
     pennantIcon New red ../goldenPath/newsarch.html#093024 "September 30, 2024"
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=gnomadPLI
     labelFields name,geneName
     compositeTrack On
     superTrack on
@@ -1742,6 +1784,7 @@ shortLabel GNOMADVARIANTS
     group varRep
     filterLimits.af_controls 0:1
     filter.svlen 50:199840172
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=gnomadSv
     filterByRange.af_non_neuro on
     filterLabel.af_non_neuro Filter by non-neurological allele frequency
     filterLabel.svtype Type of Variation
@@ -1770,6 +1813,7 @@ shortLabel GNOMADVARIANTS
     pennantIcon 19.jpg ../goldenPath/help/liftOver.html "lifted from hg19"
     group varRep
     configureByPopup off
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=gnomadV4.1
     compositeTrack on
     maxWindowToDraw 200000
     priority 4
@@ -1807,6 +1851,7 @@ shortLabel GNOMADVARIANTS
     pennantIcon New red ../goldenPath/newsarch.html#093024 "September 30, 2024"
     group varRep
     configureByPopup off
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=gnomadV4.1
     maxWindowCoverage 200000
     compositeTrack on
     priority 1
@@ -1827,6 +1872,7 @@ shortLabel GNOMADVARIANTS
         filterValuesDefault.FILTER PASS
         visibility squish
         filterValues.FILTER PASS,InbreedingCoeff,RF,AC0,AS_VQSR,indel_stack (chrM only),npg (chrM only)
+        html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=gnomadV4.1
         searchIndex name,_displayName,rsId
         labelFields rsId,_displayName
         filterLabel.AF Minor Allele Frequency Filter
@@ -1858,6 +1904,7 @@ shortLabel GNOMADVARIANTS
         filterValuesDefault.FILTER PASS
         visibility squish
         filterValues.FILTER PASS,InbreedingCoeff,RF,AC0,AS_VQSR,indel_stack (chrM only),npg (chrM only)
+        html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=gnomadV4.1
         searchIndex name,_displayName,rsId
         labelFields rsId,_displayName
         filterLabel.AF Minor Allele Frequency Filter
@@ -1884,6 +1931,7 @@ longLabel Platinum genome variants
 group varRep
 vcfDoFilter off
 configureByPopup off
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../platinumGenomes
 compositeTrack on
 vcfDoMaf off
 dataVersion Release 2017-1.0
@@ -1948,6 +1996,7 @@ shortLabel FANTOM5
     visibility full
     maxHeightPixels 64:64:11
     group regulation
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=fantom5
     dragAndDrop subTracks
     configurable on
     priority 1.4
@@ -1971,6 +2020,7 @@ shortLabel FANTOM5
     subGroup2 category Category cellLine=cellLine fractionation=fractionation primaryCell=primaryCell  tissue=tissue AoSMC_response_to_FGF2=AoSMC_response_to_FGF2_timecourse AoSMC_response_to_IL1b=AoSMC_response_to_IL1b_timecourse ES_to_cardiomyocyte=ES_to_cardiomyocyte_timecourse Embryoid_body_to_melanocyte=Embryoid_body_to_melanocyte_timecourse Epithelial_to_mesenchymal=Epithelial_to_mesenchymal_timecourse Human_iPS_to_neuron_Downs_syndrome_1=Human_iPS_to_neuron_Downs_syndrome_1_timecourse Human_iPS_to_neuron_Downs_syndrome_2=Human_iPS_to_neuron_Downs_syndrome_2_timecourse Human_iPS_to_neuron_wt_1=Human_iPS_to_neuron_wt_1_timecourse Human_iPS_to_neuron_wt_2=Human_iPS_to_neuron_wt_2_timecourse Lymphatic_EC_response_to_VEGFC=Lymphatic_EC_response_to_VEGFC_timecourse MCF7_response_to_EGF=MCF7_response_to_EGF_timecourse MCF7_response_to_HRG=MCF7_response_to_HRG_timecourse MSC_to_adipocyte_human=MSC_to_adipocyte_human_timecourse Macrophage_influenza_infection=Macrophage_influenza_infection_timecourse Macrophage_response_to_LPS=Macrophage_response_to_LPS_timecourse Myoblast_to_myotube_wt_and_DMD=Myoblast_to_myotube_wt_and_DMD_timecourse Preadipocyte_to_adipocyte=Preadipocyte_to_adipocyte_timecourse Rinderpest_infection_series=Rinderpest_infection_series_timecourse Saos_calcification=Saos_calcification_timecourse timecourse=other_samples_in_timecourse
     subGroup3 strand Strand forward=forward reverse=reverse
     group regulation
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=fantom5
     compositeTrack on
     dimensions dimX=sequenceTech dimY=category dimA=strand
     priority 3
@@ -1991,6 +2041,7 @@ shortLabel FANTOM5
     subGroup2 category Category cellLine=cellLine fractionation=fractionation primaryCell=primaryCell  tissue=tissue AoSMC_response_to_FGF2=AoSMC_response_to_FGF2_timecourse AoSMC_response_to_IL1b=AoSMC_response_to_IL1b_timecourse ES_to_cardiomyocyte=ES_to_cardiomyocyte_timecourse Embryoid_body_to_melanocyte=Embryoid_body_to_melanocyte_timecourse Epithelial_to_mesenchymal=Epithelial_to_mesenchymal_timecourse Human_iPS_to_neuron_Downs_syndrome_1=Human_iPS_to_neuron_Downs_syndrome_1_timecourse Human_iPS_to_neuron_Downs_syndrome_2=Human_iPS_to_neuron_Downs_syndrome_2_timecourse Human_iPS_to_neuron_wt_1=Human_iPS_to_neuron_wt_1_timecourse Human_iPS_to_neuron_wt_2=Human_iPS_to_neuron_wt_2_timecourse Lymphatic_EC_response_to_VEGFC=Lymphatic_EC_response_to_VEGFC_timecourse MCF7_response_to_EGF=MCF7_response_to_EGF_timecourse MCF7_response_to_HRG=MCF7_response_to_HRG_timecourse MSC_to_adipocyte_human=MSC_to_adipocyte_human_timecourse Macrophage_influenza_infection=Macrophage_influenza_infection_timecourse Macrophage_response_to_LPS=Macrophage_response_to_LPS_timecourse Myoblast_to_myotube_wt_and_DMD=Myoblast_to_myotube_wt_and_DMD_timecourse Preadipocyte_to_adipocyte=Preadipocyte_to_adipocyte_timecourse Rinderpest_infection_series=Rinderpest_infection_series_timecourse Saos_calcification=Saos_calcification_timecourse timecourse=other_samples_in_timecourse
     subGroup3 strand Strand forward=forward reverse=reverse
     group regulation
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=fantom5
     compositeTrack on
     dimensions dimX=sequenceTech dimY=category dimA=strand
     priority 2
@@ -2008,6 +2059,7 @@ shortLabel FANTOM5
     visibility full
     maxHeightPixels 64:64:11
     group regulation
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=fantom5
     dragAndDrop subTracks
     configurable on
     priority 1.3
@@ -2027,6 +2079,7 @@ shortLabel FANTOM5
     colorByStrand 255,0,0 0,0,255
     visibility dense
     group regulation
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=fantom5
     searchIndex name
     exonArrows on
     itemRgb on
@@ -2043,6 +2096,7 @@ type bigBed 9 +
 longLabel ReMap Atlas of Regulatory Regions
 visibility hide
 group regulation
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../reMap
 compositeTrack on
 noScoreFilter on
 noParentConfig on
@@ -2056,6 +2110,7 @@ noParentConfig on
     filterText.TF *
     maxItems 10000
     visibility squish
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../reMap
     labelFields name, TF, Biotypes
     maxWindowCoverage 20000
     filterType.Biotypes multipleListOnlyOr
@@ -2077,6 +2132,7 @@ noParentConfig on
     longLabel ReMap density
     parent ReMap on
     visibility hide
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../reMap
     priority 1
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/reMap/reMapDensity2022.bw
     autoScale on
@@ -2093,6 +2149,7 @@ shortLabel WGENCODEREG
     filterValues.factor ADNP,AFF1,AFF4,AGO1,AGO2,AHDC1,AHR,AKAP8,AKNA,ARHGAP35,ARID1B,ARID2,ARID3A,ARID4A,ARID4B,ARID5B,ARNTL,ARNT,AR,ASH1L,ASH2L,ATF1,ATF2,ATF3,ATF4,ATF5,ATF6,ATF7,ATOH8,BACH1,BATF,BCL11A,BCL11B,BCL3,BCL6B,BCL6,BCLAF1,BCOR,BDP1,BHLHE40,BMI1,BNC2,BRCA1,BRCA2,BRD4,BRD9,C11orf30,CAMTA2,CBFA2T2,CBFA2T3,CBFB,CBX1,CBX2,CBX3,CBX5,CBX8,CC2D1A,CCAR2,CCNT2,CDC5L,CEBPA,CEBPB,CEBPD,CEBPG,CEBPZ,CERS6,CGGBP1,CHAMP1,CHD1,CHD2,CHD4,CHD7,CLOCK,CREB1,CREB3L1,CREB3,CREB5,CREM,CSDC2,CSDE1,CSRNP3,CTBP1,CTBP2,CTCFL,CTCF,CUX1,DACH1,DBP,DDIT3,DDX20,DEAF1,DEK,DIDO1,DLX6,DMAP1,DMTF1,DNMT1,DNMT3B,DPF2,DR1,DRAP1,DZIP1,E2F1,E2F2,E2F3,E2F4,E2F5,E2F6,E2F7,E2F8,E4F1,EBF1,EEA1,EED,EGR1,EGR2,EHF,EHMT2,ELF1,ELF2,ELF3,ELF4,ELK1,ELK4,EMX1,EP300,EP400,ERF,ERG,ESR1,ESRRA,ESRRG,ETS1,ETV1,ETV4,ETV5,ETV6,EZH2phosphoT487,EZH2,FEZF1,FIP1L1,FOSB,FOSL1,FOSL2,FOS,FOXA1,FOXA2,FOXA3,FOXC1,FOXF2,FOXJ2,FOXJ3,FOXK1,FOXK2,FOXM1,FOXO1,FOXO4,FOXP1,FOXP2,FOXP4,FOXS1,FUBP1,FUBP3,FUS,GABPA,GABPB1,GATA1,GATA2,GATA3,GATA4,GATAD1,GATAD2A,GATAD2B,GFI1B,GFI1,GLI2,GLI4,GLIS1,GLIS2,GLIS3,GLYR1,GMEB1,GMEB2,GPN1,GTF2A2,GTF2B,GTF2E2,GTF2F1,GTF2I,GTF3A,GTF3C2,GZF1,HBP1,HCFC1,HDAC1,HDAC2,HDAC3,HDAC6,HDAC8,HDGF,HES1,HES2,HES4,HEYL,HHEX,HIC1,HIC2,HINFP,HIVEP1,HLF,HLTF,HMBOX1,HMG20A,HMG20B,HMGA2,HMGN3,HMGXB3,HMGXB4,HNF1A,HNF1B,HNF4A,HNF4G,HNRNPH1,HNRNPK,HNRNPLL,HNRNPL,HNRNPUL1,HOMEZ,HOXA3,HOXA5,HOXA7,HOXB13,HOXB5,HOXD1,HSF1,HSF2,HSF4,ID3,IKZF1,IKZF2,IKZF3,IKZF4,IKZF5,ILF3,INSM2,IRF1,IRF2,IRF3,IRF4,IRF5,IRF9,ISL1,ISL2,ISX,JRK,JUNB,JUND,JUN,KAT2B,KAT7,KAT8,KDM1A,KDM2A,KDM2B,KDM3A,KDM4A,KDM4B,KDM5A,KDM5B,KDM6A,KHSRP,KIAA2018,KLF10,KLF11,KLF12,KLF13,KLF16,KLF17,KLF1,KLF4,KLF5,KLF6,KLF7,KLF8,KLF9,KMT2A,KMT2B,L3MBTL2,LARP7,LBX2,LCORL,LCOR,LEF1,LIN54,MAF1,MAFF,MAFG,MAFK,MAX,MAZ,MBD1,MBD2,MBD4,MED13,MED1,MEF2A,MEF2B,MEF2C,MEF2D,MEIS1,MEIS2,MGA,MIER1,MIER2,MIER3,MITF,MIXL1,MLLT1,MLXIP,MLX,MNT,MNX1,MSX2,MTA1,MTA2,MTA3,MTF1,MTF2,MXD1,MXD3,MXD4,MXI1,MYBL2,MYB,MYC,MYNN,MYRF,MZF1,NAIF1,NANOG,NBN,NCOA1,NCOA2,NCOA3,NCOA6,NCOR1,NEUROD1,NFAT5,NFATC1,NFATC3,NFATC4,NFE2L1,NFE2L2,NFE2,NFIA,NFIB,NFIC,NFIL3,NFIX,NFKB2,NFKBIZ,NFRKB,NFXL1,NFYA,NFYB,NFYC,NKRF,NKX3-1,NONO,NR0B2,NR1H2,NR2C1,NR2C2,NR2E3,NR2F1,NR2F2,NR2F6,NR3C1,NR4A1,NR5A1,NR5A2,NRF1,NRL,NUFIP1,ONECUT1,ONECUT2,OSR2,OTX2,OVOL1,OVOL3,PAF1,PATZ1,PAWR,PAX5,PAX8,PAXIP1,PBX1,PBX2,PBX3,PCBP1,PCBP2,PHB2,PHB,PHF20,PHF21A,PHF5A,PHF8,PITX1,PKNOX1,PLSCR1,PML,POGZ,POLR2AphosphoS2,POLR2AphosphoS5,POLR2A,POLR2B,POLR2G,POLR2H,POLR3A,POU2F2,POU5F1,POU6F1,PPARG,PRDM10,PRDM15,PRDM1,PRDM4,PRDM6,PRPF4,PRRX2,PTBP1,PTRF,PTTG1,PYGO2,RAD21,RAD51,RARA,RARB,RARG,RB1,RBAK,RBBP5,RBFOX2,RBM14,RBM22,RBM25,RBM39,RBPJ,RCOR1,RCOR2,RELA,RELB,REPIN1,RERE,REST,RFX1,RFX3,RFX5,RFXANK,RFXAP,RLF,RNF219,RNF2,RORA,RREB1,RUNX1,RUNX3,RXRA,RXRB,SAFB2,SAFB,SAP130,SAP30,SATB2,SCRT1,SCRT2,SETDB1,SFPQ,SHOX2,SIN3A,SIN3B,SIRT6,SIX1,SIX4,SIX5,SKIL,SKI,SMAD1,SMAD3,SMAD4,SMAD5,SMAD9,SMARCA4,SMARCA5,SMARCB1,SMARCC1,SMARCC2,SMARCE1,SMC3,SNAI1,SNAI2,SNAPC4,SNIP1,SOX13,SOX18,SOX5,SOX6,SP110,SP140L,SP1,SP2,SP3,SP4,SP5,SP7,SPDEF,SPEN,SPI1,SREBF1,SREBF2,SRF,SRSF1,SRSF3,SRSF4,SSRP1,STAG1,STAT1,STAT3,STAT5A,STAT5B,STAT6,SUPT5H,SUZ12,TAF15,TAF1,TAF7,TAF9B,TAL1,TARDBP,TBL1XR1,TBPL1,TBP,TBX18,TBX21,TBX2,TBX3,TCF12,TCF15,TCF3,TCF4,TCF7L2,TCF7,TEAD1,TEAD2,TEAD3,TEAD4,TEF,TFAP4,TFCP2L1,TFCP2,TFDP1,TFDP2,TFE3,TGIF2,THAP11,THAP12,THAP1,THAP7,THAP8,THAP9,THRAP3,THRA,THRB,TIGD3,TIGD6,TOE1,TOX2,TOX,TP53,TP63,TRAFD1,TRIM22,TRIM24,TRIM25,TRIM28,TSC22D2,TSHZ1,TSHZ2,U2AF1,U2AF2,UBTF,USF1,USF2,VEZF1,WIZ,WRNIP1,WT1,XBP1,XRCC5,YBX1,YEATS2,YEATS4,YY1,YY2,ZBED1,ZBED4,ZBED5,ZBTB10,ZBTB11,ZBTB12,ZBTB14,ZBTB17,ZBTB1,ZBTB20,ZBTB21,ZBTB24,ZBTB25,ZBTB26,ZBTB2,ZBTB33,ZBTB37,ZBTB38,ZBTB39,ZBTB3,ZBTB40,ZBTB42,ZBTB43,ZBTB44,ZBTB46,ZBTB48,ZBTB49,ZBTB4,ZBTB5,ZBTB6,ZBTB7A,ZBTB7B,ZBTB8A,ZBTB9,ZC3H10,ZC3H11A,ZC3H4,ZC3H8,ZCCHC11,ZEB1,ZEB2,ZFHX2,ZFP14,ZFP1,ZFP36L2,ZFP36,ZFP37,ZFP3,ZFP41,ZFP64,ZFP69B,ZFP82,ZFP91,ZFX,ZFY,ZGPAT,ZHX1,ZHX2,ZHX3,ZIC2,ZIK1,ZKSCAN1,ZKSCAN5,ZKSCAN8,ZMAT3,ZMIZ1,ZMYM2,ZMYM3,ZNF101,ZNF10,ZNF121,ZNF124,ZNF12,ZNF133,ZNF134,ZNF138,ZNF140,ZNF142,ZNF143,ZNF146,ZNF148,ZNF157,ZNF165,ZNF16,ZNF175,ZNF17,ZNF180,ZNF184,ZNF189,ZNF18,ZNF197,ZNF202,ZNF205,ZNF207,ZNF20,ZNF215,ZNF217,ZNF219,ZNF221,ZNF223,ZNF224,ZNF225,ZNF230,ZNF232,ZNF234,ZNF239,ZNF24,ZNF251,ZNF256,ZNF257,ZNF25,ZNF263,ZNF264,ZNF266,ZNF26,ZNF274,ZNF276,ZNF280A,ZNF280B,ZNF280D,ZNF281,ZNF282,ZNF296,ZNF2,ZNF30,ZNF311,ZNF316,ZNF317,ZNF318,ZNF319,ZNF324,ZNF329,ZNF331,ZNF333,ZNF335,ZNF337,ZNF33A,ZNF33B,ZNF341,ZNF343,ZNF34,ZNF350,ZNF354B,ZNF354C,ZNF362,ZNF366,ZNF367,ZNF383,ZNF384,ZNF391,ZNF394,ZNF395,ZNF397,ZNF398,ZNF3,ZNF407,ZNF414,ZNF416,ZNF41,ZNF423,ZNF426,ZNF430,ZNF431,ZNF433,ZNF441,ZNF444,ZNF445,ZNF446,ZNF449,ZNF44,ZNF451,ZNF460,ZNF462,ZNF483,ZNF484,ZNF485,ZNF488,ZNF48,ZNF490,ZNF501,ZNF503,ZNF507,ZNF510,ZNF511,ZNF512B,ZNF512,ZNF513,ZNF518A,ZNF526,ZNF529,ZNF530,ZNF532,ZNF543,ZNF547,ZNF548,ZNF549,ZNF550,ZNF552,ZNF555,ZNF556,ZNF557,ZNF558,ZNF561,ZNF569,ZNF570,ZNF572,ZNF574,ZNF576,ZNF579,ZNF580,ZNF583,ZNF584,ZNF585B,ZNF589,ZNF592,ZNF596,ZNF598,ZNF600,ZNF605,ZNF607,ZNF608,ZNF609,ZNF610,ZNF614,ZNF615,ZNF616,ZNF619,ZNF623,ZNF624,ZNF629,ZNF639,ZNF644,ZNF646,ZNF652,ZNF654,ZNF660,ZNF664,ZNF671,ZNF674,ZNF677,ZNF678,ZNF680,ZNF687,ZNF691,ZNF692,ZNF697,ZNF700,ZNF703,ZNF707,ZNF709,ZNF70,ZNF710,ZNF713,ZNF737,ZNF740,ZNF75A,ZNF761,ZNF764,ZNF766,ZNF768,ZNF76,ZNF770,ZNF772,ZNF773,ZNF775,ZNF776,ZNF777,ZNF778,ZNF781,ZNF782,ZNF784,ZNF785,ZNF786,ZNF788,ZNF791,ZNF792,ZNF79,ZNF7,ZNF800,ZNF816,ZNF830,ZNF839,ZNF83,ZNF843,ZNF84,ZNF850,ZNF865,ZNF883,ZNF891,ZNF8,ZSCAN12,ZSCAN16,ZSCAN18,ZSCAN20,ZSCAN21,ZSCAN22,ZSCAN23,ZSCAN29,ZSCAN30,ZSCAN31,ZSCAN32,ZSCAN4,ZSCAN5A,ZSCAN5C,ZSCAN9,ZXDB,ZXDC,ZZZ3
     visibility hide
     group regulation
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=TFrPeakClusters
     labelFields factor
     scoreMin 1
     spectrum on
@@ -13041,6 +13098,7 @@ shortLabel WGENCODEREG
     subGroup5 cancer Cancer cancer=cancer normal=normal unknown=unknown
     group regulation
     subGroup6 subtrackColor Similarity
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=wgEncodeRegDnase
     compositeTrack on
     dimensions dimA=cellType dimB=tissue dimC=cancer
     dragAndDrop subTracks
@@ -15666,6 +15724,7 @@ shortLabel WGENCODEREG
     scoreFilter 200
     controlledVocabulary cellType=wgEncodeCell treatment=wgEncodeTreatment
     group regulation
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=wgEncodeRegDnaseClustered
     inputTrackTable wgEncodeRegDnaseClusteredInputs
     spectrum on
     inputTableFieldDisplay cellType treatment
@@ -15693,6 +15752,7 @@ shortLabel WGENCODEREG
     maxHeightPixels 128:64:11
     subGroup5 subtrackColor Similarity
     group regulation
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=wgEncodeRegDnaseSignal
     dimensions dimA=tissue dimB=cancer
     configurable on
     priority 1.8
@@ -17508,6 +17568,7 @@ shortLabel SPLICEIMPACTSUPER
     mouseOver change: $name <br> gene: $ENSGid <br> max score: $spliceABscore <br> $maxScore
     visibility dense
     group phenDis
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=abSplice
     filterLabel.maxScore Tissues
     filter.spliceABscore 0.01
     itemRgb on
@@ -17541,6 +17602,7 @@ shortLabel SPLICEIMPACTSUPER
         filter.AIscore 0.02
         mouseOver <b>Change:</b> $name<br><b>Gene:</b> $gene<br><b>Type of change:</b> $spliceType<br><b>Affected splice location:</b> $relativePos<br><b>Score:</b> $AIscore
         filterValues.spliceType donor_gain|Donor gain,donor_loss|Donor loss,acceptor_gain|Acceptor gain,acceptor_loss|Acceptor loss
+        html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=spliceAI
         itemRgb on
         priority 1.3
         bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/spliceAIindelsMasked.bb
@@ -17557,6 +17619,7 @@ shortLabel SPLICEIMPACTSUPER
         filter.AIscore 0.02
         mouseOver <b>Change:</b> $name<br><b>Gene:</b> $gene<br><b>Type of change:</b> $spliceType<br><b>Affected splice location:</b> $relativePos<br><b>Score:</b> $AIscore
         filterValues.spliceType donor_gain|Donor gain,donor_loss|Donor loss,acceptor_gain|Acceptor gain,acceptor_loss|Acceptor loss
+        html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=spliceAI
         itemRgb on
         priority 1.2
         bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/spliceAIsnvsMasked.bb
@@ -17573,6 +17636,7 @@ shortLabel SPLICEIMPACTSUPER
         filter.AIscore 0.02
         mouseOver <b>Change:</b> $name<br><b>Gene:</b> $gene<br><b>Type of change:</b> $spliceType<br><b>Affected splice location:</b> $relativePos<br><b>Score:</b> $AIscore
         filterValues.spliceType donor_gain|Donor gain,donor_loss|Donor loss,acceptor_gain|Acceptor gain,acceptor_loss|Acceptor loss
+        html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=spliceAI
         itemRgb on
         priority 1.1
         bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/spliceAIindels.bb
@@ -17589,6 +17653,7 @@ shortLabel SPLICEIMPACTSUPER
         filter.AIscore 0.02
         mouseOver <b>Change:</b> $name<br><b>Gene:</b> $gene<br><b>Type of change:</b> $spliceType<br><b>Affected splice location:</b> $relativePos<br><b>Score:</b> $AIscore
         filterValues.spliceType donor_gain|Donor gain,donor_loss|Donor loss,acceptor_gain|Acceptor gain,acceptor_loss|Acceptor loss
+        html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=spliceAI
         itemRgb on
         priority 1
         bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/spliceAIsnvs.bb
@@ -17606,6 +17671,7 @@ shortLabel SPLICEIMPACTSUPER
     group phenDis
     lollyMaxSize 5
     pennantIcon New red ../goldenPath/newsarch.html#030525 "Released Mar. 5, 2025"
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=spliceImpactSuper
     yAxisLabel.0 0 on 140,140,140 Conflicting
     yAxisLabel.1 1 on 140,140,140 Normal
     yAxisLabel.2 2 on 140,140,140 Low
@@ -17629,6 +17695,7 @@ type bigWig
 longLabel AlphaMissense Score for all possible single-basepair mutations (zoom in for scores)
 visibility hide
 group phenDis
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=alphaMissense
 compositeTrack on
 maxWindowToDraw 10000000
 mouseOverFunction noAverage
@@ -17752,6 +17819,7 @@ shortLabel CADDSUPER
     parent caddSuper
     visibility dense
     group phenDis
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=caddSuper
     compositeTrack on
     maxWindowToDraw 10000000
     mouseOverFunction noAverage
@@ -17816,6 +17884,7 @@ shortLabel CADDSUPER
     filterLabel.score Show only items with PHRED scale score of
     visibility dense
     group phenDis
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=caddSuper
     filterLimits.score 0:100
     superTrack on hide
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/cadd/del.bb
@@ -17832,6 +17901,7 @@ shortLabel CADDSUPER
     filterLabel.score Show only items with PHRED scale score of
     visibility dense
     group phenDis
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=caddSuper
     filterLimits.score 0:100
     superTrack on hide
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/cadd/ins.bb
@@ -17851,6 +17921,7 @@ shortLabel CADDSUPER1_7
     visibility dense
     group phenDis
     pennantIcon New red ../goldenPath/newsarch.html#100924 "October 9, 2024"
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=caddSuper1_7
     compositeTrack on
     maxWindowToDraw 10000000
     mouseOverFunction noAverage
@@ -17920,6 +17991,7 @@ shortLabel CADDSUPER1_7
     visibility dense
     pennantIcon New red ../goldenPath/newsarch.html#100924 "October 9, 2024"
     group phenDis
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=caddSuper1_7
     filterLimits.score 0:100
     superTrack on hide
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/cadd1.7/del.bb
@@ -17937,6 +18009,7 @@ shortLabel CADDSUPER1_7
     visibility dense
     pennantIcon New red ../goldenPath/newsarch.html#100924 "October 9, 2024"
     group phenDis
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=caddSuper1_7
     filterLimits.score 0:100
     superTrack on hide
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/cadd1.7/ins.bb
@@ -17961,6 +18034,7 @@ longLabel ClinGen curation activities (Dosage Sensitivity and Gene-Disease Valid
 visibility hide
 group phenDis
 pennantIcon New red ../goldenPath/newsarch.html#100924 "October 9, 2024"
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=clinGen
 compositeTrack on
 itemRgb on
 noParentConfig on
@@ -18120,33 +18194,6 @@ urls rcvAcc="https://www.ncbi.nlm.nih.gov/clinvar/$$/" geneId="https://www.ncbi.
     mouseOverField _mouseOver
     urls rcvAcc="https://www.ncbi.nlm.nih.gov/clinvar/$$/" geneId="https://www.ncbi.nlm.nih.gov/gene/$$" snpId="https://www.ncbi.nlm.nih.gov/snp/$$" nsvId="https://www.ncbi.nlm.nih.gov/dbvar/variants/$$/" origName="https://www.ncbi.nlm.nih.gov/clinvar/variation/$$/"
 
-track cosmicMuts
-shortLabel COSMIC
-type bigBed 6 + 3
-longLabel Catalogue of Somatic Mutations in Cancer V101
-group phenDis
-pennantIcon Updated red ../goldenPath/newsarch.html#013125 "Updated January 31, 2025"
-bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/cosmic/cosmic.bb
-noScoreFilter on
-urlLabel Genomic Mutation ID:
-url https://cancer.sanger.ac.uk/cosmic/search?q=$$
-dataVersion COSMIC v101
-
-track cosmicRegions
-shortLabel COSMIC Regions
-type bigBed 8 +
-longLabel Catalogue of Somatic Mutations in Cancer V82
-group phenDis
-pennantIcon snowflake.png ../goldenPath/newsarch.html#091523 "COSMIC data is now updated on the COSMIC track (not COSMIC Regions). See news archive for details."
-searchIndex name,cosmLabel
-labelFields cosmLabel
-bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/cosmic/cosMutHg38V82.bb
-color 200, 0, 0
-noScoreFilter on
-urlLabel COSMIC ID:
-url http://cancer.sanger.ac.uk/cosmic/mutation/overview?id=$$
-mouseOverField _mouseOver
-
 track covid
 track covid
 shortLabel COVID
@@ -18291,6 +18338,7 @@ shortLabel DECIPHERCONTAINER
     parent decipherContainer
     visibility pack
     group phenDis
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=decipherContainer
     searchIndex name
     filter.size 0
     filterValues.pathogenicity Benign,Likely Benign,Likely Pathogenic,Pathogenic,Uncertain,Unknown
@@ -18316,6 +18364,7 @@ shortLabel DECIPHERCONTAINER
     visibility pack
     pennantIcon New red ../goldenPath/newsarch.html#121024 "Released December 10, 2024"
     group phenDis
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=decipherContainer
     searchIndex name
     filter.sample_size 0
     priority 3
@@ -18332,6 +18381,7 @@ shortLabel DECIPHERCONTAINER
     parent decipherContainer
     visibility pack
     group phenDis
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=decipherContainer
     prevExonText Left edge
     priority 2
     superTrack on
@@ -18346,6 +18396,7 @@ type bigBed 9 + 2
 longLabel pHaplo and pTriplo dosage sensitivity map from Collins et al 2022
 visibility hide
 group phenDis
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=dosageSensitivityCollins2022
 compositeTrack on
 itemRgb on
 noParentConfig on
@@ -18859,6 +18910,7 @@ longLabel GeneReviews
 mouseOver $name disease(s): $diseases
 visibility hide
 group phenDis
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=geneReviews
 bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/geneReviews/geneReviews.bb
 color 0, 80, 0
 noScoreFilter on
@@ -18893,6 +18945,7 @@ shortLabel CONSTRAINTSUPER
     yLineOnOff on
     maxHeightPixels 128:40:8
     group phenDis
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=constraintSuper
     viewLimitsMax 0:2
     maxWindowToDraw 10000000
     mouseOverFunction noAverage
@@ -18912,6 +18965,7 @@ shortLabel CONSTRAINTSUPER
     yLineOnOff on
     maxHeightPixels 8:40:128
     group phenDis
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=constraintSuper
     maxWindowToDraw 10000000
     mouseOverFunction noAverage
     priority 1
@@ -18928,6 +18982,7 @@ shortLabel CONSTRAINTSUPER
     visibility dense
     maxHeightPixels 128:40:8
     group phenDis
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=constraintSuper
     viewLimitsMax 0:1.0
     priority 10.5
     superTrack on hide
@@ -18955,6 +19010,7 @@ type bigBed 4 +
 longLabel LOVD: Leiden Open Variation Database Public Variants
 visibility hide
 group phenDis
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=lovdComp
 compositeTrack on
 
     track lovdLong
@@ -19236,6 +19292,7 @@ shortLabel CANCEREXPR
     visibility pack
     barChartColors \#8FBC8F #8FBC8F #CDB79E #EEEE00 #EEEE00 #00CDCD #EED5D2 \#CDB79E #CDB79E #CDB79E #CDB79E #CDB79E #CDB79E #9ACD32 #9ACD32 #9ACD32 \#FFB6C1 #CD9B1D #D9D9D9 #1E90FF #CDB79E #FFD39B #A6A6A6 #008B45 #008B45 \#EED5D2 #EED5D2 #ff0000 #ff8d00 #ffdb00 #00d619 #009fff
     group phenDis
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=tcgaExpr
     labelFields name2, name
     barChartSampleUrl https://hgdownload.soe.ucsc.edu/gbdb/hgFixed/human/expMatrix/tcgaLargeSamples.tab
     barChartUnit GPM
@@ -19256,6 +19313,7 @@ shortLabel CANCEREXPR
     visibility pack
     barChartColors \#8FBC8F #8FBC8F #CDB79E #EEEE00 #EEEE00 #00CDCD #EED5D2 \#CDB79E #CDB79E #CDB79E #CDB79E #CDB79E #CDB79E #9ACD32 #9ACD32 #9ACD32 \#FFB6C1 #CD9B1D #D9D9D9 #1E90FF #CDB79E #FFD39B #A6A6A6 #008B45 #008B45 \#EED5D2 #EED5D2 #ff0000 #ff8d00 #ffdb00 #00d619 #009fff
     group phenDis
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=tcgaExpr
     labelFields name2, name
     barChartSampleUrl https://hgdownload.soe.ucsc.edu/gbdb/hgFixed/human/expMatrix/tcgaLargeSamples.tab
     barChartUnit TPM
@@ -19281,6 +19339,7 @@ shortLabel MAPPABILITY
     subGroup1 view Views SR=Single-read MR=Multi-read
     visibility full
     group map
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=mappability
     compositeTrack on
     noInherit on
 
@@ -19458,6 +19517,7 @@ shortLabel MAPPABILITY
     subGroup1 view Views SR=Single-read MR=Multi-read
     visibility full
     group map
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=mappability
     compositeTrack on
     superTrack on
 
@@ -19845,6 +19905,7 @@ shortLabel PROBLEMATICSUPER
     subGroup1 view Views beds=Regions vcfs=Variants
     visibility hide
     group map
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=problematic
     compositeTrack on
     priority 2
     superTrack on
@@ -19953,6 +20014,7 @@ shortLabel PROBLEMATICSUPER
     visibility pack
     hideEmptySubtracks off
     group map
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=problematic
     compositeTrack on
     priority 1
     superTrack on
@@ -20001,6 +20063,7 @@ shortLabel PROBLEMATICSUPER
     hideEmptySubtracks off
     pennantIcon New red ../goldenPath/newsarch.html#110424 "November 4, 2024"
     group map
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=problematic
     compositeTrack on
     priority 3
     superTrack on
@@ -20053,6 +20116,7 @@ shortLabel RECOMBRATE2
     visibility full
     maxHeightPixels 128:60:8
     group map
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=recombRate2
     viewLimitsMax 0:150000
     priority 6
     superTrack on hide
@@ -20068,6 +20132,7 @@ shortLabel RECOMBRATE2
     visibility full
     maxHeightPixels 128:60:8
     group map
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=recombRate2
     viewLimitsMax 0:150000
     priority 1
     superTrack on hide
@@ -20082,6 +20147,7 @@ shortLabel RECOMBRATE2
     parent recombRate2
     visibility hide
     group map
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=recombRate2
     priority 5
     superTrack on hide
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/recombRate/recombDenovo.bb
@@ -20094,6 +20160,7 @@ shortLabel RECOMBRATE2
     parent recombRate2
     visibility hide
     group map
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=recombRate2
     priority 4
     superTrack on hide
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/recombRate/events.bb
@@ -20107,6 +20174,7 @@ shortLabel RECOMBRATE2
     visibility full
     maxHeightPixels 128:60:8
     group map
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=recombRate2
     viewLimitsMax 0:150000
     priority 3
     superTrack on hide
@@ -20122,6 +20190,7 @@ shortLabel RECOMBRATE2
     visibility full
     maxHeightPixels 128:60:8
     group map
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=recombRate2
     viewLimitsMax 0:150000
     priority 2
     superTrack on hide
@@ -20141,6 +20210,7 @@ shortLabel BLOODHAO
     visibility pack
     barChartColors #fe3247 #fe3248 #fe3248 #e92812 #e02900 #fb2e3e #f01111 #fe3247
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=bloodHao
     barChartUnit UMI/cell
     transformFunc NONE
     barChartMetric mean
@@ -20161,6 +20231,7 @@ shortLabel BLOODHAO
     visibility hide
     barChartColors #fd3144 #fe3247 #fd3144 #fd3144 #f32b2b #f92e3a #f52c30 #fa2f3c
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=bloodHao
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -20182,6 +20253,7 @@ shortLabel BLOODHAO
     visibility hide
     barChartColors #f77170 #fe3246 #fe3246 #fe3246 #e02901 #e22803 #fd3145 #fe3248 #fb737b #fe3248 #fe3248 #fe3248 #fc737c #fe3248 #fd3145 #e22803 #fa9fa1 #fd7580 #fe7683 #fe3246 #fb2e3e #f82b36 #fd3043 #fc747d #f01212 #fe3248 #f77071 #e5270a #fe7685 #fe3145 #f72c34
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=bloodHao
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -20203,6 +20275,7 @@ shortLabel BLOODHAO
     visibility hide
     barChartColors #fabfbc #fcc0c1 #fe3246 #fe3146 #fe3246 #fe3246 #fe3246 #fe3246 #e02901 #e22803 #fd3145 #fe3248 #fb737b #fe3248 #fd3145 #fe3248 #fe3247 #fe7785 #fe3248 #ffa4ad #fe3248 #fe7684 #fc737c #fe3248 #fe3248 #fe3248 #fe3247 #fd3144 #fe7684 #fc3042 #fc2f41 #fe3246 #e22803 #fa9fa1 #fd7580 #fe7683 #fe3246 #f82b36 #fb2e3e #fa2d3c #fc2f40 #fc2f41 #fd3043 #fc747d #fdc1c4 #f01212 #fe3248 #fe3248 #f77071 #e22804 #e8270f #ff7785 #fd7581 #fd3145 #fb2e3f #fe3248 #fc3042 #f72c34
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=bloodHao
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -20224,6 +20297,7 @@ shortLabel BLOODHAO
     visibility hide
     barChartColors #e92913 #fd3144 #fe3247
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=bloodHao
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -20245,6 +20319,7 @@ shortLabel BLOODHAO
     visibility hide
     barChartColors #f92e3b #fc3043 #fc3041
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=bloodHao
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -20270,6 +20345,7 @@ shortLabel COLONWANG
     visibility pack
     barChartColors #c7d2e5 #0198c0 #0251fc #7197d7 #4d689b #9e9fa2 #949dae
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=colonWang
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -20290,6 +20366,7 @@ shortLabel COLONWANG
     parent colonWang
     visibility hide
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=colonWang
     labelFields name,name2
     barChartCategoryUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/colonWang/donor.colors
     barChartUnit UMI/cell
@@ -20315,6 +20392,7 @@ shortLabel CORTEXVELMESHEV
     visibility pack
     barChartColors #81ce00 #81cd00 #01c000 #ebbf00 #ebbf00 #eabe00 #ebbf00 #ecbf00 #ecbf00 #ecbf00 #edbf00 #ef1211 #c8b701 #c5b701 #ebbf00 #c5be01 #86c601
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=cortexVelmeshev
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -20336,6 +20414,7 @@ shortLabel CORTEXVELMESHEV
     visibility hide
     barChartColors #ebbf00 #e9bf00
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=cortexVelmeshev
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -20357,6 +20436,7 @@ shortLabel CORTEXVELMESHEV
     visibility hide
     barChartColors #e5be00 #e7bf00 #e8bf00 #e9bf00 #c6c200 #ecbf00 #bec100 #e9bf00 #e8bf00 #ebbf00 #e9bf00 #adc600 #e8be00 #e2be00 #e8bf00 #c1c200 #dfbd00 #ebbf00 #e4bf00 #e9bf00 #ecbf00 #e3be00 #e5be00 #d9bf00 #ebbf00 #e3bf00 #eabf00 #ebbf00 #eabf00 #e9bf00 #e8bf00
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=cortexVelmeshev
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -20378,6 +20458,7 @@ shortLabel CORTEXVELMESHEV
     visibility hide
     barChartColors #e5be00 #e7bf00 #e6bf00 #e8bf00 #e9bf00 #c6c200 #ecbf00 #bec100 #e7bf00 #e6be00 #e4be00 #e9bf00 #ebbf00 #e9bf00 #adc600 #e8be00 #e2be00 #e3be00 #e9bf00 #c1c200 #dfbd00 #ebbf00 #ebbf00 #e4bf00 #e9bf00 #ecbf00 #e3be00 #ebbf00 #cbc000 #d9bf00 #e8bf00 #ecbf00 #e3bf00 #e6bf00 #ecbf00 #ebbf00 #eabf00 #e9bf00 #e9bf00 #e6bf00 #e9be00
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=cortexVelmeshev
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -20399,6 +20480,7 @@ shortLabel CORTEXVELMESHEV
     visibility hide
     barChartColors #e8bf00 #ebbf00
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=cortexVelmeshev
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -20426,6 +20508,7 @@ shortLabel CROSSTISSUEMAPS
     visibility hide
     group singleCell
     configureByPopup off
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=crossTissueMaps
     labelFields name,name2
     barChartCategoryUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/crossTissueMaps/facet_detailed.categories
     maxWindowToDraw 10000000
@@ -20450,6 +20533,7 @@ shortLabel CROSSTISSUEMAPS
     visibility pack
     group singleCell
     configureByPopup off
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=crossTissueMaps
     labelFields name,name2
     barChartCategoryUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/crossTissueMaps/tissue_cell_type.categories
     barChartUnit parts per million
@@ -20473,6 +20557,7 @@ shortLabel CROSSTISSUEMAPS
     visibility pack
     group singleCell
     configureByPopup off
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=crossTissueMaps
     labelFields name,name2
     barChartCategoryUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/gtexImmuneAtlas/facet_detailed.categories
     barChartUnit parts per million
@@ -20498,6 +20583,7 @@ shortLabel FETALGENEATLAS
     visibility hide
     barChartColors #4c758b #e5b909
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=fetalGeneAtlas
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -20520,6 +20606,7 @@ shortLabel FETALGENEATLAS
     visibility pack
     barChartColors #c75cc6 #3259c7 #7d8952 #d3ac19 #de201f #adb119 #be9c2d #577881 #a4a096 #b787ac #9275da #af1ea8 #aa973d #477f92 #65b5cb #2f5cc6 #c471c0 #80c709 #cba81f #489338 #fe8839 #8a7352 #e1b60c #5f37bb #ddb311 #305cc5 #deb410 #ad4e3b #b001af #b99b2f #7c7062 #deb40f #e7ba08 #536a95 #3f61b4 #ad9f9a #e1b60d #0aba08 #d02b29 #4766a4 #8b6651 #82953b #d07f49 #8c9840 #d92422 #e31b1b #6c7676 #bca424 #756d72 #b39635 #999eaa #2b59cd #ae9537 #dcb212 #88775c #b09f2b #dbc46b #dcb212 #dab014 #c9c6b4 #618237 #8d656b #80c60a #b80db6 #8d5675 #2889a7 #838546 #809836 #958951 #79785f #87a9b4 #b5443b #5425d7 #d7b015 #507093 #12b50d #c9a721
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=fetalGeneAtlas
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -20541,6 +20628,7 @@ shortLabel FETALGENEATLAS
     visibility hide
     barChartColors #647e66 #8a933b #e2b60c #92953b #ae20a5 #c8a91d #e5b909 #dfb40f #d6af15 #e3b80b #e3b80a #deb50e #a5199f #e6ba08 #e4b80a #9d9935 #cdaa1d #e6ba08 #859d34 #70904e #85973d #70835e #1a58dc #2359d2 #3f69a4 #779052 #64846d #557f72
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=fetalGeneAtlas
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -20562,6 +20650,7 @@ shortLabel FETALGENEATLAS
     visibility hide
     barChartColors #c9ab1b #dfb50e #d0ae18 #d4b114 #e8bb07 #5e836a #406ea0
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=fetalGeneAtlas
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -20583,6 +20672,7 @@ shortLabel FETALGENEATLAS
     visibility hide
     barChartColors #7c8e4a #e6ba08 #e5b909 #d6b015 #ae20a6 #5f7577 #849c3a #aa0ea6 #619841 #b90db6 #2359d2 #6f637a #836824 #1e5ad9 #b94138
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=fetalGeneAtlas
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -20604,6 +20694,7 @@ shortLabel FETALGENEATLAS
     visibility hide
     barChartColors #7d8952 #9478d5 #aa963d #826c5f #c03833 #856855 #d82423 #c9c6b4 #80c50c #72923c #958951 #22ab19 #abb219 #deb410 #deb40f #d82524 #b9a227 #dcb212 #dab014 #d7b015 #2fa323 #b5ac1e #e1b60c #e7ba08 #e1b60d #ddd4cb #d92423 #bea523 #dcb212 #2da521 #d3ac19 #bdbb78 #be9c2d #65b5cb #ddb311 #b99b2f #ad9f9a #e17170 #b39635 #ae9537 #88775c #b09f2b #c96ac4 #dad6cf #85844c #7bbf6f #b787ac #af1ea8 #c471c0 #489338 #fe8839 #e8e0e0 #0fb60c #cd2d2a #8b6354 #e11d1d #dbc46b #80c20e #8e5377 #82814e #22ab1a #bb9d2f #6c717d #81c10f #cca91e #af9a98 #536a95 #22ac18 #c23732 #c5a98d #db2121 #8c666a #7f933d #24aa1a #ad9999 #c53330 #cdb9ad #82953b #8c9840 #dd201f #7b884b #507093 #20ad17 #8b7450 #ad4e3b #b001af #c13a33 #8f6550 #d2a78b #cf2c2a #838546 #409a2b #577881 #cfc2ee #487f91 #0bb909 #cf2c29 #846859 #cf7f4a #e11d1d #707770 #4c7a91 #889934 #1ead16 #dcc56a #dbd2d2 #65cb61 #d07f7b #dbd2cf #e36f6e #8d656b #abd164 #b80db6 #876467 #837c53 #22aa1a #3259c7 #a4a096 #2f5cc6 #80c30e #a29142 #81646c #3f61b4 #6ac766 #c33333 #c1a593 #d92323 #845e72 #7a7f54 #21aa1b #c65ec5 #5f37bb #7c7062 #9f534f #dcd2ce #cd2d2c #756d72 #86715c #827d51 #79785f #5425d7 #4d9138 #c65fc4 #946446 #c53530 #b3998b #dba988 #d62624 #618237 #849336 #25aa19 #477f92 #aac86e #c3b580 #ae9999 #305cc5 #7abe71 #c43531 #4766a4 #bda693 #e17170 #989ead #999eaa #2b59cd #2d87a3 #7b8b47 #74c26c #de201f #aea28c #87a9b4 #b5443b #86b876
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=fetalGeneAtlas
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -20625,6 +20716,7 @@ shortLabel FETALGENEATLAS
     visibility hide
     barChartColors #6a7d64 #92933f #71855a #6a7e64 #9e9936 #798e46 #879241 #e6b908 #e6b909 #e5b909 #e4b909 #e6ba08 #e2b60c #dab311 #e2b60c #e5b909 #dfb40f #e4b80a #e1b60d #e7ba08 #d6af15 #d8b114 #d4ae17 #cdaa1d #d1ad18 #ad21a5 #ab24a2 #ae20a5 #ae1ea8 #ae1fa6 #ab24a1 #a23394 #ae1fa7 #ac23a3 #616e83 #5d6d86 #717a5c #70835e #566d8a #656e65 #d6d3d6 #577189 #e6e1e3 #869d33 #72914c #999d33 #909a39 #819643 #8a993f #789051 #7f9646 #859743 #a616a1 #a22297 #a22099 #ab0ba9 #a713a3 #a715a1 #a813a3 #ab0ca8 #ac09aa #537f72 #629545 #549541 #588d57 #5e9b34 #4c8c58 #568f4e #7d993d #579e2f #6aa030 #548666 #b611b2 #b90cb6 #b80eb4 #b80eb5 #b611b2 #ac24a2 #b612b1 #b90cb6 #2059d5 #2858cd #68723e #5425d7 #9b97a8 #5c34c1 #737555 #d3c9e3 #6c5c85 #8f71e1 #81824e #746d6c #6d7959 #757f54 #b1997a #7f6d2f #ab9b79 #7e6a33 #687e28 #5e8638 #658027 #a05427 #1c58db #2c86a5 #1e57db #2b73b6 #b6433a #bc3d36 #e7e1e2 #e3ccca #e5ccc8 #bb3f37
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=fetalGeneAtlas
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -20646,6 +20738,7 @@ shortLabel FETALGENEATLAS
     visibility hide
     barChartColors #dbb410 #e6ba08
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=fetalGeneAtlas
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -20671,6 +20764,7 @@ shortLabel HEARTCELLATLAS
     visibility hide
     barChartColors #c22694 #c22794 #c22498 #c32c8d #bd5269 #b6615d #c63c79
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=heartCellAtlas
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -20692,6 +20786,7 @@ shortLabel HEARTCELLATLAS
     visibility hide
     barChartColors #ef7f3e #ea7b3d #e87c40 #eb9d88 #c13e20 #cc3a0c #d63105 #e21e17 #d02d17 #e71a14 #a87052 #d62915 #d06946 #cf7046 #439918 #0db804 #0eb804 #10b604 #14b405 #11b604 #24a907 #b5734a #9c734c #c16036 #b7582f #b95a2e #b95e31 #b85c33 #b46239 #bb5b30 #c23876 #f3d3c8 #d93006 #b0754e #cb3b11 #c96848 #1494b3 #d73005 #d43408 #d23508 #e2aa14 #c8722b #b9ab74 #d66eb9 #e4b670 #edd9c6 #dc2315 #e31d15 #e0b09b #c45a4d #c35d48 #8d7848 #c22694 #b86756 #9d6b56 #c1229a #c12499 #c02c91 #c22a90 #d66dbb #d69f85 #c12792 #c1229a #c1229a #c22695 #c22696 #c1219b
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=heartCellAtlas
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -20713,6 +20808,7 @@ shortLabel HEARTCELLATLAS
     visibility pack
     barChartColors #f1803d #c1229a #07bc02 #b5562a #eb1613 #1494b3 #de2b02 #e6af0e #c12792 #c15f4e #b06a5a #c1229b #d69f85
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=heartCellAtlas
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -20734,6 +20830,7 @@ shortLabel HEARTCELLATLAS
     visibility hide
     barChartColors #c43483 #469615 #c53483 #c54868 #c63c79 #c3377e #9e7358 #b65e62 #c53186 #c12b90 #c22596 #c12498 #c22694 #c22794
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=heartCellAtlas
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -20755,6 +20852,7 @@ shortLabel HEARTCELLATLAS
     visibility hide
     barChartColors #c13782 #c14d68 #c12596 #c14472 #c12696 #c02f8d
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=heartCellAtlas
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -20776,6 +20874,7 @@ shortLabel HEARTCELLATLAS
     visibility hide
     barChartColors #c63682 #c12399 #c65169 #c12794 #c12498 #c12497 #cf5d48 #c22793 #c33f7b #c22695 #c12597 #c32b8f #c83e78 #c12992 #c43a7f #c12d8f #c12d8f #c03786 #cf5b4e #c32a90 #cb5b56 #c32d8b #c63581 #c42d8c #c22992 #c12597 #cd555c #c12993 #c32e8a #c13982 #c12498 #c9466b #c22694 #c8476c #c12497 #c12993 #85b660 #59850c #489210 #6d7611 #a4a063 #846816 #c22894 #c22793 #c42e8b #d15956 #c63e75 #c74172 #c63d77 #c73d77 #c53188 #c53188 #ca4f5a #ca4e5b #c63b78 #c63a7a #c32a91 #c63780 #c63a7c #e1cec2 #e0d2c5 #bf8d6b #c38f77 #7bbd5e #ebded6 #3e980c #83b75f #826716 #ae4719 #79be5d #45940f #e3948e #e8acc0 #e18e93 #ce4f60 #c8456c #cb476c #c53582 #c73f75 #c73f74 #c7466a #c73d77 #c7436f #c63a7b #c53187 #c73e76 #c6446d #c8466a #c73f74 #3e960a #ae4a1e #905c12 #d02f19 #af4c22 #896113 #389c0d #49900e #57860e #82650f #3c990d #40960d #a14f10 #bb4309 #cb3809 #c73a0a #ac480f #a84c0d #c43582 #c44467 #c4397d #c04b5b #c53188 #c43484 #c32a90 #c53681 #c22d8c #c22d8c #c22795 #c33385 #23ab08 #22ab09 #23aa08 #3a9b0b #16b306 #19b106 #c63c77 #cb594f #c42f8a #cf535d #c53583 #4a900c #4b910e #4f8e10 #3f970a #43950b #3e9a0f #29a70a #2ba60b #399d0d #1caf07 #3b9b0d #c43089 #c42d8d #d877ae #c12f8c #c13686 #c33685
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=heartCellAtlas
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -20797,6 +20896,7 @@ shortLabel HEARTCELLATLAS
     visibility hide
     barChartColors #c12794 #c13682
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=heartCellAtlas
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -20818,6 +20918,7 @@ shortLabel HEARTCELLATLAS
     visibility hide
     barChartColors #2da207 #1ab006 #c22695
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=heartCellAtlas
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -20839,6 +20940,7 @@ shortLabel HEARTCELLATLAS
     visibility hide
     barChartColors #c23a7b #c12e8d
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=heartCellAtlas
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -20864,6 +20966,7 @@ shortLabel ILEUMWANG
     visibility pack
     barChartColors #bcd0f3 #0198c0 #568bfd #629be4 #436ca1 #9ea0a1 #919eb1
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=ileumWang
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -20884,6 +20987,7 @@ shortLabel ILEUMWANG
     parent ileumWang
     visibility hide
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=ileumWang
     labelFields name,name2
     barChartCategoryUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/ileumWang/donor.colors
     barChartUnit UMI/cell
@@ -20909,6 +21013,7 @@ shortLabel KIDNEYSTEWART
     visibility hide
     barChartColors #5bd05a #ec374a #f7354b #f7354b #5f66ed #5fcd5b #60afce #e0cdc4 #0ab707 #181dda #e77258 #e67259 #e2745e #e8a497 #eec7c9 #c88b6c #eb384a #f4364b #e5c8c1 #5cb6cf #05bb04 #edc6c6 #9f968b #6496d4 #0e0ceb #181cd9 #bfd7e4
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=kidneyStewart
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -20930,6 +21035,7 @@ shortLabel KIDNEYSTEWART
     visibility pack
     barChartColors #5bd05a #ec374a #f7354b #f7354b #5f66ed #5fcd5b #60afce #c98b6b #0ab707 #181dda #de2a02 #f1374b #e7a69c #5cb6cf #05bb04 #9f968b #6496d4 #0e0ceb #181cd9 #bfd7e4
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=kidneyStewart
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -20951,6 +21057,7 @@ shortLabel KIDNEYSTEWART
     visibility hide
     barChartColors #0e0dea #fb344a #dd2a02 #257684
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=kidneyStewart
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -20972,6 +21079,7 @@ shortLabel KIDNEYSTEWART
     visibility hide
     barChartColors #5bd05a #ec374a #f7354b #f7354b #5f66ed #5fcd5b #bfd5e4 #5d5df3 #60afce #e0cdc4 #0ab707 #6b6cdf #e77258 #e67259 #e2745e #e8a497 #eec7c9 #c88b6c #eb384a #f4364b #e5c8c1 #5cb6cf #07ba05 #65c860 #edc6c6 #9f968b #6496d4 #615fef #0e0dea #181cd9 #bfd7e4 #656be5 #6873df
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=kidneyStewart
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -20993,6 +21101,7 @@ shortLabel KIDNEYSTEWART
     visibility hide
     barChartColors #cec2e1 #415c71 #1712e1 #2b1fc6 #0d0cec #1d16db #6f6ddd #928faf #e03752 #100ee8 #2118d4 #7581cf #251cce
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=kidneyStewart
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -21014,6 +21123,7 @@ shortLabel KIDNEYSTEWART
     visibility hide
     barChartColors #0d0bed #c8385f
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=kidneyStewart
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -21039,6 +21149,7 @@ shortLabel LIVERMACPARLAND
     visibility hide
     barChartColors #dc7b91 #908ffd #075bdb #d3c4db #af01af #d92b07 #e7cbbe #eb364f
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=liverMacParland
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -21060,6 +21171,7 @@ shortLabel LIVERMACPARLAND
     visibility pack
     barChartColors #f1798a #908ffd #d3c4db #af01af #d42c0d #5e97d5 #5d8fe8 #f0798a #e3725c #c27d9a #58d05c #e7cbbe #e93650 #e87a8c #cc7d95
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=liverMacParland
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -21081,6 +21193,7 @@ shortLabel LIVERMACPARLAND
     visibility hide
     barChartColors #ae3f5a #9112a6 #ad03ae #dd3751 #d63856
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=liverMacParland
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -21106,6 +21219,7 @@ shortLabel LUNGTRAVAGLINI2020
     visibility pack
     barChartColors #be04bb #905d31 #0695bc #339a1b #4a4eb4 #c82c38 #c74050 #04bd03 #0371d4 #1451e7 #e41819 #af5022 #0950f5 #ab435d #fb344b #df2901 #2652d0 #3b4ebb #a05331 #bd05b9
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=lungTravaglini2020
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -21127,6 +21241,7 @@ shortLabel LUNGTRAVAGLINI2020
     visibility hide
     barChartColors #be04bb #a63276 #0497be #23a218 #a33b7b #e5171b #7a555b #02be01 #0272d5 #2450d5 #d02a1e #af5021 #0750f6 #7e5164 #fd334a #df2901 #c5341d #bd356d #b514a7 #be04bb
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=lungTravaglini2020
     labelFields name,name2
     barChartUnit count/cell
     transformFunc NONE
@@ -21148,6 +21263,7 @@ shortLabel LUNGTRAVAGLINI2020
     visibility hide
     barChartColors #0ab906 #0894bb #dd2a03 #ad4d2d
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=lungTravaglini2020
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -21169,6 +21285,7 @@ shortLabel LUNGTRAVAGLINI2020
     visibility hide
     barChartColors #03bd02 #0497be #fc334b #b9149d
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=lungTravaglini2020
     labelFields name,name2
     barChartUnit count/cell
     transformFunc NONE
@@ -21190,6 +21307,7 @@ shortLabel LUNGTRAVAGLINI2020
     visibility hide
     barChartColors #c18a7a #d8b0a5 #aa502a #d15dca #b90eab #bc06b8 #dcd0c3 #965a2f #886036 #0596bc #0496bd #0695bc #e6cbc0 #ab5027 #ab5027 #b29a79 #36971e #588328 #ed7a8b #f2c5cc #e63750 #e4c4ce #695095 #b63c6a #e16d74 #c42f3c #cc2932 #c72e3a #d47e90 #d33a51 #96a27c #73bf65 #ea3750 #ee374c #f1374c #e53752 #f47989 #ea3750 #f3364c #ef374c #f87988 #f3364b #ed384b #f4364b #60cd5b #09b905 #15b00c #06bb04 #c18378 #0eb608 #0cb707 #10b409 #1b51de #0e6eca #0d6ecc #cf2733 #cf2530 #ca2936 #1851e2 #1851e2 #1d51dc #dea3b0 #1450e8 #f4c0b6 #ed6567 #cf65bb #0950f5 #f5bcbc #ea6769 #e96869 #dd1d21 #cad5df #d0afb4 #e3c8d0 #ab445d #c88194 #de2a02 #de2a02 #de2a02 #e0a3ad #2652cf #2452d2 #f3bfc1 #f09a9c #ec9d9f #ee9b9e #ef9b9e #dd1c21 #e6c7ca #d9adac #d27b8e #ef7c87 #ef7c87 #f0374b #ca4943 #ea3a4b #f2d9de #d92027 #d82128 #db1e24 #cc262e #d7aab5 #a25231 #b79276 #d1afb9 #974b62 #f5c3ca #f3a6b1 #f1a6b0 #eac3c3 #eca295 #e9d9e2 #8e88c3 #f0a190 #dd2a04 #dd2a04 #f2a8b0 #eaa6af #594ba7 #1b69c1 #a8b2e0 #0695bc #efa190 #db2b06 #d062c1 #bd06b8 #96aa71 #34991b #ab9b78
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=lungTravaglini2020
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -21211,6 +21329,7 @@ shortLabel LUNGTRAVAGLINI2020
     visibility hide
     barChartColors #a84b36 #a44e34 #aa4f2c #bd06b8 #b80daf #bc08b5 #a93276 #983e69 #a83177 #0596bc #0497bd #0496bd #ac4d2c #aa4f2a #ad4f26 #379323 #1ea518 #b08b8d #a14746 #d27977 #d57679 #be3372 #78488f #b63670 #e3181d #ea676b #e01a1e #7a555b #d93357 #d83555 #ec788e #d13755 #f6344d #ed3550 #1ca912 #07ba05 #1ea712 #06bb04 #21a515 #06bb05 #22a415 #0d6ecc #0471d3 #0f6dca #c13628 #2b50ce #1951e0 #2651d2 #dd7170 #a93c75 #b714a0 #768adb #0850f5 #5a8af9 #de7561 #d77966 #d47a68 #e4735c #c67ca1 #a34252 #8d4960 #71566c #ae8a92 #d92c07 #e5735b #d97571 #b38793 #b32e6e #f37989 #f0344f #f9344c #f8344c #f9344c #ba366e #d67a9b #bd3728 #e1a69e #d87869 #aa4237 #df7561 #bb0fa9 #b018a4 #bb12a5 #b88493 #d57877 #d87573 #eaa2a5 #f2798a #f5788a #0596bd #0397be #bb08b4 #b217a0 #bc09b3 #41892b
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=lungTravaglini2020
     labelFields name,name2
     barChartUnit count/cell
     transformFunc NONE
@@ -21232,6 +21351,7 @@ shortLabel LUNGTRAVAGLINI2020
     visibility hide
     barChartColors #da2b07 #d12425 #ba352f
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=lungTravaglini2020
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -21253,6 +21373,7 @@ shortLabel LUNGTRAVAGLINI2020
     visibility hide
     barChartColors #168cb3 #1f86aa #0b93b9
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=lungTravaglini2020
     labelFields name,name2
     barChartUnit count/cell
     transformFunc NONE
@@ -21274,6 +21395,7 @@ shortLabel LUNGTRAVAGLINI2020
     visibility hide
     barChartColors #944c4a #f7334c #0a93b9 #a52b8a #d63852 #bc3b56 #da3654 #b63b31 #138eb3 #cf3651
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=lungTravaglini2020
     labelFields name,name2
     barChartUnit count/cell
     transformFunc NONE
@@ -21295,6 +21417,7 @@ shortLabel LUNGTRAVAGLINI2020
     visibility hide
     barChartColors #aa4f2a #be04bb #905d31 #0695bc #ac5026 #37971d #e83750 #914680 #c72c38 #c72e3a #d03a52 #82b46d #f3364c #e93750 #f4364c #f4364b #0ab906 #0ab806 #06bb04 #c18378 #0471d3 #cd2734 #1451e7 #1750e5 #e4181b #cf65bb #0950f5 #e01b1d #dd1d21 #cad5df #d0afb4 #ab435d #df2901 #e0a3ad #2652d0 #dd1d21 #dd1c21 #b3414a #e03e48 #f27b87 #f2d9de #da1f25 #cc262e #a05331 #974a62 #ec7989 #eba295 #9088c2 #dd2a03 #e87c89 #594ba7 #1b69c1 #a8b2e0 #0695bc #dc2a05 #bd05b9 #35991b
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=lungTravaglini2020
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -21316,6 +21439,7 @@ shortLabel LUNGTRAVAGLINI2020
     visibility hide
     barChartColors #ab4e2b #be04bb #a63276 #0497bd #ad4f25 #20a516 #ae3f3f #a13b7d #e5171b #7a555b #d93357 #dd3554 #d13755 #f7344d #06bb04 #06bb04 #06bb04 #0272d5 #c13628 #2450d5 #dd7170 #a93c75 #b714a0 #0750f6 #de7661 #e6725a #c67ca1 #a34252 #7e5164 #db2b06 #d97571 #aa3c5a #fb344b #f2344e #bc356d #c5341d #c93319 #b514a7 #b88493 #c82f2c #f1344e #0496bd #be04bb #41892b
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=lungTravaglini2020
     labelFields name,name2
     barChartUnit count/cell
     transformFunc NONE
@@ -21337,6 +21461,7 @@ shortLabel LUNGTRAVAGLINI2020
     visibility hide
     barChartColors #138eb3 #0a93b9 #f03351 #c93952
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=lungTravaglini2020
     labelFields name,name2
     barChartUnit count/cell
     transformFunc NONE
@@ -21358,6 +21483,7 @@ shortLabel LUNGTRAVAGLINI2020
     visibility hide
     barChartColors #ec364e #d62c0d #d02426 #0b92b9
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=lungTravaglini2020
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -21379,6 +21505,7 @@ shortLabel LUNGTRAVAGLINI2020
     visibility hide
     barChartColors #c93952 #138eb4 #178bb1 #0497bd
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=lungTravaglini2020
     labelFields name,name2
     barChartUnit count/cell
     transformFunc NONE
@@ -21400,6 +21527,7 @@ shortLabel LUNGTRAVAGLINI2020
     visibility hide
     barChartColors #ec364e #2c7ea1 #de1c1e #dd2a04
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=lungTravaglini2020
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -21421,6 +21549,7 @@ shortLabel LUNGTRAVAGLINI2020
     visibility hide
     barChartColors #ec364e #d22a18
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=lungTravaglini2020
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -21442,6 +21571,7 @@ shortLabel LUNGTRAVAGLINI2020
     visibility hide
     barChartColors #c93952 #108fb5
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=lungTravaglini2020
     labelFields name,name2
     barChartUnit count/cell
     transformFunc NONE
@@ -21463,6 +21593,7 @@ shortLabel LUNGTRAVAGLINI2020
     visibility hide
     barChartColors #ed364e #eb364e #dc2a05 #d12424 #d42d0e #d02426 #0b92b9
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=lungTravaglini2020
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -21484,6 +21615,7 @@ shortLabel LUNGTRAVAGLINI2020
     visibility hide
     barChartColors #c93952 #0795bb #9c3c84 #2482a5 #1090b6 #188aaf #1d89af #0497bd
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=lungTravaglini2020
     labelFields name,name2
     barChartUnit count/cell
     transformFunc NONE
@@ -21509,6 +21641,7 @@ shortLabel MUSCLEDEMICHELI
     visibility pack
     barChartColors #d55acd #bb1b98 #fd8738 #da2f08 #b6513e #11b606 #b65928 #b35024 #b25023 #cf8b7e #419916 #fc344a #d33e3f #98672c #1dad0c #dc2c04
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=muscleDeMicheli
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -21530,6 +21663,7 @@ shortLabel MUSCLEDEMICHELI
     parent muscleDeMicheli
     visibility hide
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=muscleDeMicheli
     labelFields name,name2
     barChartCategoryUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/muscleDeMicheli/sample.colors
     barChartUnit UMI/cell
@@ -21555,6 +21689,7 @@ shortLabel PANCREASBARON
     visibility hide
     barChartColors #1e56cc #1e57cb #1c56d0 #2b5cb7 #2d5ab7 #275cbc #1256e0 #1055e2 #0f55e5 #0e55e6 #225ac4 #215ac6
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=pancreasBaron
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -21576,6 +21711,7 @@ shortLabel PANCREASBARON
     visibility pack
     barChartColors #0d55e6 #c68c6e #2a58bc #1754d9 #2457c4 #0298be #57d457 #c2cfe7 #7290d0 #f9b9b9 #c58c6e
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=pancreasBaron
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -21597,6 +21733,7 @@ shortLabel PANCREASBARON
     visibility hide
     barChartColors #0d55e6 #c68c6e #2a58bc #1754d9 #2457c4 #0298be #57d457 #c2cfe7 #7290d0 #f5bcbc #edc0c0 #c58c6e #dfcac6 #eadadb
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=pancreasBaron
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -21618,6 +21755,7 @@ shortLabel PANCREASBARON
     visibility hide
     barChartColors #1d56cf #2a5bba #0f55e4 #225ac5
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=pancreasBaron
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -21643,6 +21781,7 @@ shortLabel PLACENTAVENTOTORMO
     visibility hide
     barChartColors #ef6665 #ef6565 #6026c2 #78b768 #0db506 #6bc361 #ee6e73 #ce2e17 #f4737d #f73247 #e22016 #f23144 #f97684 #f53246 #f43246 #f73247 #ef6668 #5823d1 #f6737d #5923cf #db2a07 #dc2a08 #d72b0d #e32d36 #ea303d #ef3142 #f03142 #8f3b75 #ad1a9a #bd05b8 #bd05b7 #b2169d #f83247 #f43042 #af4f22 #c48778
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=placentaVentoTormo
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -21664,6 +21803,7 @@ shortLabel PLACENTAVENTOTORMO
     visibility hide
     barChartColors #f6bcbd #f6bcbc #906de0 #90e18f #dbe7d5 #f2bfc4 #f4c0b6 #fac0c5 #fa7685 #e67061 #f77684 #fbc2c8 #f73146 #f87684 #f97685 #f6bcbd #cebef2 #fabec2 #e66b76 #db2a06 #e6715b #f4c0b7 #f8c2c8 #f27684 #f77685 #f97685 #e4c0d8 #e8bcdf #d458d0 #d458d1 #eab9e4 #fa7684 #f83248 #efdcd3
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=placentaVentoTormo
     labelFields name,name2
     barChartUnit units/cell
     transformFunc NONE
@@ -21685,6 +21825,7 @@ shortLabel PLACENTAVENTOTORMO
     visibility pack
     barChartColors #f63247 #fa3248 #6026c2 #06bb03 #f73247 #de2903 #f03142 #ee1313 #5823d1 #5923cf #a1288a #be03bb #af4f22
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=placentaVentoTormo
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -21706,6 +21847,7 @@ shortLabel PLACENTAVENTOTORMO
     visibility hide
     barChartColors #f83147 #fa3249 #906de0 #90e28f #fa7685 #df2902 #f63248 #f46162 #cebef2 #e66b76 #c76bb1 #d456d3 #efdcd3
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=placentaVentoTormo
     labelFields name,name2
     barChartUnit units/cell
     transformFunc NONE
@@ -21727,6 +21869,7 @@ shortLabel PLACENTAVENTOTORMO
     visibility pack
     barChartColors #f73246 #c6294e #5923cf
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=placentaVentoTormo
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -21748,6 +21891,7 @@ shortLabel PLACENTAVENTOTORMO
     visibility pack
     barChartColors #f22532 #e9222c
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=placentaVentoTormo
     labelFields name,name2
     barChartUnit units/cell
     transformFunc NONE
@@ -21769,6 +21913,7 @@ shortLabel PLACENTAVENTOTORMO
     visibility hide
     barChartColors #5823d1 #e32935 #6bc361
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=placentaVentoTormo
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -21790,6 +21935,7 @@ shortLabel PLACENTAVENTOTORMO
     visibility hide
     barChartColors #936ddc #f0232e
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=placentaVentoTormo
     labelFields name,name2
     barChartUnit units/cell
     transformFunc NONE
@@ -21811,6 +21957,7 @@ shortLabel PLACENTAVENTOTORMO
     visibility hide
     barChartColors #ed2c3a #ec2f3b #6026c3 #d72835 #a62c71 #6226c0 #bd06b6
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=placentaVentoTormo
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -21836,6 +21983,7 @@ shortLabel RECTUMWANG
     visibility pack
     barChartColors #c7d2e5 #0198c0 #0251fc #7197d7 #4d689b #9e9fa2 #949dae
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=rectumWang
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -21856,6 +22004,7 @@ shortLabel RECTUMWANG
     parent rectumWang
     visibility hide
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=rectumWang
     labelFields name,name2
     barChartCategoryUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/rectumWang/donor.colors
     barChartUnit UMI/cell
@@ -21881,6 +22030,7 @@ shortLabel SKINSOLEBOLDO
     visibility hide
     barChartColors #4c8c2c #877227
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=skinSoleBoldo
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -21902,6 +22052,7 @@ shortLabel SKINSOLEBOLDO
     visibility hide
     barChartColors #0298be #0597bb #0f94ae #1c90a0 #c8bca7 #b1987c #499026 #b8ca9b #dd2b01 #dd2b02 #60b8c8 #9ccdd1 #bf916d #976222 #23ab0b #519018 #a95422 #a75622 #ac5221 #a55822 #ad5221 #ab5322 #ec8181 #fa3649 #09ba03 #0eb705
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=skinSoleBoldo
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -21923,6 +22074,7 @@ shortLabel SKINSOLEBOLDO
     visibility pack
     barChartColors #0298be #1293ac #b1987c #4b9021 #df2a01 #62b7c6 #9e5d22 #3d9c12 #aa5421 #ac5321 #ad5221 #fa3549 #05bd02
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=skinSoleBoldo
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -21944,6 +22096,7 @@ shortLabel SKINSOLEBOLDO
     visibility hide
     barChartColors #6d8120 #916a2a #479220 #1294aa #8f6622
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=skinSoleBoldo
     labelFields name,name2
     barChartUnit UMI/cell
     transformFunc NONE
@@ -21970,6 +22123,7 @@ shortLabel TABULASAPIENS
     barChartMerge on
     visibility hide
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=tabulaSapiens
     labelFields name,name2
     barChartCategoryUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/tabulaSapiens/facet_detailed.categories
     maxWindowToDraw 10000000
@@ -21991,6 +22145,7 @@ shortLabel TABULASAPIENS
     barChartFacets tissue,cell_class,cell_type
     visibility pack
     group singleCell
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=tabulaSapiens
     labelFields name,name2
     barChartCategoryUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/bbi/tabulaSapiens/bw_edit_tissue_cell_type.categories
     barChartUnit parts per million
@@ -22022,6 +22177,7 @@ subGroup1 view Views align=Cactus_Alignments phyloP=Basewise_Conservation_(phylo
 visibility hide
 subGroup2 clade Clade primate=Primate carnivore=Carnivore cetartiodactyla=Cetartiodactyla chiroptera=Chiroptera rodents=Rodents mammals=Mammals all=All_species
 group compGeno
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=cons241way
 compositeTrack on
 dimensions dimensionX=clade
 dragAndDrop subTracks
@@ -22104,6 +22260,7 @@ longLabel Zoonomia+Primates 447 - 447 mammals, including 233 primates, aligned w
 subGroup1 view Views align=Multiz_Alignments phyloP=Basewise_Conservation_(phyloP)
 visibility hide
 group compGeno
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=cactus447way
 compositeTrack on
 dragAndDrop subTracks
 
@@ -22343,6 +22500,7 @@ longLabel CRISPR/Cas9 -NGG Targets, whole genome
 noGenomeReason This track is too big for whole-genome Table Browser access, it would lead to a timeout in your internet browser. Small regional queries can work, but large regions, such as entire chromosomes, will fail. Please see the CRISPR Track documentation, the section "Data Access", for bulk-download options and remote access via the bedToBigBed tool. API access should always work. Contact us if you encounter difficulties with accessing the data.
 visibility hide
 group genes
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=crisprAll
 itemRgb on
 tableBrowser tbNoGenome
 bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/crisprAll/crispr.bb
@@ -22379,6 +22537,7 @@ visibility pack
 group genes
 pennantIcon Updated red ../goldenPath/newsarch.html#102324 "Updated Oct. 23, 2024"
 squishyPackPoint 1
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=knownGeneV47
 searchIndex name
 labelFields geneName,name,geneName2,name2
 isGencode3 on
@@ -22408,6 +22567,7 @@ shortLabel KNOWNGENEARCHIVE
     maxItems 50000
     visibility hide
     group genes
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=knownGeneV36
     searchIndex name
     labelFields geneName,name,geneName2,name2
     isGencode3 on
@@ -22431,6 +22591,7 @@ shortLabel KNOWNGENEARCHIVE
     maxItems 50000
     visibility hide
     group genes
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=knownGeneV38
     searchIndex name
     labelFields geneName,name,geneName2,name2
     isGencode3 on
@@ -22454,6 +22615,7 @@ shortLabel KNOWNGENEARCHIVE
     maxItems 50000
     visibility hide
     group genes
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=knownGeneV39
     searchIndex name
     labelFields geneName,name,geneName2,name2
     isGencode3 on
@@ -22478,6 +22640,7 @@ shortLabel KNOWNGENEARCHIVE
     visibility hide
     group genes
     squishyPackPoint 2
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=knownGeneV43
     searchIndex name
     labelFields geneName,name,geneName2,name2
     isGencode3 on
@@ -22503,6 +22666,7 @@ shortLabel KNOWNGENEARCHIVE
     visibility hide
     group genes
     squishyPackPoint 1
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=knownGeneV44
     searchIndex name
     labelFields geneName,name,geneName2,name2
     isGencode3 on
@@ -22529,6 +22693,7 @@ shortLabel KNOWNGENEARCHIVE
     visibility pack
     group genes
     squishyPackPoint 1
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=knownGeneV45
     searchIndex name
     labelFields geneName,name,geneName2,name2
     isGencode3 on
@@ -22555,6 +22720,7 @@ shortLabel KNOWNGENEARCHIVE
     visibility pack
     group genes
     squishyPackPoint 1
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=knownGeneV46
     searchIndex name
     labelFields geneName,name,geneName2,name2
     isGencode3 on
@@ -22582,6 +22748,7 @@ indelDoubleInsert on
 visibility hide
 group genes
 indelPolyA on
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=lrgTranscriptAli
 searchIndex name
 indelQueryInsert on
 baseColorUseSequence lfExtra
@@ -22787,6 +22954,7 @@ shortLabel TRANSMAPV5
     indelDoubleInsert on
     visibility pack
     group genes
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=transMapEnsembl
     searchIndex name,srcTransId,geneName,geneId
     labelFields commonName,orgAbbrev,srcDb,srcTransId,name,geneName,geneId,geneType,transcriptType
     indelQueryInsert on
@@ -22813,6 +22981,7 @@ shortLabel TRANSMAPV5
     indelDoubleInsert on
     visibility hide
     group genes
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=transMapEst
     searchIndex name,srcTransId
     labelFields commonName,orgAbbrev,srcDb,srcTransId,name
     indelQueryInsert on
@@ -22838,6 +23007,7 @@ shortLabel TRANSMAPV5
     indelDoubleInsert on
     visibility pack
     group genes
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=transMapRefSeq
     searchIndex name,srcTransId,geneName,geneId
     labelFields commonName,orgAbbrev,srcDb,srcTransId,name,geneName,geneId
     indelQueryInsert on
@@ -22865,6 +23035,7 @@ shortLabel TRANSMAPV5
     indelDoubleInsert on
     visibility hide
     group genes
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=transMapRna
     searchIndex name,srcTransId,geneName
     labelFields commonName,orgAbbrev,srcDb,srcTransId,name,geneName
     indelQueryInsert on
@@ -23105,6 +23276,7 @@ type bigBed 8
 longLabel Promoters from EPDnew
 visibility hide
 group expression
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../../epdNewPromoter
 compositeTrack on
 bedNameLabel Promoter ID
 exonArrows on
@@ -23624,6 +23796,7 @@ maxLimit 52000
         visibility full
         barChartColors #F7A028 #F73528 #DEBE98 #86BF80 #CDB79E #CDB79E #9ACD32 #7A67AE #9745AC #1E90FF \#CDB79E #FFD39B #A6A6A6 #008B45 #CDB79E #CDB79E #CD9B1D \#CDB79E #CDB79E #CDB79E #AC8F69 #D9D9D9 #BD3487 \#FF00FF #EE82EE #F7E300 #73A585 #B4EEB4 #EEEE00 \#EEEE00 #EEEE00 #EEEE00 #EEEE00 \#EEEE00 #EEEE00 \#EEEE00 #EEEE00
         group expression
+        html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=miRnaAtlas
         searchIndex name
         barChartSampleUrl https://hgdownload.soe.ucsc.edu/gbdb/hgFixed/human/expMatrix/miRnaAtlasSample2.txt
         barChartUnit Quantile_Norm_Expr
@@ -23656,6 +23829,7 @@ maxLimit 52000
         visibility full
         barChartColors #F7A028 #F73528 #DEBE98 #86BF80 #CDB79E #CDB79E #9ACD32 #7A67AE #9745AC #1E90FF \#CDB79E #FFD39B #A6A6A6 #008B45 #CDB79E #BD34D7 #CDA7FE #4C7CD7 #CBD79E #A6F6A1 \#A6CEA4 #FFD700 #86BF10 #EEEE00
         group expression
+        html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=miRnaAtlas
         searchIndex name
         barChartSampleUrl https://hgdownload.soe.ucsc.edu/gbdb/hgFixed/human/expMatrix/miRnaAtlasSample1.txt
         barChartUnit Quantile_Normalized_Expression
@@ -23791,6 +23965,7 @@ shortLabel HPRCVCF
     visibility hide
     group hprc
     configureByPopup off
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=hprcVCF
     maxWindowToDraw 200000
     superTrack on
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/hprc/decomposed.vcf.gz
@@ -23805,6 +23980,7 @@ shortLabel HPRCVCF
     visibility hide
     group hprc
     configureByPopup off
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=hprcVCF
     maxWindowToDraw 200000
     superTrack on
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/hprc/decomposedOver3.vcf.gz
@@ -23819,6 +23995,7 @@ shortLabel HPRCVCF
     visibility pack
     group hprc
     configureByPopup off
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=hprcVCF
     maxWindowToDraw 200000
     superTrack on
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/hprc/decomposedUnder4.vcf.gz

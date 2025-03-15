@@ -9,6 +9,7 @@ async function processGenome(genomeId) {
 
     const host = "https://hgdownload.soe.ucsc.edu"
     const base = `https://hgdownload.soe.ucsc.edu/gbdb/${genomeId}`
+    const htmlBase = `https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=${genomeId}&g=`
 
     const supportedTypes = new Set(["bigbed", "bigwig", "biggenepred", "vcftabix", "refgene",
         "bam", "sampleinfo", "vcf.list", "ucscsnp", "bed", "tdf", "gff", "gff3", "gtf", "vcf"])
@@ -16,6 +17,9 @@ async function processGenome(genomeId) {
     const urlProperties = new Set(["descriptionUrl", "desriptionUrl",
         "twoBitPath", "blat", "chromAliasBb", "twoBitBptURL", "twoBitBptUrl", "htmlPath", "bigDataUrl",
         "genomesFile", "trackDb", "groups", "include", "html", "searchTrix", "linkDataUrl"])
+
+    const excludeTracks = new Set(["cytoBandIdeo", "assembly", "gap", "gapOverlap", "allGaps",
+        "cpgIslandExtUnmasked", "windowMasker", "cosmicMuts", "cosmicRegions", "fantom5"])
 
 
     // Define output directory.  This will be created if it does not exist
@@ -117,9 +121,12 @@ async function processGenome(genomeId) {
             let [key, value] = keyValue
             if (typeof value === 'string') {
                 if (urlProperties.has(key) || key.toLowerCase().endsWith('url')) {
-                    if (value.startsWith('/') || value.startsWith('http')) {
+                    if (value.startsWith('/') || value.startsWith('http://') || value.startsWith('https://')) {
                         value = getDataUrl(value, base, host)
-                    } else  {
+                    } else if (key === 'html') {
+                        if (value.endsWith(".html")) value = value.substring(0, value.length - 5)
+                        value = htmlBase + value
+                    } else {
                         continue   // We don't know how to interpret relative URLs other than the data url
                     }
                 }
@@ -137,6 +144,18 @@ async function processGenome(genomeId) {
         }
 
     }
+
+    /**
+     * Return true if the track represented by [name, stanza] passes filters (i.e. should be included)
+     * @param name
+     * @param stanza
+     * @returns {*|boolean}
+     */
+    function filterTrack(name, stanza) {
+        return isContainer(stanza) ||
+            !(excludeTracks.has(name) || excludeTracks.has(stanza['parent']) || excludeTracks.has(stanza['parentParent']))
+        //(stanza['type'] && supportedTypes.has(stanza['type'].toLowerCase()))
+    }
 }
 
 function getDataUrl(url, base, host) {
@@ -150,12 +169,6 @@ function isContainer(s) {
         || (s.hasOwnProperty("container") && s["container"] === "multiWig")
 }
 
-
-function filterTrack(name, stanza) {
-    return isContainer(stanza) ||
-        !(name === 'fantom5' || stanza['parent'] === 'fantom5' || stanza['parentParent'] === 'fantom5')
-        //(stanza['type'] && supportedTypes.has(stanza['type'].toLowerCase()))
-}
 
 function firstWord(str) {
     const idx = str.indexOf(' ')
@@ -185,12 +198,12 @@ class Track {
     }
 
     findGroup() {
-        if(this.stanza.hasOwnProperty('group')) {
+        if (this.stanza.hasOwnProperty('group')) {
             return this.stanza['group']
         } else {
-            for(let c of this.children) {
+            for (let c of this.children) {
                 const p = c.findGroup()
-                if(p) {
+                if (p) {
                     return p
                 }
             }
