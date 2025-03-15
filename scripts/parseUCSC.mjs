@@ -8,32 +8,14 @@ async function processGenome(genomeId) {
     const ws = 'https://api.genome.ucsc.edu/list/tracks'
 
     const host = "https://hgdownload.soe.ucsc.edu"
+    const base = `https://hgdownload.soe.ucsc.edu/gbdb/${genomeId}`
 
     const supportedTypes = new Set(["bigbed", "bigwig", "biggenepred", "vcftabix", "refgene",
         "bam", "sampleinfo", "vcf.list", "ucscsnp", "bed", "tdf", "gff", "gff3", "gtf", "vcf"])
 
     const urlProperties = new Set(["descriptionUrl", "desriptionUrl",
         "twoBitPath", "blat", "chromAliasBb", "twoBitBptURL", "twoBitBptUrl", "htmlPath", "bigDataUrl",
-        "genomesFile", "trackDb", "groups", "include", "html", "searchTrix"])
-
-    const knownGroupings = new Map([
-        ["tabulaMuris", "genes"],
-        ["fantom5", "regulation"],
-        ["transMapV5", "genes"],
-        ["encode3Reg", "regulation"],
-        ["wgEncodeReg", "regulation"],
-        ["spliceImpactSuper", "phenDis"],
-        ["bloodHao", "singleCell"],
-        ["caddSuper1_7", "phenDis"],
-        ["caddSuper", "phenDis"],
-        ["covid", "phenDis"],
-        ["cancerExpr", "phenDis"],
-        ["tabulaSapiens", "singleCell"],
-        ["skinSoleBoldo", "singleCell"],
-        ["rectumWang", "singleCell"],
-        ["recombRate2", "map"],
-        ["placentaVentoTormo", "singleCell"]
-    ])
+        "genomesFile", "trackDb", "groups", "include", "html", "searchTrix", "linkDataUrl"])
 
 
     // Define output directory.  This will be created if it does not exist
@@ -83,9 +65,9 @@ async function processGenome(genomeId) {
 
     function processNode([name, stanza]) {
 
-        //if (!filterTrack(stanza)) {
-        //    return
-        //}
+        if (!filterTrack(name, stanza)) {
+            return
+        }
 
         const track = new Track(name, stanza)
 
@@ -134,10 +116,12 @@ async function processGenome(genomeId) {
 
             let [key, value] = keyValue
             if (typeof value === 'string') {
-                if (key === 'bigDataUrl' || key === 'bigDataIndex') {
-                    value = host + value
-                } else if (urlProperties.has(key) && !value.startsWith("http")) {
-                    continue   // We don't know how to interpret relative URLs other than the data url
+                if (urlProperties.has(key) || key.toLowerCase().endsWith('url')) {
+                    if (value.startsWith('/') || value.startsWith('http')) {
+                        value = getDataUrl(value, base, host)
+                    } else  {
+                        continue   // We don't know how to interpret relative URLs other than the data url
+                    }
                 }
                 if (key === 'superTrack' && track.hasOwnProperty('bigDataUrl')) {
                     continue  // We don't know how to handle a container with its own data.  Treat as a track
@@ -155,9 +139,9 @@ async function processGenome(genomeId) {
     }
 }
 
-function getDataUrl(url, host) {
+function getDataUrl(url, base, host) {
     return url.startsWith("http://") || url.startsWith("https://") ? url :
-        url.startsWith("/") ? host + url : host + "/" + url
+        url.startsWith("/") ? host + url : base + "/" + url
 }
 
 function isContainer(s) {
@@ -167,8 +151,10 @@ function isContainer(s) {
 }
 
 
-function filterTrack(stanza) {
-    return isContainer(stanza) || (stanza['type'] && supportedTypes.has(stanza['type'].toLowerCase()))
+function filterTrack(name, stanza) {
+    return isContainer(stanza) ||
+        !(name === 'fantom5' || stanza['parent'] === 'fantom5' || stanza['parentParent'] === 'fantom5')
+        //(stanza['type'] && supportedTypes.has(stanza['type'].toLowerCase()))
 }
 
 function firstWord(str) {
