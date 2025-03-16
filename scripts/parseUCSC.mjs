@@ -46,7 +46,7 @@ async function processGenome(genomeId) {
         processNode(entry)
     }
 
-    const filteredNodes = topLevelNodes.filter(n => n.hasDataUrl())
+    const filteredNodes = topLevelNodes.filter(n => !n.isEmpty() && n.hasDataUrl())
 
     const groupMap = new Map()
     for (let track of filteredNodes) {
@@ -80,12 +80,16 @@ async function processGenome(genomeId) {
         }
 
         if (stanza.hasOwnProperty('parent')) {
+
             const parentName = firstWord(stanza.parent)
             let p = containerMap.get(parentName)
+
             if (!p) {
+                // References non-existent parent.  Not sure what to do here, create one.
+                console.log(`creating ${parentName} referenced by ${name}`)
                 p = new Track(parentName, {
-                    track: parentName,
-                    shortLabel: parentName.toUpperCase()
+                    shortLabel: parentName.toUpperCase(),
+                    compositeTrack: 'on'
                 })
                 if (stanza.hasOwnProperty('group')) {
                     p.group = stanza.group
@@ -93,6 +97,7 @@ async function processGenome(genomeId) {
                 topLevelNodes.push(p)
                 containerMap.set(parentName, p)
             }
+
             p.children.push(track)
         } else {
             topLevelNodes.push(track)
@@ -108,7 +113,9 @@ async function processGenome(genomeId) {
 
     function outputTrack(track, out, outCombined, indentLevel) {
 
-        // 'a' flag stands for 'append'
+        if(track.isEmpty()) {
+            return
+        }
 
         out.write('\n')
         out.write(' '.repeat(indentLevel * 4))
@@ -146,15 +153,19 @@ async function processGenome(genomeId) {
     }
 
     /**
-     * Return true if the track represented by [name, stanza] passes filters (i.e. should be included)
+     * Return true if the track represented by [name, stanza] passes filters
      * @param name
      * @param stanza
      * @returns {*|boolean}
      */
     function filterTrack(name, stanza) {
-        return isContainer(stanza) ||
-            !(excludeTracks.has(name) || excludeTracks.has(stanza['parent']) || excludeTracks.has(stanza['parentParent']))
-        //(stanza['type'] && supportedTypes.has(stanza['type'].toLowerCase()))
+        if (excludeTracks.has(name) || excludeTracks.has(stanza['parent']) || excludeTracks.has(stanza['parentParent'])) {
+            return false
+        } else if (isContainer(stanza)) {
+            return true
+        } else {
+            return stanza.hasOwnProperty('bigDataUrl')
+        }
     }
 }
 
@@ -182,6 +193,13 @@ class Track {
     constructor(name, stanza) {
         this.name = name
         this.stanza = stanza
+    }
+
+    // A track is empty if (1) it has no children, and (2) has not data url
+    isEmpty() {
+        const foo = !this.stanza.hasOwnProperty('bigDataUrl')
+        const foo2 = this.children.length === 0
+        return  this.children.length === 0 && !this.stanza.hasOwnProperty('bigDataUrl')
     }
 
     hasDataUrl() {
