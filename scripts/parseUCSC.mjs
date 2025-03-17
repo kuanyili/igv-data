@@ -84,21 +84,24 @@ async function processGenome(genomeId) {
             const parentName = firstWord(stanza.parent)
             let p = containerMap.get(parentName)
 
-            if (!p) {
-                // References non-existent parent.  Not sure what to do here, create one.
-                console.log(`creating ${parentName} referenced by ${name}`)
-                p = new Track(parentName, {
-                    shortLabel: parentName.toUpperCase(),
-                    compositeTrack: 'on'
-                })
-                if (stanza.hasOwnProperty('group')) {
-                    p.group = stanza.group
-                }
-                topLevelNodes.push(p)
-                containerMap.set(parentName, p)
+            if(p) {
+                p.children.push(track)
+            } else {
+                // // References non-existent parent.  Not sure what to do here, create one.
+                // console.log(`creating ${parentName} referenced by ${name}`)
+                // p = new Track(parentName, {
+                //     shortLabel: parentName.toUpperCase(),
+                //     compositeTrack: 'on'
+                // })
+                // if (stanza.hasOwnProperty('group')) {
+                //     p.group = stanza.group
+                // }
+                // topLevelNodes.push(p)
+                // containerMap.set(parentName, p)
+                topLevelNodes.push(track)
             }
 
-            p.children.push(track)
+
         } else {
             topLevelNodes.push(track)
         }
