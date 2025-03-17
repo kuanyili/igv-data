@@ -19,7 +19,8 @@ async function processGenome(genomeId) {
         "genomesFile", "trackDb", "groups", "include", "html", "searchTrix", "linkDataUrl"])
 
     const excludeTracks = new Set(["cytoBandIdeo", "assembly", "gap", "gapOverlap", "allGaps",
-        "cpgIslandExtUnmasked", "windowMasker", "cosmicMuts", "cosmicRegions", "fantom5"])
+        "cpgIslandExtUnmasked", "windowMasker", "cosmicMuts", "cosmicRegions", "fantom5",
+        "lovd", "lovdComp", "lovdLong", "lovdShort"])
 
 
     // Define output directory.  This will be created if it does not exist
@@ -69,6 +70,7 @@ async function processGenome(genomeId) {
 
     function processNode([name, stanza]) {
 
+
         if (!filterTrack(name, stanza)) {
             return
         }
@@ -84,7 +86,7 @@ async function processGenome(genomeId) {
             const parentName = firstWord(stanza.parent)
             let p = containerMap.get(parentName)
 
-            if(p) {
+            if (p) {
                 p.children.push(track)
             } else {
                 // // References non-existent parent.  Not sure what to do here, create one.
@@ -116,7 +118,7 @@ async function processGenome(genomeId) {
 
     function outputTrack(track, out, outCombined, indentLevel) {
 
-        if(track.isEmpty()) {
+        if (track.isEmpty()) {
             return
         }
 
@@ -130,7 +132,7 @@ async function processGenome(genomeId) {
 
             let [key, value] = keyValue
             if (typeof value === 'string') {
-                if (urlProperties.has(key) || key.toLowerCase().endsWith('url')) {
+                if (urlProperties.has(key) || key.toLowerCase().endsWith('url') || value.startsWith('/gbdb/')) {
                     if (value.startsWith('/') || value.startsWith('http://') || value.startsWith('https://')) {
                         value = getDataUrl(value, base, host)
                     } else if (key === 'html') {
@@ -202,7 +204,7 @@ class Track {
     isEmpty() {
         const foo = !this.stanza.hasOwnProperty('bigDataUrl')
         const foo2 = this.children.length === 0
-        return  this.children.length === 0 && !this.stanza.hasOwnProperty('bigDataUrl')
+        return this.children.length === 0 && !this.stanza.hasOwnProperty('bigDataUrl')
     }
 
     hasDataUrl() {
