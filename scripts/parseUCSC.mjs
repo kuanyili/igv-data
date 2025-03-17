@@ -8,32 +8,19 @@ async function processGenome(genomeId) {
     const ws = 'https://api.genome.ucsc.edu/list/tracks'
 
     const host = "https://hgdownload.soe.ucsc.edu"
+    const base = `https://hgdownload.soe.ucsc.edu/gbdb/${genomeId}`
+    const htmlBase = `https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=${genomeId}&g=`
 
     const supportedTypes = new Set(["bigbed", "bigwig", "biggenepred", "vcftabix", "refgene",
         "bam", "sampleinfo", "vcf.list", "ucscsnp", "bed", "tdf", "gff", "gff3", "gtf", "vcf"])
 
     const urlProperties = new Set(["descriptionUrl", "desriptionUrl",
         "twoBitPath", "blat", "chromAliasBb", "twoBitBptURL", "twoBitBptUrl", "htmlPath", "bigDataUrl",
-        "genomesFile", "trackDb", "groups", "include", "html", "searchTrix"])
+        "genomesFile", "trackDb", "groups", "include", "html", "searchTrix", "linkDataUrl"])
 
-    const knownGroupings = new Map([
-        ["tabulaMuris", "genes"],
-        ["fantom5", "regulation"],
-        ["transMapV5", "genes"],
-        ["encode3Reg", "regulation"],
-        ["wgEncodeReg", "regulation"],
-        ["spliceImpactSuper", "phenDis"],
-        ["bloodHao", "singleCell"],
-        ["caddSuper1_7", "phenDis"],
-        ["caddSuper", "phenDis"],
-        ["covid", "phenDis"],
-        ["cancerExpr", "phenDis"],
-        ["tabulaSapiens", "singleCell"],
-        ["skinSoleBoldo", "singleCell"],
-        ["rectumWang", "singleCell"],
-        ["recombRate2", "map"],
-        ["placentaVentoTormo", "singleCell"]
-    ])
+    const excludeTracks = new Set(["cytoBandIdeo", "assembly", "gap", "gapOverlap", "allGaps",
+        "cpgIslandExtUnmasked", "windowMasker", "cosmicMuts", "cosmicRegions", "fantom5",
+        "lovd", "lovdComp", "lovdLong", "lovdShort"])
 
 
     // Define output directory.  This will be created if it does not exist
@@ -60,7 +47,7 @@ async function processGenome(genomeId) {
         processNode(entry)
     }
 
-    const filteredNodes = topLevelNodes.filter(n => n.hasDataUrl())
+    const filteredNodes = topLevelNodes.filter(n => !n.isEmpty() && n.hasDataUrl())
 
     const groupMap = new Map()
     for (let track of filteredNodes) {
@@ -83,9 +70,10 @@ async function processGenome(genomeId) {
 
     function processNode([name, stanza]) {
 
-        //if (!filterTrack(stanza)) {
-        //    return
-        //}
+
+        if (!filterTrack(name, stanza)) {
+            return
+        }
 
         const track = new Track(name, stanza)
 
@@ -94,20 +82,28 @@ async function processGenome(genomeId) {
         }
 
         if (stanza.hasOwnProperty('parent')) {
+
             const parentName = firstWord(stanza.parent)
             let p = containerMap.get(parentName)
-            if (!p) {
-                p = new Track(parentName, {
-                    track: parentName,
-                    shortLabel: parentName.toUpperCase()
-                })
-                if (stanza.hasOwnProperty('group')) {
-                    p.group = stanza.group
-                }
-                topLevelNodes.push(p)
-                containerMap.set(parentName, p)
+
+            if (p) {
+                p.children.push(track)
+            } else {
+                // // References non-existent parent.  Not sure what to do here, create one.
+                // console.log(`creating ${parentName} referenced by ${name}`)
+                // p = new Track(parentName, {
+                //     shortLabel: parentName.toUpperCase(),
+                //     compositeTrack: 'on'
+                // })
+                // if (stanza.hasOwnProperty('group')) {
+                //     p.group = stanza.group
+                // }
+                // topLevelNodes.push(p)
+                // containerMap.set(parentName, p)
+                topLevelNodes.push(track)
             }
-            p.children.push(track)
+
+
         } else {
             topLevelNodes.push(track)
         }
@@ -122,7 +118,9 @@ async function processGenome(genomeId) {
 
     function outputTrack(track, out, outCombined, indentLevel) {
 
-        // 'a' flag stands for 'append'
+        if (track.isEmpty()) {
+            return
+        }
 
         out.write('\n')
         out.write(' '.repeat(indentLevel * 4))
@@ -134,10 +132,15 @@ async function processGenome(genomeId) {
 
             let [key, value] = keyValue
             if (typeof value === 'string') {
-                if (key === 'bigDataUrl' || key === 'bigDataIndex') {
-                    value = host + value
-                } else if (urlProperties.has(key) && !value.startsWith("http")) {
-                    continue   // We don't know how to interpret relative URLs other than the data url
+                if (urlProperties.has(key) || key.toLowerCase().endsWith('url') || value.startsWith('/gbdb/')) {
+                    if (value.startsWith('/') || value.startsWith('http://') || value.startsWith('https://')) {
+                        value = getDataUrl(value, base, host)
+                    } else if (key === 'html') {
+                        if (value.endsWith(".html")) value = value.substring(0, value.length - 5)
+                        value = htmlBase + value
+                    } else {
+                        continue   // We don't know how to interpret relative URLs other than the data url
+                    }
                 }
                 if (key === 'superTrack' && track.hasOwnProperty('bigDataUrl')) {
                     continue  // We don't know how to handle a container with its own data.  Treat as a track
@@ -153,11 +156,27 @@ async function processGenome(genomeId) {
         }
 
     }
+
+    /**
+     * Return true if the track represented by [name, stanza] passes filters
+     * @param name
+     * @param stanza
+     * @returns {*|boolean}
+     */
+    function filterTrack(name, stanza) {
+        if (excludeTracks.has(name) || excludeTracks.has(stanza['parent']) || excludeTracks.has(stanza['parentParent'])) {
+            return false
+        } else if (isContainer(stanza)) {
+            return true
+        } else {
+            return stanza.hasOwnProperty('bigDataUrl')
+        }
+    }
 }
 
-function getDataUrl(url, host) {
+function getDataUrl(url, base, host) {
     return url.startsWith("http://") || url.startsWith("https://") ? url :
-        url.startsWith("/") ? host + url : host + "/" + url
+        url.startsWith("/") ? host + url : base + "/" + url
 }
 
 function isContainer(s) {
@@ -166,10 +185,6 @@ function isContainer(s) {
         || (s.hasOwnProperty("container") && s["container"] === "multiWig")
 }
 
-
-function filterTrack(stanza) {
-    return isContainer(stanza) || (stanza['type'] && supportedTypes.has(stanza['type'].toLowerCase()))
-}
 
 function firstWord(str) {
     const idx = str.indexOf(' ')
@@ -183,6 +198,13 @@ class Track {
     constructor(name, stanza) {
         this.name = name
         this.stanza = stanza
+    }
+
+    // A track is empty if (1) it has no children, and (2) has not data url
+    isEmpty() {
+        const foo = !this.stanza.hasOwnProperty('bigDataUrl')
+        const foo2 = this.children.length === 0
+        return this.children.length === 0 && !this.stanza.hasOwnProperty('bigDataUrl')
     }
 
     hasDataUrl() {
@@ -199,12 +221,12 @@ class Track {
     }
 
     findGroup() {
-        if(this.stanza.hasOwnProperty('group')) {
+        if (this.stanza.hasOwnProperty('group')) {
             return this.stanza['group']
         } else {
-            for(let c of this.children) {
+            for (let c of this.children) {
                 const p = c.findGroup()
-                if(p) {
+                if (p) {
                     return p
                 }
             }
