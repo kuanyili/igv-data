@@ -45,7 +45,7 @@ html https://www.ncbi.nlm.nih.gov/refseq/MANE/
 track gencode
 compositeTrack on
 shortLabel GENCODE
-group grenes
+group genes
 
 track knownGene
 shortLabel GENCODE V47
