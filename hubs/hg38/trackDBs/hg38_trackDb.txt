@@ -1086,7 +1086,7 @@ type bigBed 9 +
 longLabel ReMap Atlas of Regulatory Regions
 visibility hide
 group regulation
-html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../reMap
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=ReMap
 compositeTrack on
 noScoreFilter on
 noParentConfig on
@@ -1100,7 +1100,7 @@ noParentConfig on
     filterText.TF *
     maxItems 10000
     visibility squish
-    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../reMap
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=ReMap
     labelFields name, TF, Biotypes
     maxWindowCoverage 20000
     filterType.Biotypes multipleListOnlyOr
@@ -1122,8 +1122,9 @@ noParentConfig on
     longLabel ReMap density
     parent ReMap on
     visibility hide
-    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=../reMap
+    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg38&g=ReMap
     priority 1
+    graphType heatmap
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/reMap/reMapDensity2022.bw
     autoScale on
 

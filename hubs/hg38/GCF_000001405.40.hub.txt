@@ -11,7 +11,7 @@ groups https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/gro
 description human (GRCh38.p14 2022)
 twoBitPath https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/GCF_000001405.40.2bit
 twoBitBptUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/GCF_000001405.40.2bit.bpt
-chromSizes GCF_000001405.40.chrom.sizes.txt
+chromSizes https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/GCF_000001405.40.chrom.sizes.txt
 chromAliasBb https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/GCF_000001405.40.chromAlias.bb
 chromAuthority ucsc
 organism GRCh38.p14 Feb. 2022
@@ -307,6 +307,7 @@ priority 2
         idXref ncbiRefSeqLink mrnaAcc name
         color 20,20,160
         labelFields name,geneName,geneName2
+        defaultLabelFields geneName2
         searchIndex name
         searchTrix https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/ixIxx/GCF_000001405.40_GRCh38.p14.ncbiRefSeqSelectCurated.ix
         bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.ncbiRefSeqSelectCurated.bb
