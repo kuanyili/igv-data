@@ -53,6 +53,22 @@ bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40
 html https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.augustus
 
 
+track xenoRefGene
+shortLabel RefSeq mRNAs
+longLabel RefSeq mRNAs mapped to this assembly
+group genes
+visibility pack
+color 180,0,0
+type bigGenePred
+bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.xenoRefGene.bb
+url https://www.ncbi.nlm.nih.gov/nuccore/$$
+urlLabel NCBI Nucleotide database:
+labelFields name,geneName,geneName2
+defaultLabelFields geneName
+searchIndex name
+searchTrix https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/ixIxx/GCF_000001405.40_GRCh38.p14.xenoRefGene.ix
+html https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.xenoRefGene
+
 track gencode
 compositeTrack on
 shortLabel GENCODE
@@ -3634,6 +3650,15 @@ visibility dense
 type bigBed 4 +
 bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.simpleRepeat.bb
 html https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.simpleRepeat
+
+track windowMasker
+shortLabel WM + SDust
+longLabel Genomic Intervals Masked by WindowMasker + SDust
+group rep
+visibility dense
+type bigBed 3
+bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.windowMasker.bb
+html https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.windowMasker
 
 
 track repeatMasker
