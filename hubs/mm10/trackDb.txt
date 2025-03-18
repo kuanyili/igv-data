@@ -1,0 +1,1833 @@
+
+track tabulaMuris
+compositeTrack on
+shortLabel TABULAMURIS
+
+    track TabulaMurisFacsCoverage
+    compositeContainer TRUE
+    shortLabel Genome Coverage
+    type bigWig
+    longLabel Tabula Muris single cell RNA-Seq genome coverage
+    parent tabulaMuris
+    visibility hide
+    group regulation
+    compositeTrack on
+    priority 1
+    superTrack on show
+    autoScale off
+
+        track bladderUrothelialCellCov
+        shortLabel urothelial Cv
+        type bigWig
+        longLabel bladder urothelial cell Coverage (683 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=bladder_urothelial_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/bladderUrothelialCell.bw
+
+        track regulatoryTCellCov
+        shortLabel T-reg Cv
+        type bigWig
+        longLabel regulatory T cell Coverage (27 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=regulatory_T_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/regulatoryTCell.bw
+
+        track TCellCov
+        shortLabel T cell Cv
+        type bigWig
+        longLabel T cell Coverage (793 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=T_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/TCell.bw
+
+        track stromalCellCov
+        shortLabel stromal cell Cv
+        type bigWig
+        longLabel stromal cell Coverage (863 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=stromal_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/stromalCell.bw
+
+        track pancreaticStellateCellCov
+        shortLabel stellate cell Cv
+        type bigWig
+        longLabel pancreatic stellate cell Coverage (49 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=pancreatic_stellate_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/pancreaticStellateCell.bw
+
+        track smoothMuscleCellCov
+        shortLabel smooth muscle Cv
+        type bigWig
+        longLabel smooth muscle cell Coverage (42 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=smooth_muscle_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/smoothMuscleCell.bw
+
+        track Slamf1negativeMultipotentProgenitorCellCov
+        shortLabel Slamf1- cell Cv
+        type bigWig
+        longLabel Slamf1-negative multipotent progenitor cell Coverage (713 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=Slamf1-negative_multipotent_progenitor_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/Slamf1negativeMultipotentProgenitorCell.bw
+
+        track Slamf1positiveMultipotentProgenitorCellCov
+        shortLabel Slamf1+ cell Cv
+        type bigWig
+        longLabel Slamf1-positive multipotent progenitor cell Coverage (134 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=Slamf1-positive_multipotent_progenitor_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/Slamf1positiveMultipotentProgenitorCell.bw
+
+        track skeletalMuscleSatelliteStemCellCov
+        shortLabel satellite SC Cv
+        type bigWig
+        longLabel skeletal muscle satellite stem cell Coverage (439 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=skeletal_muscle_satellite_stem_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/skeletalMuscleSatelliteStemCell.bw
+
+        track skeletalMuscleSatelliteCellCov
+        shortLabel satellite Cv
+        type bigWig
+        longLabel skeletal muscle satellite cell Coverage (540 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=skeletal_muscle_satellite_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/skeletalMuscleSatelliteCell.bw
+
+        track epithelialCellOfProximalTubuleCov
+        shortLabel proximal tube Cv
+        type bigWig
+        longLabel epithelial cell of proximal tubule Coverage (219 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=epithelial_cell_of_proximal_tubule
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/epithelialCellOfProximalTubule.bw
+
+        track professionalAntigenPresentingCellCov
+        shortLabel Pro APC Cv
+        type bigWig
+        longLabel professional antigen presenting cell Coverage (59 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=professional_antigen_presenting_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/professionalAntigenPresentingCell.bw
+
+        track prenaturalKillerCellCov
+        shortLabel pre-NK cell Cv
+        type bigWig
+        longLabel pre-natural killer cell Coverage (22 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=pre-natural_killer_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/prenaturalKillerCell.bw
+
+        track granulocytopoieticCellCov
+        shortLabel pre-granulocyt Cv
+        type bigWig
+        longLabel granulocytopoietic cell Coverage (221 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=granulocytopoietic_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/granulocytopoieticCell.bw
+
+        track precursorBCellCov
+        shortLabel pre-B cell Cv
+        type bigWig
+        longLabel precursor B cell Coverage (517 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=precursor_B_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/precursorBCell.bw
+
+        track pancreaticDuctalCellCov
+        shortLabel pancreatic duc Cv
+        type bigWig
+        longLabel pancreatic ductal cell Coverage (161 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=pancreatic_ductal_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/pancreaticDuctalCell.bw
+
+        track pancreaticACellCov
+        shortLabel pancreatic A Cv
+        type bigWig
+        longLabel pancreatic A cell Coverage (390 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=pancreatic_A_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/pancreaticACell.bw
+
+        track pancreaticPpCellCov
+        shortLabel pancr PPcell Cv
+        type bigWig
+        longLabel pancreatic PP cell Coverage (73 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=pancreatic_PP_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/pancreaticPpCell.bw
+
+        track pancreaticDCellCov
+        shortLabel pancr D cell Cv
+        type bigWig
+        longLabel pancreatic D cell Coverage (140 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=pancreatic_D_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/pancreaticDCell.bw
+
+        track typeBPancreaticCellCov
+        shortLabel pancr B cell Cv
+        type bigWig
+        longLabel type B pancreatic cell Coverage (449 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=type_B_pancreatic_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/typeBPancreaticCell.bw
+
+        track oligodendrocytePrecursorCellCov
+        shortLabel OPC Cv
+        type bigWig
+        longLabel oligodendrocyte precursor cell Coverage (203 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=oligodendrocyte_precursor_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/oligodendrocytePrecursorCell.bw
+
+        track oligodendrocyteCov
+        shortLabel oligodendroc. Cv
+        type bigWig
+        longLabel oligodendrocyte Coverage (1574 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=oligodendrocyte
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/oligodendrocyte.bw
+
+        track naturalKillerCellCov
+        shortLabel NK cell Cv
+        type bigWig
+        longLabel natural killer cell Coverage (171 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=natural_killer_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/naturalKillerCell.bw
+
+        track neuronCov
+        shortLabel neuron Cv
+        type bigWig
+        longLabel neuron Coverage (281 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=neuron
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/neuron.bw
+
+        track naiveBCellCov
+        shortLabel naive B cell Cv
+        type bigWig
+        longLabel naive B cell Coverage (692 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=naive_B_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/naiveBCell.bw
+
+        track myofibroblastCellCov
+        shortLabel myofibroblast Cv
+        type bigWig
+        longLabel myofibroblast cell Coverage (178 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=myofibroblast_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/myofibroblastCell.bw
+
+        track myeloidCellCov
+        shortLabel myeloid cell Cv
+        type bigWig
+        longLabel myeloid cell Coverage (1208 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=myeloid_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/myeloidCell.bw
+
+        track monocyteCov
+        shortLabel monocyte Cv
+        type bigWig
+        longLabel monocyte Coverage (331 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=monocyte
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/monocyte.bw
+
+        track microglialCellCov
+        shortLabel microglia Cv
+        type bigWig
+        longLabel microglial cell Coverage (4394 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility hide
+        metadata cell_ontology=microglial_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/microglialCell.bw
+
+        track mesenchymalCellCov
+        shortLabel mesenchyme Cv
+        type bigWig
+        longLabel mesenchymal cell Coverage (830 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=mesenchymal_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/mesenchymalCell.bw
+
+        track mesenchymalStemCellCov
+        shortLabel mesenchymalSC Cv
+        type bigWig
+        longLabel mesenchymal stem cell Coverage (499 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=mesenchymal_stem_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/mesenchymalStemCell.bw
+
+        track megakaryocyteerythroidProgenitorCellCov
+        shortLabel MEP cell Cv
+        type bigWig
+        longLabel megakaryocyte-erythroid progenitor cell Coverage (55 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=megakaryocyte-erythroid_progenitor_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/megakaryocyteerythroidProgenitorCell.bw
+
+        track matureNaturalKillerCellCov
+        shortLabel mature NK Cv
+        type bigWig
+        longLabel mature natural killer cell Coverage (49 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=mature_natural_killer_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/matureNaturalKillerCell.bw
+
+        track macrophageCov
+        shortLabel macrophage Cv
+        type bigWig
+        longLabel macrophage Coverage (395 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=macrophage
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/macrophage.bw
+
+        track lymphocyteCov
+        shortLabel lymphocyte Cv
+        type bigWig
+        longLabel lymphocyte Coverage (81 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=lymphocyte
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/lymphocyte.bw
+
+        track epithelialCellOfLungCov
+        shortLabel lung epithelia Cv
+        type bigWig
+        longLabel epithelial cell of lung Coverage (113 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=epithelial_cell_of_lung
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/epithelialCellOfLung.bw
+
+        track lungEndothelialCellCov
+        shortLabel lung endothelia C
+        type bigWig
+        longLabel lung endothelial cell Coverage (693 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=lung_endothelial_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/lungEndothelialCell.bw
+
+        track luminalEpithelialCellOfMammaryGlandCov
+        shortLabel luminal cell Cv
+        type bigWig
+        longLabel luminal epithelial cell of mammary gland Coverage (578 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=luminal_epithelial_cell_of_mammary_gland
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/luminalEpithelialCellOfMammaryGland.bw
+
+        track leukocyteCov
+        shortLabel leukocyte Cv
+        type bigWig
+        longLabel leukocyte Coverage (683 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=leukocyte
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/leukocyte.bw
+
+        track lateProBCellCov
+        shortLabel late pro-B Cv
+        type bigWig
+        longLabel late pro-B cell Coverage (306 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=late_pro-B_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/lateProBCell.bw
+
+        track epithelialCellOfLargeIntestineCov
+        shortLabel L.I. epithelia Cv
+        type bigWig
+        longLabel epithelial cell of large intestine Coverage (2019 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=epithelial_cell_of_large_intestine
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/epithelialCellOfLargeIntestine.bw
+
+        track KupfferCellCov
+        shortLabel Kupffer cell Cv
+        type bigWig
+        longLabel Kupffer cell Coverage (61 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=Kupffer_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/KupfferCell.bw
+
+        track stemCellOfEpidermisCov
+        shortLabel keratinocyteSC Cv
+        type bigWig
+        longLabel stem cell of epidermis Coverage (53 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=stem_cell_of_epidermis
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/stemCellOfEpidermis.bw
+
+        track keratinocyteStemCellCov
+        shortLabel keratinocyteSC Cv
+        type bigWig
+        longLabel keratinocyte stem cell Coverage (1404 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=keratinocyte_stem_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/keratinocyteStemCell.bw
+
+        track keratinocyteCov
+        shortLabel keratinocyte Cv
+        type bigWig
+        longLabel keratinocyte Coverage (330 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=keratinocyte
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/keratinocyte.bw
+
+        track immatureNkTCellCov
+        shortLabel immature NKT Cv
+        type bigWig
+        longLabel immature NK T cell Coverage (37 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=immature_NK_T_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/immatureNkTCell.bw
+
+        track immatureNaturalKillerCellCov
+        shortLabel immature NK Cv
+        type bigWig
+        longLabel immature natural killer cell Coverage (36 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=immature_natural_killer_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/immatureNaturalKillerCell.bw
+
+        track immatureBCellCov
+        shortLabel immature B Cv
+        type bigWig
+        longLabel immature B cell Coverage (344 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=immature_B_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/immatureBCell.bw
+
+        track immatureTCellCov
+        shortLabel immat T cell Cv
+        type bigWig
+        longLabel immature T cell Coverage (1337 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=immature_T_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/immatureTCell.bw
+
+        track hematopoieticPrecursorCellCov
+        shortLabel HPC Cv
+        type bigWig
+        longLabel hematopoietic precursor cell Coverage (265 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=hematopoietic_precursor_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/hematopoieticPrecursorCell.bw
+
+        track hepatocyteCov
+        shortLabel hepatocyte Cv
+        type bigWig
+        longLabel hepatocyte Coverage (391 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=hepatocyte
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/hepatocyte.bw
+
+        track granulocyteCov
+        shortLabel granulocyte Cv
+        type bigWig
+        longLabel granulocyte Coverage (761 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=granulocyte
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/granulocyte.bw
+
+        track largeIntestineGobletCellCov
+        shortLabel goblet cell Cv
+        type bigWig
+        longLabel large intestine goblet cell Coverage (833 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=large_intestine_goblet_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/largeIntestineGobletCell.bw
+
+        track fibroblastCov
+        shortLabel fibroblast Cv
+        type bigWig
+        longLabel fibroblast Coverage (2189 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=fibroblast
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/fibroblast.bw
+
+        track erythrocyteCov
+        shortLabel erythrocyte Cv
+        type bigWig
+        longLabel erythrocyte Coverage (91 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=erythrocyte
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/erythrocyte.bw
+
+        track epithelialCellCov
+        shortLabel epithelial Cv
+        type bigWig
+        longLabel epithelial cell Coverage (201 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=epithelial_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/epithelialCell.bw
+
+        track epidermalCellCov
+        shortLabel epidermal cell Cv
+        type bigWig
+        longLabel epidermal cell Coverage (276 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=epidermal_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/epidermalCell.bw
+
+        track basalCellOfEpidermisCov
+        shortLabel epiderm basal Cv
+        type bigWig
+        longLabel basal cell of epidermis Coverage (1648 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=basal_cell_of_epidermis
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/basalCellOfEpidermis.bw
+
+        track enteroendocrineCellCov
+        shortLabel enteroendocr Cv
+        type bigWig
+        longLabel enteroendocrine cell Coverage (59 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=enteroendocrine_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/enteroendocrineCell.bw
+
+        track enterocyteOfEpitheliumOfLargeIntestineCov
+        shortLabel enterocyte Cv
+        type bigWig
+        longLabel enterocyte of epithelium of large intestine Coverage (964 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=enterocyte_of_epithelium_of_large_intestine
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/enterocyteOfEpitheliumOfLargeIntestine.bw
+
+        track endothelialCellCov
+        shortLabel endothelial Cv
+        type bigWig
+        longLabel endothelial cell Coverage (3319 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=endothelial_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/endothelialCell.bw
+
+        track endocardialCellCov
+        shortLabel endocardial Cv
+        type bigWig
+        longLabel endocardial cell Coverage (165 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=endocardial_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/endocardialCell.bw
+
+        track endothelialCellOfHepaticSinusoidCov
+        shortLabel EC-HS Cv
+        type bigWig
+        longLabel endothelial cell of hepatic sinusoid Coverage (182 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=endothelial_cell_of_hepatic_sinusoid
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/endothelialCellOfHepaticSinusoid.bw
+
+        track DN1ThymicProTCellCov
+        shortLabel DN1 pro-T cell Cv
+        type bigWig
+        longLabel DN1 thymic pro-T cell Coverage (32 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=DN1_thymic_pro-T_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/DN1ThymicProTCell.bw
+
+        track commonLymphoidProgenitorCov
+        shortLabel comm lymph prg Cv
+        type bigWig
+        longLabel common lymphoid progenitor Coverage (156 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=common_lymphoid_progenitor
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/commonLymphoidProgenitor.bw
+
+        track kidneyCollectingDuctEpithelialCellCov
+        shortLabel collecting duc Cv
+        type bigWig
+        longLabel kidney collecting duct epithelial cell Coverage (121 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=kidney_collecting_duct_epithelial_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/kidneyCollectingDuctEpithelialCell.bw
+
+        track classicalMonocyteCov
+        shortLabel class monocyte Cv
+        type bigWig
+        longLabel classical monocyte Coverage (90 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=classical_monocyte
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/classicalMonocyte.bw
+
+        track ciliatedColumnarCellOfTracheobronchialTreeCov
+        shortLabel cilliated cell Cv
+        type bigWig
+        longLabel ciliated columnar cell of tracheobronchial tree Coverage (25 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=ciliated_columnar_cell_of_tracheobronchial_tree
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/ciliatedColumnarCellOfTracheobronchialTree.bw
+
+        track granulocyteMonocyteProgenitorCellCov
+        shortLabel CFU-GM Cv
+        type bigWig
+        longLabel granulocyte monocyte progenitor cell Coverage (134 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=granulocyte_monocyte_progenitor_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/granulocyteMonocyteProgenitorCell.bw
+
+        track cardiacMuscleCellCov
+        shortLabel cardiac muscle Cv
+        type bigWig
+        longLabel cardiac muscle cell Coverage (133 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=cardiac_muscle_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/cardiacMuscleCell.bw
+
+        track BrushCellOfEpitheliumProperOfLargeIntestineCov
+        shortLabel Brush cell Cv
+        type bigWig
+        longLabel Brush cell of epithelium proper of large intestine Coverage (63 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=Brush_cell_of_epithelium_proper_of_large_intestine
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/BrushCellOfEpitheliumProperOfLargeIntestine.bw
+
+        track brainPericyteCov
+        shortLabel brain pericyte Cv
+        type bigWig
+        longLabel brain pericyte Coverage (156 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=brain_pericyte
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/brainPericyte.bw
+
+        track bloodCellCov
+        shortLabel blood cell Cv
+        type bigWig
+        longLabel blood cell Coverage (206 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=blood_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/bloodCell.bw
+
+        track bladderCellCov
+        shortLabel bladder cell Cv
+        type bigWig
+        longLabel bladder cell Coverage (695 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=bladder_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/bladderCell.bw
+
+        track BergmannGlialCellCov
+        shortLabel Bergmann glial Cv
+        type bigWig
+        longLabel Bergmann glial cell Coverage (40 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=Bergmann_glial_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/BergmannGlialCell.bw
+
+        track basophilCov
+        shortLabel basophil Cv
+        type bigWig
+        longLabel basophil Coverage (25 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=basophil
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/basophil.bw
+
+        track basalCellCov
+        shortLabel basal cell Cv
+        type bigWig
+        longLabel basal cell Coverage (1340 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=basal_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/basalCell.bw
+
+        track BCellCov
+        shortLabel B cell Cv
+        type bigWig
+        longLabel B cell Coverage (2029 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=B_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/BCell.bw
+
+        track astrocyteCov
+        shortLabel astrocyte Cv
+        type bigWig
+        longLabel astrocyte Coverage (432 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=astrocyte
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/astrocyte.bw
+
+        track mesenchymalStemCellOfAdiposeCov
+        shortLabel adipocyte Cv
+        type bigWig
+        longLabel mesenchymal stem cell of adipose Coverage (2107 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=mesenchymal_stem_cell_of_adipose
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/mesenchymalStemCellOfAdipose.bw
+
+        track pancreaticAcinarCellCov
+        shortLabel acinar cell Cv
+        type bigWig
+        longLabel pancreatic acinar cell Coverage (182 cells)
+        parent TabulaMurisFacsCoverage
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=pancreatic_acinar_cell
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/pancreaticAcinarCell.bw
+
+    track TabulaMurisFacsJunctions
+    compositeContainer TRUE
+    shortLabel Splice Sites
+    type bigBed 12
+    longLabel Tabula Muris single cell RNA-Seq splice sites
+    parent tabulaMuris off
+    visibility hide
+    group regulation
+    compositeTrack on
+    spectrum on
+    priority 1
+    superTrack on show
+
+        track bladderUrothelialCellJunc
+        shortLabel urothelial Sp
+        type bigBed 12 +
+        longLabel bladder urothelial cell Splice Junctions (683 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=bladder_urothelial_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/bladderUrothelialCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track regulatoryTCellJunc
+        shortLabel T-reg Sp
+        type bigBed 12 +
+        longLabel regulatory T cell Splice Junctions (27 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=regulatory_T_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/regulatoryTCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track TCellJunc
+        shortLabel T cell Sp
+        type bigBed 12 +
+        longLabel T cell Splice Junctions (793 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=T_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/TCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track stromalCellJunc
+        shortLabel stromal cell Sp
+        type bigBed 12 +
+        longLabel stromal cell Splice Junctions (863 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=stromal_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/stromalCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track pancreaticStellateCellJunc
+        shortLabel stellate cell Sp
+        type bigBed 12 +
+        longLabel pancreatic stellate cell Splice Junctions (49 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=pancreatic_stellate_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/pancreaticStellateCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track smoothMuscleCellJunc
+        shortLabel smooth muscle Sp
+        type bigBed 12 +
+        longLabel smooth muscle cell Splice Junctions (42 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=smooth_muscle_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/smoothMuscleCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track Slamf1negativeMultipotentProgenitorCellJunc
+        shortLabel Slamf1- cell Sp
+        type bigBed 12 +
+        longLabel Slamf1-negative multipotent progenitor cell Splice Junctions (713 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=Slamf1-negative_multipotent_progenitor_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/Slamf1negativeMultipotentProgenitorCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track Slamf1positiveMultipotentProgenitorCellJunc
+        shortLabel Slamf1+ cell Sp
+        type bigBed 12 +
+        longLabel Slamf1-positive multipotent progenitor cell Splice Junctions (134 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=Slamf1-positive_multipotent_progenitor_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/Slamf1positiveMultipotentProgenitorCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track skeletalMuscleSatelliteCellJunc
+        shortLabel satellite Sp
+        type bigBed 12 +
+        longLabel skeletal muscle satellite cell Splice Junctions (540 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=skeletal_muscle_satellite_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/skeletalMuscleSatelliteCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track skeletalMuscleSatelliteStemCellJunc
+        shortLabel satellite SC Sp
+        type bigBed 12 +
+        longLabel skeletal muscle satellite stem cell Splice Junctions (439 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=skeletal_muscle_satellite_stem_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/skeletalMuscleSatelliteStemCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track epithelialCellOfProximalTubuleJunc
+        shortLabel proximal tube Sp
+        type bigBed 12 +
+        longLabel epithelial cell of proximal tubule Splice Junctions (219 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=epithelial_cell_of_proximal_tubule
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/epithelialCellOfProximalTubule.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track professionalAntigenPresentingCellJunc
+        shortLabel Pro APC Sp
+        type bigBed 12 +
+        longLabel professional antigen presenting cell Splice Junctions (59 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=professional_antigen_presenting_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/professionalAntigenPresentingCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track prenaturalKillerCellJunc
+        shortLabel pre-NK cell Sp
+        type bigBed 12 +
+        longLabel pre-natural killer cell Splice Junctions (22 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=pre-natural_killer_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/prenaturalKillerCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track granulocytopoieticCellJunc
+        shortLabel pre-granulocyt Sp
+        type bigBed 12 +
+        longLabel granulocytopoietic cell Splice Junctions (221 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=granulocytopoietic_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/granulocytopoieticCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track precursorBCellJunc
+        shortLabel pre-B cell Sp
+        type bigBed 12 +
+        longLabel precursor B cell Splice Junctions (517 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=precursor_B_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/precursorBCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track pancreaticDuctalCellJunc
+        shortLabel pancreatic duc Sp
+        type bigBed 12 +
+        longLabel pancreatic ductal cell Splice Junctions (161 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=pancreatic_ductal_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/pancreaticDuctalCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track pancreaticACellJunc
+        shortLabel pancreatic A Sp
+        type bigBed 12 +
+        longLabel pancreatic A cell Splice Junctions (390 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=pancreatic_A_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/pancreaticACell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track pancreaticPpCellJunc
+        shortLabel pancr PPcell Sp
+        type bigBed 12 +
+        longLabel pancreatic PP cell Splice Junctions (73 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=pancreatic_PP_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/pancreaticPpCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track pancreaticDCellJunc
+        shortLabel pancr D cell Sp
+        type bigBed 12 +
+        longLabel pancreatic D cell Splice Junctions (140 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=pancreatic_D_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/pancreaticDCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track typeBPancreaticCellJunc
+        shortLabel pancr B cell Sp
+        type bigBed 12 +
+        longLabel type B pancreatic cell Splice Junctions (449 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=type_B_pancreatic_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/typeBPancreaticCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track oligodendrocytePrecursorCellJunc
+        shortLabel OPC Sp
+        type bigBed 12 +
+        longLabel oligodendrocyte precursor cell Splice Junctions (203 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=oligodendrocyte_precursor_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/oligodendrocytePrecursorCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track oligodendrocyteJunc
+        shortLabel oligodendroc. Sp
+        type bigBed 12 +
+        longLabel oligodendrocyte Splice Junctions (1574 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=oligodendrocyte
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/oligodendrocyte.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track naturalKillerCellJunc
+        shortLabel NK cell Sp
+        type bigBed 12 +
+        longLabel natural killer cell Splice Junctions (171 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=natural_killer_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/naturalKillerCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track neuronJunc
+        shortLabel neuron Sp
+        type bigBed 12 +
+        longLabel neuron Splice Junctions (281 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=neuron
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/neuron.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track naiveBCellJunc
+        shortLabel naive B cell Sp
+        type bigBed 12 +
+        longLabel naive B cell Splice Junctions (692 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=naive_B_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/naiveBCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track myofibroblastCellJunc
+        shortLabel myofibroblast Sp
+        type bigBed 12 +
+        longLabel myofibroblast cell Splice Junctions (178 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=myofibroblast_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/myofibroblastCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track myeloidCellJunc
+        shortLabel myeloid cell Sp
+        type bigBed 12 +
+        longLabel myeloid cell Splice Junctions (1208 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=myeloid_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/myeloidCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track monocyteJunc
+        shortLabel monocyte Sp
+        type bigBed 12 +
+        longLabel monocyte Splice Junctions (331 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=monocyte
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/monocyte.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track microglialCellJunc
+        shortLabel microglia Sp
+        type bigBed 12 +
+        longLabel microglial cell Splice Junctions (4394 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility hide
+        metadata cell_ontology=microglial_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/microglialCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track mesenchymalCellJunc
+        shortLabel mesenchyme Sp
+        type bigBed 12 +
+        longLabel mesenchymal cell Splice Junctions (830 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=mesenchymal_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/mesenchymalCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track mesenchymalStemCellJunc
+        shortLabel mesenchymalSC Sp
+        type bigBed 12 +
+        longLabel mesenchymal stem cell Splice Junctions (499 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=mesenchymal_stem_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/mesenchymalStemCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track megakaryocyteerythroidProgenitorCellJunc
+        shortLabel MEP cell Sp
+        type bigBed 12 +
+        longLabel megakaryocyte-erythroid progenitor cell Splice Junctions (55 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=megakaryocyte-erythroid_progenitor_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/megakaryocyteerythroidProgenitorCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track matureNaturalKillerCellJunc
+        shortLabel mature NK Sp
+        type bigBed 12 +
+        longLabel mature natural killer cell Splice Junctions (49 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=mature_natural_killer_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/matureNaturalKillerCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track macrophageJunc
+        shortLabel macrophage Sp
+        type bigBed 12 +
+        longLabel macrophage Splice Junctions (395 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=macrophage
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/macrophage.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track lymphocyteJunc
+        shortLabel lymphocyte Sp
+        type bigBed 12 +
+        longLabel lymphocyte Splice Junctions (81 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=lymphocyte
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/lymphocyte.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track epithelialCellOfLungJunc
+        shortLabel lung epithelia Sp
+        type bigBed 12 +
+        longLabel epithelial cell of lung Splice Junctions (113 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=epithelial_cell_of_lung
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/epithelialCellOfLung.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track lungEndothelialCellJunc
+        shortLabel lung endothelia S
+        type bigBed 12 +
+        longLabel lung endothelial cell Splice Junctions (693 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=lung_endothelial_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/lungEndothelialCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track luminalEpithelialCellOfMammaryGlandJunc
+        shortLabel luminal cell Sp
+        type bigBed 12 +
+        longLabel luminal epithelial cell of mammary gland Splice Junctions (578 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=luminal_epithelial_cell_of_mammary_gland
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/luminalEpithelialCellOfMammaryGland.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track leukocyteJunc
+        shortLabel leukocyte Sp
+        type bigBed 12 +
+        longLabel leukocyte Splice Junctions (683 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=leukocyte
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/leukocyte.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track lateProBCellJunc
+        shortLabel late pro-B Sp
+        type bigBed 12 +
+        longLabel late pro-B cell Splice Junctions (306 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=late_pro-B_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/lateProBCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track epithelialCellOfLargeIntestineJunc
+        shortLabel L.I. epithelia Sp
+        type bigBed 12 +
+        longLabel epithelial cell of large intestine Splice Junctions (2019 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=epithelial_cell_of_large_intestine
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/epithelialCellOfLargeIntestine.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track KupfferCellJunc
+        shortLabel Kupffer cell Sp
+        type bigBed 12 +
+        longLabel Kupffer cell Splice Junctions (61 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=Kupffer_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/KupfferCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track keratinocyteStemCellJunc
+        shortLabel keratinocyteSC Sp
+        type bigBed 12 +
+        longLabel keratinocyte stem cell Splice Junctions (1404 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=keratinocyte_stem_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/keratinocyteStemCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track stemCellOfEpidermisJunc
+        shortLabel keratinocyteSC Sp
+        type bigBed 12 +
+        longLabel stem cell of epidermis Splice Junctions (53 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=stem_cell_of_epidermis
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/stemCellOfEpidermis.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track keratinocyteJunc
+        shortLabel keratinocyte Sp
+        type bigBed 12 +
+        longLabel keratinocyte Splice Junctions (330 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=keratinocyte
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/keratinocyte.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track immatureNkTCellJunc
+        shortLabel immature NKT Sp
+        type bigBed 12 +
+        longLabel immature NK T cell Splice Junctions (37 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=immature_NK_T_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/immatureNkTCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track immatureNaturalKillerCellJunc
+        shortLabel immature NK Sp
+        type bigBed 12 +
+        longLabel immature natural killer cell Splice Junctions (36 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=immature_natural_killer_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/immatureNaturalKillerCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track immatureBCellJunc
+        shortLabel immature B Sp
+        type bigBed 12 +
+        longLabel immature B cell Splice Junctions (344 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=immature_B_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/immatureBCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track immatureTCellJunc
+        shortLabel immat T cell Sp
+        type bigBed 12 +
+        longLabel immature T cell Splice Junctions (1337 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=immature_T_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/immatureTCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track hematopoieticPrecursorCellJunc
+        shortLabel HPC Sp
+        type bigBed 12 +
+        longLabel hematopoietic precursor cell Splice Junctions (265 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=hematopoietic_precursor_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/hematopoieticPrecursorCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track hepatocyteJunc
+        shortLabel hepatocyte Sp
+        type bigBed 12 +
+        longLabel hepatocyte Splice Junctions (391 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=hepatocyte
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/hepatocyte.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track granulocyteJunc
+        shortLabel granulocyte Sp
+        type bigBed 12 +
+        longLabel granulocyte Splice Junctions (761 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=granulocyte
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/granulocyte.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track largeIntestineGobletCellJunc
+        shortLabel globet cell Sp
+        type bigBed 12 +
+        longLabel large intestine goblet cell Splice Junctions (833 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=large_intestine_goblet_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/largeIntestineGobletCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track fibroblastJunc
+        shortLabel fibroblast Sp
+        type bigBed 12 +
+        longLabel fibroblast Splice Junctions (2189 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=fibroblast
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/fibroblast.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track erythrocyteJunc
+        shortLabel erythrocyte Sp
+        type bigBed 12 +
+        longLabel erythrocyte Splice Junctions (91 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=erythrocyte
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/erythrocyte.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track epithelialCellJunc
+        shortLabel epithelial Sp
+        type bigBed 12 +
+        longLabel epithelial cell Splice Junctions (201 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=epithelial_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/epithelialCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track epidermalCellJunc
+        shortLabel epidermal cell Sp
+        type bigBed 12 +
+        longLabel epidermal cell Splice Junctions (276 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=epidermal_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/epidermalCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track basalCellOfEpidermisJunc
+        shortLabel epiderm basal Sp
+        type bigBed 12 +
+        longLabel basal cell of epidermis Splice Junctions (1648 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=basal_cell_of_epidermis
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/basalCellOfEpidermis.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track enteroendocrineCellJunc
+        shortLabel enteroendocr Sp
+        type bigBed 12 +
+        longLabel enteroendocrine cell Splice Junctions (59 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=enteroendocrine_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/enteroendocrineCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track enterocyteOfEpitheliumOfLargeIntestineJunc
+        shortLabel enterocyte Sp
+        type bigBed 12 +
+        longLabel enterocyte of epithelium of large intestine Splice Junctions (964 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=enterocyte_of_epithelium_of_large_intestine
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/enterocyteOfEpitheliumOfLargeIntestine.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track endothelialCellJunc
+        shortLabel endothelial Sp
+        type bigBed 12 +
+        longLabel endothelial cell Splice Junctions (3319 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=endothelial_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/endothelialCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track endocardialCellJunc
+        shortLabel endocardial Sp
+        type bigBed 12 +
+        longLabel endocardial cell Splice Junctions (165 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=endocardial_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/endocardialCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track endothelialCellOfHepaticSinusoidJunc
+        shortLabel EC-HS Sp
+        type bigBed 12 +
+        longLabel endothelial cell of hepatic sinusoid Splice Junctions (182 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=endothelial_cell_of_hepatic_sinusoid
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/endothelialCellOfHepaticSinusoid.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track DN1ThymicProTCellJunc
+        shortLabel DN1 pro-T cell Sp
+        type bigBed 12 +
+        longLabel DN1 thymic pro-T cell Splice Junctions (32 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=DN1_thymic_pro-T_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/DN1ThymicProTCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track commonLymphoidProgenitorJunc
+        shortLabel comm lymph prg Sp
+        type bigBed 12 +
+        longLabel common lymphoid progenitor Splice Junctions (156 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=common_lymphoid_progenitor
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/commonLymphoidProgenitor.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track kidneyCollectingDuctEpithelialCellJunc
+        shortLabel collecting duc Sp
+        type bigBed 12 +
+        longLabel kidney collecting duct epithelial cell Splice Junctions (121 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=kidney_collecting_duct_epithelial_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/kidneyCollectingDuctEpithelialCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track classicalMonocyteJunc
+        shortLabel class monocyte Sp
+        type bigBed 12 +
+        longLabel classical monocyte Splice Junctions (90 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=classical_monocyte
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/classicalMonocyte.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track ciliatedColumnarCellOfTracheobronchialTreeJunc
+        shortLabel cilliated cell Sp
+        type bigBed 12 +
+        longLabel ciliated columnar cell of tracheobronchial tree Splice Junctions (25 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=ciliated_columnar_cell_of_tracheobronchial_tree
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/ciliatedColumnarCellOfTracheobronchialTree.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track granulocyteMonocyteProgenitorCellJunc
+        shortLabel CFU-GM Sp
+        type bigBed 12 +
+        longLabel granulocyte monocyte progenitor cell Splice Junctions (134 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=granulocyte_monocyte_progenitor_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/granulocyteMonocyteProgenitorCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track cardiacMuscleCellJunc
+        shortLabel cardiac muscle Sp
+        type bigBed 12 +
+        longLabel cardiac muscle cell Splice Junctions (133 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=cardiac_muscle_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/cardiacMuscleCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track BrushCellOfEpitheliumProperOfLargeIntestineJunc
+        shortLabel Brush cell Sp
+        type bigBed 12 +
+        longLabel Brush cell of epithelium proper of large intestine Splice Junctions (63 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=Brush_cell_of_epithelium_proper_of_large_intestine
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/BrushCellOfEpitheliumProperOfLargeIntestine.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track brainPericyteJunc
+        shortLabel brain pericyte Sp
+        type bigBed 12 +
+        longLabel brain pericyte Splice Junctions (156 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=brain_pericyte
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/brainPericyte.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track bloodCellJunc
+        shortLabel blood cell Sp
+        type bigBed 12 +
+        longLabel blood cell Splice Junctions (206 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=blood_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/bloodCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track bladderCellJunc
+        shortLabel bladder cell Sp
+        type bigBed 12 +
+        longLabel bladder cell Splice Junctions (695 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=bladder_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/bladderCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track BergmannGlialCellJunc
+        shortLabel Bergmann glial Sp
+        type bigBed 12 +
+        longLabel Bergmann glial cell Splice Junctions (40 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=Bergmann_glial_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/BergmannGlialCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track basophilJunc
+        shortLabel basophil Sp
+        type bigBed 12 +
+        longLabel basophil Splice Junctions (25 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=basophil
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/basophil.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track basalCellJunc
+        shortLabel basal cell Sp
+        type bigBed 12 +
+        longLabel basal cell Splice Junctions (1340 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=basal_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/basalCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track BCellJunc
+        shortLabel B cell Sp
+        type bigBed 12 +
+        longLabel B cell Splice Junctions (2029 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=B_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/BCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track astrocyteJunc
+        shortLabel astrocyte Sp
+        type bigBed 12 +
+        longLabel astrocyte Splice Junctions (432 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=astrocyte
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/astrocyte.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track mesenchymalStemCellOfAdiposeJunc
+        shortLabel adipocyte Sp
+        type bigBed 12 +
+        longLabel mesenchymal stem cell of adipose Splice Junctions (2107 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=mesenchymal_stem_cell_of_adipose
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/mesenchymalStemCellOfAdipose.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+        track pancreaticAcinarCellJunc
+        shortLabel acinar cell Sp
+        type bigBed 12 +
+        longLabel pancreatic acinar cell Splice Junctions (182 cells)
+        parent TabulaMurisFacsJunctions
+        parentParent tabulaMuris
+        visibility dense
+        metadata cell_ontology=pancreatic_acinar_cell
+        spectrum on
+        bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/pancreaticAcinarCell.junctions.bb
+        scoreLabel Number of supporting reads (max: 1000)
+
+    track tabulamurisBarChart
+    shortLabel Cell expression
+    type bigBarChart
+    longLabel Single Cell RNA-Seq Gene Expression from Tabula Muris
+    parent tabulaMuris
+    visibility full
+    barChartColors #ff0000 #ff1200 #ff2500 #ff3800 #ff4b00 #ff5e00 #ff7100 #ff8400 #ff9700 #ffaa00 #ffbc00 #ffcf00 #ffe200 #fff500 #f5ff00 #e2ff00 #cfff00 #bcff00 #aaff00 #97ff00 #84ff00 #71ff00 #5eff00 #4bff00 #38ff00 #25ff00 #12ff00 #00ff00 #00ff12 #00ff25 #00ff38 #00ff4b #00ff5e #00ff71 #00ff84 #00ff97 #00ffa9 #00ffbc #00ffcf #00ffe2 #00fff5 #00f5ff #00e2ff #00cfff #00bcff #00a9ff #0097ff #0084ff #0071ff #005eff #004bff #0038ff #0025ff #0012ff #0000ff #1200ff #2500ff #3800ff #4b00ff #5e00ff #7100ff #8400ff #9700ff #aa00ff #bc00ff #cf00ff #e200ff #f500ff #ff00f5 #ff00e2 #ff00cf #ff00bc #ff00a9 #ff0097 #ff0084 #ff0071 #ff005e #ff004b #ff0038 #ff0025 #ff0012
+    group regulation
+    labelFields name2,name
+    barChartSampleUrl /gbdb/mm10/tabulamuris/clusters.tsv
+    barChartUnit TPM
+    barChartMetric median
+    url2 https://cells.ucsc.edu/?ds=tabulamuris&gene=$$
+    barChartMatrixUrl /gbdb/mm10/tabulamuris/exprMatrix.tsv
+    url2Label On UCSC Cell Browser:
+    priority 1
+    barChartBars B_cell Bergmann_glial_cell Brush_cell_of_epithelium_proper_of_large_intestine DN1_thymic_pro-T_cell Kupffer_cell Slamf1-negative_multipotent_progenitor_cell Slamf1-positive_multipotent_progenitor_cell T_cell astrocyte basal_cell basal_cell_of_epidermis basophil bladder_cell bladder_urothelial_cell blood_cell brain_pericyte cardiac_muscle_cell ciliated_columnar_cell_of_tracheobronchial_tree classical_monocyte common_lymphoid_progenitor endocardial_cell endothelial_cell endothelial_cell_of_hepatic_sinusoid enterocyte_of_epithelium_of_large_intestine enteroendocrine_cell epidermal_cell epithelial_cell epithelial_cell_of_large_intestine epithelial_cell_of_lung epithelial_cell_of_proximal_tubule erythrocyte fibroblast granulocyte granulocyte_monocyte_progenitor_cell granulocytopoietic_cell hematopoietic_precursor_cell hepatocyte immature_B_cell immature_NK_T_cell immature_T_cell immature_natural_killer_cell keratinocyte keratinocyte_stem_cell kidney_collecting_duct_epithelial_cell large_intestine_goblet_cell late_pro-B_cell leukocyte luminal_epithelial_cell_of_mammary_gland lung_endothelial_cell lymphocyte macrophage mature_natural_killer_cell megakaryocyte-erythroid_progenitor_cell mesenchymal_cell mesenchymal_stem_cell mesenchymal_stem_cell_of_adipose microglial_cell monocyte myeloid_cell myofibroblast_cell naive_B_cell natural_killer_cell neuron oligodendrocyte oligodendrocyte_precursor_cell pancreatic_A_cell pancreatic_D_cell pancreatic_PP_cell pancreatic_acinar_cell pancreatic_ductal_cell pancreatic_stellate_cell pre-natural_killer_cell precursor_B_cell professional_antigen_presenting_cell regulatory_T_cell skeletal_muscle_satellite_cell skeletal_muscle_satellite_stem_cell smooth_muscle_cell stem_cell_of_epidermis stromal_cell type_B_pancreatic_cell
+    superTrack on show
+    bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/tabulamuris/barChart.bb
+    defaultLabelFields name2
