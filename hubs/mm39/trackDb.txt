@@ -20,22 +20,6 @@ type bigGenePred
 bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.27/bbi/GCF_000001635.27_GRCm39.augustus.bb
 html https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.27/html/GCF_000001635.27_GRCm39.augustus
 
-track xenoRefGene
-shortLabel RefSeq mRNAs
-longLabel RefSeq mRNAs mapped to this assembly
-group rna
-visibility pack
-color 180,0,0
-type bigGenePred
-bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.27/bbi/GCF_000001635.27_GRCm39.xenoRefGene.bb
-url https://www.ncbi.nlm.nih.gov/nuccore/$$
-urlLabel NCBI Nucleotide database:
-labelFields name,geneName,geneName2
-defaultLabelFields geneName
-searchIndex name
-searchTrix https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.27/ixIxx/GCF_000001635.27_GRCm39.xenoRefGene.ix
-html https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.27/html/GCF_000001635.27_GRCm39.xenoRefGene
-
 track ensGene
 shortLabel Ensembl genes
 longLabel Ensembl genes version 103/Feb. 2021
@@ -50,6 +34,22 @@ searchIndex name
 baseColorUseCds given
 baseColorDefault genomicCodons
 html https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.27/html/GCF_000001635.27_GRCm39.ensGene
+
+track xenoRefGene
+shortLabel RefSeq mRNAs
+longLabel RefSeq mRNAs mapped to this assembly
+group genes
+visibility pack
+color 180,0,0
+type bigGenePred
+bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.27/bbi/GCF_000001635.27_GRCm39.xenoRefGene.bb
+url https://www.ncbi.nlm.nih.gov/nuccore/$$
+urlLabel NCBI Nucleotide database:
+labelFields name,geneName,geneName2
+defaultLabelFields geneName
+searchIndex name
+searchTrix https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.27/ixIxx/GCF_000001635.27_GRCm39.xenoRefGene.ix
+html https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.27/html/GCF_000001635.27_GRCm39.xenoRefGene
 
 track crisprAllTargets
 shortLabel CRISPR Targets
@@ -455,19 +455,6 @@ html https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.27/html/
     type bigBed 4 +
     priority 2
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.27/bbi/GCF_000001635.27_GRCm39.cpgIslandExtUnmasked.bb
-
-
-track xenoMRnas
-shortLabel RefSeq mRNAs
-type bigGenePred
-longLabel RefSeq mRNAs mapped to this assembly
-visibility pack
-group rna
-searchIndex name
-labelFields name,geneName,geneName2
-priority 2
-bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm39/xenoRefGene/mm39.xenoRefGene.bb
-color 180,0,0
 
 ######### Regulation
 
