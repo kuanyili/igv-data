@@ -1598,7 +1598,7 @@ urlLabel View on the VISTA Enhancer Browser
 url https://enhancer.lbl.gov/vista/browse?filter=$$
 
 
-track repMaster
+track repeatMaster
 shortLabel Repeat Masker
 group rep
 compositeTrack on
