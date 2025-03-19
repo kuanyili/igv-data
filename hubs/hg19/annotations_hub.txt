@@ -886,20 +886,13 @@ shortLabel dbSNP 155
 longLabel dbSNP 155
 group var
 bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/snp/dbSnp155.bb
-
-    track dbSnp155Composite
-    compositeViewContainer TRUE
-    shortLabel Variants
-    type bigDbSnp
-    longLabel Short Genetic Variants from dbSNP release 155
-    visibility dense
-    html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg19&g=dbSnp155Composite
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg19&g=dbSnp155Composite
 
         track dbSnp155
         shortLabel All dbSNP(155)
         type bigDbSnp
         longLabel All Short Genetic Variants from dbSNP Release 155
-        parent dbSnp155Composite
+        parent dbSnp155
         maxWindowToDraw 1000000
         bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/snp/dbSnp155.bb
 
@@ -907,7 +900,7 @@ bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/snp/dbSnp155.bb
         shortLabel Mult. dbSNP(155)
         type bigDbSnp
         longLabel Short Genetic Variants from dbSNP Release 155 that Map to Multiple Genomic Loci
-        parent dbSnp155Composite
+        parent dbSnp155
         defaultGeneTracks knownGene
         priority 3
         subGroups view=variants
@@ -917,7 +910,7 @@ bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/snp/dbSnp155.bb
         shortLabel ClinVar dbSNP(155)
         type bigDbSnp
         longLabel Short Genetic Variants from dbSNP Release 155 Included in ClinVar
-        parent dbSnp155Composite
+        parent dbSnp155
         defaultGeneTracks knownGene
         priority 2
         bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/snp/dbSnp155ClinVar.bb
@@ -926,7 +919,7 @@ bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/snp/dbSnp155.bb
         shortLabel Common dbSNP(155)
         type bigDbSnp
         longLabel Common (1000 Genomes Phase 3 MAF >= 1%) Short Genetic Variants from dbSNP Release 155
-        parent dbSnp155Composite
+        parent dbSnp155
         showCfg on
         priority 1
         bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/snp/dbSnp155Common.bb
@@ -935,7 +928,7 @@ bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/snp/dbSnp155.bb
         shortLabel Map Err dbSnp(155)
         type bigBed 4
         longLabel Mappings with Inconsistent Coordinates from dbSNP 155
-        parent dbSnp155Composite
+        parent dbSnp155
         priority 5
         bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/snp/dbSnp155BadCoords.bb
         color 100,100,100
@@ -1319,148 +1312,91 @@ compositeContainer TRUE
 shortLabel GeneHancer
 type bed 3
 longLabel GeneHancer Regulatory Elements and Gene Interactions
-sortOrder set=+ view=+
-subGroup1 view View a_GH=Regulatory_Elements b_TSS=Gene_TSS c_I=Interactions d_I=Clusters
-visibility hide
-subGroup2 set Set a_ELITE=Double_Elite b_ALL=All
 group regulation
 compositeTrack on
-dimensions dimX=set dimY=view
-tableBrowser noGenome
-dataVersion January 2019 (V2: Corrections to Experiment field)
-
-    track ghGeneHancer
-    compositeViewContainer TRUE
-    shortLabel Reg Elem
-    type bigBed 9 +
-    longLabel GeneHancer Regulatory Elements and Gene Interactions
-    parent geneHancer
-    visibility dense
-    searchIndex name
-    view a_GH
-    exonArrows off
-    itemRgb on
-    urlLabel In GeneCards:
-    url http://www.genecards.org/Search/Keyword?queryString=$$
-    mouseOverField elementType
 
         track geneHancerRegElements
         shortLabel GH Reg Elems
         type bigBed 9 +
         longLabel Enhancers and promoters from GeneHancer
-        parent ghGeneHancer off
-        parentParent geneHancer
-        subGroups set=b_ALL view=a_GH
+        parent geneHancer
+        urlLabel In GeneCards:
+        url http://www.genecards.org/Search/Keyword?queryString=$$
         bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/geneHancer/geneHancerRegElementsAll.hg19.bb
 
         track geneHancerRegElementsDoubleElite
         shortLabel GH Reg Elems (DE)
         type bigBed 9 +
         longLabel Enhancers and promoters from GeneHancer (Double Elite)
-        parent ghGeneHancer on
-        parentParent geneHancer
-        subGroups set=a_ELITE view=a_GH
+        parent geneHancer
+        urlLabel In GeneCards:
+        url http://www.genecards.org/Search/Keyword?queryString=$$
         bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/geneHancer/geneHancerRegElementsDoubleElite.hg19.bb
-
-    track ghInteraction
-    compositeViewContainer TRUE
-    shortLabel Interactions
-    type bigInteract
-    longLabel GeneHancer Regulatory Elements and Gene Interactions
-    parent geneHancer
-    visibility full
-    interactMultiRegion on
-    maxHeightPixels 50:100:200
-    viewUi on
-    interactDirectional offsetTarget
-    view c_I
-    urlLabel Interaction in GeneCards
-    url https://www.genecards.org/cgi-bin/carddisp.pl?gene=$<geneName>&keywords=$<geneHancerIdentifier>&prefilter=enhancers#enhancers
 
         track geneHancerInteractions
         shortLabel GH Interactions
         type bigInteract
         longLabel Interactions between GeneHancer regulatory elements and genes
-        parent ghInteraction off
-        parentParent geneHancer
-        subGroups set=b_ALL view=c_I
+        parent geneHancer
         bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/geneHancer/geneHancerInteractionsAll.v2.hg19.bb
+        maxHeightPixels 50:100:200
         urlLabel Interaction in GeneCards
+        url https://www.genecards.org/cgi-bin/carddisp.pl?gene=$<geneName>&keywords=$<geneHancerIdentifier>&prefilter=enhancers#enhancers
 
         track geneHancerInteractionsDoubleElite
         shortLabel GH Interactions (DE)
         type bigInteract
         longLabel Interactions between GeneHancer regulatory elements and genes (Double Elite)
-        parent ghInteraction on
-        parentParent geneHancer
-        subGroups set=a_ELITE view=c_I
+        parent geneHancer
+        maxHeightPixels 50:100:200
         bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/geneHancer/geneHancerInteractionsDoubleElite.v2.hg19.bb
         urlLabel Interaction in GeneCards
-
-    track ghGeneTss
-    compositeViewContainer TRUE
-    shortLabel Gene TSS
-    type bigBed 9
-    longLabel GeneHancer Regulatory Elements and Gene Interactions
-    parent geneHancer
-    visibility pack
-    searchIndex name
-    view b_TSS
-    itemRgb on
-    urlLabel In GeneCards:
-    url http://www.genecards.org/cgi-bin/carddisp.pl?gene=$$
+        url https://www.genecards.org/cgi-bin/carddisp.pl?gene=$<geneName>&keywords=$<geneHancerIdentifier>&prefilter=enhancers#enhancers
 
         track geneHancerGenes
         shortLabel GH genes TSS
         type bigBed 9
         longLabel GH genes TSS
-        parent ghGeneTss off
-        parentParent geneHancer
-        subGroups set=b_ALL view=b_TSS
+        itemRgb on
+        searchIndex name
+        parent geneHancer
         bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/geneHancer/geneHancerGenesTssAll.hg19.bb
         urlLabel In GeneCards:
+        url http://www.genecards.org/cgi-bin/carddisp.pl?gene=$$
 
         track geneHancerGenesDoubleElite
         shortLabel GH genes TSS (DE)
+        itemRgb on
         type bigBed 9
+        searchIndex name
         longLabel GeneCards genes TSS (Double Elite)
-        parent ghGeneTss on
-        parentParent geneHancer
-        subGroups set=a_ELITE view=b_TSS
+        parent geneHancer
         bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/geneHancer/geneHancerGenesTssDoubleElite.hg19.bb
-
-    track ghClusteredInteraction
-    compositeViewContainer TRUE
-    shortLabel Clustered Interactions
-    type bigInteract
-    longLabel GeneHancer Regulatory Elements and Gene Interactions
-    parent geneHancer
-    visibility pack
-    interactMultiRegion on
-    interactDirectional clusterTarget
-    view d_I
-    urlLabel Interaction in GeneCards
-    url https://www.genecards.org/cgi-bin/carddisp.pl?gene=$<geneName>&keywords=$<geneHancerIdentifier>&prefilter=enhancers#enhancers
+        url http://www.genecards.org/cgi-bin/carddisp.pl?gene=$$
 
         track geneHancerClusteredInteractions
         shortLabel GH Clusters
         type bigInteract
         longLabel Clustered interactions of GeneHancer regulatory elements and genes
-        parent ghClusteredInteraction off
-        parentParent geneHancer
+        parent geneHancer
         subGroups set=b_ALL view=d_I
+        interactMultiRegion on
+        interactDirectional clusterTarget
         bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/geneHancer/geneHancerInteractionsAll.v2.hg19.bb
         urlLabel Interaction in GeneCards
+        url https://www.genecards.org/cgi-bin/carddisp.pl?gene=$<geneName>&keywords=$<geneHancerIdentifier>&prefilter=enhancers#enhancers
 
         track geneHancerClusteredInteractionsDoubleElite
         shortLabel GH Clusters (DE)
         type bigInteract
         longLabel Clustered interactions of GeneHancer regulatory elements and genes (Double Elite)
-        parent ghClusteredInteraction on
-        parentParent geneHancer
+        parent geneHancer
         subGroups set=a_ELITE view=d_I
+        interactMultiRegion on
+        interactDirectional clusterTarget
         bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/geneHancer/geneHancerInteractionsDoubleElite.v2.hg19.bb
         urlLabel Interaction in GeneCards
+        url https://www.genecards.org/cgi-bin/carddisp.pl?gene=$<geneName>&keywords=$<geneHancerIdentifier>&prefilter=enhancers#enhancers
 
 track jaspar
 compositeContainer TRUE
@@ -1602,67 +1538,67 @@ track repeatMaster
 shortLabel Repeat Masker
 group rep
 compositeTrack on
-html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg19&amp;g=rmsk">
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg19&g=rmsk">
 
     track SINE
     shortLabel SINE
-    type vcfTabix
+    type rmask
     parent repeatMaster
     bigDataUrl https://igv.org/genomes/data/hg19/rmsk/variations/SINE.rmask.gz
     bigDataIndex https://igv.org/genomes/data/hg19/rmsk/variations/SINE.rmask.gz.tbi
     
     track LINE
     shortLabel LINE
-    type vcfTabix
+    type rmask
     parent repeatMaster
     bigDataUrl https://igv.org/genomes/data/hg19/rmsk/variations/LINE.rmask.gz
     bigDataIndex https://igv.org/genomes/data/hg19/rmsk/variations/LINE.rmask.gz.tbi
     
     track LTR
     shortLabel LTR
-    type vcfTabix
+    type rmask
     parent repeatMaster
     bigDataUrl https://igv.org/genomes/data/hg19/rmsk/variations/LTR.rmask.gz
     bigDataIndex https://igv.org/genomes/data/hg19/rmsk/variations/LTR.rmask.gz.tbi"
     
     track DNA
     shortLabel DNA
-    type vcfTabix
+    type rmask
     parent repeatMaster
-    bigDataUrl https://igv.org/genomes/data/hg19/rmsk/variations/DNA.rmask.gz
-    bigDataIndex https://igv.org/genomes/data/hg19/rmsk/variations/DNA.rmask.gz.tbi
+    bigDataUrl https://igv.org/genomes/data/hg19/rmsk/DNA.rmask.gz
+    bigDataIndex https://igv.org/genomes/data/hg19/rmsk/DNA.rmask.gz.tbi
     
     track Simple
     shortLabel Simple
-    type vcfTabix
+    type rmask
     parent repeatMaster
-    bigDataUrl https://igv.org/genomes/data/hg19/rmsk/variations/Simple_repeat.rmask.gz
-    bigDataIndex https://igv.org/genomes/data/hg19/rmsk/variations/Simple_repeat.rmask.gz.tbi
+    bigDataUrl https://igv.org/genomes/data/hg19/rmsk/Simple_repeat.rmask.gz
+    bigDataIndex https://igv.org/genomes/data/hg19/rmsk/Simple_repeat.rmask.gz.tbi
     
     track lowComplexity
     shortLabel Low Complexity
-    type vcfTabix
+    type rmask
     parent repeatMaster
-    bigDataUrl https://igv.org/genomes/data/hg19/rmsk/variations/Low_complexity.rmask.gz
-    bigDataIndex https://igv.org/genomes/data/hg19/rmsk/variations/Low_complexity.rmask.gz.tbi
+    bigDataUrl https://igv.org/genomes/data/hg19/rmsk/Low_complexity.rmask.gz
+    bigDataIndex https://igv.org/genomes/data/hg19/rmsk/Low_complexity.rmask.gz.tbi
     
     track Satellite
     shortLabel Satellite
-    type vcfTabix
+    type rmask
     parent repeatMaster
-    bigDataUrl https://igv.org/genomes/data/hg19/rmsk/variations/Satellite.rmask.gz
-    bigDataIndex https://igv.org/genomes/data/hg19/rmsk/variations/Satellite.rmask.gz.tbi
+    bigDataUrl https://igv.org/genomes/data/hg19/rmsk/Satellite.rmask.gz
+    bigDataIndex https://igv.org/genomes/data/hg19/rmsk/Satellite.rmask.gz.tbi
     
     track RC
     shortLabel RC
-    type vcfTabix
+    type rmask
     parent repeatMaster
-    bigDataUrl https://igv.org/genomes/data/hg19/rmsk/variations/RC.rmask.gz
-    bigDataIndex https://igv.org/genomes/data/hg19/rmsk/variations/RC.rmask.gz.tbi
+    bigDataUrl https://igv.org/genomes/data/hg19/rmsk/RC.rmask.gz
+    bigDataIndex https://igv.org/genomes/data/hg19/rmsk/RC.rmask.gz.tbi
     
     track RNA
     shortLabel RNA
-    type vcfTabix
+    type rmask
     parent repeatMaster
-    bigDataUrl https://igv.org/genomes/data/hg19/rmsk/variations/RNA.rmask.gz
-    bigDataIndex https://igv.org/genomes/data/hg19/rmsk/variations/RNA.rmask.gz.tbi
+    bigDataUrl https://igv.org/genomes/data/hg19/rmsk/RNA.rmask.gz
+    bigDataIndex https://igv.org/genomes/data/hg19/rmsk/RNA.rmask.gz.tbi
