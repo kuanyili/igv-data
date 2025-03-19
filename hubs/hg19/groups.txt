@@ -14,7 +14,7 @@ priority 3.4
 defaultIsClosed 0
 
 name varRep
-label Variation
+label Variation and Repeats
 priority 3.6
 defaultIsClosed 0
 

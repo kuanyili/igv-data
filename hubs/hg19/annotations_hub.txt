@@ -947,7 +947,7 @@ shortLabel denovo-db
 type bigBed 9 +
 longLabel denovo-db v.1.6.1
 visibility hide
-group varRep
+group var
 compositeTrack on
 noScoreFilter on
 
@@ -979,7 +979,7 @@ shortLabel DGV Struct Var
 type bed 9 +
 longLabel Database of Genomic Variants: Structural Variation (CNV, Inversion, In/del)
 visibility hide
-group varRep
+group var
 compositeTrack on
 exonArrows off
 itemRgb on
@@ -1036,7 +1036,7 @@ compositeContainer TRUE
 shortLabel ExAC
 type bed 3
 longLabel Exome Aggregation Consortium (ExAC) Variants and Calling Regions
-group varRep
+group var
 compositeTrack on
 dataVersion release 0.3
 
@@ -1046,7 +1046,7 @@ dataVersion release 0.3
     longLabel Exome Aggregation Consortium (ExAC) - Variants from 60,706 Exomes
     parent exac
     visibility hide
-    group varRep
+    group var
     configureByPopup off
     maxWindowToDraw 5000000
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/ExAC/ExAC.r0.3.sites.vep.hg19.vcf.gz
@@ -1125,7 +1125,7 @@ track giab
 shortLabel Genome In a Bottle
 longLabel Genome In a Bottle Structural Variants and Trios
 subGroup1 view Views trios=Trios sv=Structural_Variants
-group varRep
+group var
 compositeTrack on
 
         track giabSv
@@ -1199,7 +1199,7 @@ compositeContainer TRUE
 shortLabel Platinum Genomes
 type vcfTabix
 longLabel Platinum genome variants
-group varRep
+group var
 configureByPopup off
 compositeTrack on
 dataVersion Release 2017-1.0
@@ -1210,7 +1210,7 @@ dataVersion Release 2017-1.0
     longLabel Platinum genome variant NA12878
     parent platinumGenomes
     visibility pack
-    group varRep
+    group var
     vcfDoFilter off
     configureByPopup off
     maxWindowToDraw 200000
@@ -1225,7 +1225,7 @@ dataVersion Release 2017-1.0
     longLabel Platinum genome variant NA12877
     parent platinumGenomes
     visibility pack
-    group varRep
+    group var
     vcfDoFilter off
     configureByPopup off
     maxWindowToDraw 200000
@@ -1240,7 +1240,7 @@ dataVersion Release 2017-1.0
     longLabel Platinum genome hybrid
     parent platinumGenomes
     visibility pack
-    group varRep
+    group var
     vcfDoFilter off
     configureByPopup off
     maxWindowToDraw 200000
@@ -1596,3 +1596,73 @@ itemRgb on
 bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/vistaEnhancers/vistaEnhancers.bb
 urlLabel View on the VISTA Enhancer Browser
 url https://enhancer.lbl.gov/vista/browse?filter=$$
+
+
+track repMaster
+shortLabel Repeat Masker
+group rep
+compositeTrack on
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg19&amp;g=rmsk">
+
+    track SINE
+    shortLabel SINE
+    type vcfTabix
+    parent repeatMaster
+    bigDataUrl https://igv.org/genomes/data/hg19/rmsk/variations/SINE.rmask.gz
+    bigDataIndex https://igv.org/genomes/data/hg19/rmsk/variations/SINE.rmask.gz.tbi
+    
+    track LINE
+    shortLabel LINE
+    type vcfTabix
+    parent repeatMaster
+    bigDataUrl https://igv.org/genomes/data/hg19/rmsk/variations/LINE.rmask.gz
+    bigDataIndex https://igv.org/genomes/data/hg19/rmsk/variations/LINE.rmask.gz.tbi
+    
+    track LTR
+    shortLabel LTR
+    type vcfTabix
+    parent repeatMaster
+    bigDataUrl https://igv.org/genomes/data/hg19/rmsk/variations/LTR.rmask.gz
+    bigDataIndex https://igv.org/genomes/data/hg19/rmsk/variations/LTR.rmask.gz.tbi"
+    
+    track DNA
+    shortLabel DNA
+    type vcfTabix
+    parent repeatMaster
+    bigDataUrl https://igv.org/genomes/data/hg19/rmsk/variations/DNA.rmask.gz
+    bigDataIndex https://igv.org/genomes/data/hg19/rmsk/variations/DNA.rmask.gz.tbi
+    
+    track Simple
+    shortLabel Simple
+    type vcfTabix
+    parent repeatMaster
+    bigDataUrl https://igv.org/genomes/data/hg19/rmsk/variations/Simple_repeat.rmask.gz
+    bigDataIndex https://igv.org/genomes/data/hg19/rmsk/variations/Simple_repeat.rmask.gz.tbi
+    
+    track lowComplexity
+    shortLabel Low Complexity
+    type vcfTabix
+    parent repeatMaster
+    bigDataUrl https://igv.org/genomes/data/hg19/rmsk/variations/Low_complexity.rmask.gz
+    bigDataIndex https://igv.org/genomes/data/hg19/rmsk/variations/Low_complexity.rmask.gz.tbi
+    
+    track Satellite
+    shortLabel Satellite
+    type vcfTabix
+    parent repeatMaster
+    bigDataUrl https://igv.org/genomes/data/hg19/rmsk/variations/Satellite.rmask.gz
+    bigDataIndex https://igv.org/genomes/data/hg19/rmsk/variations/Satellite.rmask.gz.tbi
+    
+    track RC
+    shortLabel RC
+    type vcfTabix
+    parent repeatMaster
+    bigDataUrl https://igv.org/genomes/data/hg19/rmsk/variations/RC.rmask.gz
+    bigDataIndex https://igv.org/genomes/data/hg19/rmsk/variations/RC.rmask.gz.tbi
+    
+    track RNA
+    shortLabel RNA
+    type vcfTabix
+    parent repeatMaster
+    bigDataUrl https://igv.org/genomes/data/hg19/rmsk/variations/RNA.rmask.gz
+    bigDataIndex https://igv.org/genomes/data/hg19/rmsk/variations/RNA.rmask.gz.tbi
