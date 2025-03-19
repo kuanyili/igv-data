@@ -880,11 +880,12 @@ dataVersion /gbdb/$D/bbi/mitoMapVersion.txt
 
 ####### varation
 
-track dbSNP155
+track dbSNP155Composite
 type bigBed
 shortLabel dbSNP 155
 longLabel dbSNP 155
 group var
+compositeTrack on
 bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/snp/dbSnp155.bb
 html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg19&g=dbSnp155Composite
 
@@ -892,7 +893,7 @@ html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg19&g=dbSnp155Composite
         shortLabel All dbSNP(155)
         type bigDbSnp
         longLabel All Short Genetic Variants from dbSNP Release 155
-        parent dbSnp155
+        parent dbSNP155Composite
         maxWindowToDraw 1000000
         bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/snp/dbSnp155.bb
 
@@ -900,7 +901,7 @@ html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg19&g=dbSnp155Composite
         shortLabel Mult. dbSNP(155)
         type bigDbSnp
         longLabel Short Genetic Variants from dbSNP Release 155 that Map to Multiple Genomic Loci
-        parent dbSnp155
+        parent dbSNP155Composite
         defaultGeneTracks knownGene
         priority 3
         subGroups view=variants
@@ -910,7 +911,7 @@ html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg19&g=dbSnp155Composite
         shortLabel ClinVar dbSNP(155)
         type bigDbSnp
         longLabel Short Genetic Variants from dbSNP Release 155 Included in ClinVar
-        parent dbSnp155
+        parent dbSNP155Composite
         defaultGeneTracks knownGene
         priority 2
         bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/snp/dbSnp155ClinVar.bb
@@ -919,7 +920,7 @@ html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg19&g=dbSnp155Composite
         shortLabel Common dbSNP(155)
         type bigDbSnp
         longLabel Common (1000 Genomes Phase 3 MAF >= 1%) Short Genetic Variants from dbSNP Release 155
-        parent dbSnp155
+        parent dbSNP155Composite
         showCfg on
         priority 1
         bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/snp/dbSnp155Common.bb
@@ -928,7 +929,7 @@ html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg19&g=dbSnp155Composite
         shortLabel Map Err dbSnp(155)
         type bigBed 4
         longLabel Mappings with Inconsistent Coordinates from dbSNP 155
-        parent dbSnp155
+        parent dbSNP155Composite
         priority 5
         bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg19/snp/dbSnp155BadCoords.bb
         color 100,100,100
@@ -1544,22 +1545,22 @@ html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg19&g=rmsk">
     shortLabel SINE
     type rmask
     parent repeatMaster
-    bigDataUrl https://igv.org/genomes/data/hg19/rmsk/variations/SINE.rmask.gz
-    bigDataIndex https://igv.org/genomes/data/hg19/rmsk/variations/SINE.rmask.gz.tbi
+    bigDataUrl https://igv.org/genomes/data/hg19/rmsk/SINE.rmask.gz
+    bigDataIndex https://igv.org/genomes/data/hg19/rmsk/SINE.rmask.gz.tbi
     
     track LINE
     shortLabel LINE
     type rmask
     parent repeatMaster
-    bigDataUrl https://igv.org/genomes/data/hg19/rmsk/variations/LINE.rmask.gz
-    bigDataIndex https://igv.org/genomes/data/hg19/rmsk/variations/LINE.rmask.gz.tbi
+    bigDataUrl https://igv.org/genomes/data/hg19/rmsk/LINE.rmask.gz
+    bigDataIndex https://igv.org/genomes/data/hg19/rmsk/LINE.rmask.gz.tbi
     
     track LTR
     shortLabel LTR
     type rmask
     parent repeatMaster
-    bigDataUrl https://igv.org/genomes/data/hg19/rmsk/variations/LTR.rmask.gz
-    bigDataIndex https://igv.org/genomes/data/hg19/rmsk/variations/LTR.rmask.gz.tbi"
+    bigDataUrl https://igv.org/genomes/data/hg19/rmsk/LTR.rmask.gz
+    bigDataIndex https://igv.org/genomes/data/hg19/rmsk/LTR.rmask.gz.tbi"
     
     track DNA
     shortLabel DNA
