@@ -6,6 +6,8 @@
   "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/danRer11/bigZips/danRer11.chrom.sizes",
   "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/danRer11/bigZips/danRer11.chromAlias.txt",
   "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chr23,chr24,chr25",
+  "htmlPath": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/035/GCF_000002035.6/html/GCF_000002035.6_GRCz11.description.html",
+  "blat": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/035/GCF_000002035.6/dynablat-01.soe.ucsc.edu 4040 dynamic GCF/000/002/035/GCF_000002035.6",
   "tracks": [
     {
       "name": "Refseq Curated",
@@ -15,6 +17,6 @@
     }
   ],
   "hubs": [
-    "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/035/GCF_000002035.6/hub.txt"
+    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/danRer11/hub.txt"
   ]
 }
