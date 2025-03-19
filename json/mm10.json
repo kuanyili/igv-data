@@ -27,12 +27,7 @@
   "hubs": [
     "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/mm10/hub.txt",
     "https://epd.expasy.org/epd/ucsc/epdHub/epdHub.txt",
-    "https://www.facebase.org/trackhub/hub.txt",
-    "https://raw.githubusercontent.com/wefang/funcode/main/track_hubs/hub/hub.txt",
-    "http://expdata.cmmt.ubc.ca/JASPAR/UCSC_tracks/hub.txt",
-    "https://ftp.ncbi.nlm.nih.gov/refseq/FunctionalElements/trackhub/hub.txt",
     "http://reftss.clst.riken.jp/trackhub/hub.txt",
-    "ftp://ftp.ebi.ac.uk/pub/databases/Rfam/12.0/genome_browser_hub/hub.txt",
     "https://s3.mpi-bn.mpg.de/data-tobias-ucsc/hub.txt"
   ],
   "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chrX,chrY"

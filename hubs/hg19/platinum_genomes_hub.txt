@@ -1,5 +1,5 @@
 hub IGV
-shortLabel Platinum Genomes
+shortLabel Platinum Genomes Alignments
 longLabel Platinum Genomes Alignments
 useOneFile on
 
