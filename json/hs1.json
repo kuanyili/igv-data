@@ -44,5 +44,7 @@
       "order": 1000001
     }
   ],
-  "genomeHub": "https://hgdownload.soe.ucsc.edu/gbdb/hs1/hubs/public/hub.txt"
+  "hubs": [
+    "https://hgdownload.soe.ucsc.edu/gbdb/hs1/hubs/public/hub.txt"
+  ]
 }
