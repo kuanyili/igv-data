@@ -55,49 +55,7 @@ noInherit on
     idXref ncbiRefSeqLink mrnaAcc name
     color 20,20,160
     baseColorDefault genomicCodons
-
-    track refGene
-    shortLabel UCSC RefSeq
-    type genePred refPep refMrna
-    longLabel UCSC annotations of RefSeq RNAs (NM_* and NR_*)
-    parent refSeqComposite off
-    baseColorUseCds given
-    visibility dense
-    group genes
-    priority 7
-    idXref hgFixed.refLink mrnaAcc name
-    color 12,12,120
-    baseColorDefault genomicCodons
-
-    track ncbiRefSeqGenomicDiff
-    shortLabel RefSeq Diffs
-    type bigBed 9 +
-    longLabel Differences between NCBI RefSeq Transcripts and the Reference Genome
-    parent refSeqComposite off
-    itemRgb on
-    priority 6
-    bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm10/ncbiRefSeq/ncbiRefSeqGenomicDiff.bb
-    skipEmptyFields on
-
-    track ncbiRefSeqPsl
-    shortLabel RefSeq Alignments
-    type psl
-    longLabel RefSeq Alignments of RNAs
-    parent refSeqComposite off
-    baseColorUseCds table ncbiRefSeqCds
-    indelDoubleInsert on
-    pepTable ncbiRefSeqPepTable
-    indelQueryInsert on
-    baseColorUseSequence extFile seqNcbiRefSeq extNcbiRefSeq
-    showCdsAllScales .
-    priority 5
-    idXref ncbiRefSeqLink mrnaAcc name
-    showDiffBasesAllScales .
-    color 0,0,0
-    showDiffBasesMaxZoom 10000.0
-    showCdsMaxZoom 10000.0
-    baseColorDefault diffCodons
-    pslSequence no
+    bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/ncbiRefSeqSelect.txt.gz
 
     track ncbiRefSeqOther
     shortLabel RefSeq Other
@@ -122,6 +80,7 @@ noInherit on
     idXref ncbiRefSeqLink mrnaAcc name
     color 12,12,120
     baseColorDefault genomicCodons
+    bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/ncbiRefSeqPredicted.txt.gz
 
     track ncbiRefSeqCurated
     shortLabel RefSeq Curated
@@ -133,6 +92,7 @@ noInherit on
     idXref ncbiRefSeqLink mrnaAcc name
     color 12,12,120
     baseColorDefault genomicCodons
+    bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/ncbiRefSeqCurated.txt.gz
 
     track ncbiRefSeq
     shortLabel RefSeq All
@@ -144,6 +104,7 @@ noInherit on
     idXref ncbiRefSeqLink mrnaAcc name
     color 12,12,120
     baseColorDefault genomicCodons
+    bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/ncbiRefSeq.txt.gz
 
 track uniprot
 compositeContainer TRUE

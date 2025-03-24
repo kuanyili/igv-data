@@ -3,7 +3,7 @@
   "name": "Mouse (GRCm38/mm10)",
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/mm10.2bit",
   "nameSet": "ucsc",
-  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.26/GCF_000001635.26.chrom.sizes.txt",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/mm10.chrom.sizes",
   "blat": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.26/dynablat-01.soe.ucsc.edu 4040 dynamic GCF/000/001/635/GCF_000001635.26",
   "aliasURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.26/GCF_000001635.26.chromAlias.txt",
   "description": "house mouse (GRCm38.p6 2017)\nMus musculus/GCF_000001635.26_GRCm38.p6 genome assembly",
