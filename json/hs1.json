@@ -46,6 +46,7 @@
     }
   ],
   "hubs": [
+    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hs1/hub.txt",
     "https://hgdownload.soe.ucsc.edu/gbdb/hs1/hubs/public/hub.txt"
   ]
 }
