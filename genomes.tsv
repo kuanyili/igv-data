@@ -38,6 +38,4 @@ S. purpuratus (Spur5.0)	https://raw.githubusercontent.com/igvteam/igv-genomes/re
 P. miniata (Pmin3.0)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/Pmin3.0.json	Pmin3.0
 L. variegatus (Lvar3.0)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/Lvar3.0.json	Lvar3.0
 O. sativa IRGSP-1.0 (GCF_001433935.1)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/GCF_001433935.1.json	GCF_001433935.1
-E. coli K-12 (NC_000913.3)	https://s3.amazonaws.com/igv.broadinstitute.org/genomes/NC_000913.3.gbk	NC_000913.3
-Francisella tularensis (NC_008601)	https://s3.amazonaws.com/igv.broadinstitute.org/genomes/NC_008601.gbk	NC_008601
-Human Mito (NC_012920)	https://s3.amazonaws.com/igv.broadinstitute.org/genomes/NC_012920.1.gbk	NC_012920
+
