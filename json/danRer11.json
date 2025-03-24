@@ -11,8 +11,8 @@
   "tracks": [
     {
       "name": "Refseq Curated",
-      "format": "refgene",
-      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/danRer11/database/ncbiRefSeqCurated.txt.gz",
+      "format": "bigGenePred",
+      "url": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/035/GCF_000002035.6/bbi/GCF_000002035.6_GRCz11.ncbiRefSeqCurated.bb",
       "order": 1000000
     }
   ],
