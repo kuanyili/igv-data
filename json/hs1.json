@@ -15,6 +15,7 @@
       "format": "biggenepred",
       "url": "https://hgdownload.soe.ucsc.edu/gbdb/hs1/ncbiRefSeq/ncbiRefSeqSelectCurated.bb",
       "trixURL": "https://hgdownload.soe.ucsc.edu/gbdb/hs1/ncbiRefSeq/ncbiRefSeqSelectCurated.ix",
+      "labelField": "name2",
       "visibilityWindow": -1,
       "order": 1000000
     },

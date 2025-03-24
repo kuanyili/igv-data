@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 
-processGenome('danRer11')
+processGenome('hs1')
 
 async function processGenome(genomeId) {
 

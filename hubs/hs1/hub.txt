@@ -1,0 +1,8 @@
+hub IGV
+shortLabel UCSC Hosted Annotations
+longLabel IGV hosted annotations.
+genomesFile genomes.txt
+groups groups.txt
+
+
+
