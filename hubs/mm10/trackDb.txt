@@ -96,7 +96,7 @@ noInherit on
 
     track ncbiRefSeq
     shortLabel RefSeq All
-    type genePred
+    type bigGenePred
     longLabel NCBI RefSeq genes, curated and predicted (NM_*, XM_*, NR_*, XR_*, NP_*, YP_*)
     parent refSeqComposite off
     baseColorUseCds given
@@ -104,7 +104,7 @@ noInherit on
     idXref ncbiRefSeqLink mrnaAcc name
     color 12,12,120
     baseColorDefault genomicCodons
-    bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/ncbiRefSeq.txt.gz
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.26/bbi/GCF_000001635.26_GRCm38.p6.ncbiRefSeq.bb
 
 track uniprot
 compositeContainer TRUE
