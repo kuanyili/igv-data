@@ -1,5 +1,7 @@
 {
   "id": "b37_1kg",
+  "ucscID": "hg19",
+  "blatDB": "hg19",
   "name": "Human (1kg, b37+decoy)",
   "fastaURL": "https://storage.googleapis.com/genomics-public-data/references/Homo_sapiens_assembly19_1000genomes_decoy/Homo_sapiens_assembly19_1000genomes_decoy.fasta",
   "indexURL": "https://storage.googleapis.com/genomics-public-data/references/Homo_sapiens_assembly19_1000genomes_decoy/Homo_sapiens_assembly19_1000genomes_decoy.fasta.fai",

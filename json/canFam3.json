@@ -2,15 +2,19 @@
   "id": "canFam3",
   "name": "Dog (Broad CanFam3.1/canFam3)",
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam3/bigZips/canFam3.2bit",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam3/bigZips/canFam3.chrom.sizes",
   "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam3/database/cytoBandIdeo.txt.gz",
   "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam3/bigZips/canFam3.chromAlias.txt",
   "tracks": [
     {
-      "name": "Refseq Genes",
+      "name": "RefSeq Curated",
       "format": "refgene",
-      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam3/database/refGene.txt.gz",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam3/database/ncbiRefSeqCurated.txt.gz",
       "indexed": false,
       "order": 1000000
     }
+  ],
+  "hubs": [
+    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/bugs/hubs/canFam3/hub.txt"
   ]
 }
