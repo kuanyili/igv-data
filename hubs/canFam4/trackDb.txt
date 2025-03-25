@@ -1,0 +1,60 @@
+track refSeqComposite
+shortLabel NCBI RefSeq
+longLabel RefSeq genes from NCBI
+group genes
+compositeTrack on
+noInherit on
+
+    track refseqCurated
+    type refgene
+    shortLabel Refseq Curated
+    longLabel Refseq Curated
+    group genes
+    bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/canFam4/database/ncbiRefSeqCurated.txt.gz
+    html https://www.ncbi.nlm.nih.gov/refseq/refseq_select/
+    parent refSeqComposite
+
+    track refseqAll
+    type refgene
+    shortLabel Refseq All
+    longLabel Refseq All
+    group genes
+    bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/canFam4/database/ncbiRefSeq.txt.gz
+    html https://www.ncbi.nlm.nih.gov/refseq/refseq_select/
+    parent refSeqComposite
+
+    track ncbiRefSeqGenomicDiff
+    shortLabel RefSeq Diffs
+    type bigBed 9 +
+    longLabel Differences between NCBI RefSeq Transcripts and the Reference Genome
+    parent refSeqComposite off
+    itemRgb on
+    priority 6
+    bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/canFam4/ncbiRefSeq/ncbiRefSeqGenomicDiff.bb
+    skipEmptyFields on
+
+    track ncbiRefSeqOther
+    shortLabel RefSeq Other
+    type bigBed 12 +
+    longLabel NCBI RefSeq Other Annotations (not NM_*, NR_*, XM_*, XR_*, NP_* or YP_*)
+    parent refSeqComposite off
+    searchIndex name
+    labelFields gene
+    priority 4
+    searchTrix https://hgdownload.soe.ucsc.edu/gbdb/canFam4/ncbiRefSeq/ncbiRefSeqOther.ix
+    bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/canFam4/ncbiRefSeq/ncbiRefSeqOther.bb
+    color 32,32,32
+    skipEmptyFields on
+    urls GeneID="https://www.ncbi.nlm.nih.gov/gene/$$" MIM="https://www.ncbi.nlm.nih.gov/omim/612091" HGNC="https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/$$" FlyBase="http://flybase.org/reports/$$" WormBase="http://www.wormbase.org/db/gene/gene?name=$$" RGD="https://rgd.mcw.edu/rgdweb/search/search.html?term=$$" SGD="https://www.yeastgenome.org/locus/$$" miRBase="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=$$" ZFIN="https://zfin.org/$$" MGI="http://www.informatics.jax.org/marker/$$"
+
+track HLTOGAannotvHg38v1
+shortLabel TOGA vs. hg38
+type bigBed 12
+longLabel TOGA annotations using human/hg38 as reference
+visibility hide
+group genes
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=canFam4&g=TOGAannotation
+searchIndex name
+itemRgb on
+searchTrix https://hgdownload.soe.ucsc.edu/gbdb/canFam4/TOGAvHg38v1/HLTOGAannotVsHg38v1.ix
+bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/canFam4/TOGAvHg38v1/HLTOGAannotVsHg38v1.bb

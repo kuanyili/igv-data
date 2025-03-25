@@ -5,15 +5,6 @@ group genes
 compositeTrack on
 noInherit on
 
-    track refseqSelect
-    type refgene
-    shortLabel Refseq Select
-    longLabel Refseq Select
-    group genes
-    bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/$ID/database/ncbiRefSeqSelect.txt.gz
-    html https://www.ncbi.nlm.nih.gov/refseq/refseq_select/
-    parent refSeqComposite
-
     track refseqCurated
     type refgene
     shortLabel Refseq Curated

@@ -14,5 +14,8 @@
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam5/database/refGene.txt.gz",
       "order": 1000000
     }
+  ],
+  "hubs": [
+    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/canFam5/hub.txt"
   ]
 }
