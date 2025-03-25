@@ -16,5 +16,7 @@
       "order": 1000000
     }
   ],
-  "hubs": ["https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/danRer11/hub.txt"]
+  "hubs": [
+    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/danRer11/hub.txt"
+  ]
 }

@@ -1,6 +1,6 @@
 hub IGV
 shortLabel UCSC Hosted Annotations
-longLabel IGV hosted annotations.
+longLabel UCSC hosted annotations.
 useOneFile on
 
 genome hg19

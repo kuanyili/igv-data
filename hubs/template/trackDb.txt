@@ -1,0 +1,33 @@
+track refSeqComposite
+shortLabel NCBI RefSeq
+longLabel RefSeq genes from NCBI
+group genes
+compositeTrack on
+noInherit on
+
+    track refseqSelect
+    type refgene
+    shortLabel Refseq Select
+    longLabel Refseq Select
+    group genes
+    bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/$ID/database/ncbiRefSeqSelect.txt.gz
+    html https://www.ncbi.nlm.nih.gov/refseq/refseq_select/
+    parent refSeqComposite
+
+    track refseqCurated
+    type refgene
+    shortLabel Refseq Curated
+    longLabel Refseq Curated
+    group genes
+    bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/$ID/database/ncbiRefSeqCurated.txt.gz
+    html https://www.ncbi.nlm.nih.gov/refseq/refseq_select/
+    parent refSeqComposite
+
+    track refseqAll
+    type refgene
+    shortLabel Refseq All
+    longLabel Refseq All
+    group genes
+    bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/$ID/database/ncbiRefSeq.txt.gz
+    html https://www.ncbi.nlm.nih.gov/refseq/refseq_select/
+    parent refSeqComposite
