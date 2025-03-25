@@ -9,11 +9,11 @@
   "tracks": [
     {
       "name": "RefSeq All",
-      "format": "gtf",
-      "url": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/735/GCF_000001735.3/bbi/GCF_000001735.3_TAIR10.ncbiRefSeq.bbz",
+      "url": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/735/GCF_000001735.3/bbi/GCF_000001735.3_TAIR10.ncbiRefSeq.bb",
       "trixURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/735/GCF_000001735.3/ixIxx/GCF_000001735.3_TAIR10.ncbiRefSeq.ix",
       "labelField": "geneName2",
-      "searchIndex": "name"
+      "searchIndex": "name",
+      "visibilityWindow": 0
     }
   ],
   "hubs": [

@@ -2,9 +2,9 @@
 A. thaliana (TAIR 10)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/tair10.json	tair10
 C. elegans (ce11)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/ce11.json	ce11
 Chicken (GRCg6a / galGal6)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/galGal6.json	galGal6
-Gallus gallus (GCF_016699485.2)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/GCF_016699485.2/GCF_016699485.2.json	GCF_016699485.2
+Gallus gallus (GCF_016699485.2)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/GCF_016699485.2.json	GCF_016699485.2
 Chimp (panTro4)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/panTro4.json	panTro4
-Coprinopsis cinerea okayama7#130 (GCA_000182895.1)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/GCA_000182895.1/GCA_000182895.1_dt.json	GCA_000182895.1
+Coprinopsis cinerea okayama7#130 (GCA_000182895.1)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/GCA_000182895.1.json	GCA_000182895.1
 Cow (bosTau8)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/bosTau8.json	bosTau8
 Cow (bosTau9)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/bosTau9.json	bosTau9
 D. melanogaster (dm6)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/dm6.json	dm6

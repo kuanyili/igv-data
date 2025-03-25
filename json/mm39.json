@@ -10,8 +10,10 @@
       "name": "Refseq Curated",
       "format": "refgene",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/mm39/database/ncbiRefSeqCurated.txt.gz",
-      "indexed": false,
-      "order": 1000000
+      "color": "12,12,120",
+      "labelField": "geneName2",
+      "trixURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.27/ixIxx/GCF_000001635.27_GRCm39.ncbiRefSeqCurated.ix",
+      "url":  "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.27/bbi/GCF_000001635.27_GRCm39.ncbiRefSeqCurated.bb"
     }
   ],
   "hubs": [

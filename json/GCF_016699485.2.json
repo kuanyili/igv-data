@@ -16,11 +16,11 @@
       "id": "ncbiRefSeqCurated",
       "name": "RefSeq Transcripts",
       "description": " <a target = \"_blank\" href = \"https://hgdownload.gi.ucsc.edu/hubs/birds/https://hgdownload.gi.ucsc.edu/hubs/birds/../GCF/016/699/485/GCF_016699485.2/html/GCF_016699485.2_bGalGal1.mat.broiler.GRCg7b.refSeqComposite\">NCBI RefSeq genes, curated subset (NM_*, NR_*, NP_* or YP_*)</a>",
-      "url": "https://hgdownload.gi.ucsc.edu/hubs/birds/../GCF/016/699/485/GCF_016699485.2/bbi/GCF_016699485.2_bGalGal1.mat.broiler.GRCg7b.ncbiRefSeqCurated.bb",
-      "displayMode": "EXPANDED",
+      "url": "https://hgdownload.soe.ucsc.edu/hubs/GCF/016/699/485/GCF_016699485.2/bbi/GCF_016699485.2_bGalGal1.mat.broiler.GRCg7b.ncbiRefSeqCurated.bb",
+      "trixURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/016/699/485/GCF_016699485.2/bbi/ixIxx/GCF_016699485.2_bGalGal1.mat.broiler.GRCg7b.ncbiRefSeqCurated.ix",
+      "labelField": "geneName2",
       "color": "rgb(12,12,120)",
-      "parent": "refSeqComposite on",
-      "height": 300
+      "parent": "refSeqComposite on"
     }
   ],
   "hubs": [

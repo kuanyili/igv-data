@@ -38,7 +38,7 @@ noInherit on
         shortLabel RefSeq Diffs
         type bigBed 9 +
         longLabel Differences between NCBI RefSeq Transcripts and the Reference Genome
-        parentrefSeqComposite
+        parent refSeqComposite
         itemRgb on
         priority 6
         subGroups view=aNcbiRefSeq
