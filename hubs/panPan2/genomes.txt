@@ -1,3 +1,0 @@
-genome panPan2
-trackDb trackDb.txt
-groups groups.txt
