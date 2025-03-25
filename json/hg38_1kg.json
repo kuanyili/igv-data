@@ -20,12 +20,6 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/bugs/hubs/hg38/hub.txt",
-    "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/hub.txt",
-    "https://ftp.ncbi.nlm.nih.gov/snp/population_frequency/TrackHub/latest/hub.txt",
-    "https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/hub.txt",
-    "https://ftp.ncbi.nlm.nih.gov/pub/dbVar/sandbox/dbvarhub/hub.txt",
-    "https://hgdownload.soe.ucsc.edu/hubs/gtexAnalysis/hub.txt",
-    "https://vizhub.wustl.edu/VizHub/RoadmapReleaseAll.txt"
+    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/bugs/hubs/hg38/hub.txt"
   ]
 }

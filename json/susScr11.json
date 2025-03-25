@@ -8,11 +8,9 @@
   "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chrX,chrY",
   "tracks": [
     {
-      "name": "Refseq Genes",
+      "name": "Refseq Curated",
       "format": "refgene",
-      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/susScr11/database/refGene.txt.gz",
-      "indexed": false,
-      "order": 1000000
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/susScr11/database/ncbiRefSeqCurated.txt.gz"
     }
   ],
   "hubs": [
