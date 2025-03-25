@@ -1,6 +1,6 @@
 # List of hubs by genome
 hg19 b37_1kg
-    https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hg19/annotations_hub.txt
+    https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/bugs/hubs/hg19/annotations_hub.txt
     https://s3.us-east-2.amazonaws.com/brainepigenome/hub.txt
     https://bchub.epfl.ch/breastca.txt
     https://genome-test.gi.ucsc.edu/~max/immuno/track/hub/hub.txt
@@ -10,9 +10,9 @@ hg19 b37_1kg
     https://vizhub.wustl.edu/VizHub/RoadmapIntegrative.txt
     https://vizhub.wustl.edu/VizHub/RoadmapReleaseAll.txt
     https://pmgenomics.ca/hoffmanlab/proj/bismap/trackhub/hub.txt
-    https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hg19/1kg_hub.txt
-    https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hg19/platinum_genomes_hub.txt
-    https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hg19/tutorials_hub.txt
+    https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/bugs/hubs/hg19/1kg_hub.txt
+    https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/bugs/hubs/hg19/platinum_genomes_hub.txt
+    https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/bugs/hubs/hg19/tutorials_hub.txt
 
 hg38
     https://github.com/igvteam/igv-genomes/blob/main/hubs/hg38/hub.txt

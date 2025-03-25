@@ -20,7 +20,7 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/panPan2/hub.txt",
+    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/bugs/hubs/panPan2/hub.txt",
     "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/258/655/GCF_000258655.2/hub.txt"
   ]
 }

@@ -16,6 +16,6 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/canFam5/hub.txt"
+    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/bugs/hubs/canFam5/hub.txt"
   ]
 }
