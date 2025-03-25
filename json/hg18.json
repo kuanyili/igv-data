@@ -4,6 +4,7 @@
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg18/bigZips/hg18.2bit",
   "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg18/database/cytoBandIdeo.txt.gz",
   "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg18/bigZips/hg18.chrom.sizes",
+  "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chrX,chrY",
   "tracks": [
     {
       "name": "Refseq Genes",
@@ -16,5 +17,7 @@
       "infoURL": "https://www.ncbi.nlm.nih.gov/gene/?term=$$"
     }
   ],
-  "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chrX,chrY"
+  "hubs": [
+    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hg18/annotations_hub.txt"
+  ]
 }
