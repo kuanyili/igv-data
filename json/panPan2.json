@@ -1,8 +1,8 @@
 {
   "id": "panPan2",
   "name": "Bonobo (MPI-EVA panpan1.1/panPan2)",
-  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/panPan2/bigZips/panPan2.2bit",
-  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/panPan2/bigZips/panPan2.chrom.sizes",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/258/655/GCF_000258655.2/GCF_000258655.2.2bit",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/258/655/GCF_000258655.2/GCF_000258655.2.chrom.sizes.txt",
   "blat": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/258/655/GCF_000258655.2/dynablat-01.soe.ucsc.edu 4040 dynamic GCF/000/258/655/GCF_000258655.2",
   "chromAliasBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/258/655/GCF_000258655.2/GCF_000258655.2.chromAlias.bb",
   "twoBitBptURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/258/655/GCF_000258655.2/GCF_000258655.2.2bit.bpt",
@@ -13,8 +13,8 @@
     {
       "name": "RefSeq Curated",
       "format": "refgene",
-      "url": "bbi/GCF_000258655.2_panpan1.1.ncbiRefSeqCurated.bb",
-      "trixURL": "ixIxx/GCF_000258655.2_panpan1.1.ncbiRefSeqCurated.ix",
+      "url": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/258/655/GCF_000258655.2/bbi/GCF_000258655.2_panpan1.1.ncbiRefSeqCurated.bb",
+      "trixURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/258/655/GCF_000258655.2/ixIxx/GCF_000258655.2_panpan1.1.ncbiRefSeqCurated.ix",
       "color": "12,12,120",
       "labelField": "geneName2"
     }
