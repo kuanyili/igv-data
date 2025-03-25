@@ -25,7 +25,7 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/bugs/hubs/mm10/hub.txt",
+    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/mm10/hub.txt",
     "https://epd.expasy.org/epd/ucsc/epdHub/epdHub.txt",
     "http://reftss.clst.riken.jp/trackhub/hub.txt",
     "https://s3.mpi-bn.mpg.de/data-tobias-ucsc/hub.txt"
