@@ -11,10 +11,9 @@
   "cytobandBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/235/GCF_000002235.5/bbi/GCF_000002235.5_Spur_5.0.cytoBand.bb",
   "tracks": [
     {
-      "name": "RefSeq Curated",
-      "url": "https://s3.amazonaws.com/igv.org.genomes/Spur5.0/sp5_0_GCF.gff3.gz",
-      "labelField": "geneName2",
-      "bidDataUrl": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/235/GCF_000002235.5/bbi/GCF_000002235.5_Spur_5.0.ncbiRefSeqCurated.bb"
+      "name": "RefSeq All",
+      "url": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/235/GCF_000002235.5/bbi/GCF_000002235.5_Spur_5.0.ncbiRefSeq.bb",
+      "labelField": "geneName2"
     }
   ],
   "hubs": [

@@ -8,12 +8,12 @@
   "chromosomeOrder": "NC_003070.9,NC_003071.7,NC_003074.8,NC_003075.7,NC_003076.8",
   "tracks": [
     {
-      "name": "RefSeq Genes",
+      "name": "RefSeq All",
       "format": "gtf",
-      "url": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/735/GCF_000001735.3/genes/GCF_000001735.3_TAIR10.ncbiRefSeq.gtf.gz",
-      "indexed": false,
-      "order": 1000000,
-      "searchable": true
+      "url": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/735/GCF_000001735.3/bbi/GCF_000001735.3_TAIR10.ncbiRefSeq.bbz",
+      "trixURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/735/GCF_000001735.3/ixIxx/GCF_000001735.3_TAIR10.ncbiRefSeq.ix",
+      "labelField": "geneName2",
+      "searchIndex": "name"
     }
   ],
   "hubs": [

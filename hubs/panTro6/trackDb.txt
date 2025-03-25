@@ -1,0 +1,419 @@
+track augustusGenes
+shortLabel Augustus Genes
+type refgene
+group genes
+bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/panTro6/database/augustusGene.txt.gz
+https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=ce11&g=augustusGene
+
+track ensGene
+shortLabel Ensembl Genes
+type refgene
+group genes
+bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/panTro6/database/ensGene.txt.gz
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=ce11&g=ensGene
+
+track HLTOGAannotvHg38v1
+shortLabel TOGA vs. hg38
+type bigBed 12
+longLabel TOGA annotations using human/hg38 as reference
+visibility hide
+group genes
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=panTro6&g=TOGAannotation
+searchIndex name
+itemRgb on
+searchTrix https://hgdownload.soe.ucsc.edu/gbdb/panTro6/TOGAvHg38v1/HLTOGAannotVsHg38v1.ix
+bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/panTro6/TOGAvHg38v1/HLTOGAannotVsHg38v1.bb
+
+track refSeqComposite
+compositeContainer TRUE
+shortLabel NCBI RefSeq
+type genePred
+longLabel RefSeq genes from NCBI
+visibility dense
+group genes
+allButtonPair on
+compositeTrack on
+dragAndDrop subTracks
+dbPrefixLabels hg="HGNC" dm="FlyBase" ce="WormBase" rn="RGD" sacCer="SGD" danRer="ZFIN" mm="MGI" xenTro="XenBase"
+priority 2
+dbPrefixUrls hg="http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=$$" dm="http://flybase.org/reports/$$" ce="http://www.wormbase.org/db/gene/gene?name=$$" rn="https://rgd.mcw.edu/rgdweb/search/search.html?term=$$" sacCer="https://www.yeastgenome.org/locus/$$" danRer="https://zfin.org/$$" mm="http://www.informatics.jax.org/marker/$$" xenTro="https://www.xenbase.org/gene/showgene.do?method=display&geneId=$$"
+dataVersion https://hgdownload.soe.ucsc.edu/gbdb/$D/ncbiRefSeq/ncbiRefSeqVersion.txt
+noInherit on
+
+    track refseqCurated
+    type refgene
+    shortLabel Refseq Curated
+    longLabel Refseq Curated
+    group genes
+    bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/panTro6/database/ncbiRefSeqCurated.txt.gz
+    html https://www.ncbi.nlm.nih.gov/refseq/refseq_select/
+    parent refSeqComposite
+
+    track refseqAll
+    type refgene
+    shortLabel Refseq All
+    longLabel Refseq All
+    group genes
+    bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/panTro6/database/ncbiRefSeq.txt.gz
+    html https://www.ncbi.nlm.nih.gov/refseq/refseq_select/
+    parent refSeqComposite
+
+    track ncbiRefSeqGenomicDiff
+    shortLabel RefSeq Diffs
+    type bigBed 9 +
+    longLabel Differences between NCBI RefSeq Transcripts and the Reference Genome
+    parent refSeqComposite off
+    itemRgb on
+    priority 6
+    bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/panTro6/ncbiRefSeq/ncbiRefSeqGenomicDiff.bb
+    skipEmptyFields on
+
+    track ncbiRefSeqOther
+    shortLabel RefSeq Other
+    type bigBed 12 +
+    longLabel NCBI RefSeq Other Annotations (not NM_*, NR_*, XM_*, XR_*, NP_* or YP_*)
+    parent refSeqComposite off
+    searchIndex name
+    labelFields gene
+    priority 4
+    searchTrix https://hgdownload.soe.ucsc.edu/gbdb/panTro6/ncbiRefSeq/ncbiRefSeqOther.ix
+    bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/panTro6/ncbiRefSeq/ncbiRefSeqOther.bb
+    color 32,32,32
+    skipEmptyFields on
+    urls GeneID="https://www.ncbi.nlm.nih.gov/gene/$$" MIM="https://www.ncbi.nlm.nih.gov/omim/612091" HGNC="https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/$$" FlyBase="http://flybase.org/reports/$$" WormBase="http://www.wormbase.org/db/gene/gene?name=$$" RGD="https://rgd.mcw.edu/rgdweb/search/search.html?term=$$" SGD="https://www.yeastgenome.org/locus/$$" miRBase="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=$$" ZFIN="https://zfin.org/$$" MGI="http://www.informatics.jax.org/marker/$$"
+
+track transMapEnsemblV5
+shortLabel TransMap Ensembl
+type bigPsl
+longLabel TransMap Ensembl and GENCODE Mappings Version 5
+parent transMapV5
+baseColorUseCds given
+indelDoubleInsert on
+visibility pack
+group genes
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=panTro6&g=transMapEnsembl
+searchIndex name,srcTransId,geneName,geneId
+labelFields commonName,orgAbbrev,srcDb,srcTransId,name,geneName,geneId,geneType,transcriptType
+indelQueryInsert on
+baseColorUseSequence lfExtra
+showCdsAllScales .
+priority 10.001
+canPack on
+showDiffBasesAllScales .
+superTrack transMapV5 pack
+bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/panTro6/transMap/V5/panTro6.ensembl.transMapV5.bigPsl
+transMapSrcSet ensembl
+color 0,100,0
+labelSeparator " "
+showDiffBasesMaxZoom 10000.0
+showCdsMaxZoom 10000.0
+defaultLabelFields orgAbbrev,geneName
+baseColorDefault diffCodons
+
+track transMapEstV5
+shortLabel TransMap ESTs
+type bigPsl
+longLabel TransMap EST Mappings Version 5
+parent transMapV5
+indelDoubleInsert on
+visibility hide
+group genes
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=panTro6&g=transMapEst
+searchIndex name,srcTransId
+labelFields commonName,orgAbbrev,srcDb,srcTransId,name
+indelQueryInsert on
+baseColorUseSequence lfExtra
+priority 10.005
+canPack on
+showDiffBasesAllScales .
+superTrack transMapV5 hide
+bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/panTro6/transMap/V5/panTro6.est.transMapV5.bigPsl
+transMapSrcSet est
+color 0,100,0
+labelSeparator " "
+showDiffBasesMaxZoom 10000.0
+defaultLabelFields orgAbbrev,srcTransId
+baseColorDefault none
+
+track transMapRefSeqV5
+shortLabel TransMap RefGene
+type bigPsl
+longLabel TransMap RefSeq Gene Mappings Version 5
+parent transMapV5
+baseColorUseCds given
+indelDoubleInsert on
+visibility pack
+group genes
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=panTro6&g=transMapRefSeq
+searchIndex name,srcTransId,geneName,geneId
+labelFields commonName,orgAbbrev,srcDb,srcTransId,name,geneName,geneId
+indelQueryInsert on
+baseColorUseSequence lfExtra
+showCdsAllScales .
+priority 10.003
+canPack on
+showDiffBasesAllScales .
+superTrack transMapV5 pack
+bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/panTro6/transMap/V5/panTro6.refseq.transMapV5.bigPsl
+transMapSrcSet refseq
+color 0,100,0
+labelSeparator " "
+showDiffBasesMaxZoom 10000.0
+showCdsMaxZoom 10000.0
+defaultLabelFields orgAbbrev,geneName
+baseColorDefault diffCodons
+
+track transMapRnaV5
+shortLabel TransMap RNA
+type bigPsl
+longLabel TransMap GenBank RNA Mappings Version 5
+parent transMapV5
+baseColorUseCds given
+indelDoubleInsert on
+visibility hide
+group genes
+html https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=panTro6&g=transMapRna
+searchIndex name,srcTransId,geneName
+labelFields commonName,orgAbbrev,srcDb,srcTransId,name,geneName
+indelQueryInsert on
+baseColorUseSequence lfExtra
+showCdsAllScales .
+priority 10.004
+canPack on
+showDiffBasesAllScales .
+superTrack transMapV5 hide
+bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/panTro6/transMap/V5/panTro6.rna.transMapV5.bigPsl
+transMapSrcSet rna
+color 0,100,0
+labelSeparator " "
+showDiffBasesMaxZoom 10000.0
+showCdsMaxZoom 10000.0
+defaultLabelFields orgAbbrev,srcTransId
+baseColorDefault diffCodons
+
+track uniprot
+compositeContainer TRUE
+shortLabel UniProt
+type bigBed 12 +
+longLabel UniProt SwissProt/TrEMBL Protein Annotations
+visibility hide
+hideEmptySubtracks on
+group genes
+allButtonPair on
+compositeTrack on
+itemRgb on
+exonNumbers off
+dataVersion https://hgdownload.soe.ucsc.edu/gbdb/$D/uniprot/version.txt
+mouseOverField comments
+urls uniProtId="http://www.uniprot.org/uniprot/$$#section_features" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
+
+    track unipConflict
+    shortLabel Seq. Conflicts
+    type bigBed 12 +
+    longLabel UniProt Sequence Conflicts
+    parent uniprot off
+    filterValues.status Manually reviewed (Swiss-Prot),Unreviewed (TrEMBL)
+    visibility dense
+    priority 13
+    bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/panTro6/uniprot/unipConflict.bb
+    urls uniProtId="http://www.uniprot.org/uniprot/$$#Sequence_conflict_section" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
+
+    track unipRepeat
+    shortLabel Repeats
+    type bigBed 12 +
+    longLabel UniProt Repeats
+    parent uniprot
+    filterValues.status Manually reviewed (Swiss-Prot),Unreviewed (TrEMBL)
+    visibility dense
+    priority 12
+    bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/panTro6/uniprot/unipRepeat.bb
+    urls uniProtId="http://www.uniprot.org/uniprot/$$#family_and_domains" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
+
+    track unipStruct
+    shortLabel Structure
+    type bigBed 12 +
+    longLabel UniProt Protein Primary/Secondary Structure Annotations
+    parent uniprot
+    filterValues.status Manually reviewed (Swiss-Prot),Unreviewed (TrEMBL)
+    visibility hide
+    group genes
+    priority 11
+    bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/panTro6/uniprot/unipStruct.bb
+    urls uniProtId="http://www.uniprot.org/uniprot/$$#structure" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
+
+    track unipOther
+    shortLabel Other Annot.
+    type bigBed 12 +
+    longLabel UniProt Other Annotations
+    parent uniprot
+    filterValues.status Manually reviewed (Swiss-Prot),Unreviewed (TrEMBL)
+    visibility dense
+    priority 11
+    bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/panTro6/uniprot/unipOther.bb
+    urls uniProtId="http://www.uniprot.org/uniprot/$$#family_and_domains" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
+
+    track unipMut
+    shortLabel Mutations
+    type bigBed 12 +
+    longLabel UniProt Amino Acid Mutations
+    parent uniprot
+    visibility dense
+    priority 10
+    bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/panTro6/uniprot/unipMut.bb
+    urls uniProtId="http://www.uniprot.org/uniprot/$$#pathology_and_biotech" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$" variationId="http://www.uniprot.org/uniprot/$$"
+
+    track unipModif
+    shortLabel AA Modifications
+    type bigBed 12 +
+    longLabel UniProt Amino Acid Modifications
+    parent uniprot
+    filterValues.status Manually reviewed (Swiss-Prot),Unreviewed (TrEMBL)
+    visibility dense
+    priority 9
+    bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/panTro6/uniprot/unipModif.bb
+    urls uniProtId="http://www.uniprot.org/uniprot/$$#aaMod_section" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
+
+    track unipDomain
+    shortLabel Domains
+    type bigBed 12 +
+    longLabel UniProt Domains
+    parent uniprot
+    filterValues.status Manually reviewed (Swiss-Prot),Unreviewed (TrEMBL)
+    visibility dense
+    priority 8
+    bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/panTro6/uniprot/unipDomain.bb
+    urls uniProtId="http://www.uniprot.org/uniprot/$$#family_and_domains" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
+
+    track unipDisulfBond
+    shortLabel Disulf. Bonds
+    type bigBed 12 +
+    longLabel UniProt Disulfide Bonds
+    parent uniprot
+    filterValues.status Manually reviewed (Swiss-Prot),Unreviewed (TrEMBL)
+    visibility dense
+    priority 8
+    bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/panTro6/uniprot/unipDisulfBond.bb
+
+    track unipChain
+    shortLabel Chains
+    type bigBed 12 +
+    longLabel UniProt Mature Protein Products (Polypeptide Chains)
+    parent uniprot
+    filterValues.status Manually reviewed (Swiss-Prot),Unreviewed (TrEMBL)
+    visibility dense
+    priority 7
+    bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/panTro6/uniprot/unipChain.bb
+    urls uniProtId="http://www.uniprot.org/uniprot/$$#ptm_processing" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
+
+    track unipLocCytopl
+    shortLabel Cytoplasmic
+    type bigBed 12 +
+    longLabel UniProt Cytoplasmic Domains
+    parent uniprot
+    filterValues.status Manually reviewed (Swiss-Prot),Unreviewed (TrEMBL)
+    visibility dense
+    itemRgb off
+    priority 6
+    bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/panTro6/uniprot/unipLocCytopl.bb
+    color 255,150,0
+
+    track unipLocTransMemb
+    shortLabel Transmembrane
+    type bigBed 12 +
+    longLabel UniProt Transmembrane Domains
+    parent uniprot
+    filterValues.status Manually reviewed (Swiss-Prot),Unreviewed (TrEMBL)
+    visibility dense
+    itemRgb off
+    priority 5
+    bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/panTro6/uniprot/unipLocTransMemb.bb
+    color 0,150,0
+
+    track unipInterest
+    shortLabel Interest
+    type bigBed 12 +
+    longLabel UniProt Regions of Interest
+    parent uniprot
+    filterValues.status Manually reviewed (Swiss-Prot),Unreviewed (TrEMBL)
+    visibility dense
+    itemRgb off
+    priority 4
+    bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/panTro6/uniprot/unipInterest.bb
+
+    track unipLocExtra
+    shortLabel Extracellular
+    type bigBed 12 +
+    longLabel UniProt Extracellular Domain
+    parent uniprot
+    filterValues.status Manually reviewed (Swiss-Prot),Unreviewed (TrEMBL)
+    visibility dense
+    itemRgb off
+    priority 4
+    bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/panTro6/uniprot/unipLocExtra.bb
+    color 0,150,255
+
+    track unipLocSignal
+    shortLabel Signal Peptide
+    type bigBed 12 +
+    longLabel UniProt Signal Peptides
+    parent uniprot
+    filterValues.status Manually reviewed (Swiss-Prot),Unreviewed (TrEMBL)
+    visibility dense
+    itemRgb off
+    priority 3
+    bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/panTro6/uniprot/unipLocSignal.bb
+    color 255,0,150
+
+    track unipAliTrembl
+    shortLabel TrEMBL Aln.
+    type bigPsl
+    longLabel UCSC alignment of TrEMBL proteins to genome
+    parent uniprot off
+    baseColorUseCds given
+    skipFields isMain
+    indelDoubleInsert on
+    visibility hide
+    searchIndex name,acc
+    labelFields name,acc,uniprotName,geneName,hgncSym,refSeq,refSeqProt,ensProt
+    indelQueryInsert on
+    baseColorTickColor contrastingColor
+    itemRgb on
+    priority 2
+    showDiffBasesAllScales on
+    bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/panTro6/uniprot/unipAliTrembl.bb
+    baseColorDefault genomicCodons
+    mouseOverField protFullNames
+    urls acc="https://www.uniprot.org/uniprot/$$" hgncId="https://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=$$" refseq="https://www.ncbi.nlm.nih.gov/nuccore/$$" refSeqProt="https://www.ncbi.nlm.nih.gov/protein/$$" ncbiGene="https://www.ncbi.nlm.nih.gov/gene/$$" entrezGene="https://www.ncbi.nlm.nih.gov/gene/$$" ensGene="https://www.ensembl.org/Gene/Summary?g=$$"
+
+    track unipAliSwissprot
+    shortLabel SwissProt Aln.
+    type bigPsl
+    longLabel UCSC alignment of SwissProt proteins to genome (dark blue: main isoform, light blue: alternative isoforms)
+    parent uniprot
+    baseColorUseCds given
+    skipFields isMain
+    indelDoubleInsert on
+    visibility pack
+    searchIndex name,acc
+    labelFields name,acc,uniprotName,geneName,hgncSym,refSeq,refSeqProt,ensProt
+    indelQueryInsert on
+    baseColorTickColor contrastingColor
+    itemRgb on
+    priority 1
+    showDiffBasesAllScales on
+    bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/panTro6/uniprot/unipAliSwissprot.bb
+    baseColorDefault genomicCodons
+    mouseOverField protFullNames
+    urls acc="https://www.uniprot.org/uniprot/$$" hgncId="https://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=$$" refSeq="https://www.ncbi.nlm.nih.gov/nuccore/$$" refSeqProt="https://www.ncbi.nlm.nih.gov/protein/$$" ncbiGene="https://www.ncbi.nlm.nih.gov/gene/$$" entrezGene="https://www.ncbi.nlm.nih.gov/gene/$$" ensGene="https://www.ensembl.org/Gene/Summary?g=$$"
+
+track clinvarLift
+shortLabel ClinVar Lift
+type bigBed 12 +
+longLabel Human ClinVar variants lifted to Chimp
+visibility hide
+group compGeno
+itemRgb on
+bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/panTro6/bbi/clinvarLift.bb
+scoreLabel ClinVar Star-Rating (0-4)
+mouseOverField _mouseOver
+urls origPos="/cgi-bin/hgTracks?position=$$" rcvAcc="https://www.ncbi.nlm.nih.gov/clinvar/$$/" geneId="https://www.ncbi.nlm.nih.gov/gene/$$" snpId="https://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=$$" nsvId="https://www.ncbi.nlm.nih.gov/dbvar/variants/$$/" origName="https://www.ncbi.nlm.nih.gov/clinvar/variation/$$/"
