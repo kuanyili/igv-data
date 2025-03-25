@@ -1,0 +1,3 @@
+genome gorGor6
+trackDb trackDb.txt
+groups groups.txt

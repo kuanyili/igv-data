@@ -1,0 +1,3 @@
+genome danRer10
+trackDb trackDb.txt
+groups groups.txt
