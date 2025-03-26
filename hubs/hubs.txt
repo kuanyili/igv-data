@@ -1,5 +1,5 @@
 # List of hubs by genome
-hg19 b37_1kg
+hg19
     https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hg19/annotations_hub.txt
     https://s3.us-east-2.amazonaws.com/brainepigenome/hub.txt
     https://bchub.epfl.ch/breastca.txt
@@ -23,7 +23,7 @@ hg38
     https://hgdownload.soe.ucsc.edu/hubs/gtexAnalysis/hub.txt
     https://vizhub.wustl.edu/VizHub/RoadmapReleaseAll.txt
 
-hs1 chm13v2.0
+hs1
    https://hgdownload.soe.ucsc.edu/gbdb/hs1/hubs/hub.txt
 
 mm10
