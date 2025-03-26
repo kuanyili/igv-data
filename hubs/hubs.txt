@@ -15,7 +15,7 @@ hg19
     https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hg19/tutorials_hub.txt
 
 hg38
-    https://github.com/igvteam/igv-genomes/blob/main/hubs/hg38/hub.txt
+    https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hg38/hub.txt,
     https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/hub.txt
     https://ftp.ncbi.nlm.nih.gov/snp/population_frequency/TrackHub/latest/hub.txt
     https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/hub.txt
@@ -24,19 +24,21 @@ hg38
     https://vizhub.wustl.edu/VizHub/RoadmapReleaseAll.txt
 
 hs1
+   https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hs1/hub.txt
    https://hgdownload.soe.ucsc.edu/gbdb/hs1/hubs/hub.txt
 
 mm10
-   https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.26/hub.txt
+    https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/mm10/hub.txt
+    https://epd.expasy.org/epd/ucsc/epdHub/epdHub.txt
+    http://reftss.clst.riken.jp/trackhub/hub.txt
+    https://s3.mpi-bn.mpg.de/data-tobias-ucsc/hub.txt
 
 mm39
     https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.27/hub.txt
-    http://expdata.cmmt.ubc.ca/JASPAR/UCSC_tracks/hub.txt
 
 danRer11
     https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/035/GCF_000002035.6/hub.txt
     https://research.nhgri.nih.gov/manuscripts/Burgess/zebrafish/downloads/NHGRI-1/hub.txt
-    http://expdata.cmmt.ubc.ca/JASPAR/UCSC_tracks/hub.txt
 
 gorGor6
     https://hgdownload.soe.ucsc.edu/hubs/GCF/008/122/165/GCF_008122165.1/hub.txt
