@@ -39,6 +39,7 @@ compositeTrack on
     longLabel NCBI RefSeq genes, curated and predicted (NM_*, XM_*, NR_*, XR_*, NP_*, YP_*)
     color 12,12,120
     bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/ncbiRefSeq.txt.gz
+    parent refSeqComposite
 
     track ncbiRefSeqSelect
     shortLabel RefSeq Select

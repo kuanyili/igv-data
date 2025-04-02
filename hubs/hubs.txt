@@ -25,10 +25,8 @@ hs1
    https://hgdownload.soe.ucsc.edu/gbdb/hs1/hubs/hub.txt
 
 mm10
-    https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/mm10/hub.txt
-    https://epd.expasy.org/epd/ucsc/epdHub/epdHub.txt
-    http://reftss.clst.riken.jp/trackhub/hub.txt
-    https://s3.mpi-bn.mpg.de/data-tobias-ucsc/hub.txt
+   https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/mm10/hub.txt
+   https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.26/hub.txt
 
 mm39
     https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.27/hub.txt
