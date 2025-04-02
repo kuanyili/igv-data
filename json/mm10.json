@@ -13,12 +13,8 @@
     {
       "id": "ncbiRefSeq",
       "name": "RefSeq All",
-      "format": "biggenepred",
-      "url": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.26/bbi/GCF_000001635.26_GRCm38.p6.ncbiRefSeq.bb",
-      "description": "<a target=\"_blank\" href=\"https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.26/html/GCF_000001635.26_GRCm38.p6.refSeqComposite\">NCBI RefSeq genes, curated and predicted sets (NM_*, XM_*, NR_*, XR_*, NP_* or YP_*)</a>",
-      "searchIndex": "name",
-      "trixURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.26/ixIxx/GCF_000001635.26_GRCm38.p6.ncbiRefSeq.ix",
-      "group": "genes",
+      "format": "genePred",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/ncbiRefSeq.txt.gz",
       "order": 10000,
       "type": "annotation",
       "color": "rgb(120,12,12)",
@@ -26,7 +22,8 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/mm10/hub.txt"
+    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/mm10/hub.txt",
+    "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.26/hub.txt"
   ],
   "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chrX,chrY"
 }
