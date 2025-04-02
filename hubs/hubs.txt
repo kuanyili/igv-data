@@ -20,9 +20,12 @@ hg38
     https://hgdownload.soe.ucsc.edu/hubs/gtexAnalysis/hub.txt
     https://vizhub.wustl.edu/VizHub/RoadmapReleaseAll.txt
 
+hg18
+    https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hg18/hub.txt
+
 hs1
    https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hs1/hub.txt
-   https://hgdownload.soe.ucsc.edu/gbdb/hs1/hubs/hub.txt
+   https://hgdownload.soe.ucsc.edu/gbdb/hs1/hubs/public/hub.txt
 
 mm10
    https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/mm10/hub.txt

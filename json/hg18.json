@@ -18,6 +18,6 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hg18/annotations_hub.txt"
+    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hg18/hub.txt"
   ]
 }
