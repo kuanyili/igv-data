@@ -21,7 +21,7 @@
       "group": "genes",
       "order": 10000,
       "type": "annotation",
-      "color": "rgb(12,12,120)",
+      "color": "rgb(120,12,12)",
       "visibilityWindow": 0
     }
   ],
