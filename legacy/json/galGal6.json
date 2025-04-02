@@ -1,0 +1,18 @@
+{
+  "id": "galGal6",
+  "name": " Chicken (galGal6)",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/galGal6/galGal6.fa",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/galGal6/galGal6.fa.fai",
+  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/galGal6/database/cytoBandIdeo.txt.gz",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/galGal6/bigZips/galGal6.2bit",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/galGal6/bigZips/galGal6.chrom.sizes",
+  "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/galGal6/bigZips/galGal6.chromAlias.txt",
+  "tracks": [
+    {
+      "name": "Refseq Curated",
+      "format": "refgene",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/galGal6/database/ncbiRefSeqCurated.txt.gz",
+      "order": 1000000
+    }
+  ]
+}

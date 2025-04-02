@@ -1,0 +1,21 @@
+{
+  "id": "sacCer3",
+  "name": "S. cerevisiae (sacCer3)",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/sacCer3/sacCer3.fa",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/sacCer3/sacCer3.fa.fai",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/sacCer3.2bit",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/sacCer3.chrom.sizes",
+  "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/sacCer3.chromAlias.txt",
+  "chromosomeOrder": "chrI,chrII, chrIII,chrIV,chrV,chrVI,chrVII,chrVIII,chrIX,chrX,chrXI,chrXII,chrXIII,chrXIV,chrXV,chrXVI",
+  "tracks": [
+    {
+      "name": "Refseq Curated",
+      "type": "annotation",
+      "format": "refgene",
+      "displayMode": "EXPANDED",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/database/ncbiRefSeqCurated.txt.gz",
+      "indexed": false,
+      "searchable": true
+    }
+  ]
+}

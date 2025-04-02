@@ -1,0 +1,37 @@
+{
+  "id": "GCF_001433935.1",
+  "name": "O. sativa IRGSP-1.0 (GCF_001433935.1)",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/GCF_001433935.1/GCF_001433935.1_IRGSP-1.0_genomic.fna.gz",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/GCF_001433935.1/GCF_001433935.1_IRGSP-1.0_genomic.fna.gz.fai",
+  "compressedIndexURL": "https://s3.amazonaws.com/igv.org.genomes/GCF_001433935.1/GCF_001433935.1_IRGSP-1.0_genomic.fna.gz.gzi",
+  "aliasURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/001/433/935/GCF_001433935.1/GCF_001433935.1.chromAlias.txt",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/001/433/935/GCF_001433935.1/GCF_001433935.1.2bit",
+  "twoBitBptURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/001/433/935/GCF_001433935.1/GCF_001433935.1.2bit.bpt",
+  "description": "Japanese rice (Nipponbare 2015)\nOryza sativa Japonica Group/GCF_001433935.1_IRGSP-1.0 genome assembly",
+  "nameSet": "ucsc",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/001/433/935/GCF_001433935.1/GCF_001433935.1.chrom.sizes.txt",
+  "chromosomeOrder": [
+    "NC_029256.1",
+    "NC_029257.1",
+    "NC_029258.1",
+    "NC_029259.1",
+    "NC_029260.1",
+    "NC_029261.1",
+    "NC_029262.1",
+    "NC_029263.1",
+    "NC_029264.1",
+    "NC_029265.1",
+    "NC_029266.1",
+    "NC_029267.1"
+  ],
+  "tracks": [
+    {
+      "name": "MSU V7 genes",
+      "format": "gff3",
+      "description": " <a target = \"_blank\" href = \"http://rice.uga.edu/\">Rice Genome Annotation Project</a>",
+      "url": "https://s3.amazonaws.com/igv.org.genomes/GCF_001433935.1/MSU_V7.gff3.gz",
+      "displayMode": "EXPANDED",
+      "height": 200
+    }
+  ]
+}

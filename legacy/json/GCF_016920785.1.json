@@ -1,0 +1,25 @@
+{
+  "id": "GCF_016920785.1",
+  "name": "Ixodes scapularus (GCF_016920785.1)",
+  "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/GCF_016920785.1/GCF_016920785.1_Ixodes_scapularus_ComboLowHiFi_genomic.fna",
+  "indexURL": "https://s3.amazonaws.com/igv.org.genomes/GCF_016920785.1/GCF_016920785.1_Ixodes_scapularus_ComboLowHiFi_genomic.fna.fai",
+  "tracks": [
+    {
+      "name": "Annotations",
+      "format": "gff3",
+      "url": "https://s3.amazonaws.com/igv.org.genomes/GCF_016920785.1/GCF_016920785.1_Ixodes_scapularus_ComboLowHiFi_genomic.other.sorted.gff.gz",
+      "indexURL": "https://s3.amazonaws.com/igv.org.genomes/GCF_016920785.1/GCF_016920785.1_Ixodes_scapularus_ComboLowHiFi_genomic.other.sorted.gff.gz.tbi",
+      "order": 1000000,
+      "visibilityWindow": -1,
+      "supportsWholeGenome": false,
+      "displayMode": "EXPANDED",
+      "height": 300
+    },
+    {
+      "format": "gff3",
+      "url": "https://s3.amazonaws.com/igv.org.genomes/GCF_016920785.1/GCF_016920785.1_Ixodes_scapularus_ComboLowHiFi_genomic.gene.gff.gz",
+      "indexed": false,
+      "hidden": true
+    }
+  ]
+}
