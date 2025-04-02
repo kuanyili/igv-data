@@ -8,14 +8,6 @@
   "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz",
   "aliasURL": "https://igv.org/genomes/data/hg38/hg38_alias.tab",
   "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.chrom.sizes",
-  "hubs": [
-    "https://igv.org/genomes/data/hg38/hubs/hub.txt",
-    "https://ftp.ncbi.nlm.nih.gov/snp/population_frequency/TrackHub/latest/hub.txt",
-    "https://krishna.gs.washington.edu/download/CADD/bigWig/CADD-browserTracks/hub.txt",
-    "https://ftp.ncbi.nlm.nih.gov/pub/dbVar/sandbox/dbvarhub/hub.txt",
-    "https://hgdownload.soe.ucsc.edu/hubs/gtexAnalysis/hub.txt",
-    "https://vizhub.wustl.edu/VizHub/RoadmapReleaseAll.txt"
-  ],
   "tracks": [
     {
       "name": "Refseq Select",
