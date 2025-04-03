@@ -2,21 +2,37 @@
   "id": "dm6",
   "name": "D. melanogaster (dm6)",
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/dm6/bigZips/dm6.2bit",
-  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/dm6/bigZips/dm6.chrom.sizes",
+  "wholeGenomeView": true,
   "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/dm6/bigZips/dm6.chromAlias.txt",
-  "chromosomeOrder": "chr2L,chr2R,chr3L,chr3R,chr4,chrX,chrY",
+  "chromosomeOrder": [
+    "chr2L",
+    "chr2R",
+    "chr3L",
+    "chr3R",
+    "chr4",
+    "chrX",
+    "chrY"
+  ],
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/dm6/bigZips/dm6.chrom.sizes",
   "tracks": [
     {
+      "id": "refseqCurated",
       "name": "Refseq Curated",
-      "format": "refgene",
+      "longLabel": "Refseq Curated",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/dm6/database/ncbiRefSeqCurated.txt.gz",
-      "indexed": false,
-      "order": 1000000,
-      "searchable": true
+      "format": "refgene",
+      "displayMode": "COLLAPSED",
+      "description": "Refseq Curated",
+      "visible": true,
+      "group": "genes",
+      "html": "https://www.ncbi.nlm.nih.gov/refseq/refseq_select/",
+      "stanzaParent": "refSeqComposite",
+      "attributes": {}
     }
   ],
   "hubs": [
     "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/dm6/hub.txt",
     "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/215/GCF_000001215.4/hub.txt"
-  ]
+  ],
+  "fromJson": true
 }

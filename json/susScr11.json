@@ -2,19 +2,51 @@
   "id": "susScr11",
   "name": "Pig (SGSC Sscrofa11.1/susScr11)",
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/susScr11/bigZips/susScr11.2bit",
-  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/susScr11/bigZips/susScr11.chrom.sizes",
-  "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/susScr11/bigZips/susScr11.chromAlias.txt",
+  "wholeGenomeView": true,
   "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/susScr11/database/cytoBandIdeo.txt.gz",
-  "chromosomeOrder": "chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chrX,chrY",
+  "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/susScr11/bigZips/susScr11.chromAlias.txt",
+  "chromosomeOrder": [
+    "chr1",
+    "chr2",
+    "chr3",
+    "chr4",
+    "chr5",
+    "chr6",
+    "chr7",
+    "chr8",
+    "chr9",
+    "chr10",
+    "chr11",
+    "chr12",
+    "chr13",
+    "chr14",
+    "chr15",
+    "chr16",
+    "chr17",
+    "chr18",
+    "chrX",
+    "chrY"
+  ],
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/susScr11/bigZips/susScr11.chrom.sizes",
   "tracks": [
     {
+      "id": "refseqCurated",
       "name": "Refseq Curated",
+      "longLabel": "Refseq Curated",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/susScr11/database/ncbiRefSeqCurated.txt.gz",
       "format": "refgene",
-      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/susScr11/database/ncbiRefSeqCurated.txt.gz"
+      "displayMode": "COLLAPSED",
+      "description": "Refseq Curated",
+      "visible": true,
+      "group": "genes",
+      "html": "https://www.ncbi.nlm.nih.gov/refseq/refseq_select/",
+      "stanzaParent": "refSeqComposite",
+      "attributes": {}
     }
   ],
   "hubs": [
     "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/susScr11/hub.txt",
     "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/003/025/GCF_000003025.6/hub.txt"
-  ]
+  ],
+  "fromJson": true
 }

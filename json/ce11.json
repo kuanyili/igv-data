@@ -1,23 +1,37 @@
 {
   "id": "ce11",
   "name": "C. elegans (ce11)",
-  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/ce11/database/cytoBandIdeo.txt.gz",
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/ce11/bigZips/ce11.2bit",
-  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/ce11/bigZips/ce11.chrom.sizes",
+  "wholeGenomeView": true,
+  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/ce11/database/cytoBandIdeo.txt.gz",
   "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/ce11/bigZips/ce11.chromAlias.txt",
-  "chromosomeOrder": "chrI,chrII,chrIII,chrIV,chrV,chrX",
+  "chromosomeOrder": [
+    "chrI",
+    "chrII",
+    "chrIII",
+    "chrIV",
+    "chrV",
+    "chrX"
+  ],
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/ce11/bigZips/ce11.chrom.sizes",
   "tracks": [
     {
+      "id": "refseqCurated",
       "name": "Refseq Curated",
-      "format": "refgene",
+      "longLabel": "Refseq Curated",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/ce11/database/ncbiRefSeqCurated.txt.gz",
-      "indexed": false,
-      "order": 1000000,
-      "searchable": true
+      "format": "refgene",
+      "description": "Refseq Curated",
+      "visible": true,
+      "group": "genes",
+      "html": "https://www.ncbi.nlm.nih.gov/refseq/refseq_select/",
+      "stanzaParent": "refSeqComposite",
+      "attributes": {}
     }
   ],
   "hubs": [
     "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/ce11/hub.txt",
     "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/985/GCF_000002985.6/hub.txt"
-  ]
+  ],
+  "fromJson": true
 }

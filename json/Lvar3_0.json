@@ -1,0 +1,37 @@
+{
+  "id": "Lvar3.0",
+  "name": "L. variegatus (Lvar3.0)",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/018/143/015/GCF_018143015.1/GCF_018143015.1.2bit",
+  "twoBitBptURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/018/143/015/GCF_018143015.1/GCF_018143015.1.2bit.bpt",
+  "nameSet": "ucsc",
+  "wholeGenomeView": true,
+  "description": "green sea urchin\nLytechinus variegatus/GCF_018143015.1_Lvar_3.0 genome assembly",
+  "blat": "https://hgdownload.soe.ucsc.edu/hubs/GCF/018/143/015/GCF_018143015.1/dynablat-01.soe.ucsc.edu 4040 dynamic GCF/018/143/015/GCF_018143015.1",
+  "chromAliasBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/018/143/015/GCF_018143015.1/GCF_018143015.1.chromAlias.bb",
+  "cytobandBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/018/143/015/GCF_018143015.1/bbi/GCF_018143015.1_Lvar_3.0.cytoBand.bb",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/018/143/015/GCF_018143015.1/GCF_018143015.1.chrom.sizes.txt",
+  "tracks": [
+    {
+      "id": "ncbiRefSeq",
+      "name": "RefSeq All",
+      "longLabel": "NCBI RefSeq genes, curated and predicted sets (NM_*, XM_*, NR_*, XR_*, NP_* or YP_*)",
+      "url": "https://hgdownload.soe.ucsc.edu/hubs/GCF/018/143/015/GCF_018143015.1/bbi/GCF_018143015.1_Lvar_3.0.ncbiRefSeq.bb",
+      "trixURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/018/143/015/GCF_018143015.1/ixIxx/GCF_018143015.1_Lvar_3.0.ncbiRefSeq.ix",
+      "format": "biggenepred",
+      "displayMode": "EXPANDED",
+      "description": "NCBI RefSeq genes, curated and predicted sets (NM_*, XM_*, NR_*, XR_*, NP_* or YP_*)",
+      "color": "rgb(12,12,120)",
+      "visible": true,
+      "searchIndex": "name",
+      "group": "genes",
+      "html": "https://hgdownload.soe.ucsc.edu/hubs/GCF/018/143/015/GCF_018143015.1/html/GCF_018143015.1_Lvar_3.0.refSeqComposite",
+      "labelField": "geneName2",
+      "stanzaParent": "refSeqComposite",
+      "attributes": {}
+    }
+  ],
+  "hubs": [
+    "https://hgdownload.soe.ucsc.edu/hubs/GCF/018/143/015/GCF_018143015.1/hub.txt"
+  ],
+  "fromJson": true
+}

@@ -2,17 +2,17 @@
   "id": "strPur2",
   "name": "S. purpuratus (Baylor 2.1/strPur2)",
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/strPur2/bigZips/strPur2.2bit",
-  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/strPur2/bigZips/strPur2.chrom.sizes",
+  "wholeGenomeView": true,
   "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/strPur2/database/cytoBandIdeo.txt.gz",
   "aliasURL": "https://s3.amazonaws.com/igv.org.genomes/strPur2/strPur2_alias.tab",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/strPur2/bigZips/strPur2.chrom.sizes",
   "tracks": [
     {
       "name": "Genes",
-      "format": "refgene",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/strPur2/database/refGene.txt.gz",
-      "indexed": false,
-      "searchable": true,
-      "order": 1000000
+      "format": "refgene",
+      "indexed": false
     }
-  ]
+  ],
+  "fromJson": true
 }

@@ -2,21 +2,39 @@
   "id": "tair10",
   "name": "A. thaliana (TAIR 10)",
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/735/GCF_000001735.3/GCF_000001735.3.2bit",
-  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/735/GCF_000001735.3/GCF_000001735.3.chrom.sizes.txt",
-  "aliasURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/735/GCF_000001735.3/GCF_000001735.3.chromAlias.txt",
   "nameSet": "ucsc",
-  "chromosomeOrder": "NC_003070.9,NC_003071.7,NC_003074.8,NC_003075.7,NC_003076.8",
+  "wholeGenomeView": true,
+  "aliasURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/735/GCF_000001735.3/GCF_000001735.3.chromAlias.txt",
+  "chromosomeOrder": [
+    "NC_003070.9",
+    "NC_003071.7",
+    "NC_003074.8",
+    "NC_003075.7",
+    "NC_003076.8"
+  ],
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/735/GCF_000001735.3/GCF_000001735.3.chrom.sizes.txt",
   "tracks": [
     {
+      "id": "ncbiRefSeq",
       "name": "RefSeq All",
+      "longLabel": "NCBI RefSeq genes, curated and predicted sets (NM_*, XM_*, NR_*, XR_*, NP_* or YP_*)",
       "url": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/735/GCF_000001735.3/bbi/GCF_000001735.3_TAIR10.ncbiRefSeq.bb",
       "trixURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/735/GCF_000001735.3/ixIxx/GCF_000001735.3_TAIR10.ncbiRefSeq.ix",
-      "labelField": "geneName2",
+      "format": "biggenepred",
+      "displayMode": "EXPANDED",
+      "description": "NCBI RefSeq genes, curated and predicted sets (NM_*, XM_*, NR_*, XR_*, NP_* or YP_*)",
+      "color": "rgb(12,12,120)",
+      "visible": true,
       "searchIndex": "name",
-      "visibilityWindow": 0
+      "group": "genes",
+      "html": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/735/GCF_000001735.3/html/GCF_000001735.3_TAIR10.refSeqComposite",
+      "labelField": "geneName2",
+      "stanzaParent": "refSeqComposite",
+      "attributes": {}
     }
   ],
   "hubs": [
     "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/735/GCF_000001735.3/hub.txt"
-  ]
+  ],
+  "fromJson": true
 }

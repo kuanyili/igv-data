@@ -2,28 +2,51 @@
   "id": "sacCer3",
   "name": "S. cerevisiae (sacCer3)",
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/GCF_000146045.2.2bit",
+  "twoBitBptURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/GCF_000146045.2.2bit.bpt",
   "nameSet": "ucsc",
-  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/GCF_000146045.2.chrom.sizes.txt",
+  "wholeGenomeView": true,
+  "description": "baker\u0027s yeast S288C (2014)\nSaccharomyces cerevisiae S288C/GCF_000146045.2_R64 genome assembly",
   "blat": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/dynablat-01.soe.ucsc.edu 4040 dynamic GCF/000/146/045/GCF_000146045.2",
   "chromAliasBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/GCF_000146045.2.chromAlias.bb",
-  "twoBitBptURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/GCF_000146045.2.2bit.bpt",
-  "description": "baker's yeast S288C (2014)\nSaccharomyces cerevisiae S288C/GCF_000146045.2_R64 genome assembly",
   "cytobandBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/bbi/GCF_000146045.2_R64.cytoBand.bb",
-  "chromosomeOrder": "chrI,chrII, chrIII,chrIV,chrV,chrVI,chrVII,chrVIII,chrIX,chrX,chrXI,chrXII,chrXIII,chrXIV,chrXV,chrXVI",
+  "chromosomeOrder": [
+    "chrI",
+    "chrII",
+    "chrIII",
+    "chrIV",
+    "chrV",
+    "chrVI",
+    "chrVII",
+    "chrVIII",
+    "chrIX",
+    "chrX",
+    "chrXI",
+    "chrXII",
+    "chrXIII",
+    "chrXIV",
+    "chrXV",
+    "chrXVI"
+  ],
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/GCF_000146045.2.chrom.sizes.txt",
   "tracks": [
     {
-      "name": "Refseq Genes",
-      "type": "annotation",
-      "format": "refgene",
-      "displayMode": "EXPANDED",
+      "id": "refseqAll",
+      "name": "Refseq All",
+      "longLabel": "Refseq All",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/database/ncbiRefSeq.txt.gz",
-      "order": 10000,
-      "indexed": false,
-      "searchable": true
+      "format": "refgene",
+      "displayMode": "COLLAPSED",
+      "description": "Refseq All",
+      "visible": true,
+      "group": "genes",
+      "html": "https://www.ncbi.nlm.nih.gov/refseq/refseq_select/",
+      "stanzaParent": "refSeqComposite",
+      "attributes": {}
     }
   ],
   "hubs": [
     "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/sacCer3/hub.txt",
     "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/hub.txt"
-  ]
+  ],
+  "fromJson": true
 }

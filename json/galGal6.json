@@ -1,20 +1,30 @@
 {
   "id": "galGal6",
   "name": " Chicken (galGal6)",
-  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/galGal6/database/cytoBandIdeo.txt.gz",
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/goldenPath/galGal6/bigZips/galGal6.2bit",
-  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/galGal6/bigZips/galGal6.chrom.sizes",
+  "wholeGenomeView": true,
+  "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/galGal6/database/cytoBandIdeo.txt.gz",
   "aliasURL": "https://hgdownload.soe.ucsc.edu/goldenPath/galGal6/bigZips/galGal6.chromAlias.txt",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/galGal6/bigZips/galGal6.chrom.sizes",
   "tracks": [
     {
+      "id": "refseqCurated",
       "name": "Refseq Curated",
-      "format": "refgene",
+      "longLabel": "Refseq Curated",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/galGal6/database/ncbiRefSeqCurated.txt.gz",
-      "order": 1000000
+      "format": "refgene",
+      "displayMode": "EXPANDED",
+      "description": "Refseq Curated",
+      "visible": true,
+      "group": "genes",
+      "html": "https://www.ncbi.nlm.nih.gov/refseq/refseq_select/",
+      "stanzaParent": "refSeqComposite",
+      "attributes": {}
     }
   ],
   "hubs": [
     "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/galGal6/hub.txt",
     "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/315/GCF_000002315.6/hub.txt"
-  ]
+  ],
+  "fromJson": true
 }

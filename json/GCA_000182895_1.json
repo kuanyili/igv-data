@@ -4,31 +4,37 @@
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/GCA_000182895.1.2bit",
   "twoBitBptURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/GCA_000182895.1.2bit.bpt",
   "nameSet": "ucsc",
+  "wholeGenomeView": true,
   "description": "GCA_000182895.1 basidiomycetes CC3 Coprinopsis",
-  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/GCA_000182895.1.chrom.sizes.txt",
+  "blat": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/dynablat-01.soe.ucsc.edu",
   "chromAliasBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/GCA_000182895.1.chromAlias.bb",
   "infoURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/html/GCA_000182895.1_CC3.description.html",
   "cytobandBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/bbi/GCA_000182895.1_CC3.cytoBand.bb",
-  "blat": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/dynablat-01.soe.ucsc.edu",
   "blatDB": "GCA_000182895.1",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/GCA_000182895.1.chrom.sizes.txt",
   "tracks": [
     {
       "id": "ncbiGene",
       "name": "Gene models",
-      "format": "bigGenePred",
-      "description": " <a target = \"_blank\" href = \"https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/html/GCA_000182895.1_CC3.ncbiGene\">Gene models submitted to NCBI</a>",
+      "longLabel": "Gene models submitted to NCBI",
       "url": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/bbi/GCA_000182895.1_CC3.ncbiGene.bb",
-      "searchIndex": "name",
       "trixURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/ixIxx/GCA_000182895.1_CC3.ncbiGene.ix",
+      "format": "biggenepred",
       "displayMode": "EXPANDED",
+      "description": "Gene models submitted to NCBI",
       "color": "rgb(0,80,150)",
-      "altColor": "rgb(0,150,80)",
-      "colorBy": "strand",
+      "altColor": "rgb(150,80,0)",
+      "visible": true,
+      "infoURL": "https://www.ncbi.nlm.nih.gov/gene/?term\u003d$$",
+      "searchIndex": "name",
+      "group": "genes",
+      "html": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/html/GCA_000182895.1_CC3.ncbiGene",
       "labelField": "geneName2",
-      "infoURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/https://www.ncbi.nlm.nih.gov/gene/?term=$$"
+      "attributes": {}
     }
   ],
   "hubs": [
     "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/182/895/GCA_000182895.1/hub.txt"
-  ]
+  ],
+  "fromJson": true
 }
