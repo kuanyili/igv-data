@@ -11,7 +11,6 @@ allButtonPair on
 compositeTrack on
 dragAndDrop subTracks
 dbPrefixLabels hg="HGNC" dm="FlyBase" ce="WormBase" rn="RGD" sacCer="SGD" danRer="ZFIN" mm="MGI" xenTro="XenBase"
-priority 2
 dbPrefixUrls hg="http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=$$" dm="http://flybase.org/reports/$$" ce="http://www.wormbase.org/db/gene/gene?name=$$" rn="https://rgd.mcw.edu/rgdweb/search/search.html?term=$$" sacCer="https://www.yeastgenome.org/locus/$$" danRer="https://zfin.org/$$" mm="https://www.informatics.jax.org//marker/$$" xenTro="https://www.xenbase.org/gene/showgene.do?method=display&geneId=$$"
 dataVersion https://hgdownload.soe.ucsc.edu/gbdb/$D/ncbiRefSeq/ncbiRefSeqVersion.txt
 noInherit on
@@ -112,7 +111,6 @@ searchIndex name
 labelFields geneName,name,geneName2,name2
 isGencode3 on
 itemRgb on
-priority 1
 idXref kgAlias kgID alias
 bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm39/gencode/gencodeVM36.bb
 defaultLinkedTables kgXref
@@ -135,7 +133,6 @@ labelFields geneName,name,geneName2,name2
 isGencode3 on
 externalDb knownGeneVM27
 itemRgb on
-priority 5
 idXref kgAlias kgID alias
 superTrack on
 bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm39/gencode/gencodeVM27.bb
@@ -159,7 +156,6 @@ labelFields geneName,name,geneName2,name2
 isGencode3 on
 externalDb knownGeneVM30
 itemRgb on
-priority 5
 idXref kgAlias kgID alias
 superTrack on
 bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm39/gencode/gencodeVM30.bb
