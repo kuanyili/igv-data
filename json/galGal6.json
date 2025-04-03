@@ -24,7 +24,9 @@
   ],
   "hubs": [
     "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/galGal6/hub.txt",
-    "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/315/GCF_000002315.6/hub.txt"
+    "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/315/GCF_000002315.6/hub.txt",
+    "http://smithlab.usc.edu/trackdata/methylation/hub.txt",
+    "https://data.broadinstitute.org/compbio1/PhyloCSFtracks/trackHub/hub.txt"
   ],
   "fromJson": true
 }
