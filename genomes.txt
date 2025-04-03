@@ -4,6 +4,8 @@ C. elegans (ce11)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/hea
 Chicken (GRCg6a / galGal6)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/galGal6.json	galGal6
 Gallus gallus (GCF_016699485.2)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/GCF_016699485_2.json	GCF_016699485.2
 Chimp (panTro4)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/panTro4.json	panTro4
+Chimp (panTro5)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/panTro5.json	panTro5
+Chimp (panTro6)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/panTro6.json	panTro6
 Coprinopsis cinerea okayama7#130 (GCA_000182895.1)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/GCA_000182895_1.json	GCA_000182895.1
 Cow (bosTau8)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/bosTau8.json	bosTau8
 Cow (bosTau9)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/bosTau9.json	bosTau9
@@ -34,7 +36,7 @@ Gorilla (gorGor6)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/hea
 Bonobo (MPI-EVA panpan1.1/panPan2)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/panPan2.json	panPan2
 Pig (SGSC Sscrofa11.1/susScr11)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/susScr11.json	susScr11
 S. purpuratus (Baylor 2.1/strPur2)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/strPur2.json	strPur2
-S. purpuratus (Spur5.0)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/Spur5.0.json	Spur5.0
-P. miniata (Pmin3.0)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/Pmin3.0.json	Pmin3.0
-L. variegatus (Lvar3.0)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/Lvar3.0.json	Lvar3.0
+S. purpuratus (Spur5.0)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/Spur5_0.json	Spur5.0
+P. miniata (Pmin3.0)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/Pmin3_0.json	Pmin3.0
+L. variegatus (Lvar3.0)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/Lvar3_0.json	Lvar3.0
 O. sativa IRGSP-1.0 (GCF_001433935.1)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/GCF_001433935_1.json	GCF_001433935.1
