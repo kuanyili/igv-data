@@ -32,6 +32,7 @@ mm10
    https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.26/hub.txt
 
 mm39
+    https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/mm39/hub.txt
     https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.27/hub.txt
 
 danRer11
