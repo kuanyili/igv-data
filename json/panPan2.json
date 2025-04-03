@@ -12,7 +12,7 @@
   "tracks": [
     {
       "name": "RefSeq Curated",
-      "format": "refgene",
+      "format": "bigGenePred",
       "url": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/258/655/GCF_000258655.2/bbi/GCF_000258655.2_panpan1.1.ncbiRefSeqCurated.bb",
       "trixURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/258/655/GCF_000258655.2/ixIxx/GCF_000258655.2_panpan1.1.ncbiRefSeqCurated.ix",
       "color": "12,12,120",
