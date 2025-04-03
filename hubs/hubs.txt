@@ -34,6 +34,7 @@ mm10
 mm39
     https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/mm39/hub.txt
     https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.27/hub.txt
+    https://ftp.ncbi.nlm.nih.gov/refseq/FunctionalElements/trackhub/hub.txt
 
 danRer11
     https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/035/GCF_000002035.6/hub.txt

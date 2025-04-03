@@ -47,7 +47,8 @@
   ],
   "hubs": [
     "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/mm39/hub.txt",
-    "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.27/hub.txt"
+    "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.27/hub.txt",
+    "https://ftp.ncbi.nlm.nih.gov/refseq/FunctionalElements/trackhub/hub.txt"
   ],
   "fromJson": true
 }
