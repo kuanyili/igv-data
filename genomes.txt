@@ -40,3 +40,5 @@ S. purpuratus (Spur5.0)	https://raw.githubusercontent.com/igvteam/igv-genomes/re
 P. miniata (Pmin3.0)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/Pmin3_0.json	Pmin3.0
 L. variegatus (Lvar3.0)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/Lvar3_0.json	Lvar3.0
 O. sativa IRGSP-1.0 (GCF_001433935.1)	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/GCF_001433935_1.json	GCF_001433935.1
+E. coli (K-12 BW25113 2014 genbank) https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/GCA_000750555_1.json GCA_000750555_1
+

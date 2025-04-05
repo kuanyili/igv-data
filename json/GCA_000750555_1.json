@@ -1,0 +1,39 @@
+{
+  "id": "GCA_000750555.1",
+  "name": "E. coli (K-12 BW25113 2014 genbank)",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/750/555/GCA_000750555.1/GCA_000750555.1.2bit",
+  "twoBitBptURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/750/555/GCA_000750555.1/GCA_000750555.1.2bit.bpt",
+  "nameSet": "ucsc",
+  "wholeGenomeView": false,
+  "defaultPos": "CP009273.1:1543823-1553823",
+  "description": "GCA_000750555.1\nE.\nASM75055v1\nEscherichia",
+  "blat": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/750/555/GCA_000750555.1/dynablat-01.soe.ucsc.edu",
+  "chromAliasBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/750/555/GCA_000750555.1/GCA_000750555.1.chromAlias.bb",
+  "infoURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/750/555/GCA_000750555.1/html/GCA_000750555.1_ASM75055v1.description.html",
+  "cytobandBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/750/555/GCA_000750555.1/bbi/GCA_000750555.1_ASM75055v1.cytoBand.bb",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/750/555/GCA_000750555.1/GCA_000750555.1.chrom.sizes.txt",
+  "tracks": [
+    {
+      "id": "ncbiGene",
+      "name": "Gene models",
+      "longLabel": "Gene models submitted to NCBI",
+      "url": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/750/555/GCA_000750555.1/bbi/GCA_000750555.1_ASM75055v1.ncbiGene.bb",
+      "trixURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/750/555/GCA_000750555.1/ixIxx/GCA_000750555.1_ASM75055v1.ncbiGene.ix",
+      "format": "biggenepred",
+      "displayMode": "EXPANDED",
+      "description": "Gene models submitted to NCBI",
+      "color": "rgb(0,80,150)",
+      "altColor": "rgb(150,80,0)",
+      "visible": true,
+      "infoURL": "https://www.ncbi.nlm.nih.gov/gene/?term\u003d$$",
+      "searchIndex": "name",
+      "group": "genes",
+      "html": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/750/555/GCA_000750555.1/html/GCA_000750555.1_ASM75055v1.ncbiGene",
+      "labelField": "geneName2",
+      "attributes": {}
+    }
+  ],
+  "hubs": [
+    "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/750/555/GCA_000750555.1/hub.txt"
+  ]
+}
