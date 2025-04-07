@@ -1,5 +1,5 @@
 #url	accession	scientific name	common name	taxonId
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/tair10.json	tair10	A. thaliana (TAIR 10)	Arabidopsis thaliana	3702
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/tair10.json	tair10	Arabidopsis thaliana	A. thaliana (TAIR 10)	3702
 https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/ce11.json	ce11	Caenorhabditis elegans	C. elegans (ce11)	6239
 https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/galGal6.json	galGal6	Gallus gallus	Chicken (GRCg6a / galGal6)	9031
 https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/panTro4.json	panTro4	Pan troglodytes	Chimp (panTro4)	9598
@@ -17,7 +17,7 @@ https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/hs1.j
 https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/hg18.json	hg18	Homo sapiens	Human (hg18)	9606
 https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/hg19.json	hg19	Homo sapiens	Human (hg19)	9606
 https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/hg38.json	hg38	Homo sapiens	Human (hg38)	9606
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/b37_1kg.json.json	b37_1kg		Homo sapiens	Human (1kg, b37+decoy)9606
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/b37_1kg.json	b37_1kg	Homo sapiens	Human (1kg, b37+decoy)	9606
 https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/hg38_1kg.json	hg38_1kg	Homo sapiens	Human (hg38 1kg/GATK)	9606
 https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/macFas5.json	macFas5	Macaca fascicularis	Macaca fascicularis (macFas5)	9541
 https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/mm10.json	mm10	Mus musculus	Mouse mm10	10090
