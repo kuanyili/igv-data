@@ -5,7 +5,7 @@
 const fs = require('fs')
 
 
-const fd = fs.openSync('../genomes.tsv', 'w')
+const fd = fs.openSync('../genomes.2.txt', 'w')
 const data = fs.readFileSync('../genomes.txt', 'utf8');
 
 //# accession	assembly	scientific name	common name	taxonId	GenArk clade

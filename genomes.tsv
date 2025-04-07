@@ -1,35 +1,35 @@
-#url	accession	scientific name	common name	taxonId
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/tair10.json	tair10	Arabidopsis thaliana	A. thaliana (TAIR 10)	3702
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/ce11.json	ce11	Caenorhabditis elegans	C. elegans (ce11)	6239
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/galGal6.json	galGal6	Gallus gallus	Chicken (GRCg6a / galGal6)	9031
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/panTro4.json	panTro4	Pan troglodytes	Chimp (panTro4)	9598
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/panTro5.json	panTro5	Pan troglodytes	Chimp (panTro5)	9598
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/panTro6.json	panTro6	Pan troglodytes	Chimp (panTro6)	9598
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/bosTau8.json	bosTau8	Bos taurus	Cow (bosTau8)	9913
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/bosTau9.json	bosTau9	Bos taurus	Cow (bosTau9)	9913
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/dm6.json	dm6	Drosophila melanogaster	D. melanogaster (dm6)	7227
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/dm3.json	dm3	Drosophila melanogaster	D. melanogaster (dm3)	7227
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/canFam3.json	canFam3	Canis lupus familiaris	Dog (canFam3)	9615
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/canFam4.json	canFam4	Canis lupus familiaris	Dog (UU_Cfam_GSD_1.0/canFam4)	9615
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/canFam5.json	canFam5	Canis lupus familiaris	Dog (canFam5)	9615
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/canFam6.json	canFam6	Canis lupus familiaris	Dog (canFam6)	9615
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/hs1.json	hs1	Homo sapiens	Human (T2T CHM13-v2.0/hs1)	9606
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/hg18.json	hg18	Homo sapiens	Human (hg18)	9606
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/hg19.json	hg19	Homo sapiens	Human (hg19)	9606
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/hg38.json	hg38	Homo sapiens	Human (hg38)	9606
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/b37_1kg.json	b37_1kg	Homo sapiens	Human (1kg, b37+decoy)	9606
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/hg38_1kg.json	hg38_1kg	Homo sapiens	Human (hg38 1kg/GATK)	9606
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/macFas5.json	macFas5	Macaca fascicularis	Macaca fascicularis (macFas5)	9541
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/mm10.json	mm10	Mus musculus	Mouse mm10	10090
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/mm9.json	mm9	Mus musculus	Mouse mm9	10090
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/mm39.json	mm39	Mus musculus	Mouse mm39	10090
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/rn6.json	rn6	Rattus norvegicus	Rat (rn6)	10116
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/rn7.json	rn7	Rattus norvegicus	Rat (rn7)	10116
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/sacCer3.json	sacCer3	Saccharomyces cerevisiae	S. cerevisiae (sacCer3)	559292
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/danRer10.json	danRer10	Danio rerio	Zebrafish (GRCz10/danRer10)	7955
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/danRer11.json	danRer11	Danio rerio	Zebrafish (GRCz11/danRer11)	7955
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/gorGor4.json	gorGor4	Gorilla gorilla gorilla	Gorilla (gorGor4)	9595
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/gorGor6.json	gorGor6	Gorilla gorilla gorilla	Gorilla (gorGor6)	9595
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/panPan2.json	panPan2	Pan paniscus	Bonobo (MPI-EVA panpan1.1/panPan2)	9597
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/susScr11.json	susScr11	Sus scrofa	Pig (SGSC Sscrofa11.1/susScr11)	9823
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/strPur2.json	strPur2	Strongylocentrotus purpuratus	S. purpuratus (Baylor 2.1/strPur2)	7668
+#url	accession	assembly	scientific name	common name	taxonId
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/tair10.json	GCF_000001735.3	tair10	Arabidopsis thaliana	A. thaliana (TAIR 10)	3702
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/ce11.json	GCA_000002985.3	ce11	Caenorhabditis elegans	C. elegans (ce11)	6239
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/galGal6.json	GCF_000002315.5	galGal6	Gallus gallus	Chicken (GRCg6a / galGal6)	9031
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/panTro4.json	GCA_000001515.4	panTro4	Pan troglodytes	Chimp (panTro4)	9598
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/panTro5.json	GCF_000001515.7	panTro5	Pan troglodytes	Chimp (panTro5)	9598
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/panTro6.json	GCF_002880755.1	panTro6	Pan troglodytes	Chimp (panTro6)	9598
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/bosTau8.json	GCA_000003055.4	bosTau8	Bos taurus	Cow (bosTau8)	9913
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/bosTau9.json	GCF_002263795.1	bosTau9	Bos taurus	Cow (bosTau9)	9913
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/dm6.json	GCA_000001215.4	dm6	Drosophila melanogaster	D. melanogaster (dm6)	7227
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/dm3.json		dm3	Drosophila melanogaster	D. melanogaster (dm3)	7227
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/canFam3.json	GCA_000002285.2	canFam3	Canis lupus familiaris	Dog (canFam3)	9615
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/canFam4.json	GCA_011100685.1	canFam4	Canis lupus familiaris	Dog (UU_Cfam_GSD_1.0/canFam4)	9615
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/canFam5.json	GCA_005444595.1	canFam5	Canis lupus familiaris	Dog (canFam5)	9615
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/canFam6.json	GCF_000002285.5	canFam6	Canis lupus familiaris	Dog (canFam6)	9615
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/hs1.json	GCA_009914755.4	hs1	Homo sapiens	Human (T2T CHM13-v2.0/hs1)	9606
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/hg18.json		hg18	Homo sapiens	Human (hg18)	9606
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/hg19.json	GRCh37	hg19	Homo sapiens	Human (hg19)	9606
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/hg38.json	GCA_000001405.29	hg38	Homo sapiens	Human (hg38)	9606
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/b37_1kg.json		b37_1kg	Homo sapiens	Human (1kg, b37+decoy)	9606
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/hg38_1kg.json		hg38_1kg	Homo sapiens	Human (hg38 1kg/GATK)	9606
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/macFas5.json	GCA_000364345.1	macFas5	Macaca fascicularis	Macaca fascicularis (macFas5)	9541
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/mm10.json	GCA_000001305.2	mm10	Mus musculus	Mouse mm10	10090
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/mm9.json	GCF_003339765.1	mm9	Mus musculus	Mouse mm9	10090
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/mm39.json	GCA_000001635.9	mm39	Mus musculus	Mouse mm39	10090
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/rn6.json	GCA_000001895.4	rn6	Rattus norvegicus	Rat (rn6)	10116
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/rn7.json	GCF_015227675.2	rn7	Rattus norvegicus	Rat (rn7)	10116
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/sacCer3.json	GCA_000146045.2	sacCer3	Saccharomyces cerevisiae	S. cerevisiae (sacCer3)	559292
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/danRer10.json	GCA_000002035.3	danRer10	Danio rerio	Zebrafish (GRCz10/danRer10)	7955
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/danRer11.json	GCA_000002035.4	danRer11	Danio rerio	Zebrafish (GRCz11/danRer11)	7955
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/gorGor4.json	GCA_000151905.3	gorGor4	Gorilla gorilla gorilla	Gorilla (gorGor4)	9595
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/gorGor6.json	GCF_008122165.1	gorGor6	Gorilla gorilla gorilla	Gorilla (gorGor6)	9595
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/panPan2.json	GCF_000258655.2	panPan2	Pan paniscus	Bonobo (MPI-EVA panpan1.1/panPan2)	9597
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/susScr11.json	GCF_000003025.6	susScr11	Sus scrofa	Pig (SGSC Sscrofa11.1/susScr11)	9823
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/strPur2.json		strPur2	Strongylocentrotus purpuratus	S. purpuratus (Baylor 2.1/strPur2)	7668
