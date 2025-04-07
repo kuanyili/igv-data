@@ -1,5 +1,5 @@
 #url	accession	scientific name	common name	taxonId
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/tair10.json	tair10		A. thaliana (TAIR 10)	Arabidopsis thaliana	3702
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/tair10.json	tair10	A. thaliana (TAIR 10)	Arabidopsis thaliana	3702
 https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/ce11.json	ce11	Caenorhabditis elegans	C. elegans (ce11)	6239
 https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/galGal6.json	galGal6	Gallus gallus	Chicken (GRCg6a / galGal6)	9031
 https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/panTro4.json	panTro4	Pan troglodytes	Chimp (panTro4)	9598
@@ -33,4 +33,3 @@ https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/gorGo
 https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/panPan2.json	panPan2	Pan paniscus	Bonobo (MPI-EVA panpan1.1/panPan2)	9597
 https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/susScr11.json	susScr11	Sus scrofa	Pig (SGSC Sscrofa11.1/susScr11)	9823
 https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/strPur2.json	strPur2	Strongylocentrotus purpuratus	S. purpuratus (Baylor 2.1/strPur2)	7668
-
