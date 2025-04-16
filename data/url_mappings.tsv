@@ -1,0 +1,25 @@
+#hg38 -- gs bucket
+https://s3.us-east-1.amazonaws.com/igv.broadinstitute.org/annotations/hg38/hg38_alias.tab	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/data/hg38/hg38_alias.tab
+https://s3.us-east-1.amazonaws.com/igv.broadinstitute.org/annotations/hg38/cytoBandIdeo.txt	https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz
+https://s3.us-east-1.amazonaws.com/igv.broadinstitute.org/annotations/hg38/genes/refGene_hg38_collapsed.refgene.gz	https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeq.txt.gz
+https://s3.us-east-1.amazonaws.com/igv.broadinstitute.org/annotations/hg38/rmsk/Low_complexity.bed.gz	https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.rmsk.Low_complexity.bb
+https://s3.us-east-1.amazonaws.com/igv.broadinstitute.org/annotations/hg38/rmsk/LTR.bed.gz	https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.rmsk.LTR.bb
+https://s3.us-east-1.amazonaws.com/igv.broadinstitute.org/annotations/hg38/rmsk/LINE.bed.gz	https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.rmsk.LINE.bb
+https://s3.us-east-1.amazonaws.com/igv.broadinstitute.org/annotations/hg38/rmsk/SINE.bed.gz	https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.rmsk.SINE.bb
+https://s3.us-east-1.amazonaws.com/igv.broadinstitute.org/annotations/hg38/rmsk/DNA.bed.gz	https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.rmsk.DNA.bb
+https://s3.us-east-1.amazonaws.com/igv.broadinstitute.org/annotations/hg38/rmsk/Simple_repeat.bed.gz	https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.simpleRepeat.bb
+https://s3.us-east-1.amazonaws.com/igv.broadinstitute.org/annotations/hg38/rmsk/Satellite.bed.gz	https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.rmsk.Satellite.bb
+https://s3.us-east-1.amazonaws.com/igv.broadinstitute.org/annotations/hg38/rmsk/RNA.bed.gz	https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.rmsk.RNA.bb
+
+#hg19 -- gs bucket
+https://s3.us-east-1.amazonaws.com/igv.broadinstitute.org/data/hg19/1kg/ALL.phase3_shapeit2_mvncall_integrated_v1b.20130502.genotypes.vcf.list
+https://s3.us-east-1.amazonaws.com/igv.broadinstitute.org/data/hg19/1kg/integrated_call_samples_v3.20130502.ALL.panel
+https://s3.us-east-1.amazonaws.com/igv.broadinstitute.org/annotations/hg19/genes/refFlat.txt.gz	https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/refFlat.txt.gz
+https://s3.us-east-1.amazonaws.com/igv.broadinstitute.org/annotations/hg19/genes/refGene_hg19.bed	https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/refGene.txt.gz
+https://s3.us-east-1.amazonaws.com/igv.broadinstitute.org/annotations/hg19/genes/refGene.hg19.bed.gz	https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/refGene.txt.gz
+https://s3.us-east-1.amazonaws.com/igv.broadinstitute.org/annotations/hg19/genes/ensGene.txt.gz	https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/ensGene.txt.gz
+
+#mm10 -- gs bucket
+https://s3.us-east-1.amazonaws.com/igv.broadinstitute.org/annotations/mm10/cytoBandIdeo.txt.gz	https://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/cytoBandIdeo.txt.gz
+https://s3.us-east-1.amazonaws.com/igv.broadinstitute.org/annotations/mm10/refGene.txt.gz	https://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/refGene.txt.gz
+

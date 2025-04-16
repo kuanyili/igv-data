@@ -1,3 +1,8 @@
+/**
+ * Convert hub URLs in a UCSC hub text file to absolute URLs
+ */
+
+
 import fs from 'fs'
 
 (async function () {

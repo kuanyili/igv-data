@@ -1,3 +1,8 @@
+/**
+ * Parse json from the UCSC track list API and generate trackDB files for each genome.   This is a rough process,
+ * requiring some hand cleanup of the output.
+ */
+
 import fs from 'fs'
 import path from 'path'
 
