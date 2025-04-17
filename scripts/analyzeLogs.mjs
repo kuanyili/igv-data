@@ -63,18 +63,28 @@ async function processFilesInDirectory(directory) {
         }
     }
 
+    console.log("Count by File:")
+    for (let entry of [...countByFile.entries()].sort((a, b) => b[1] - a[1])) {
+        console.log(entry[0], entry[1])
+    }
+
+    console.log()
+    console.log("Count by User Agent:")
+    for (let entry of countByUserAgent.entries()) {
+        console.log(entry[0], entry[1])
+    }
+
+    console.log()
     console.log("Python requests:", countPython)
     console.log("Galaxy requests:", countGalaxy)
     console.log("Other 403 errors:", other403)
     console.log("Legitimate requests:", legit)
     console.log("Python files: " + Array.from(pythonFiles)[0])
     console.log("Galaxy files: " + Array.from(galaxyFiles)[0])
-    for(let entry of countByFile.entries()) {
-        console.log(entry[0], entry[1])
-    }
-    for(let entry of countByUserAgent.entries()) {
-            console.log(entry[0], entry[1])
-    }
+
+
+
+
 
 
 

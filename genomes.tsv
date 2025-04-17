@@ -33,3 +33,4 @@ https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/gorGo
 https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/panPan2.json	GCF_000258655.2	panPan2	Pan paniscus	Bonobo (MPI-EVA panpan1.1/panPan2)	9597
 https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/susScr11.json	GCF_000003025.6	susScr11	Sus scrofa	Pig (SGSC Sscrofa11.1/susScr11)	9823
 https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/strPur2.json		strPur2	Strongylocentrotus purpuratus	S. purpuratus (Baylor 2.1/strPur2)	7668
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/data/gbk/NC_012920.1.gbk		NC_012920.1	Homo sapiens mitochondrion	Human Mitochondria (NC_012920)
