@@ -19,6 +19,7 @@ https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/hg19.
 https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/hg38.json	GCA_000001405.29	hg38	Homo sapiens	Human (hg38)	9606
 https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/b37_1kg.json		b37_1kg	Homo sapiens	Human (1kg, b37+decoy)	9606
 https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/hg38_1kg.json		hg38_1kg	Homo sapiens	Human (hg38 1kg/GATK)	9606
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/data/gbk/NC_012920.1.gbk		NC_012920.1	Homo sapiens mitochondrion	Human Mitochondria (NC_012920)	9606
 https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/macFas5.json	GCA_000364345.1	macFas5	Macaca fascicularis	Macaca fascicularis (macFas5)	9541
 https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/mm10.json	GCA_000001305.2	mm10	Mus musculus	Mouse mm10	10090
 https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/mm9.json	GCF_003339765.1	mm9	Mus musculus	Mouse mm9	10090
@@ -33,4 +34,3 @@ https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/gorGo
 https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/panPan2.json	GCF_000258655.2	panPan2	Pan paniscus	Bonobo (MPI-EVA panpan1.1/panPan2)	9597
 https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/susScr11.json	GCF_000003025.6	susScr11	Sus scrofa	Pig (SGSC Sscrofa11.1/susScr11)	9823
 https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/strPur2.json		strPur2	Strongylocentrotus purpuratus	S. purpuratus (Baylor 2.1/strPur2)	7668
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/data/gbk/NC_012920.1.gbk		NC_012920.1	Homo sapiens mitochondrion	Human Mitochondria (NC_012920)
