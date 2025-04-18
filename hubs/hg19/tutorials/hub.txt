@@ -50,11 +50,11 @@ defaultIsClosed 0
 track heart
 shortLabel Heart
 type bam
-bigDataUrl http://www.broadinstitute.org/igvdata/tutorials/SL2C5A3/heart.bodyMap.bam
+bigDataUrl https://raw.githubusercontent.com/igvteam/igv-testdata/refs/heads/main/rnaseq/heart.bodyMap.bam
 parent bodyMap
 
 track liver
 shortLabel Liver
 type bam
-bigDataUrl http://www.broadinstitute.org/igvdata/tutorials/SL2C5A3/liver.bodyMap.bam
+bigDataUrl https://raw.githubusercontent.com/igvteam/igv-testdata/refs/heads/main/rnaseq/liver.bodyMap.bam
 parent bodyMap
