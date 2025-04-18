@@ -57,8 +57,8 @@
     "https://data.broadinstitute.org/compbio1/PhyloCSFtracks/trackHub/hub.txt",
     "https://vizhub.wustl.edu/VizHub/RoadmapIntegrative.txt",
     "https://vizhub.wustl.edu/VizHub/RoadmapReleaseAll.txt",
-    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hg19/1kg_hub.txt",
-    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hg19/platinum_genomes_hub.txt",
-    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hg19/tutorials_hub.txt"
+    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hg19/1kg/hub.txt",
+    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hg19/platinum_genomes/hub.txt",
+    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hg19/tutorials/hub.txt"
   ]
 }

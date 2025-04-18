@@ -1,0 +1,35 @@
+hub gbm_subtypes
+shortLabel GBM Subtypes
+longLabel GBM Subtypes
+useOneFile on
+html
+
+genome hg18
+
+track gbm_subtypes
+shortLabel GBM Subtypes(Verhaak et. al.)
+html http://www.cell.com/cancer-cell/abstract/S1535-6108%2809%2900432-2
+
+    track sampleTable
+    shortLabel Sample Information
+    bigDataUrl https://github.com/igvteam/igv-testdata/raw/refs/heads/main/gbm/sampleTable.txt.gz
+    parent gbm_subtypes
+    type sampleinfo
+
+    track segmentedCopyNumber
+    shortLabel Segmented Copy Number
+    bigDataUrl https://github.com/igvteam/igv-testdata/raw/refs/heads/main/gbm/Broad.080528.subtypes.seg.gz
+    parent gbm_subtypes
+    type seg
+
+    track somaticMutations
+    shortLabel Somatic Mutations
+    bigDataUrl https://github.com/igvteam/igv-testdata/raw/refs/heads/main/gbm/TCGA_GBM_Level3_Somatic_Mutations_08.28.2008.maf.gz
+    parent gbm_subtypes
+    type mut
+
+    track gistic
+    shortLabel GISTIC
+    bigDataURL https://github.com/igvteam/igv-testdata/raw/refs/heads/main/gbm/Broad_standard_080606.gistic.txt
+    type gistic
+    parent gbm_subtypes
