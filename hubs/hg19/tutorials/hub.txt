@@ -70,6 +70,12 @@ defaultIsClosed 0
     type vcf
     parent variants
 
+    track sampleInfo
+    shortLabel Sample Information
+    bigDataUrl https://raw.githubusercontent.com/igvteam/igv-testdata/refs/heads/main/tutorials/vcf/integrated_call_samples_v3.20130502.ALL.panel
+    type sampleinfo
+    parent variants
+
     track bed
     shortLabel SNPs
     type bed
