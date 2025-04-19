@@ -48,7 +48,7 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hg19/annotations_hub.txt",
+    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hg19/annotations/hub.txt",
     "https://bchub.epfl.ch/breastca.txt",
     "https://ftp.ncbi.nlm.nih.gov/refseq/FunctionalElements/trackhub/hub.txt",
     "https://genome-test.gi.ucsc.edu/~max/immuno/track/hub/hub.txt",

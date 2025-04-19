@@ -10,51 +10,68 @@ shortLabel UI Basics
 compositeTrack on
 defaultIsClosed 0
 
-track GM12878_H3K27ac
-type bigWig
-shortLabel GM12878 H3K27ac
-color 255,0,0
-viewLimits 0:25
-bigDataUrl https://www.encodeproject.org/files/ENCFF000ASJ/@@download/ENCFF000ASJ.bigWig
-parent uiBasics
+    track GM12878_H3K27ac
+    type bigWig
+    shortLabel GM12878 H3K27ac
+    color 255,0,0
+    viewLimits 0:25
+    bigDataUrl https://www.encodeproject.org/files/ENCFF000ASJ/@@download/ENCFF000ASJ.bigWig
+    parent uiBasics
 
-track GM12878_H3K27me3
-type bigWig
-shortLabel GM12878 H3K27me3
-color 255,0,0
-viewLimits 0:25
-bigDataUrl https://www.encodeproject.org/files/ENCFF000AST/@@download/ENCFF000AST.bigWig
-parent uiBasics
+    track GM12878_H3K27me3
+    type bigWig
+    shortLabel GM12878 H3K27me3
+    color 255,0,0
+    viewLimits 0:25
+    bigDataUrl https://www.encodeproject.org/files/ENCFF000AST/@@download/ENCFF000AST.bigWig
+    parent uiBasics
 
-track GM12878_H3K36me3
-type bigWig
-shortLabel GM12878 H3K36me3
-color 0,0,150
-viewLimits 0:25
-bigDataUrl https://www.encodeproject.org/files/ENCFF000ATA/@@download/ENCFF000ATA.bigWig
-parent uiBasics
+    track GM12878_H3K36me3
+    type bigWig
+    shortLabel GM12878 H3K36me3
+    color 0,0,150
+    viewLimits 0:25
+    bigDataUrl https://www.encodeproject.org/files/ENCFF000ATA/@@download/ENCFF000ATA.bigWig
+    parent uiBasics
 
-track GM12878_H3K4me1
-type bigWig
-shortLabel GM12878 H3K4me1
-color 0,150,0
-viewLimits 0:25
-bigDataUrl https://www.encodeproject.org/files/ENCFF000ARZ/@@download/ENCFF000ARZ.bigWig
-parent uiBasics
+    track GM12878_H3K4me1
+    type bigWig
+    shortLabel GM12878 H3K4me1
+    color 0,150,0
+    viewLimits 0:25
+    bigDataUrl https://www.encodeproject.org/files/ENCFF000ARZ/@@download/ENCFF000ARZ.bigWig
+    parent uiBasics
 
 track bodyMap
 shortLabel RNA-Seq (Body Map)
 compositeTrack on
 defaultIsClosed 0
 
-track heart
-shortLabel Heart
-type bam
-bigDataUrl https://raw.githubusercontent.com/igvteam/igv-testdata/refs/heads/main/rnaseq/heart.bodyMap.bam
-parent bodyMap
+    track heart
+    shortLabel Heart
+    type bam
+    bigDataUrl https://raw.githubusercontent.com/igvteam/igv-testdata/refs/heads/main/tutorials/rnaseq/heart.bodyMap.bam
+    parent bodyMap
 
-track liver
-shortLabel Liver
-type bam
-bigDataUrl https://raw.githubusercontent.com/igvteam/igv-testdata/refs/heads/main/rnaseq/liver.bodyMap.bam
-parent bodyMap
+    track liver
+    shortLabel Liver
+    type bam
+    bigDataUrl https://raw.githubusercontent.com/igvteam/igv-testdata/refs/heads/main/tutorials/rnaseq/liver.bodyMap.bam
+    parent bodyMap
+
+track variants
+shortLabel VCF Variants
+longLabel VCF Variants from 1000 Genomes
+defaultIsClosed 0
+
+    track vcf
+    shortLabel Phase 3 integrated variant calls
+    bigDataUrl https://raw.githubusercontent.com/igvteam/igv-testdata/refs/heads/main/tutorials/vcf/ALL.apol1.sample.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf
+    type vcf
+    parent variants
+
+    track bed
+    shortLabel SNPs
+    type bed
+    bigDataUrl https://raw.githubusercontent.com/igvteam/igv-testdata/refs/heads/main/tutorials/vcf/apol1_snp131.bed
+    parent variants
