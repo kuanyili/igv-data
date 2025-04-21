@@ -52,6 +52,7 @@
   "hubs": [
     "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hg38/hub.txt",
     "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/hub.txt",
+    "https://epiraction.crg.eu/UCSC/hub.txt",
     "http://smithlab.usc.edu/trackdata/methylation/hub.txt",
     "https://ftp.ncbi.nlm.nih.gov/refseq/FunctionalElements/trackhub/hub.txt",
     "https://ftp.ncbi.nlm.nih.gov/snp/population_frequency/TrackHub/latest/hub.txt",

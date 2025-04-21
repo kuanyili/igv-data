@@ -47,8 +47,8 @@
   ],
   "hubs": [
     "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hg18/hub.txt",
-    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hg18/gbm_subtypes/hub.txt"
-
+    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hg18/gbm_subtypes/hub.txt",
+    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hg18/tumorscape/hub.txt"
   ],
   "fromJson": true
 }
