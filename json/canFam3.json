@@ -65,6 +65,5 @@
   ],
   "hubs": [
     "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/canFam3/hub.txt"
-  ],
-  "fromJson": true
+  ]
 }

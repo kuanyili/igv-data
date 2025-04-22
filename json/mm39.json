@@ -51,6 +51,5 @@
     "https://ftp.ncbi.nlm.nih.gov/refseq/FunctionalElements/trackhub/hub.txt",
     "http://smithlab.usc.edu/trackdata/methylation/hub.txt",
     "https://data.broadinstitute.org/compbio1/PhyloCSFtracks/trackHub/hub.txt"
-  ],
-  "fromJson": true
+  ]
 }

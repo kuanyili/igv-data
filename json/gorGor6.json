@@ -52,6 +52,5 @@
     "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/gorGor6/hub.txt",
     "https://hgdownload.soe.ucsc.edu/hubs/GCF/008/122/165/GCF_008122165.1/hub.txt",
     "http://smithlab.usc.edu/trackdata/methylation/hub.txt"
-  ],
-  "fromJson": true
+  ]
 }

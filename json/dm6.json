@@ -34,6 +34,5 @@
     "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/dm6/hub.txt",
     "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/215/GCF_000001215.4/hub.txt",
     "https://data.broadinstitute.org/compbio1/PhyloCSFtracks/trackHub/hub.txt"
-  ],
-  "fromJson": true
+  ]
 }

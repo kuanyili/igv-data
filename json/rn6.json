@@ -32,6 +32,5 @@
   ],
   "hubs": [
     "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/895/GCF_000001895.5/hub.txt"
-  ],
-  "fromJson": true
+  ]
 }

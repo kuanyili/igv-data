@@ -35,6 +35,5 @@
       "format": "refgene",
       "indexed": false
     }
-  ],
-  "fromJson": true
+  ]
 }
