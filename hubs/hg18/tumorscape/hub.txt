@@ -3,7 +3,7 @@ shortLabel Copy Number Alterations Across Human Cancers (TCGA 2011)
 useOneFile on
 html tumorscape.html
 
-genome hg38
+genome hg18
 
 track Sample_Information
 shortLabel Sample Information
