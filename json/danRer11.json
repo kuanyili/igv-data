@@ -55,7 +55,6 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/danRer11/hub.txt",
-    "http://smithlab.usc.edu/trackdata/methylation/hub.txt"
+    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/danRer11/hub.txt"
   ]
 }
