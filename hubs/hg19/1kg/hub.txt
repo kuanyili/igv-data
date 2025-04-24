@@ -2,7 +2,7 @@ hub 1kg
 shortLabel 1000 Genomes
 longLabel 1000 Genomes
 useOneFile on
-html https://www.1000genomes.org
+descriptionUrl https://www.1000genomes.org
 
 genome hg19
 
