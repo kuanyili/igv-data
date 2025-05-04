@@ -557,18 +557,6 @@ type bigBed 4 +
 bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/002/263/795/GCF_002263795.1/bbi/GCF_002263795.1_ARS-UCD1.2.simpleRepeat.bb
 html https://hgdownload.soe.ucsc.edu/hubs/GCF/002/263/795/GCF_002263795.1/html/GCF_002263795.1_ARS-UCD1.2.simpleRepeat
 
-track refSeqComposite
-compositeTrack on
-shortLabel NCBI RefSeq
-longLabel RefSeq gene predictions from NCBI
-group genes
-visibility pack
-type bigBed
-dragAndDrop subTracks
-allButtonPair on
-dataVersion NCBI Bos taurus Annotation Release 106 (2019-12-18)
-html https://hgdownload.soe.ucsc.edu/hubs/GCF/002/263/795/GCF_002263795.1/html/GCF_002263795.1_ARS-UCD1.2.refSeqComposite
-priority 2
 
         track ncbiRefSeq
         parent refSeqComposite on
@@ -620,20 +608,6 @@ priority 2
         baseColorUseCds given
         baseColorDefault genomicCodons
         priority 3
-
-        track ncbiRefSeqOther
-        color 32,32,32
-        parent refSeqComposite on
-        shortLabel RefSeq Other
-        longLabel NCBI RefSeq other annotations (not NM_*, NR_*, XM_*, XR_*, NP_* or YP_*)
-        priority 4
-        searchIndex name
-        searchTrix https://hgdownload.soe.ucsc.edu/hubs/GCF/002/263/795/GCF_002263795.1/ixIxx/GCF_002263795.1_ARS-UCD1.2.ncbiRefSeqOther.ix
-        bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/002/263/795/GCF_002263795.1/bbi/GCF_002263795.1_ARS-UCD1.2.ncbiRefSeqOther.bb
-        type bigBed 12 +
-        labelFields name
-        skipEmptyFields on
-        urls GeneID="https://www.ncbi.nlm.nih.gov/gene/$$" MIM="https://www.ncbi.nlm.nih.gov/omim/$$" HGNC="http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=$$" FlyBase="http://flybase.org/reports/$$" WormBase="http://www.wormbase.org/db/gene/gene?name=$$" RGD="https://rgd.mcw.edu/rgdweb/search/search.html?term=$$" SGD="https://www.yeastgenome.org/locus/$$" miRBase="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=$$" ZFIN="https://zfin.org/$$" MGI="http://www.informatics.jax.org/marker/$$"
 
         track ncbiRefSeqPsl
         priority 5
