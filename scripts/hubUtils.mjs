@@ -6,7 +6,7 @@
 import fs from 'fs'
 
 (async function () {
-    await toAbsolute('https://hgdownload.soe.ucsc.edu/gbdb/hs1/hubs/public/hub.txt', 'hs1.hub.txt')
+    await toAbsolute('https://hgdownload.soe.ucsc.edu/hubs/GCF/002/263/795/GCF_002263795.1/hub.txt', 'bosTau9.hub.txt')
 })()
 
 async function toAbsolute(hubURL, outputFile) {
