@@ -4,10 +4,59 @@
 
 
 import fs from 'fs'
+import {mergeTrackDB} from "./mergeHubs.mjs"
+
 
 (async function () {
-    await toAbsolute('https://hgdownload.soe.ucsc.edu/hubs/GCF/002/263/795/GCF_002263795.1/hub.txt', 'bosTau9.hub.txt')
+
+    const pairs = [
+        "../hubs/canFam4/trackDb.txt",
+        "https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/hub.txt",
+        "../hubs/canFam6/trackDb.txt",
+        "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/285/GCF_000002285.5/hub.txt",
+        "../hubs/dm6/trackDb.txt",
+        "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/215/GCF_000001215.4/hub.txt",
+        "../hubs/galGal6/trackDb.txt",
+        "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/315/GCF_000002315.6/hub.txt",
+        "../hubs/gorGor6/trackDb.txt",
+        "https://hgdownload.soe.ucsc.edu/hubs/GCF/008/122/165/GCF_008122165.1/hub.txt",
+        "../hubs/hg38/trackDb.txt",
+        "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/hub.txt",
+        "../hubs/hs1/trackDb.txt",
+        "https://hgdownload.soe.ucsc.edu/gbdb/hs1/hubs/public/hub.txt",
+        "../hubs/macFas5/trackDb.txt",
+        "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/364/345/GCA_000364345.1/hub.txt",
+        "../hubs/mm10/trackDb.txt",
+        "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.26/hub.txt",
+        "../hubs/mm39/trackDb.txt",
+        "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/635/GCF_000001635.27/hub.txt",
+        "../hubs/panTro6/trackDb.txt",
+        "https://hgdownload.soe.ucsc.edu/hubs/GCA/002/880/755/GCA_002880755.3/hub.txt",
+        "../hubs/rn7/trackDb.txt",
+        "https://hgdownload.soe.ucsc.edu/hubs/GCF/015/227/675/GCF_015227675.2/hub.txt",
+        "../hubs/sacCer3/trackDb.txt",
+        "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/hub.txt",
+        "../hubs/susScr11/trackDb.txt",
+        "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/003/025/GCF_000003025.6/hub.txt"
+    ]
+
+
+    for (let i = 0; i < pairs.length; i += 2) {
+        const first = pairs[i]
+        const second = pairs[i + 1]
+
+        const absFile = `tmp${i}.txt`
+        console.log(`Converting ${first} to absolute URLs ${absFile}`)
+        await toAbsolute(second, absFile)
+
+        const outputFile = first
+        console.log(`Merging ${first} and ${absFile} into ${outputFile}`)
+        await mergeTrackDB(first, absFile, outputFile)
+
+        //fs.unlinkSync(absFile)
+    }
 })()
+
 
 async function toAbsolute(hubURL, outputFile) {
 
@@ -49,6 +98,7 @@ async function toAbsolute(hubURL, outputFile) {
         }
         out.write('\n')
     }
+    out.end()
 
 }
 

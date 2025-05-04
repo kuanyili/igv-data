@@ -58,3 +58,479 @@ searchIndex name
 itemRgb on
 searchTrix https://hgdownload.soe.ucsc.edu/gbdb/canFam4/TOGAvHg38v1/HLTOGAannotVsHg38v1.ix
 bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/canFam4/TOGAvHg38v1/HLTOGAannotVsHg38v1.bb
+
+
+
+track assembly
+longLabel Assembly
+shortLabel Assembly
+visibility hide
+colorByStrand 150,100,30 230,170,40
+color 150,100,30
+altColor 230,170,40
+bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.assembly.bb
+type bigBed 6
+html https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/html/GCF_011100685.1_UU_Cfam_GSD_1.0.assembly
+searchIndex name
+searchTrix https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/ixIxx/GCF_011100685.1_UU_Cfam_GSD_1.0.assembly.ix
+url https://www.ncbi.nlm.nih.gov/nuccore/$$
+urlLabel NCBI Nucleotide database:
+group map
+
+track gap
+longLabel AGP gap
+shortLabel Gap (AGP defined)
+visibility hide
+color 0,0,0
+bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.gap.bb
+type bigBed 4
+group map
+html https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/html/GCF_011100685.1_UU_Cfam_GSD_1.0.gap
+
+track cytoBandIdeo
+shortLabel Chromosome Band (Ideogram)
+longLabel Ideogram for Orientation
+group map
+visibility dense
+type bigBed 4 +
+bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.cytoBand.bb
+
+track gc5Base
+shortLabel GC Percent
+longLabel GC Percent in 5-Base Windows
+group map
+visibility dense
+autoScale Off
+maxHeightPixels 128:36:16
+graphTypeDefault Bar
+gridDefault OFF
+windowingFunction Mean
+color 0,0,0
+altColor 128,128,128
+viewLimits 30:70
+type bigWig 0 100
+bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.gc5Base.bw
+html https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/html/GCF_011100685.1_UU_Cfam_GSD_1.0.gc5Base
+
+track tanDups
+shortLabel Tandem Dups
+longLabel Paired identical sequences
+compositeTrack on
+visibility hide
+type bigBed 12
+group map
+html https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/html/GCF_011100685.1_UU_Cfam_GSD_1.0.tanDups
+
+    track gapOverlap
+    parent tanDups on
+    shortLabel Gap Overlaps
+    longLabel Paired exactly identical sequence on each side of a gap
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.gapOverlap.bb
+    type bigBed 12
+
+    track tandemDups
+    parent tanDups on
+    shortLabel Tandem Dups
+    longLabel Paired exactly identical sequence survey over entire genome assembly
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.tandemDups.bb
+    type bigBed 12
+
+track repeatMasker
+compositeTrack on
+shortLabel RepeatMasker
+longLabel Repeating Elements by RepeatMasker
+group varRep
+visibility dense
+type bigBed 6 +
+colorByStrand 50,50,150 150,50,50
+maxWindowToDraw 10000000
+spectrum on
+html https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/html/GCF_011100685.1_UU_Cfam_GSD_1.0.repeatMasker
+
+    track repeatMaskerSINE
+    parent repeatMasker
+    shortLabel SINE
+    longLabel SINE Repeating Elements by RepeatMasker
+    type bigBed 6 +
+    priority 1
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.rmsk.SINE.bb
+
+    track repeatMaskerLINE
+    parent repeatMasker
+    shortLabel LINE
+    longLabel LINE Repeating Elements by RepeatMasker
+    type bigBed 6 +
+    priority 2
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.rmsk.LINE.bb
+
+    track repeatMaskerLTR
+    parent repeatMasker
+    shortLabel LTR
+    longLabel LTR Repeating Elements by RepeatMasker
+    type bigBed 6 +
+    priority 3
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.rmsk.LTR.bb
+
+    track repeatMaskerDNA
+    parent repeatMasker
+    shortLabel DNA
+    longLabel DNA Repeating Elements by RepeatMasker
+    type bigBed 6 +
+    priority 4
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.rmsk.DNA.bb
+
+    track repeatMaskerSimple
+    parent repeatMasker
+    shortLabel Simple
+    longLabel Simple Repeating Elements by RepeatMasker
+    type bigBed 6 +
+    priority 5
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.rmsk.Simple.bb
+
+    track repeatMaskerLowComplexity
+    parent repeatMasker
+    shortLabel Low Complexity
+    longLabel Low Complexity Repeating Elements by RepeatMasker
+    type bigBed 6 +
+    priority 6
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.rmsk.Low_complexity.bb
+
+    track repeatMaskerSatellite
+    parent repeatMasker
+    shortLabel Satellite
+    longLabel Satellite Repeating Elements by RepeatMasker
+    type bigBed 6 +
+    priority 7
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.rmsk.Satellite.bb
+
+    track repeatMaskerRNA
+    parent repeatMasker
+    shortLabel RNA
+    longLabel RNA Repeating Elements by RepeatMasker
+    type bigBed 6 +
+    priority 8
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.rmsk.RNA.bb
+
+    track repeatMaskerOther
+    parent repeatMasker
+    shortLabel Other
+    longLabel Other Repeating Elements by RepeatMasker
+    type bigBed 6 +
+    priority 9
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.rmsk.Other.bb
+
+track repeatModeler
+shortLabel RepeatModeler
+longLabel RepeatModeler Repetitive Elements
+type bigRmsk 9 +
+visibility hide
+group varRep
+bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.rModel.bb
+xrefDataUrl bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.rModel.align.bb
+maxWindowToDraw 5000000
+html https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/html/GCF_011100685.1_UU_Cfam_GSD_1.0.repeatModeler
+
+track simpleRepeat
+shortLabel Simple Repeats
+longLabel Simple Tandem Repeats by TRF
+group varRep
+visibility dense
+type bigBed 4 +
+bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.simpleRepeat.bb
+html https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/html/GCF_011100685.1_UU_Cfam_GSD_1.0.simpleRepeat
+
+compositeTrack on
+shortLabel NCBI RefSeq
+longLabel RefSeq gene predictions from NCBI
+group genes
+visibility pack
+type bigBed
+dragAndDrop subTracks
+allButtonPair on
+dataVersion NCBI Canis lupus familiaris Annotation Release 106 (2021-01-11)
+html https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/html/GCF_011100685.1_UU_Cfam_GSD_1.0.refSeqComposite
+priority 2
+
+        track ncbiRefSeq
+        parent refSeqComposite on
+        color 12,12,120
+        shortLabel RefSeq All
+        type bigGenePred
+        urls name2="https://www.ncbi.nlm.nih.gov/gene/$D/?term=$$" geneName="https://www.ncbi.nlm.nih.gov/gene/$$" geneName2="https://www.ncbi.nlm.nih.gov/nuccore/$$"
+        labelFields name,geneName,geneName2
+        defaultLabelFields geneName2
+        searchIndex name
+        searchTrix https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/ixIxx/GCF_011100685.1_UU_Cfam_GSD_1.0.ncbiRefSeq.ix
+        bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.ncbiRefSeq.bb
+        longLabel NCBI RefSeq genes, curated and predicted sets (NM_*, XM_*, NR_*, XR_*, NP_* or YP_*)
+        idXref ncbiRefSeqLink mrnaAcc name
+        baseColorUseCds given
+        baseColorDefault genomicCodons
+        priority 1
+
+        track ncbiRefSeqCurated
+        color 12,12,120
+        parent refSeqComposite on
+        shortLabel RefSeq Curated
+        longLabel NCBI RefSeq genes, curated subset (NM_*, NR_*, NP_* or YP_*)
+        type bigGenePred
+        urls name2="https://www.ncbi.nlm.nih.gov/gene/$D/?term=$$" geneName="https://www.ncbi.nlm.nih.gov/gene/$$" geneName2="https://www.ncbi.nlm.nih.gov/nuccore/$$"
+        labelFields name,geneName,geneName2
+        defaultLabelFields geneName2
+        searchIndex name
+        searchTrix https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/ixIxx/GCF_011100685.1_UU_Cfam_GSD_1.0.ncbiRefSeqCurated.ix
+        idXref ncbiRefSeqLink mrnaAcc name
+        bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.ncbiRefSeqCurated.bb
+        baseColorUseCds given
+        baseColorDefault genomicCodons
+        priority 2
+
+        track ncbiRefSeqPredicted
+        color 12,12,120
+        parent refSeqComposite on
+        shortLabel RefSeq Predicted
+        longLabel NCBI RefSeq genes, predicted subset (XM_* or XR_*)
+        type bigGenePred
+        urls name2="https://www.ncbi.nlm.nih.gov/gene/$D/?term=$$" geneName="https://www.ncbi.nlm.nih.gov/gene/$$" geneName2="https://www.ncbi.nlm.nih.gov/nuccore/$$"
+        labelFields name,geneName,geneName2
+        defaultLabelFields geneName2
+        searchIndex name
+        searchTrix https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/ixIxx/GCF_011100685.1_UU_Cfam_GSD_1.0.ncbiRefSeqPredicted.ix
+        idXref ncbiRefSeqLink mrnaAcc name
+        bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.ncbiRefSeqPredicted.bb
+        baseColorUseCds given
+        baseColorDefault genomicCodons
+        priority 3
+
+        color 32,32,32
+        parent refSeqComposite on
+        shortLabel RefSeq Other
+        longLabel NCBI RefSeq other annotations (not NM_*, NR_*, XM_*, XR_*, NP_* or YP_*)
+        priority 4
+        searchIndex name
+        searchTrix https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/ixIxx/GCF_011100685.1_UU_Cfam_GSD_1.0.ncbiRefSeqOther.ix
+        bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.ncbiRefSeqOther.bb
+        type bigBed 12 +
+        labelFields name
+        skipEmptyFields on
+        urls GeneID="https://www.ncbi.nlm.nih.gov/gene/$$" MIM="https://www.ncbi.nlm.nih.gov/omim/$$" HGNC="http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=$$" FlyBase="http://flybase.org/reports/$$" WormBase="http://www.wormbase.org/db/gene/gene?name=$$" RGD="https://rgd.mcw.edu/rgdweb/search/search.html?term=$$" SGD="https://www.yeastgenome.org/locus/$$" miRBase="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=$$" ZFIN="https://zfin.org/$$" MGI="http://www.informatics.jax.org/marker/$$"
+
+        track ncbiRefSeqPsl
+        priority 5
+        parent refSeqComposite off
+        shortLabel RefSeq Alignments
+        longLabel RefSeq Alignments of RNAs
+        type bigPsl
+        searchIndex name
+        bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.bigPsl.bb
+        indelDoubleInsert on
+        indelQueryInsert on
+        showDiffBasesAllScales .
+        showDiffBasesMaxZoom 10000.0
+        showCdsMaxZoom 10000.0
+        showCdsAllScales .
+        baseColorDefault diffCodons
+        pslSequence no
+        baseColorUseSequence lfExtra
+        baseColorUseCds table given
+        color 0,0,0
+
+track cpgIslands
+compositeTrack on
+shortLabel CpG Islands
+longLabel CpG Islands (Islands < 300 Bases are Light Green)
+group regulation
+visibility dense
+type bigBed 4 +
+html https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/html/GCF_011100685.1_UU_Cfam_GSD_1.0.cpgIslands
+
+    track cpgIslandExt
+    parent cpgIslands off
+    shortLabel CpG Islands
+    longLabel CpG Islands (Islands < 300 Bases are Light Green)
+    type bigBed 4 +
+    priority 1
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.cpgIslandExt.bb
+
+    track cpgIslandExtUnmasked
+    parent cpgIslands on
+    shortLabel Unmasked CpG
+    longLabel CpG Islands on All Sequence (Islands < 300 Bases are Light Green)
+    type bigBed 4 +
+    priority 2
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.cpgIslandExtUnmasked.bb
+
+track windowMasker
+shortLabel WM + SDust
+longLabel Genomic Intervals Masked by WindowMasker + SDust
+group varRep
+visibility dense
+type bigBed 3
+bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.windowMasker.bb
+html https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/html/GCF_011100685.1_UU_Cfam_GSD_1.0.windowMasker
+
+track allGaps
+shortLabel All Gaps
+longLabel All gaps of unknown nucleotides (N's), including AGP annotated gaps
+group map
+visibility hide
+type bigBed 3
+bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.allGaps.bb
+html https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/html/GCF_011100685.1_UU_Cfam_GSD_1.0.allGaps
+
+track augustus
+shortLabel Augustus
+longLabel Augustus Gene Predictions
+group genes
+visibility dense
+color 180,0,0
+type bigGenePred
+bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.augustus.bb
+html https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/html/GCF_011100685.1_UU_Cfam_GSD_1.0.augustus
+
+track xenoRefGene
+shortLabel RefSeq mRNAs
+longLabel RefSeq mRNAs mapped to this assembly
+group rna
+visibility pack
+color 180,0,0
+type bigGenePred
+bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.xenoRefGene.bb
+url https://www.ncbi.nlm.nih.gov/nuccore/$$
+urlLabel NCBI Nucleotide database:
+labelFields name,geneName,geneName2
+defaultLabelFields geneName
+searchIndex name
+searchTrix https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/ixIxx/GCF_011100685.1_UU_Cfam_GSD_1.0.xenoRefGene.ix
+html https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/html/GCF_011100685.1_UU_Cfam_GSD_1.0.xenoRefGene
+
+track ensGene
+shortLabel Ensembl genes
+longLabel Ensembl genes 2021_03
+group genes
+priority 40
+visibility pack
+color 150,0,0
+itemRgb on
+type bigGenePred
+bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.ensGene.bb
+searchTrix https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/ixIxx/GCF_011100685.1_UU_Cfam_GSD_1.0.ensGene.ix
+searchIndex name
+labelFields name,name2
+defaultLabelFields name2
+baseColorUseCds given
+baseColorDefault genomicCodons
+labelSeparator " "
+html https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/html/GCF_011100685.1_UU_Cfam_GSD_1.0.ensGene
+
+##############################################################################
+# hg38 - Human - Homo sapiens - taxId: 9606
+##############################################################################
+track chainNetHg38
+compositeTrack on
+shortLabel Human Chain/Net
+longLabel Human (Dec. 2013 (GRCh38/hg38)), Chain and Net Alignments
+subGroup1 view Views chain=Chain net=Net
+dragAndDrop subTracks
+visibility hide
+group compGeno
+priority 100.1
+color 0,0,0
+altColor 100,50,0
+type bed 3
+sortOrder view=+
+matrix 16 91,-114,-31,-123,-114,100,-125,-31,-31,-125,100,-114,-123,-31,-114,91
+chainMinScore 3000
+chainLinearGap medium
+matrixHeader A, C, G, T
+otherDb hg38
+html https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/html/GCF_011100685.1_UU_Cfam_GSD_1.0.chainNet
+
+    track chainNetHg38Viewchain
+    shortLabel Chain
+    view chain
+    visibility pack
+    parent chainNetHg38
+    spectrum on
+
+        track chainHg38
+        parent chainNetHg38Viewchain
+        subGroups view=chain
+        shortLabel Human Chain
+        longLabel Human (Dec. 2013 (GRCh38/hg38)) Chained Alignments
+        type bigChain hg38
+        bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.chainHg38.bb
+        linkDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.chainHg38Link.bb
+        priority 1
+
+        track chainSynHg38
+        parent chainNetHg38Viewchain
+        subGroups view=chain
+        shortLabel Human synChain
+        longLabel Human (Dec. 2013 (GRCh38/hg38)) Syntenic Chained Alignments
+        type bigChain hg38
+        bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.chainSynHg38.bb
+        linkDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.chainSynHg38Link.bb
+        priority 2
+
+        track chainRBestHg38
+        parent chainNetHg38Viewchain
+        subGroups view=chain
+        shortLabel Human rbChain
+        longLabel Human (Dec. 2013 (GRCh38/hg38)) Reciprocal Best Chained Alignments
+        type bigChain hg38
+        bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.chainRBestHg38.bb
+        linkDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.chainRBestHg38Link.bb
+        priority 3
+
+        track chainLiftOverHg38
+        parent chainNetHg38Viewchain
+        subGroups view=chain
+        shortLabel Human loChain
+        longLabel Human (Dec. 2013 (GRCh38/hg38)) Lift Over Chained Alignments
+        type bigChain hg38
+        bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.chainLiftOverHg38.bb
+        linkDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.chainLiftOverHg38Link.bb
+        priority 4
+
+    track mafNetHg38Viewnet
+    shortLabel Net
+    view net
+    visibility full
+    parent chainNetHg38
+
+        track netHg38
+        parent mafNetHg38Viewnet
+        subGroups view=net
+        shortLabel Human net
+        longLabel Human (Dec. 2013 (GRCh38/hg38)) Net Alignment
+        type bigMaf
+        bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.hg38.net.bb
+        summary bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.hg38.net.summary.bb
+        speciesOrder hg38
+        priority 5
+
+        track synNetHg38
+        parent mafNetHg38Viewnet
+        subGroups view=net
+        shortLabel Human synNet
+        longLabel Human (Dec. 2013 (GRCh38/hg38)) Syntenic Net Alignment
+        type bigMaf
+        bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.hg38.synNet.bb
+        summary bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.hg38.synNet.summary.bb
+        speciesOrder hg38
+        priority 6
+
+        track rbestNetHg38
+        parent mafNetHg38Viewnet
+        subGroups view=net
+        shortLabel Human rbestNet
+        longLabel Human (Dec. 2013 (GRCh38/hg38)) Reciprocal Best Net Alignment
+        type bigMaf
+        bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.hg38.rbestNet.bb
+        summary bbi/GCF_011100685.1_UU_Cfam_GSD_1.0.hg38.rbestNet.summary.bb
+        speciesOrder hg38
+        priority 7
+
+
+

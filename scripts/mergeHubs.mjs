@@ -5,12 +5,6 @@
 
 import fs from 'fs'
 
-(async function () {
-    await mergeTrackDB(
-        '/Users/jrobinso/igv-team Dropbox/James Robinson/projects/igv-genomes/hubs/bosTau9/trackDb.txt',
-        'bosTau9.hub.txt',
-        'merged.txt')
-})()
 
 async function mergeTrackDB(first, second, outputFile) {
 
@@ -20,11 +14,24 @@ async function mergeTrackDB(first, second, outputFile) {
 
     const files = [first, second]
 
+    let skipStanza = false
     for (const file of files) {
         const data = fs.readFileSync(file, 'utf8')
         const lines = data.split('\n')
         for (const line of lines) {
+            if (line.trim().length === 0) {
+                out.write('\n')
+                skipStanza = false
+                continue
+            }
             const key = firstWord(line.trim())
+            if(key === 'hub' || key === 'genome' ) {
+                skipStanza = true
+                continue
+            }
+            if(skipStanza) {
+                continue
+            }
             if (key === 'track') {
                 const idx = line.indexOf(' ')
                 const value = line.substring(idx + 1).trim()
@@ -49,3 +56,5 @@ function firstWord(str) {
     const idx = str.indexOf(' ')
     return idx > 0 ? str.substring(0, idx) : str
 }
+
+export {mergeTrackDB}
