@@ -61,3 +61,14 @@ defaultIsClosed 1
 name 1
 label Experimental Tracks
 priority 10
+
+name user
+label Custom Tracks
+priority 1
+defaultIsClosed 1
+
+
+name x
+label Experimental Tracks
+priority 10
+defaultIsClosed 1
