@@ -76,29 +76,26 @@ async function toAbsolute(hubURL, outputFile) {
 
     const lines = text.split('\n')
 
-    const out = fs.createWriteStream(outputFile, {flags: 'w'})
-
+    let output = ""
     for (let line of lines) {
 
-        const indent = indentLevel(line)
-        const i = line.indexOf(' ', indent)
+        const indent = indentLevel(line);
+        const i = line.indexOf(' ', indent);
         if (i < 0 || line.trim().startsWith('#')) {
-            out.write(line)
-            out.write('\n')
-            continue
+            output += line + '\n';
+            continue;
         }
 
-        const key = line.substring(indent, i).trim()
+        const key = line.substring(indent, i).trim();
         if (urlProperties.has(key)) {
-            const value = line.substring(i + 1).trim()
-            out.write(' '.repeat(indent))
-            out.write(`${key} ${baseURL}${value}`)
+            const value = line.substring(i + 1).trim();
+            output += ' '.repeat(indent) + `${key} ${baseURL}${value}\n`;
         } else {
-            out.write(line)
+            output += line + '\n';
         }
-        out.write('\n')
     }
-    out.end()
+
+    fs.writeFileSync(outputFile, output);
 
 }
 

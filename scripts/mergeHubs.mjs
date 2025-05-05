@@ -27,7 +27,6 @@ async function mergeTrackDB(first, second, outputFile) {
             const key = firstWord(line.trim())
             if(key === 'hub' || key === 'genome' ) {
                 skipStanza = true
-                continue
             }
             if(skipStanza) {
                 continue
@@ -37,6 +36,7 @@ async function mergeTrackDB(first, second, outputFile) {
                 const value = line.substring(idx + 1).trim()
                 if (tracks.has(value)) {
                     console.log(`Duplicate track found: ${value}`)
+                    skipStanza = true
                 } else {
                     out.write(line + '\n')
                     tracks.add(value)
