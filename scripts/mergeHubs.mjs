@@ -34,12 +34,12 @@ async function mergeTrackDB(first, second, outputFile) {
             if (key === 'track') {
                 const idx = line.indexOf(' ')
                 const value = line.substring(idx + 1).trim()
-                if (tracks.has(value)) {
+                if (tracks.has(value.toLowerCase())) {
                     console.log(`Duplicate track found: ${value}`)
                     skipStanza = true
                 } else {
                     out.write(line + '\n')
-                    tracks.add(value)
+                    tracks.add(value.toLowerCase())
                 }
             } else {
                 out.write(line + '\n')

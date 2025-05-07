@@ -1,28 +1,5 @@
 ######## Genes
 
-track refseqSelect
-type refgene
-shortLabel Refseq Select
-longLabel Refseq Select
-group genes
-bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeqSelect.txt.gz
-html https://www.ncbi.nlm.nih.gov/refseq/refseq_select/
-
-track refseqCurated
-type refgene
-shortLabel Refseq Curated
-longLabel Refseq Curated
-group genes
-bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeqCurated.txt.gz
-html https://www.ncbi.nlm.nih.gov/refseq/refseq_select/
-
-track refseqAll
-type refgene
-shortLabel Refseq All
-longLabel Refseq All
-group genes
-bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeq.txt.gz
-html https://www.ncbi.nlm.nih.gov/refseq/refseq_select/
 
 track maneRefseq
 type bigBed
@@ -60,6 +37,102 @@ defaultLabelFields geneName
 searchIndex name
 searchTrix https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/ixIxx/GCF_000001405.40_GRCh38.p14.xenoRefGene.ix
 html https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.xenoRefGene
+
+
+track refSeqComposite
+compositeTrack on
+shortLabel NCBI RefSeq
+longLabel RefSeq gene predictions from NCBI
+group genes
+visibility pack
+type bigBed
+dragAndDrop subTracks
+allButtonPair on
+dataVersion NCBI Homo sapiens Annotation Release 110 (2022-04-12)
+html https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.refSeqComposite
+priority 2
+
+track refseqAll
+parent refSeqComposite on
+type refgene
+shortLabel Refseq All
+longLabel Refseq All
+group genes
+bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeq.txt.gz
+html https://www.ncbi.nlm.nih.gov/refseq/refseq_select/
+
+track refseqSelect
+parent refSeqComposite on
+type refgene
+shortLabel Refseq Select
+longLabel Refseq Select
+group genes
+bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeqSelect.txt.gz
+html https://www.ncbi.nlm.nih.gov/refseq/refseq_select/
+
+track refseqCurated
+parent refSeqComposite on
+type refgene
+shortLabel Refseq Curated
+longLabel Refseq Curated
+group genes
+bigDataUrl https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeqCurated.txt.gz
+html https://www.ncbi.nlm.nih.gov/refseq/refseq_select/
+
+
+
+        track ncbiRefSeqPredicted
+        color 12,12,120
+        parent refSeqComposite on
+        shortLabel RefSeq Predicted
+        longLabel NCBI RefSeq genes, predicted subset (XM_* or XR_*)
+        type bigGenePred
+        urls geneName="https://www.ncbi.nlm.nih.gov/nuccore/$$?report=genbank" geneName2="https://www.ncbi.nlm.nih.gov/datasets/gene/$D/?search=$$"
+        labelFields name,geneName,geneName2
+        defaultLabelFields geneName2
+        searchIndex name
+        searchTrix https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/ixIxx/GCF_000001405.40_GRCh38.p14.ncbiRefSeqPredicted.ix
+        idXref ncbiRefSeqLink mrnaAcc name
+        bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.ncbiRefSeqPredicted.bb
+        baseColorUseCds given
+        baseColorDefault genomicCodons
+        priority 3
+
+        track ncbiRefSeqOther
+        color 32,32,32
+        parent refSeqComposite on
+        shortLabel RefSeq Other
+        longLabel NCBI RefSeq other annotations (not NM_*, NR_*, XM_*, XR_*, NP_* or YP_*)
+        priority 4
+        searchIndex name
+        searchTrix https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/ixIxx/GCF_000001405.40_GRCh38.p14.ncbiRefSeqOther.ix
+        bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.ncbiRefSeqOther.bb
+        type bigBed 12 +
+        labelFields name
+        skipEmptyFields on
+        urls GeneID="https://www.ncbi.nlm.nih.gov/gene/$$" MIM="https://www.ncbi.nlm.nih.gov/omim/$$" HGNC="http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=$$" FlyBase="http://flybase.org/reports/$$" WormBase="http://www.wormbase.org/db/gene/gene?name=$$" RGD="https://rgd.mcw.edu/rgdweb/search/search.html?term=$$" SGD="https://www.yeastgenome.org/locus/$$" miRBase="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=$$" ZFIN="https://zfin.org/$$" MGI="http://www.informatics.jax.org/marker/$$"
+
+        track ncbiRefSeqPsl
+        priority 5
+        parent refSeqComposite off
+        shortLabel RefSeq Alignments
+        longLabel RefSeq Alignments of RNAs
+        type bigPsl
+        searchIndex name
+        bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.bigPsl.bb
+        indelDoubleInsert on
+        indelQueryInsert on
+        showDiffBasesAllScales .
+        showDiffBasesMaxZoom 10000.0
+        showCdsMaxZoom 10000.0
+        showCdsAllScales .
+        baseColorDefault diffCodons
+        pslSequence no
+        baseColorUseSequence lfExtra
+        baseColorUseCds table given
+        color 0,0,0
+
+  
 
 track gencode
 compositeTrack on
@@ -3915,19 +3988,6 @@ type bigBed 4 +
 bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.cytoBand.bb
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 track repeatModeler
 shortLabel RepeatModeler
 longLabel RepeatModeler Repetitive Elements
@@ -3938,121 +3998,6 @@ bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40
 xrefDataUrl bbi/GCF_000001405.40_GRCh38.p14.rModel.align.bb
 maxWindowToDraw 5000000
 html https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.repeatModeler
-
-
-track refSeqComposite
-compositeTrack on
-shortLabel NCBI RefSeq
-longLabel RefSeq gene predictions from NCBI
-group genes
-visibility pack
-type bigBed
-dragAndDrop subTracks
-allButtonPair on
-dataVersion NCBI Homo sapiens Annotation Release 110 (2022-04-12)
-html https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.refSeqComposite
-priority 2
-
-        track ncbiRefSeq
-        parent refSeqComposite on
-        color 12,12,120
-        shortLabel RefSeq All
-        type bigGenePred
-        urls geneName="https://www.ncbi.nlm.nih.gov/nuccore/$$?report=genbank" geneName2="https://www.ncbi.nlm.nih.gov/datasets/gene/$D/?search=$$"
-        labelFields name,geneName,geneName2
-        defaultLabelFields geneName2
-        searchIndex name
-        searchTrix https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/ixIxx/GCF_000001405.40_GRCh38.p14.ncbiRefSeq.ix
-        bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.ncbiRefSeq.bb
-        longLabel NCBI RefSeq genes, curated and predicted sets (NM_*, XM_*, NR_*, XR_*, NP_* or YP_*)
-        idXref ncbiRefSeqLink mrnaAcc name
-        baseColorUseCds given
-        baseColorDefault genomicCodons
-        priority 1
-
-        track ncbiRefSeqCurated
-        color 12,12,120
-        parent refSeqComposite on
-        shortLabel RefSeq Curated
-        longLabel NCBI RefSeq genes, curated subset (NM_*, NR_*, NP_* or YP_*)
-        type bigGenePred
-        urls geneName="https://www.ncbi.nlm.nih.gov/nuccore/$$?report=genbank" geneName2="https://www.ncbi.nlm.nih.gov/datasets/gene/$D/?search=$$"
-        labelFields name,geneName,geneName2
-        defaultLabelFields geneName2
-        searchIndex name
-        searchTrix https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/ixIxx/GCF_000001405.40_GRCh38.p14.ncbiRefSeqCurated.ix
-        idXref ncbiRefSeqLink mrnaAcc name
-        bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.ncbiRefSeqCurated.bb
-        baseColorUseCds given
-        baseColorDefault genomicCodons
-        priority 2
-
-        track ncbiRefSeqPredicted
-        color 12,12,120
-        parent refSeqComposite on
-        shortLabel RefSeq Predicted
-        longLabel NCBI RefSeq genes, predicted subset (XM_* or XR_*)
-        type bigGenePred
-        urls geneName="https://www.ncbi.nlm.nih.gov/nuccore/$$?report=genbank" geneName2="https://www.ncbi.nlm.nih.gov/datasets/gene/$D/?search=$$"
-        labelFields name,geneName,geneName2
-        defaultLabelFields geneName2
-        searchIndex name
-        searchTrix https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/ixIxx/GCF_000001405.40_GRCh38.p14.ncbiRefSeqPredicted.ix
-        idXref ncbiRefSeqLink mrnaAcc name
-        bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.ncbiRefSeqPredicted.bb
-        baseColorUseCds given
-        baseColorDefault genomicCodons
-        priority 3
-
-        track ncbiRefSeqOther
-        color 32,32,32
-        parent refSeqComposite on
-        shortLabel RefSeq Other
-        longLabel NCBI RefSeq other annotations (not NM_*, NR_*, XM_*, XR_*, NP_* or YP_*)
-        priority 4
-        searchIndex name
-        searchTrix https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/ixIxx/GCF_000001405.40_GRCh38.p14.ncbiRefSeqOther.ix
-        bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.ncbiRefSeqOther.bb
-        type bigBed 12 +
-        labelFields name
-        skipEmptyFields on
-        urls GeneID="https://www.ncbi.nlm.nih.gov/gene/$$" MIM="https://www.ncbi.nlm.nih.gov/omim/$$" HGNC="http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=$$" FlyBase="http://flybase.org/reports/$$" WormBase="http://www.wormbase.org/db/gene/gene?name=$$" RGD="https://rgd.mcw.edu/rgdweb/search/search.html?term=$$" SGD="https://www.yeastgenome.org/locus/$$" miRBase="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=$$" ZFIN="https://zfin.org/$$" MGI="http://www.informatics.jax.org/marker/$$"
-
-        track ncbiRefSeqPsl
-        priority 5
-        parent refSeqComposite off
-        shortLabel RefSeq Alignments
-        longLabel RefSeq Alignments of RNAs
-        type bigPsl
-        searchIndex name
-        bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.bigPsl.bb
-        indelDoubleInsert on
-        indelQueryInsert on
-        showDiffBasesAllScales .
-        showDiffBasesMaxZoom 10000.0
-        showCdsMaxZoom 10000.0
-        showCdsAllScales .
-        baseColorDefault diffCodons
-        pslSequence no
-        baseColorUseSequence lfExtra
-        baseColorUseCds table given
-        color 0,0,0
-
-        track ncbiRefSeqSelect
-        parent refSeqComposite off
-        priority 7
-        type bigGenePred
-        shortLabel RefSeq Select
-        longLabel NCBI RefSeq/MANE Select: one representative transcript per protein-coding gene
-        idXref ncbiRefSeqLink mrnaAcc name
-        color 20,20,160
-        labelFields name,geneName,geneName2
-        searchIndex name
-        searchTrix https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/ixIxx/GCF_000001405.40_GRCh38.p14.ncbiRefSeqSelectCurated.ix
-        bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.ncbiRefSeqSelectCurated.bb
-        baseColorUseCds given
-        baseColorDefault genomicCodons
-
 
 
 
