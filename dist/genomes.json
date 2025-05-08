@@ -589,8 +589,7 @@
       }
     ],
     "hubs": [
-      "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/bosTau9/hub.txt",
-      "https://hgdownload.soe.ucsc.edu/hubs/GCF/002/263/795/GCF_002263795.1/hub.txt"
+      "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/bosTau9/hub.txt"
     ]
   },
   {
@@ -756,8 +755,7 @@
       }
     ],
     "hubs": [
-      "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/ce11/hub.txt",
-      "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/985/GCF_000002985.6/hub.txt"
+      "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/ce11/hub.txt"
     ]
   },
   {
@@ -838,6 +836,68 @@
     ]
   },
   {
+    "id": "GCF_000002945.1",
+    "name": "S. pombe (GCF_000002945.1)",
+    "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/945/GCF_000002945.1/GCF_000002945.1.2bit",
+    "nameSet": "ucsc",
+    "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/945/GCF_000002945.1/GCF_000002945.1.chrom.sizes.txt",
+    "aliasURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/945/GCF_000002945.1/GCF_000002945.1.chromAlias.txt",
+    "twoBitBptURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/945/GCF_000002945.1/GCF_000002945.1.2bit.bpt",
+    "cytobandBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/945/GCF_000002945.1/bbi/GCF_000002945.1_ASM294v2.cytoBand.bb",
+    "tracks": [
+      {
+        "type": "annotation",
+        "name": "RefSeq Curated",
+        "format": "biggenepred",
+        "url": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/945/GCF_000002945.1/bbi/GCF_000002945.1_ASM294v2.ncbiRefSeqCurated.bb",
+        "displayMode": "EXPANDED",
+        "description": "<a target=\"_blank\" href=\"https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/945/GCF_000002945.1/html/GCF_000002945.1_ASM294v2.refSeqComposite\">NCBI RefSeq genes, curated subset (NM_*, NR_*, NP_* or YP_*)</a>",
+        "searchIndex": "name",
+        "trixURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/945/GCF_000002945.1/ixIxx/GCF_000002945.1_ASM294v2.ncbiRefSeqCurated.ix",
+        "visibilityWindow": -1
+      }
+    ],
+    "hubs": [
+      "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/945/GCF_000002945.1/hub.txt"
+    ]
+  },
+  {
+    "id": "GCF_009858895.2",
+    "name": "SARS-CoV-2 (Jan 2020 COVID-19) (GCF_009858895.2)",
+    "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/GCF_009858895.2.2bit",
+    "nameSet": "ucsc",
+    "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/GCF_009858895.2.chrom.sizes.txt",
+    "twoBitBptURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/GCF_009858895.2.2bit.bpt",
+    "description": "SARS-CoV-2 (Jan 2020 COVID-19)\nSevere acute respiratory syndrome coronavirus 2/GCF_009858895.2_ASM985889v3 genome assembly",
+    "wholeGenomeView": true,
+    "aliasURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/GCF_009858895.2.chromAlias.txt",
+    "tracks": [
+      {
+        "id": "ncbiGene",
+        "name": "NCBI Genes",
+        "longLabel": "NCBI gene predictions",
+        "url": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/bbi/GCF_009858895.2_ASM985889v3.ncbiGene.bb",
+        "trixURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/ixIxx/GCF_009858895.2_ASM985889v3.ncbiGene.ix",
+        "format": "biggenepred",
+        "displayMode": "EXPANDED",
+        "description": "NCBI gene predictions",
+        "color": "rgb(0,80,150)",
+        "altColor": "rgb(150,80,0)",
+        "visible": true,
+        "infoURL": "https://www.ncbi.nlm.nih.gov/gene/?term=$$",
+        "searchIndex": "name",
+        "group": "genes",
+        "html": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/html/GCF_009858895.2_ASM985889v3.ncbiGene",
+        "labelField": "geneName2",
+        "attributes": {}
+      }
+    ],
+    "hubs": [
+      "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/hub.txt"
+    ],
+    "fromJson": true
+  },
+  {
     "id": "tair10",
     "name": "A. thaliana (TAIR 10)",
     "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/735/GCF_000001735.3/GCF_000001735.3.2bit",
@@ -868,6 +928,40 @@
     ],
     "hubs": [
       "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/735/GCF_000001735.3/hub.txt"
+    ]
+  },
+  {
+    "id": "GCA_000022165.1",
+    "name": "Salmonella enterica subsp. enterica serovar Typhimurium str. (14028S 2009) (GCA_000022165.1)",
+    "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/022/165/GCA_000022165.1/GCA_000022165.1.2bit",
+    "nameSet": "ucsc",
+    "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/022/165/GCA_000022165.1/GCA_000022165.1.chrom.sizes.txt",
+    "locus": "CP001363.1:1623421-1633421",
+    "blat": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/022/165/GCA_000022165.1/dynablat-01.soe.ucsc.edu",
+    "chromAliasBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/022/165/GCA_000022165.1/GCA_000022165.1.chromAlias.bb",
+    "twoBitBptURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/022/165/GCA_000022165.1/GCA_000022165.1.2bit.bpt",
+    "description": "Salmonella enterica subsp. enterica serovar Typhimurium str. (14028S 2009)\nSalmonella enterica subsp. enterica serovar Typhimurium str. 14028S/GCA_000022165.1_ASM2216v1 genome assembly",
+    "tracks": [
+      {
+        "id": "ncbiGene",
+        "name": "Gene models",
+        "format": "biggenepred",
+        "url": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/022/165/GCA_000022165.1/bbi/GCA_000022165.1_ASM2216v1.ncbiGene.bb",
+        "displayMode": "EXPANDED",
+        "description": "<a target=\"_blank\" href=\"https://hgdownload.soe.ucsc.edu/hubs/GCA/000/022/165/GCA_000022165.1/html/GCA_000022165.1_ASM2216v1.ncbiGene\">Gene models submitted to NCBI</a>",
+        "color": "rgb(0,80,150)",
+        "altColor": "rgb(150,80,0)",
+        "infoURL": "https://www.ncbi.nlm.nih.gov/gene/?term=$$",
+        "searchIndex": "name",
+        "trixURL": "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/022/165/GCA_000022165.1/ixIxx/GCA_000022165.1_ASM2216v1.ncbiGene.ix",
+        "order": 10000,
+        "type": "annotation",
+        "height": 70,
+        "visibilityWindow": 0
+      }
+    ],
+    "hubs": [
+      "https://hgdownload.soe.ucsc.edu/hubs/GCA/000/022/165/GCA_000022165.1/hub.txt"
     ]
   }
 ]

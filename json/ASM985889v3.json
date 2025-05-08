@@ -1,0 +1,37 @@
+{
+
+  "id": "GCF_009858895.2",
+  "name": "SARS-CoV-2 (Jan 2020 COVID-19) (GCF_009858895.2)",
+  "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/GCF_009858895.2.2bit",
+  "nameSet": "ucsc",
+  "chromSizesURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/GCF_009858895.2.chrom.sizes.txt",
+  "twoBitBptURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/GCF_009858895.2.2bit.bpt",
+  "description": "SARS-CoV-2 (Jan 2020 COVID-19)\nSevere acute respiratory syndrome coronavirus 2/GCF_009858895.2_ASM985889v3 genome assembly",
+  "wholeGenomeView": true,
+  "aliasURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/GCF_009858895.2.chromAlias.txt",
+  "tracks": [
+    {
+      "id": "ncbiGene",
+      "name": "NCBI Genes",
+      "longLabel": "NCBI gene predictions",
+      "url": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/bbi/GCF_009858895.2_ASM985889v3.ncbiGene.bb",
+      "trixURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/ixIxx/GCF_009858895.2_ASM985889v3.ncbiGene.ix",
+      "format": "biggenepred",
+      "displayMode": "EXPANDED",
+      "description": "NCBI gene predictions",
+      "color": "rgb(0,80,150)",
+      "altColor": "rgb(150,80,0)",
+      "visible": true,
+      "infoURL": "https://www.ncbi.nlm.nih.gov/gene/?term\u003d$$",
+      "searchIndex": "name",
+      "group": "genes",
+      "html": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/html/GCF_009858895.2_ASM985889v3.ncbiGene",
+      "labelField": "geneName2",
+      "attributes": {}
+    }
+  ],
+  "hubs": [
+    "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/hub.txt"
+  ],
+  "fromJson": true
+}
