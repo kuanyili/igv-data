@@ -1,0 +1,1 @@
+This directory contains a vcf and sample info file from the 1KG project in the region of chr22:36,655,100-36,656,060.

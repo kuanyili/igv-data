@@ -1,0 +1,1 @@
+Data contains both 5hmC and 5mC modifications.  See IGV issue 1186.

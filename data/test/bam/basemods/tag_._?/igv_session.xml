@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="hg38_1kg" locus="chr6:43151336-43151379" nextAutoscaleGroup="28" version="8">
+    <Resources>
+        <Resource path="/Users/jrobinso/igv-team Dropbox/Data/basemods/tag_._?/HG002-SRF.m84011_220902_175841_s1.GRCh38.dmode.bam" type="bam"/>
+        <Resource path="/Users/jrobinso/igv-team Dropbox/Data/basemods/tag_._?/HG002-SRF.m84011_220902_175841_s1.GRCh38.bam" type="bam"/>
+    </Resources>
+    <Panel height="565" name="Panel1704340243880" width="1150">
+        <Track attributeKey="HG002-SRF.m84011_220902_175841_s1.GRCh38.dmode.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" fontSize="10" id="/Users/jrobinso/igv-team Dropbox/Data/basemods/tag_._?/HG002-SRF.m84011_220902_175841_s1.GRCh38.dmode.bam_coverage" name="HG002-SRF.m84011_220902_175841_s1.GRCh38.dmode.bam Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="35.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="HG002-SRF.m84011_220902_175841_s1.GRCh38.dmode.bam Junctions" autoScale="false" clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" groupByStrand="false" height="60" id="/Users/jrobinso/igv-team Dropbox/Data/basemods/tag_._?/HG002-SRF.m84011_220902_175841_s1.GRCh38.dmode.bam_junctions" maxdepth="50" name="HG002-SRF.m84011_220902_175841_s1.GRCh38.dmode.bam Junctions" visible="false"/>
+        <Track attributeKey="HG002-SRF.m84011_220902_175841_s1.GRCh38.dmode.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="/Users/jrobinso/igv-team Dropbox/Data/basemods/tag_._?/HG002-SRF.m84011_220902_175841_s1.GRCh38.dmode.bam" name="HG002-SRF.m84011_220902_175841_s1.GRCh38.dmode.bam" visible="true">
+            <RenderOptions basemodFilter="m," colorOption="BASE_MODIFICATION" groupByOption="FIRST_OF_PAIR_STRAND"/>
+        </Track>
+    </Panel>
+    <Panel height="565" name="Panel1704340243888" width="1150">
+        <Track attributeKey="HG002-SRF.m84011_220902_175841_s1.GRCh38.bam Coverage" autoScale="true" clazz="org.broad.igv.sam.CoverageTrack" fontSize="10" id="/Users/jrobinso/igv-team Dropbox/Data/basemods/tag_._?/HG002-SRF.m84011_220902_175841_s1.GRCh38.bam_coverage" name="HG002-SRF.m84011_220902_175841_s1.GRCh38.bam Coverage" snpThreshold="0.2" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="35.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track attributeKey="HG002-SRF.m84011_220902_175841_s1.GRCh38.bam Junctions" autoScale="false" clazz="org.broad.igv.sam.SpliceJunctionTrack" fontSize="10" groupByStrand="false" height="60" id="/Users/jrobinso/igv-team Dropbox/Data/basemods/tag_._?/HG002-SRF.m84011_220902_175841_s1.GRCh38.bam_junctions" maxdepth="50" name="HG002-SRF.m84011_220902_175841_s1.GRCh38.bam Junctions" visible="false"/>
+        <Track attributeKey="HG002-SRF.m84011_220902_175841_s1.GRCh38.bam" clazz="org.broad.igv.sam.AlignmentTrack" color="185,185,185" displayMode="EXPANDED" experimentType="THIRD_GEN" fontSize="10" id="/Users/jrobinso/igv-team Dropbox/Data/basemods/tag_._?/HG002-SRF.m84011_220902_175841_s1.GRCh38.bam" name="HG002-SRF.m84011_220902_175841_s1.GRCh38.bam" visible="true">
+            <RenderOptions basemodFilter="m," colorOption="BASE_MODIFICATION_2COLOR" groupByOption="FIRST_OF_PAIR_STRAND"/>
+        </Track>
+    </Panel>
+    <Panel height="119" name="FeaturePanel" width="1150">
+        <Track attributeKey="Reference sequence" clazz="org.broad.igv.track.SequenceTrack" fontSize="10" id="Reference sequence" name="Reference sequence" sequenceTranslationStrandValue="+" shouldShowTranslation="false" visible="true"/>
+        <Track attributeKey="Refseq Genes" clazz="org.broad.igv.track.FeatureTrack" colorScale="ContinuousColorScale;0.0;836.0;255,255,255;0,0,178" fontSize="12" groupByStrand="false" id="https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeq.txt.gz" name="Refseq Genes" visible="true"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.010291595197255575,0.3927958833619211,0.7873070325900514"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>
