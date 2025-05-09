@@ -14,10 +14,10 @@
       "format": "biggenepred",
       "url": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/945/GCF_000002945.1/bbi/GCF_000002945.1_ASM294v2.ncbiRefSeqCurated.bb",
       "displayMode": "EXPANDED",
-      "description": "<a target=\"_blank\" href=\"https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/945/GCF_000002945.1/html/GCF_000002945.1_ASM294v2.refSeqComposite\">NCBI RefSeq genes, curated subset (NM_*, NR_*, NP_* or YP_*)</a>",
       "searchIndex": "name",
       "trixURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/945/GCF_000002945.1/ixIxx/GCF_000002945.1_ASM294v2.ncbiRefSeqCurated.ix",
-      "visibilityWindow": -1
+      "visibilityWindow": -1,
+      "order": 100000
     }
   ],
   "hubs": [

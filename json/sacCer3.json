@@ -5,7 +5,7 @@
   "twoBitBptURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/GCF_000146045.2.2bit.bpt",
   "nameSet": "ucsc",
   "wholeGenomeView": true,
-  "description": "baker\u0027s yeast S288C (2014)\nSaccharomyces cerevisiae S288C/GCF_000146045.2_R64 genome assembly",
+  "description": "baker's yeast S288C (2014)\nSaccharomyces cerevisiae S288C/GCF_000146045.2_R64 genome assembly",
   "blat": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/dynablat-01.soe.ucsc.edu 4040 dynamic GCF/000/146/045/GCF_000146045.2",
   "chromAliasBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/GCF_000146045.2.chromAlias.bb",
   "cytobandBbURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/146/045/GCF_000146045.2/bbi/GCF_000146045.2_R64.cytoBand.bb",
@@ -32,16 +32,11 @@
     {
       "id": "refseqAll",
       "name": "Refseq All",
-      "longLabel": "Refseq All",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/database/ncbiRefSeq.txt.gz",
       "format": "refgene",
       "displayMode": "COLLAPSED",
-      "description": "Refseq All",
-      "visible": true,
-      "group": "genes",
       "html": "https://www.ncbi.nlm.nih.gov/refseq/refseq_select/",
-      "stanzaParent": "refSeqComposite",
-      "attributes": {}
+      "order": 100000
     }
   ],
   "hubs": [

@@ -38,7 +38,8 @@
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/gorGor4/database/refGene.txt.gz",
       "format": "refgene",
       "visibilityWindow": -1,
-      "indexed": false
+      "indexed": false,
+      "order": 100000
     }
   ]
 }

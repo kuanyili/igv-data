@@ -12,7 +12,7 @@
       "name": "Refseq Curated",
       "format": "refgene",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/canFam6/database/ncbiRefSeqCurated.txt.gz",
-      "order": 1000000
+      "order": 100000
     }
   ],
   "hubs": [

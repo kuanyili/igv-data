@@ -11,7 +11,8 @@
       "name": "Genes",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/strPur2/database/refGene.txt.gz",
       "format": "refgene",
-      "indexed": false
+      "indexed": false,
+      "order": 100000
     }
   ]
 }

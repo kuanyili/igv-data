@@ -17,20 +17,15 @@
     {
       "id": "ncbiRefSeq",
       "name": "RefSeq All",
-      "longLabel": "NCBI RefSeq genes, curated and predicted sets (NM_*, XM_*, NR_*, XR_*, NP_* or YP_*)",
       "url": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/735/GCF_000001735.3/bbi/GCF_000001735.3_TAIR10.ncbiRefSeq.bb",
       "trixURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/735/GCF_000001735.3/ixIxx/GCF_000001735.3_TAIR10.ncbiRefSeq.ix",
       "format": "biggenepred",
       "displayMode": "EXPANDED",
-      "description": "NCBI RefSeq genes, curated and predicted sets (NM_*, XM_*, NR_*, XR_*, NP_* or YP_*)",
       "color": "rgb(12,12,120)",
-      "visible": true,
       "searchIndex": "name",
-      "group": "genes",
       "html": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/735/GCF_000001735.3/html/GCF_000001735.3_TAIR10.refSeqComposite",
       "labelField": "geneName2",
-      "stanzaParent": "refSeqComposite",
-      "attributes": {}
+      "order": 100000
     }
   ],
   "hubs": [

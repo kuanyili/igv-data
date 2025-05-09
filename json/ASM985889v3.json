@@ -1,5 +1,4 @@
 {
-
   "id": "GCF_009858895.2",
   "name": "SARS-CoV-2 (Jan 2020 COVID-19) (GCF_009858895.2)",
   "twoBitURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/GCF_009858895.2.2bit",
@@ -13,21 +12,17 @@
     {
       "id": "ncbiGene",
       "name": "NCBI Genes",
-      "longLabel": "NCBI gene predictions",
       "url": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/bbi/GCF_009858895.2_ASM985889v3.ncbiGene.bb",
       "trixURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/ixIxx/GCF_009858895.2_ASM985889v3.ncbiGene.ix",
       "format": "biggenepred",
       "displayMode": "EXPANDED",
-      "description": "NCBI gene predictions",
       "color": "rgb(0,80,150)",
       "altColor": "rgb(150,80,0)",
-      "visible": true,
-      "infoURL": "https://www.ncbi.nlm.nih.gov/gene/?term\u003d$$",
+      "infoURL": "https://www.ncbi.nlm.nih.gov/gene/?term=$$",
       "searchIndex": "name",
-      "group": "genes",
       "html": "https://hgdownload.soe.ucsc.edu/hubs/GCF/009/858/895/GCF_009858895.2/html/GCF_009858895.2_ASM985889v3.ncbiGene",
       "labelField": "geneName2",
-      "attributes": {}
+      "order": 100000
     }
   ],
   "hubs": [

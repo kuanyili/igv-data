@@ -36,15 +36,10 @@
     {
       "id": "ncbiRefSeq",
       "name": "RefSeq All",
-      "longLabel": "NCBI RefSeq genes, curated and predicted (NM_*, XM_*, NR_*, XR_*, NP_*, YP_*)",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/ncbiRefSeq.txt.gz",
       "format": "refgene",
-      "description": "NCBI RefSeq genes, curated and predicted (NM_*, XM_*, NR_*, XR_*, NP_*, YP_*)",
       "color": "rgb(12,12,120)",
-      "visible": true,
-      "group": "genes",
-      "stanzaParent": "refSeqComposite",
-      "attributes": {}
+      "order": 100000
     }
   ],
   "hubs": [

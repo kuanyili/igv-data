@@ -36,14 +36,10 @@
     {
       "id": "refseqSelect",
       "name": "Refseq Select",
-      "longLabel": "Refseq Select",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeqSelect.txt.gz",
       "format": "refgene",
-      "description": "Refseq Select",
-      "visible": true,
-      "group": "genes",
       "html": "https://www.ncbi.nlm.nih.gov/refseq/refseq_select/",
-      "attributes": {}
+      "order": 100000
     }
   ],
   "hubs": [

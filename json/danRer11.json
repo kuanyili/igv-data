@@ -38,20 +38,15 @@
     {
       "id": "ncbiRefSeqCurated",
       "name": "RefSeq Curated",
-      "longLabel": "NCBI RefSeq genes, curated subset (NM_*, NR_*, NP_* or YP_*)",
       "url": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/035/GCF_000002035.6/bbi/GCF_000002035.6_GRCz11.ncbiRefSeqCurated.bb",
       "trixURL": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/035/GCF_000002035.6/ixIxx/GCF_000002035.6_GRCz11.ncbiRefSeqCurated.ix",
       "format": "biggenepred",
       "displayMode": "EXPANDED",
-      "description": "NCBI RefSeq genes, curated subset (NM_*, NR_*, NP_* or YP_*)",
       "color": "rgb(12,12,120)",
-      "visible": true,
       "searchIndex": "name",
-      "group": "genes",
       "html": "https://hgdownload.soe.ucsc.edu/hubs/GCF/000/002/035/GCF_000002035.6/html/GCF_000002035.6_GRCz11.refSeqComposite",
       "labelField": "geneName2",
-      "stanzaParent": "refSeqComposite",
-      "attributes": {}
+      "order": 100000
     }
   ],
   "hubs": [

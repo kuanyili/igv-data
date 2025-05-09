@@ -10,16 +10,11 @@
     {
       "id": "refseqCurated",
       "name": "Refseq Curated",
-      "longLabel": "Refseq Curated",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/galGal6/database/ncbiRefSeqCurated.txt.gz",
       "format": "refgene",
       "displayMode": "EXPANDED",
-      "description": "Refseq Curated",
-      "visible": true,
-      "group": "genes",
       "html": "https://www.ncbi.nlm.nih.gov/refseq/refseq_select/",
-      "stanzaParent": "refSeqComposite",
-      "attributes": {}
+      "order": 100000
     }
   ],
   "hubs": [

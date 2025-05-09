@@ -35,14 +35,10 @@
     {
       "id": "refGene",
       "name": "RefSeq Genes",
-      "longLabel": "RefSeq Genes",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg18/database/refGene.txt.gz",
       "format": "refgene",
-      "description": "RefSeq Genes",
-      "visible": true,
-      "group": "genes",
-      "html": "https://genome.ucsc.edu/cgi-bin/hgTrackUi?db\u003dhg18\u0026g\u003drefGene",
-      "attributes": {}
+      "html": "https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hg18&g=refGene",
+      "order": 100000
     }
   ],
   "hubs": [
