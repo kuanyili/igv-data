@@ -27,7 +27,7 @@ track sample_info
 shortLabel Sample Information
 bigDataUrl https://igv.org/genomes/data/hg19/igsr_samples.tsv
 parent variants
-type sampleInfo
+type sampleinfo
 
 track ACB
 shortLabel African Caribbean Alignments
