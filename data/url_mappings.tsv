@@ -1,6 +1,6 @@
 # genomes
-https://s3.us-east-1.amazonaws.com/igv.org.genomes/genomes.json	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/legacy/genomes.json
-https://igv-genepattern-org.s3.us-east-1.amazonaws.com/genomes/genomes.json	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/legacy/genomes.json
+https://s3.us-east-1.amazonaws.com/igv.org.genomes/genomes.json	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/genomes/legacy/genomes.json
+https://igv-genepattern-org.s3.us-east-1.amazonaws.com/genomes/genomes.json	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/genomes/legacy/genomes.json
 https://igv-genepattern-org.s3.us-east-1.amazonaws.com/genomes/genomes.tsv	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/genomes.tsv
 https://igv-genepattern-org.s3.us-east-1.amazonaws.com/genomes/ce11.json	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/ce11.json
 https://igv-genepattern-org.s3.us-east-1.amazonaws.com/genomes/danRer10.json	https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/danRer10.json
