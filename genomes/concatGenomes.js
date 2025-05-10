@@ -5,7 +5,7 @@
 
 
 const fs = require('fs')
-const genomesListFile = require.resolve("./genomes_list.txt")
+const genomesListFile = require.resolve("./web/genomes_list.txt")
 const genomesList = fs.readFileSync(genomesListFile, 'utf-8')
 const lines = genomesList.split(/\r?\n/)
 
@@ -14,7 +14,7 @@ for (let line of lines) {
     try {
         line = line.trim()
         if (line.length > 0) {
-            const jsonFile = require.resolve("../json/" + line)
+            const jsonFile = require.resolve("./json/" + line)
             const json = JSON.parse(fs.readFileSync(jsonFile))
 
             // Remove "hidden" tracks -- not supported by igv.js
@@ -55,7 +55,7 @@ function fixColorString(str) {
 }
 
 const jsonText = JSON.stringify(jsonArray) //, null, 2);
-const outputFile = "../dist/genomes.json"
+const outputFile = require('path').join(__dirname, "web/genomes.json");
 const fd = fs.openSync(outputFile, "w")
 fs.writeSync(fd, jsonText)
 fs.closeSync(fd)
