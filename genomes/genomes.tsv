@@ -19,7 +19,7 @@ https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/genomes/js
 https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/genomes/json/hg38.json	GCA_000001405.29	hg38	Homo sapiens	Human (hg38)	9606
 https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/genomes/json/b37_1kg.json		b37_1kg	Homo sapiens	Human (1kg, b37+decoy)	9606
 https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/genomes/json/hg38_1kg.json		hg38_1kg	Homo sapiens	Human (hg38 1kg/GATK)	9606
-https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/genomes/data/gbk/NC_012920.1.gbk		NC_012920.1	Homo sapiens mitochondrion	Human Mitochondria (NC_012920)	9606
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/genomes/gbk/NC_012920.1.gbk		NC_012920.1	Homo sapiens mitochondrion	Human Mitochondria (NC_012920)	9606
 https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/genomes/json/macFas5.json	GCA_000364345.1	macFas5	Macaca fascicularis	Macaca fascicularis (macFas5)	9541
 https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/genomes/json/mm10.json	GCA_000001305.2	mm10	Mus musculus	Mouse mm10	10090
 https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/genomes/json/mm9.json	GCF_003339765.1	mm9	Mus musculus	Mouse mm9	10090
