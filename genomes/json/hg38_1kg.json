@@ -7,7 +7,7 @@
   "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz",
   "blatDB": "hg38",
   "ucscID": "hg38",
-  "aliasURL": "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/data/hg38/hg38_alias.tab",
+  "aliasURL": "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/data/hg38/hg38_alias.tab",
   "chromosomeOrder": [
     "chr1",
     "chr2",
@@ -46,6 +46,6 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hg38/hub.txt"
+    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/hubs/hg38/hub.txt"
   ]
 }

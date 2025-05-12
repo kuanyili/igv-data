@@ -18,6 +18,6 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/panTro6/hub.txt"
+    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/hubs/panTro6/hub.txt"
   ]
 }

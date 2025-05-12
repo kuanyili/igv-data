@@ -7,7 +7,7 @@
   "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/cytoBand.txt.gz",
   "blatDB": "hg19",
   "ucscID": "hg19",
-  "aliasURL": "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/data/hg19/hg19_alias.tab",
+  "aliasURL": "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/data/hg19/hg19_alias.tab",
   "chromosomeOrder": [
     "1",
     "2",
@@ -45,9 +45,9 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hg19/hub.txt",
-    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hg19/1kg/hub.txt",
-    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hg19/platinum_genomes/hub.txt",
-    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/hg19/tutorials/hub.txt"
+    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/hubs/hg19/hub.txt",
+    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/hubs/hg19/1kg/hub.txt",
+    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/hubs/hg19/platinum_genomes/hub.txt",
+    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/hubs/hg19/tutorials/hub.txt"
   ]
 }

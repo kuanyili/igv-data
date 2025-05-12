@@ -25,6 +25,6 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/hubs/ce11/hub.txt"
+    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/hubs/ce11/hub.txt"
   ]
 }
