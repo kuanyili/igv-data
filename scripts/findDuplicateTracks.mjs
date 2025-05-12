@@ -1,6 +1,6 @@
 import fs from 'fs'
 
-const filePath = '/Users/jrobinso/igv-team Dropbox/James Robinson/projects/igv-genomes/hubs/bosTau9/trackDb.txt'
+const filePath = '/Users/jrobinso/igv-team Dropbox/James Robinson/projects/igv-data/hubs/bosTau9/trackDb.txt'
 
 fs.readFile(filePath, 'utf8', (err, data) => {
     if (err) {

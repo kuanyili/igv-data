@@ -14,10 +14,11 @@
       "name": "Refseq Curated",
       "format": "refgene",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/panTro6/database/ncbiRefSeqCurated.txt.gz",
-      "order": 100000
+      "order": 1000000
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/hubs/panTro6/hub.txt"
+    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/hubs/panTro6/hub.txt",
+    "https://hgdownload.soe.ucsc.edu/hubs/GCA/002/880/755/GCA_002880755.3/hub.txt"
   ]
 }

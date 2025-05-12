@@ -62,14 +62,12 @@ defaultIsClosed 0
 track variants
 shortLabel VCF Variants
 longLabel VCF Variants from 1000 Genomes
-compositeTrack on
 defaultIsClosed 0
 
     track vcf
     shortLabel Phase 3 integrated variant calls
     bigDataUrl https://raw.githubusercontent.com/igvteam/igv-testdata/refs/heads/main/tutorials/vcf/ALL.apol1.sample.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf
     type vcf
-    maxHeightPixels 2000:800:10
     parent variants
 
     track sampleInfo
