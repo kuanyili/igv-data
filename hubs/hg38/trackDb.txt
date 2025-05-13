@@ -1470,7 +1470,6 @@ project_idFilterType multipleListOr
     group phenDis
     lollyField 13
     configurable off
-    priority empty
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hg38/gdcCancer/KICH.bb
     autoScale on
     urls case_id=https://portal.gdc.cancer.gov/cases/193294
@@ -3659,91 +3658,6 @@ visibility dense
 type bigBed 3
 bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.windowMasker.bb
 html https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.windowMasker
-
-
-track repeatMasker
-compositeTrack on
-shortLabel RepeatMasker
-longLabel Repeating Elements by RepeatMasker
-group rep
-visibility dense
-type bigBed 6 +
-colorByStrand 50,50,150 150,50,50
-maxWindowToDraw 10000000
-spectrum on
-html https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/html/GCF_000001405.40_GRCh38.p14.repeatMasker
-
-    track repeatMaskerSINE
-    parent repeatMasker
-    shortLabel SINE
-    longLabel SINE Repeating Elements by RepeatMasker
-    type bigBed 6 +
-    priority 1
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.rmsk.SINE.bb
-
-    track repeatMaskerLINE
-    parent repeatMasker
-    shortLabel LINE
-    longLabel LINE Repeating Elements by RepeatMasker
-    type bigBed 6 +
-    priority 2
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.rmsk.LINE.bb
-
-    track repeatMaskerLTR
-    parent repeatMasker
-    shortLabel LTR
-    longLabel LTR Repeating Elements by RepeatMasker
-    type bigBed 6 +
-    priority 3
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.rmsk.LTR.bb
-
-    track repeatMaskerDNA
-    parent repeatMasker
-    shortLabel DNA
-    longLabel DNA Repeating Elements by RepeatMasker
-    type bigBed 6 +
-    priority 4
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.rmsk.DNA.bb
-
-    track repeatMaskerSimple
-    parent repeatMasker
-    shortLabel Simple
-    longLabel Simple Repeating Elements by RepeatMasker
-    type bigBed 6 +
-    priority 5
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.rmsk.Simple.bb
-
-    track repeatMaskerLowComplexity
-    parent repeatMasker
-    shortLabel Low Complexity
-    longLabel Low Complexity Repeating Elements by RepeatMasker
-    type bigBed 6 +
-    priority 6
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.rmsk.Low_complexity.bb
-
-    track repeatMaskerSatellite
-    parent repeatMasker
-    shortLabel Satellite
-    longLabel Satellite Repeating Elements by RepeatMasker
-    type bigBed 6 +
-    priority 7
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.rmsk.Satellite.bb
-
-    track repeatMaskerRNA
-    parent repeatMasker
-    shortLabel RNA
-    longLabel RNA Repeating Elements by RepeatMasker
-    type bigBed 6 +
-    priority 8
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.rmsk.RNA.bb
-
-    track repeatMaskerOther
-    parent repeatMasker
-    shortLabel Other
-    longLabel Other Repeating Elements by RepeatMasker
-    type bigBed 6 +
-    priority 9
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCF/000/001/405/GCF_000001405.40/bbi/GCF_000001405.40_GRCh38.p14.rmsk.Other.bb
 
 
 track nuMtSeq
