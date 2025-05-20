@@ -26,6 +26,7 @@ https://s3.amazonaws.com/igv.broadinstitute.org/genomes/NC_012920.1.gbk	https://
 https://s3.us-east-1.amazonaws.com/igv.org.genomes/hg19/hg19.json	 https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/hg19.json
 
 #hg38
+https://raw.githubusercontent.com/igvteam/igv-genomes/refs/heads/main/json/hg38.json	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/hg38.json
 https://s3.us-east-1.amazonaws.com/igv.broadinstitute.org/annotations/hg38/hg38_alias.tab	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/data/hg38/hg38_alias.tab
 https://s3.us-east-1.amazonaws.com/igv.broadinstitute.org/annotations/hg38/cytoBandIdeo.txt	https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz
 https://s3.us-east-1.amazonaws.com/igv.broadinstitute.org/annotations/hg38/genes/refGene_hg38_collapsed.refgene.gz	https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/ncbiRefSeq.txt.gz
