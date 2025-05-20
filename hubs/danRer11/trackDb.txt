@@ -144,7 +144,7 @@ priority 2
             bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/danRer11/ncbiRefSeq/ncbiRefSeqOther.bb
             color 32,32,32
             skipEmptyFields on
-            urls GeneID="https://www.ncbi.nlm.nih.gov/gene/$$" MIM="https://www.ncbi.nlm.nih.gov/omim/612091" HGNC="https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/$$" FlyBase="http://flybase.org/reports/$$" WormBase="http://www.wormbase.org/db/gene/gene?name=$$" RGD="https://rgd.mcw.edu/rgdweb/search/search.html?term=$$" SGD="https://www.yeastgenome.org/locus/$$" miRBase="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=$$" ZFIN="https://zfin.org/$$" MGI="https://www.informatics.jax.org//marker/$$"
+            urls GeneID="https://www.ncbi.nlm.nih.gov/gene/$$" MIM="https://www.ncbi.nlm.nih.gov/omim/612091" HGNC="https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/$$" FlyBase="https://flybase.org/reports/$$" WormBase="https://www.wormbase.org/db/gene/gene?name=$$" RGD="https://rgd.mcw.edu/rgdweb/search/search.html?term=$$" SGD="https://www.yeastgenome.org/locus/$$" miRBase="https://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=$$" ZFIN="https://zfin.org/$$" MGI="https://www.informatics.jax.org//marker/$$"
 
         track ncbiRefSeqPsl
         priority 5
@@ -277,7 +277,7 @@ scoreLabel MIT Guide Specificity Score
 denseCoverage 0
 urlLabel Click here to show this guide on Crispor.org, with expression oligos, validation primers and more
 scoreFilterMax 100
-url http://crispor.gi.ucsc.edu/crispor.py?org=$D&pos=$S:${&pam=NGG
+url https://crispor.gi.ucsc.edu/crispor.py?org=$D&pos=$S:${&pam=NGG
 mouseOverField _mouseOver
 
 track transMapEnsemblV5
@@ -403,7 +403,7 @@ itemRgb on
 exonNumbers off
 dataVersion https://hgdownload.soe.ucsc.edu/gbdb/$D/uniprot/version.txt
 mouseOverField comments
-urls uniProtId="http://www.uniprot.org/uniprot/$$#section_features" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
+urls uniProtId="https://www.uniprot.org/uniprot/$$#section_features" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
 
     track unipConflict
     shortLabel Seq. Conflicts
@@ -414,7 +414,7 @@ urls uniProtId="http://www.uniprot.org/uniprot/$$#section_features" pmids="https
     visibility dense
     priority 13
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/danRer11/uniprot/unipConflict.bb
-    urls uniProtId="http://www.uniprot.org/uniprot/$$#Sequence_conflict_section" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
+    urls uniProtId="https://www.uniprot.org/uniprot/$$#Sequence_conflict_section" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
 
     track unipRepeat
     shortLabel Repeats
@@ -425,7 +425,7 @@ urls uniProtId="http://www.uniprot.org/uniprot/$$#section_features" pmids="https
     visibility dense
     priority 12
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/danRer11/uniprot/unipRepeat.bb
-    urls uniProtId="http://www.uniprot.org/uniprot/$$#family_and_domains" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
+    urls uniProtId="https://www.uniprot.org/uniprot/$$#family_and_domains" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
 
     track unipStruct
     shortLabel Structure
@@ -437,7 +437,7 @@ urls uniProtId="http://www.uniprot.org/uniprot/$$#section_features" pmids="https
     group genes
     priority 11
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/danRer11/uniprot/unipStruct.bb
-    urls uniProtId="http://www.uniprot.org/uniprot/$$#structure" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
+    urls uniProtId="https://www.uniprot.org/uniprot/$$#structure" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
 
     track unipOther
     shortLabel Other Annot.
@@ -448,7 +448,7 @@ urls uniProtId="http://www.uniprot.org/uniprot/$$#section_features" pmids="https
     visibility dense
     priority 11
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/danRer11/uniprot/unipOther.bb
-    urls uniProtId="http://www.uniprot.org/uniprot/$$#family_and_domains" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
+    urls uniProtId="https://www.uniprot.org/uniprot/$$#family_and_domains" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
 
     track unipMut
     shortLabel Mutations
@@ -458,7 +458,7 @@ urls uniProtId="http://www.uniprot.org/uniprot/$$#section_features" pmids="https
     visibility dense
     priority 10
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/danRer11/uniprot/unipMut.bb
-    urls uniProtId="http://www.uniprot.org/uniprot/$$#pathology_and_biotech" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$" variationId="http://www.uniprot.org/uniprot/$$"
+    urls uniProtId="https://www.uniprot.org/uniprot/$$#pathology_and_biotech" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$" variationId="https://www.uniprot.org/uniprot/$$"
 
     track unipModif
     shortLabel AA Modifications
@@ -469,7 +469,7 @@ urls uniProtId="http://www.uniprot.org/uniprot/$$#section_features" pmids="https
     visibility dense
     priority 9
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/danRer11/uniprot/unipModif.bb
-    urls uniProtId="http://www.uniprot.org/uniprot/$$#aaMod_section" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
+    urls uniProtId="https://www.uniprot.org/uniprot/$$#aaMod_section" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
 
     track unipDomain
     shortLabel Domains
@@ -480,7 +480,7 @@ urls uniProtId="http://www.uniprot.org/uniprot/$$#section_features" pmids="https
     visibility dense
     priority 8
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/danRer11/uniprot/unipDomain.bb
-    urls uniProtId="http://www.uniprot.org/uniprot/$$#family_and_domains" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
+    urls uniProtId="https://www.uniprot.org/uniprot/$$#family_and_domains" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
 
     track unipDisulfBond
     shortLabel Disulf. Bonds
@@ -501,7 +501,7 @@ urls uniProtId="http://www.uniprot.org/uniprot/$$#section_features" pmids="https
     visibility dense
     priority 7
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/danRer11/uniprot/unipChain.bb
-    urls uniProtId="http://www.uniprot.org/uniprot/$$#ptm_processing" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
+    urls uniProtId="https://www.uniprot.org/uniprot/$$#ptm_processing" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
 
     track unipLocCytopl
     shortLabel Cytoplasmic

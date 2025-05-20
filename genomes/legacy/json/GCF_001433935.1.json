@@ -28,7 +28,7 @@
     {
       "name": "MSU V7 genes",
       "format": "gff3",
-      "description": " <a target = \"_blank\" href = \"http://rice.uga.edu/\">Rice Genome Annotation Project</a>",
+      "description": " <a target = \"_blank\" href = \"https://rice.uga.edu/\">Rice Genome Annotation Project</a>",
       "url": "https://s3.amazonaws.com/igv.org.genomes/GCF_001433935.1/MSU_V7.gff3.gz",
       "displayMode": "EXPANDED",
       "height": 200

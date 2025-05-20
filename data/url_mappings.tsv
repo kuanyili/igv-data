@@ -92,7 +92,7 @@ https://s3.us-east-1.amazonaws.com/igv.org.genomes/mm9/refGene.sorted.txt.gz	htt
 https://s3.us-east-1.amazonaws.com/igv.org.genomes/mm39/ncbiRefSeq.txt.gz	https://hgdownload.soe.ucsc.edu/goldenPath/mm39/database/ncbiRefSeq.txt.gz
 
 #t2t-chm13-v1.1
-https://s3.us-east-1.amazonaws.com/igv.org.genomes/t2t-chm13-v1.1/CHM13.combined.v4.bb	http://t2t.gi.ucsc.edu/chm13/hub/t2t-chm13-v1.0/CAT_V3/consensus_gene_set/CHM13.combined.v4.bb
+https://s3.us-east-1.amazonaws.com/igv.org.genomes/t2t-chm13-v1.1/CHM13.combined.v4.bb	https://t2t.gi.ucsc.edu/chm13/hub/t2t-chm13-v1.0/CAT_V3/consensus_gene_set/CHM13.combined.v4.bb
 
 #danRer11
 https://s3.us-east-1.amazonaws.com/igv.org.genomes/danRer11/ncbiRefSeq.sorted.txt.gz	https://hgdownload.soe.ucsc.edu/goldenPath/danRer11/database/ncbiRefSeq.txt.gz

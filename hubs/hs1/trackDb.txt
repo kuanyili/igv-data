@@ -32,7 +32,7 @@ scoreLabel MIT Guide Specificity Score
 denseCoverage 0
 urlLabel Click here to show this guide on Crispor.org, with expression oligos, validation primers and more
 scoreFilterMax 100
-url http://crispor.tefor.net/crispor.py?org=$D&pos=$S:${&pam=NGG
+url https://crispor.tefor.net/crispor.py?org=$D&pos=$S:${&pam=NGG
 mouseOverField _mouseOver
 
 track refSeqComposite
@@ -107,7 +107,7 @@ dataVersion NCBI Homo sapiens Updated Annotation Release 110 (2022-04-12)
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/hs1/ncbiRefSeq/ncbiRefSeqOther.bb
     color 32,32,32
     skipEmptyFields on
-    urls GeneID="https://www.ncbi.nlm.nih.gov/gene/$$" MIM="https://www.ncbi.nlm.nih.gov/omim/$$" HGNC="http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=$$" FlyBase="http://flybase.org/reports/$$" WormBase="http://www.wormbase.org/db/gene/gene?name=$$" RGD="https://rgd.mcw.edu/rgdweb/search/search.html?term=$$" SGD="https://www.yeastgenome.org/locus/$$" miRBase="http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=$$" ZFIN="https://zfin.org/$$" MGI="http://www.informatics.jax.org/marker/$$"
+    urls GeneID="https://www.ncbi.nlm.nih.gov/gene/$$" MIM="https://www.ncbi.nlm.nih.gov/omim/$$" HGNC="https://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=$$" FlyBase="https://flybase.org/reports/$$" WormBase="https://www.wormbase.org/db/gene/gene?name=$$" RGD="https://rgd.mcw.edu/rgdweb/search/search.html?term=$$" SGD="https://www.yeastgenome.org/locus/$$" miRBase="https://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=$$" ZFIN="https://zfin.org/$$" MGI="https://www.informatics.jax.org/marker/$$"
 
     track ncbiRefSeqPsl
     shortLabel RefSeq Alignments

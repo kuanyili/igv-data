@@ -11,7 +11,7 @@ allButtonPair on
 compositeTrack on
 dragAndDrop subTracks
 dbPrefixLabels hg="HGNC" dm="FlyBase" ce="WormBase" rn="RGD" sacCer="SGD" danRer="ZFIN" mm="MGI" xenTro="XenBase"
-dbPrefixUrls hg="http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=$$" dm="http://flybase.org/reports/$$" ce="http://www.wormbase.org/db/gene/gene?name=$$" rn="https://rgd.mcw.edu/rgdweb/search/search.html?term=$$" sacCer="https://www.yeastgenome.org/locus/$$" danRer="https://zfin.org/$$" mm="https://www.informatics.jax.org//marker/$$" xenTro="https://www.xenbase.org/gene/showgene.do?method=display&geneId=$$"
+dbPrefixUrls hg="https://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=$$" dm="https://flybase.org/reports/$$" ce="https://www.wormbase.org/db/gene/gene?name=$$" rn="https://rgd.mcw.edu/rgdweb/search/search.html?term=$$" sacCer="https://www.yeastgenome.org/locus/$$" danRer="https://zfin.org/$$" mm="https://www.informatics.jax.org//marker/$$" xenTro="https://www.xenbase.org/gene/showgene.do?method=display&geneId=$$"
 dataVersion https://hgdownload.soe.ucsc.edu/gbdb/$D/ncbiRefSeq/ncbiRefSeqVersion.txt
 noInherit on
 
@@ -95,7 +95,7 @@ scoreLabel MIT Guide Specificity Score
 denseCoverage 0
 urlLabel Click here to show this guide on Crispor.org, with expression oligos, validation primers and more
 scoreFilterMax 100
-url http://crispor.gi.ucsc.edu/crispor.py?org=$D&pos=$S:${&pam=NGG
+url https://crispor.gi.ucsc.edu/crispor.py?org=$D&pos=$S:${&pam=NGG
 mouseOverField _mouseOver
 
 track knownGene
@@ -255,7 +255,7 @@ itemRgb on
 exonNumbers off
 dataVersion /gbdb/$D/uniprot/version.txt
 mouseOverField comments
-urls uniProtId="http://www.uniprot.org/uniprot/$$#section_features" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
+urls uniProtId="https://www.uniprot.org/uniprot/$$#section_features" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
 
     track unipConflict
     shortLabel Seq. Conflicts
@@ -266,7 +266,7 @@ urls uniProtId="http://www.uniprot.org/uniprot/$$#section_features" pmids="https
     visibility dense
     priority 13
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm39/uniprot/unipConflict.bb
-    urls uniProtId="http://www.uniprot.org/uniprot/$$#Sequence_conflict_section" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
+    urls uniProtId="https://www.uniprot.org/uniprot/$$#Sequence_conflict_section" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
 
     track unipRepeat
     shortLabel Repeats
@@ -277,7 +277,7 @@ urls uniProtId="http://www.uniprot.org/uniprot/$$#section_features" pmids="https
     visibility dense
     priority 12
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm39/uniprot/unipRepeat.bb
-    urls uniProtId="http://www.uniprot.org/uniprot/$$#family_and_domains" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
+    urls uniProtId="https://www.uniprot.org/uniprot/$$#family_and_domains" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
 
     track unipStruct
     shortLabel Structure
@@ -289,7 +289,7 @@ urls uniProtId="http://www.uniprot.org/uniprot/$$#section_features" pmids="https
     group genes
     priority 11
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm39/uniprot/unipStruct.bb
-    urls uniProtId="http://www.uniprot.org/uniprot/$$#structure" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
+    urls uniProtId="https://www.uniprot.org/uniprot/$$#structure" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
 
     track unipOther
     shortLabel Other Annot.
@@ -300,7 +300,7 @@ urls uniProtId="http://www.uniprot.org/uniprot/$$#section_features" pmids="https
     visibility dense
     priority 11
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm39/uniprot/unipOther.bb
-    urls uniProtId="http://www.uniprot.org/uniprot/$$#family_and_domains" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
+    urls uniProtId="https://www.uniprot.org/uniprot/$$#family_and_domains" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
 
     track unipMut
     shortLabel Mutations
@@ -310,7 +310,7 @@ urls uniProtId="http://www.uniprot.org/uniprot/$$#section_features" pmids="https
     visibility dense
     priority 10
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm39/uniprot/unipMut.bb
-    urls uniProtId="http://www.uniprot.org/uniprot/$$#pathology_and_biotech" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$" variationId="http://www.uniprot.org/uniprot/$$"
+    urls uniProtId="https://www.uniprot.org/uniprot/$$#pathology_and_biotech" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$" variationId="https://www.uniprot.org/uniprot/$$"
 
     track unipModif
     shortLabel AA Modifications
@@ -321,7 +321,7 @@ urls uniProtId="http://www.uniprot.org/uniprot/$$#section_features" pmids="https
     visibility dense
     priority 9
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm39/uniprot/unipModif.bb
-    urls uniProtId="http://www.uniprot.org/uniprot/$$#aaMod_section" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
+    urls uniProtId="https://www.uniprot.org/uniprot/$$#aaMod_section" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
 
     track unipDomain
     shortLabel Domains
@@ -332,7 +332,7 @@ urls uniProtId="http://www.uniprot.org/uniprot/$$#section_features" pmids="https
     visibility dense
     priority 8
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm39/uniprot/unipDomain.bb
-    urls uniProtId="http://www.uniprot.org/uniprot/$$#family_and_domains" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
+    urls uniProtId="https://www.uniprot.org/uniprot/$$#family_and_domains" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
 
     track unipDisulfBond
     shortLabel Disulf. Bonds
@@ -353,7 +353,7 @@ urls uniProtId="http://www.uniprot.org/uniprot/$$#section_features" pmids="https
     visibility dense
     priority 7
     bigDataUrl https://hgdownload.soe.ucsc.edu/gbdb/mm39/uniprot/unipChain.bb
-    urls uniProtId="http://www.uniprot.org/uniprot/$$#ptm_processing" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
+    urls uniProtId="https://www.uniprot.org/uniprot/$$#ptm_processing" pmids="https://www.ncbi.nlm.nih.gov/pubmed/$$"
 
     track unipLocCytopl
     shortLabel Cytoplasmic
@@ -489,7 +489,7 @@ noScoreFilter on
     denseCoverage 100
     filterValues.TF ACF1,ADNP,AEBP2,AFF3,AFF4,AHR,AIRE,AR,ARID1A,ARID3A,ARID4B,ARNT2,ARNTL,ASCL1,ASCL2,ASH1L,ASH2L,ASXL1,ATF1,ATF2,ATF3,ATF4,ATF7,ATF7IP,ATOH1,ATRX,BACH1,BACH2,BAP1,BATF,BATF3,BBX,BCL11B,BCL6,BHLHA15,BHLHE40,BHLHE41,BMI1,BRCA1,BRD1-4,BRD2,BRD3,BRD4,BRD9,CBFA2T2,CBFA2T3,CBFB,CBX1,CBX2,CBX3,CBX5,CBX6,CBX7,CBX8,CDK6,CDK8,CDK9,CDX2,CEBPA,CEBPB,CEBPD,CEBPE,CEBPG,CHAF1A,CHD1,CHD2,CHD4,CHD7,CHD8,CLOCK,CREB1,CREB3L2,CREBBP,CRTC2,CRX,CRY1,CTCF,CTCFL,CTNNB1,CUX2,DDIT3,DGCR8,DIDO1,DLX1,DLX2,DLX3,DLX5,DLX6,DMC1,DMRT1,DMRTB1,DNMT3A,DNMT3B,DPF2,DPPA4,DROSHA,DUX,DUX4,DUXBL1,DZIP3,E2F1,E2F3,E2F4,E4F1,EBF1,EBF2,EBF4,EED,EGR1,EGR2,EHF,EHMT2,ELF1,ELF5,ELK1,EOMES,EP300,EP400,EPOP,ERF,ERG,ESR,ESR1,ESR2,ESRRA,ESRRB,ESRRG,ETS1,ETS2,ETV2,ETV5,ETV6,EZH1,EZH2,FBXO21,FEZF2,FGFR1,FLI1,FOS,FOSB,FOSL1,FOSL2,FOXA1,FOXA1-2,FOXA2,FOXA3,FOXD3,FOXG1,FOXH1,FOXJ2,FOXK1,FOXL2,FOXN1,FOXO1,FOXO3,FOXP1,FOXP3,GABPA,GATA1,GATA2,GATA3,GATA4,GATA6,GFI1,GFI1B,GLI1,GLI2,GLI3,GPS2,GRHL2,GRHL3,GRIP1,GTF2A,GTF2B,GTF2E,GTF2F,GTF2H,GTF3C1,HAND1,HAND2,HCFC1,HDAC1,HDAC2,HDAC3,HDAC4,HDAC6,HDAC7,HES1,HES5,HEY1,HEY2,HIF1A,HLF,HMGA1,HMGA2,HNF1A,HNF1B,HNF1B-ESRRG,HNF4A,HNF4G,HNRNPK,HOPX,HOXA13,HOXA9,HOXB4,HOXB5,HOXC,HOXC10,HOXC9,HOXD13,HSF1,HSF2,HTATSF1,ID2,IKZF,IKZF1,IKZF2,IKZF3,ING1,IRF1,IRF2,IRF2BP2,IRF3,IRF4,IRF5,IRF7,IRF8,IRF9,ISL1,ISL1-2,ISL1-LHX3,JARID2,JMJD6,JUN,JUNB,JUND,KAT2A,KAT2B,KAT8,KDM1A,KDM3A,KDM4A,KDM4B,KDM4C,KDM5A,KDM6B,KLF1,KLF3,KLF4,KLF5,KLF9,KMT2A,KMT2B,KMT2B-D,KMT2D,LDB1,LEF1,LEO1,LHX1,LHX2,LHX3,LHX6,LMNB1,LMO2,LMX1B,LRRFIP1,LYL1,MAF,MAFA,MAFB,MAFF,MAFG,MAFK,MAX,MAZ,MBD1,MBD2,MBD2-3,MBD3,MBD4,MCRS1,MECP2,MED1,MED12,MED23,MED24,MED26,MEF2A,MEF2C,MEF2D,MEIS1,MEIS1-2,MEN1,METTL3,MITF,MLLT3,MSGN1,MTA1,MTA2,MTA3,MTF1,MTF2,MXI1,MYB,MYBL1,MYC,MYCN,MYF5,MYOD,MYOD1,MYOG,MYT1L,NANOG,NCAPH2,NCOA2,NCOA3,NCOR1,NCOR2,NELFE,NEUROD1,NEUROD2,NEUROG2,NFAT5,NFATC1,NFATC2,NFE2,NFE2L1,NFE2L2,NFIB,NFIC,NFIL3,NFKB1,NFYA,NFYB,NFYC,NIPBL,NKX2-1,NKX2-2,NKX2-5,NKX3-1,NKX3-2,NKX6-1,NLRC5,NONO,NOTCH1,NPAS4,NR1D1,NR1D2,NR1H,NR1H2,NR1H2-3,NR1H3,NR1H4,NR2F2,NR3C1,NR4A1,NR5A1,NR5A2,NR6A1,NRF1,NUCKS1,OBOX1,OLIG2,OSR1,OTX2,OVOL2,PAF1,PAX3,PAX5,PAX6,PAX7,PBX1,PBX1-2-3,PCGF1,PCGF2,PCGF3,PCGF5,PCGF6,PDX1,PGR,PHF19,PHF5A,PHF8,PHIP,PHOX2A,PITX1,PKNOX1,PKNOX1-2,PML,POU2F1,POU2F3,POU3F1,POU3F2,POU5F1,PPARA,PPARD,PPARG,PPARGC1A,PRDM1,PRDM13,PRDM14,PRDM16,PRDM4,PRDM5,PRDM9,PROP1,PROX1,PTF1A,RAD21,RAD21L,RAD23B,RAD51,RAI1,RAR,RARA,RARB,RB1,RBBP4,RBBP5,RBFOX2,RBP1,RBPJ,RCOR1,RCOR2,REL,RELA,RELB,REPIN1,REST,RFX1,RFX2,RFX6,RNF2,RORA,RORC,RPA1,RPA2,RSF1,RUNX1,RUNX1-ETO,RUNX1T1,RUNX2,RUNX3,RXR,RXRA,RXRA-B,RXRA-G,RYBP,SAE1,SALL1,SALL4,SAP130,SAP30,SATB1,SATB2,SETDB1,SF1,SHOX2,SIM2,SIN3A,SIN3B,SINHCAF,SIX2,SIX4,SIX6,SMAD1,SMAD1-5-9,SMAD2,SMAD2-3,SMAD3,SMAD4,SMARCA4,SMARCA5,SMARCC1,SMC1,SMC1A,SMC3,SMCHD1,SNAI1,SNAI1-2,SNAI2,SOX10,SOX11,SOX13,SOX15,SOX17,SOX2,SOX3,SOX30,SOX4,SOX5,SOX6,SOX9,SP1,SP3,SP5,SP7,SP9,SPI1,SPIB,SPIN1,SREBF1,SRF,SS18,SSRP1,STAG1,STAG2,STAT1,STAT2,STAT3,STAT4,STAT5,STAT5A,STAT5B,STAT6,STIL,SUMO2-3,SUPT16,SUPT5,SUZ12,T,TAF1,TAF10,TAF12,TAF15,TAF2,TAF3,TAL1,TBL1X,TBP,TBR1,TBX19,TBX20,TBX21,TBX3,TBX4,TBX5,TBX6,TBXT,TCF1,TCF12,TCF3,TCF4,TCF7,TCF7L1,TCF7L2,TEAD,TEAD1,TEAD2,TEAD4,TERF2,TERF2IP,TET1,TET2,TET3,TFAP2A,TFAP2C,TFCP2L1,TFE3,TGIF1,TGIF2,THAP1,THAP11,THRB,TLE,TLE3,TLX1,TOP1,TOP2A,TOP2B,TOX,TOX2,TRIM17,TRIM28,TRP53,TRP63,TRP73,TRPS1,TWIST1,TWIST2,UBA2,UBTF,USF1,USF2,VDR,VSX2,WAPL,WDR5,WIZ,WT1,XBP1,YAP1,YY1,ZBTB11,ZBTB16,ZBTB17,ZBTB2,ZBTB7B,ZC3H10,ZC3H11A,ZFAT,ZFP143,ZFP217,ZFP24,ZFP273,ZFP281,ZFP296,ZFP319,ZFP322A,ZFP335,ZFP384,ZFP385,ZFP386,ZFP412,ZFP414,ZFP429,ZFP440,ZFP442,ZFP456,ZFP457,ZFP493,ZFP568,ZFP57,ZFP58,ZFP595,ZFP617,ZFP683,ZFP709,ZFP712,ZFP738,ZFP759,ZFP808,ZFP809,ZFP810,ZFP872,ZFP874A,ZFP874B,ZFP882,ZFP932,ZFP935,ZFP938,ZFP953,ZFP961,ZFP973,ZFP978,ZFP982,ZFP984,ZFP985,ZFP986,ZFP992,ZFPM1,ZIC2,ZIC3,ZKSCAN1,ZMIZ1,ZMYND8
     filterType.TF multipleListOnlyOr
-    urls TF="http://remap.univ-amu.fr/target_page/$$:10090" Biotypes="http://remap.univ-amu.fr/biotype_page/$$:10090"
+    urls TF="https://remap.univ-amu.fr/target_page/$$:10090" Biotypes="https://remap.univ-amu.fr/biotype_page/$$:10090"
 
     track ReMapDensity
     shortLabel ReMap density
@@ -519,7 +519,7 @@ tableBrowser tbNoGenome
 filter.score 400
 urlLabel View on JASPAR:
 noParentConfig on
-url http://jaspar.genereg.net/search?q=$$&collection=all&tax_group=all&tax_id=all&type=all&class=all&family=all&version=all
+url https://jaspar.genereg.net/search?q=$$&collection=all&tax_group=all&tax_id=all&type=all&class=all&family=all&version=all
 
     track jaspar2022
     shortLabel JASPAR 2022 TFBS
