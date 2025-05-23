@@ -36,21 +36,22 @@
   "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hs1/bigZips/hs1.chrom.sizes.txt",
   "tracks": [
     {
-      "id": "ncbiRefSeqCurated",
-      "name": "RefSeq Curated",
-      "url": "https://hgdownload.soe.ucsc.edu/gbdb/hs1/ncbiRefSeq/ncbiRefSeqCurated.bb",
-      "trixURL": "https://hgdownload.soe.ucsc.edu/gbdb/hs1/ncbiRefSeq/ncbiRefSeqCurated.ix",
+      "id": "ncbiRefSeqAll",
+      "name": "RefSeq All",
+      "url": "https://hgdownload.soe.ucsc.edu/gbdb/hs1/ncbiRefSeq/ncbiRefSeq.bb",
+      "trixURL": "https://hgdownload.soe.ucsc.edu/gbdb/hs1/ncbiRefSeq/ncbiRefSeq.ix",
       "format": "biggenepred",
       "displayMode": "EXPANDED",
-      "color": "rgb(12,12,120)",
       "searchIndex": "name",
       "html": "https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=hs1&g=refSeqComposite",
       "labelField": "geneName2",
-      "order": 100000
+      "order": 100000,
+      "altColor": "rgb(120,12,12)",
+      "color": "rgb(12,12,120)"
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/hubs/hs1/hub.txt",
+    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/hs1/hub.txt",
     "https://hgdownload.soe.ucsc.edu/gbdb/hs1/hubs/public/hub.txt"
   ]
 }

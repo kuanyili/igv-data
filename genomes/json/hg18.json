@@ -42,8 +42,8 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/hubs/hg18/hub.txt",
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/hubs/hg18/tumorscape/hub.txt",
+    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/hg18/hub.txt",
+    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/hg18/tumorscape/hub.txt",
     "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/gbm/hub.txt"
   ]
 }

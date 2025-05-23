@@ -37,8 +37,8 @@
   "tracks": [
     {
       "id": "refseqCurated",
-      "name": "Refseq Curated",
-      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/rn7/database/ncbiRefSeqCurated.txt.gz",
+      "name": "Refseq All",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/rn7/database/ncbiRefSeq.txt.gz",
       "format": "refgene",
       "displayMode": "COLLAPSED",
       "html": "https://www.ncbi.nlm.nih.gov/refseq/refseq_select/",
@@ -46,7 +46,7 @@
     }
   ],
   "hubs": [
-    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/hubs/rn7/hub.txt",
+    "https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/hubs/rn7/hub.txt",
     "https://hgdownload.soe.ucsc.edu/hubs/GCF/015/227/675/GCF_015227675.2/hub.txt"
   ]
 }
