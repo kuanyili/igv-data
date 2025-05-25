@@ -1,6 +1,6 @@
 {
   "id": "panTro6",
-  "name": "Chimp (panTro6) (panTro6)",
+  "name": "Chimp (panTro6)",
   "fastaURL": "https://s3.amazonaws.com/igv.org.genomes/panTro6/panTro6.fa",
   "indexURL": "https://s3.amazonaws.com/igv.org.genomes/panTro6/panTro6.fa.fai",
   "cytobandURL": "https://hgdownload.soe.ucsc.edu/goldenPath/panTro6/database/cytoBandIdeo.txt.gz",
