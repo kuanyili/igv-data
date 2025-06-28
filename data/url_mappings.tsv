@@ -5,6 +5,8 @@ https://igv-genepattern-org.s3.us-east-1.amazonaws.com/genomes/genomes.tsv	https
 https://s3.us-east-1.amazonaws.com/igv.org.genomes/genomes.txt	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/genomes.txt
 https://s3.us-east-1.amazonaws.com/igv.org.genomes/genomes.tsv	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/genomes.tsv
 https://s3.us-east-1.amazonaws.com/igv.broadinstitute.org/genomes/genomes.txt	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/legacy/genomes.txt
+https://igv.org/genomes/data/hg38/hg38_alias.tab	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/data/hg38/hg38_alias.tab
+https://igv.org/genomes/data/hg19/hg19_alias.tab	https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/data/hg19/hg19_alias.tab
 
 https://igv-genepattern-org.s3.us-east-1.amazonaws.com/genomes/ce11.json	 https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/ce11.json
 https://igv-genepattern-org.s3.us-east-1.amazonaws.com/genomes/danRer10.json	 https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/genomes/json/danRer10.json

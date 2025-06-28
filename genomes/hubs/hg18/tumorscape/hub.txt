@@ -1,4 +1,5 @@
-hub Copy Number Alterations Across Human Cancers (TCGA 2011)
+hub tumorscape
+longLabel Copy Number Alterations Across Human Cancers (TCGA 2011)
 shortLabel Copy Number Alterations Across Human Cancers (TCGA 2011)
 useOneFile on
 html tumorscape.html

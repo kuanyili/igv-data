@@ -50,13 +50,13 @@ defaultIsClosed 0
     track heart
     shortLabel Heart
     type bam
-    bigDataUrl https://raw.githubusercontent.com/igvteam/igv-testdata/refs/heads/main/tutorials/rnaseq/heart.bodyMap.bam
+    bigDataUrl https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/data/tutorials/rna/heart_slc25a3.bam
     parent bodyMap
 
     track liver
     shortLabel Liver
     type bam
-    bigDataUrl https://raw.githubusercontent.com/igvteam/igv-testdata/refs/heads/main/tutorials/rnaseq/liver.bodyMap.bam
+    bigDataUrl https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/data/tutorials/rna/liver_slc25a3.bam
     parent bodyMap
 
 track variants
@@ -66,18 +66,18 @@ defaultIsClosed 0
 
     track vcf
     shortLabel Phase 3 integrated variant calls
-    bigDataUrl https://raw.githubusercontent.com/igvteam/igv-testdata/refs/heads/main/tutorials/vcf/ALL.apol1.sample.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf
+    bigDataUrl https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/data/tutorials/vcf/ALL.apol1.sample.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf
     type vcf
     parent variants
 
     track sampleInfo
     shortLabel Sample Information
-    bigDataUrl https://raw.githubusercontent.com/igvteam/igv-testdata/refs/heads/main/tutorials/vcf/integrated_call_samples_v3.20130502.ALL.panel
+    bigDataUrl https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/data/tutorials/vcf/integrated_call_samples_v3.20130502.ALL.panel
     type sampleinfo
     parent variants
 
     track bed
     shortLabel SNPs
     type bed
-    bigDataUrl https://raw.githubusercontent.com/igvteam/igv-testdata/refs/heads/main/tutorials/vcf/apol1_snp131.bed
+    bigDataUrl https://raw.githubusercontent.com/igvteam/igv-data/refs/heads/main/data/tutorials/vcf/apol1_snp131.bed
     parent variants
