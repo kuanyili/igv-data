@@ -34,11 +34,11 @@
   "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/hg19.chrom.sizes",
   "tracks": [
     {
-      "id": "refseqSelect",
-      "name": "Refseq Select",
-      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/ncbiRefSeqSelect.txt.gz",
+      "id": "refseqAll",
+      "name": "Refseq All",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/ncbiRefSeq.txt.gz",
       "format": "refgene",
-      "html": "https://www.ncbi.nlm.nih.gov/refseq/refseq_select/",
+      "html": "https://www.ncbi.nlm.nih.gov/refseq/",
       "order": 100000
     }
   ],

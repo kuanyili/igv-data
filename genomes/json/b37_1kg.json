@@ -36,9 +36,9 @@
   ],
   "tracks": [
     {
-      "id": "refseqCurated",
-      "name": "Refseq Curated",
-      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/ncbiRefSeqCurated.txt.gz",
+      "id": "refseqAll",
+      "name": "Refseq All",
+      "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/ncbiRefSeq.txt.gz",
       "format": "refgene",
       "html": "https://www.ncbi.nlm.nih.gov/refseq/refseq_select/",
       "order": 100000
