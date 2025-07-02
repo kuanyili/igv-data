@@ -8,7 +8,7 @@
   "chromSizesURL": "https://hgdownload.soe.ucsc.edu/goldenPath/mm9/bigZips/mm9.chrom.sizes",
   "tracks": [
     {
-      "name": "Refseq Curated",
+      "name": "Refseq Genes",
       "format": "refgene",
       "url": "https://hgdownload.soe.ucsc.edu/goldenPath/mm9/database/refGene.txt.gz",
       "indexed": false,
