@@ -47,7 +47,8 @@
       "labelField": "geneName2",
       "order": 100000,
       "altColor": "rgb(120,12,12)",
-      "color": "rgb(12,12,120)"
+      "color": "rgb(12,12,120)",
+      "visibilityWindow": -1
     }
   ],
   "hubs": [
