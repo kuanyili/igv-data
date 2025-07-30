@@ -9,6 +9,7 @@ genome hg19
 track variants
 shortLabel Phase 3 Variants
 compositeTrack on
+defaultIsClosed 0
 
 track phase_3_sites
 shortLabel Phase 3 sites

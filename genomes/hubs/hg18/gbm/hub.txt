@@ -1,13 +1,13 @@
 hub gbm_subtypes
 shortLabel GBM Subtypes
-longLabel GBM Subtypes
+longLabel GBM Subtypes (Verhaak et. al.)
 useOneFile on
-html
+html https://www.cell.com/cancer-cell/abstract/S1535-6108%2809%2900432-2
 
 genome hg18
 
 track gbm_subtypes
-shortLabel GBM Subtypes(Verhaak et. al.)
+shortLabel GBM Subtypes (Verhaak et. al.)
 html https://www.cell.com/cancer-cell/abstract/S1535-6108%2809%2900432-2
 
     track sampleTable
