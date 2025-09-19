@@ -1,6 +1,6 @@
 {
   "id": "hg38_1kg",
-  "ucsdID": "hg38",
+  "ucscID": "hg38",
   "blatDB": "hg38",
   "name": "Human (hg38 1kg/GATK)",
   "fastaURL": "https://1000genomes.s3.amazonaws.com/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa",
